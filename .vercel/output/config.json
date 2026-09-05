@@ -1,0 +1,350 @@
+{
+  "version": 3,
+  "routes": [
+    {
+      "src": "^/(?:(.+)/)?index(?:\\.html)?/?$",
+      "headers": {
+        "Location": "/$1"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/(.*)\\.html/?$",
+      "headers": {
+        "Location": "/$1"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/(.*)/$",
+      "headers": {
+        "Location": "/$1"
+      },
+      "status": 308
+    },
+    {
+      "src": "^/assets(?:/(.*))$",
+      "headers": {
+        "Cache-Control": "public, max-age=31536000, immutable"
+      },
+      "continue": true
+    },
+    {
+      "handle": "error"
+    },
+    {
+      "status": 404,
+      "src": "^(?!/api).*$",
+      "dest": "/404"
+    }
+  ],
+  "overrides": {
+    "index.html": {
+      "path": "index"
+    },
+    "about.html": {
+      "path": "about"
+    },
+    "blog.html": {
+      "path": "blog"
+    },
+    "contact.html": {
+      "path": "contact"
+    },
+    "faq.html": {
+      "path": "faq"
+    },
+    "products.html": {
+      "path": "products"
+    },
+    "projects.html": {
+      "path": "projects"
+    },
+    "applications/apartment-door-package-supplier.html": {
+      "path": "applications/apartment-door-package-supplier"
+    },
+    "blog/acoustic-door-specification-apartment-hotel-projects.html": {
+      "path": "blog/acoustic-door-specification-apartment-hotel-projects"
+    },
+    "blog/apartment-interior-door-selection-guide-door-leaf-frame-jamb-hardware-packing.html": {
+      "path": "blog/apartment-interior-door-selection-guide-door-leaf-frame-jamb-hardware-packing"
+    },
+    "blog/bathroom-utility-room-door-material-guide.html": {
+      "path": "blog/bathroom-utility-room-door-material-guide"
+    },
+    "blog/container-loading-door-cost.html": {
+      "path": "blog/container-loading-door-cost"
+    },
+    "blog/custom-wooden-door-lead-time-from-china.html": {
+      "path": "blog/custom-wooden-door-lead-time-from-china"
+    },
+    "blog/door-certifications-by-market.html": {
+      "path": "blog/door-certifications-by-market"
+    },
+    "blog/door-frame-jamb-width-architrave-specification-bulk-orders.html": {
+      "path": "blog/door-frame-jamb-width-architrave-specification-bulk-orders"
+    },
+    "blog/door-hardware-preparation-checklist-bulk-orders.html": {
+      "path": "blog/door-hardware-preparation-checklist-bulk-orders"
+    },
+    "blog/door-packaging-labels-installation-room-schedule.html": {
+      "path": "blog/door-packaging-labels-installation-room-schedule"
+    },
+    "blog/door-sample-approval-checklist-before-mass-production.html": {
+      "path": "blog/door-sample-approval-checklist-before-mass-production"
+    },
+    "blog/door-schedule-takeoff-checklist-for-bulk-orders.html": {
+      "path": "blog/door-schedule-takeoff-checklist-for-bulk-orders"
+    },
+    "blog/door-size-standards-imperial-metric-guide.html": {
+      "path": "blog/door-size-standards-imperial-metric-guide"
+    },
+    "blog/first-door-container-from-china-process.html": {
+      "path": "blog/first-door-container-from-china-process"
+    },
+    "blog/hotel-door-package-checklist-guestroom-bathroom-fire-hardware.html": {
+      "path": "blog/hotel-door-package-checklist-guestroom-bathroom-fire-hardware"
+    },
+    "blog/hotel-door-renovation-existing-frame-hardware-compatibility-checklist.html": {
+      "path": "blog/hotel-door-renovation-existing-frame-hardware-compatibility-checklist"
+    },
+    "blog/compare-door-supplier-quotes-bulk-projects.html": {
+      "path": "blog/compare-door-supplier-quotes-bulk-projects"
+    },
+    "blog/hospital-door-rfq-checklist-hygiene-hardware-vision-panels.html": {
+      "path": "blog/hospital-door-rfq-checklist-hygiene-hardware-vision-panels"
+    },
+    "case-study/hospital-door-package-specification-planning.html": {
+      "path": "case-study/hospital-door-package-specification-planning"
+    },
+    "blog/how-many-doors-fit-in-a-container.html": {
+      "path": "blog/how-many-doors-fit-in-a-container"
+    },
+    "blog/how-to-send-door-sizes.html": {
+      "path": "blog/how-to-send-door-sizes"
+    },
+    "blog/prehung-interior-doors-rough-opening-jamb-hardware-prep.html": {
+      "path": "blog/prehung-interior-doors-rough-opening-jamb-hardware-prep"
+    },
+    "blog/pvc-laminated-wooden-doors-vs-painted-wooden-doors.html": {
+      "path": "blog/pvc-laminated-wooden-doors-vs-painted-wooden-doors"
+    },
+    "blog/slab-vs-prehung-vs-full-door-set-specification.html": {
+      "path": "blog/slab-vs-prehung-vs-full-door-set-specification"
+    },
+    "blog/tsca-title-vi-carb-phase-2-imported-doors.html": {
+      "path": "blog/tsca-title-vi-carb-phase-2-imported-doors"
+    },
+    "blog/us-import-duty-wooden-doors-china-hs-code.html": {
+      "path": "blog/us-import-duty-wooden-doors-china-hs-code"
+    },
+    "blog/wpc-doors-vs-pvc-laminated-wooden-doors-humid-areas.html": {
+      "path": "blog/wpc-doors-vs-pvc-laminated-wooden-doors-humid-areas"
+    },
+    "blog/wpc-doors-vs-wooden-doors.html": {
+      "path": "blog/wpc-doors-vs-wooden-doors"
+    },
+    "blog/wpc-vs-mdf-vs-solid-wood-vs-melamine-doors.html": {
+      "path": "blog/wpc-vs-mdf-vs-solid-wood-vs-melamine-doors"
+    },
+    "case-study/australia-queensland-acoustic-interior-doors.html": {
+      "path": "case-study/australia-queensland-acoustic-interior-doors"
+    },
+    "case-study/berlin-office-acoustic-timber-doors.html": {
+      "path": "case-study/berlin-office-acoustic-timber-doors"
+    },
+    "case-study/ghana-accra-wpc-steel-security-doors.html": {
+      "path": "case-study/ghana-accra-wpc-steel-security-doors"
+    },
+    "case-study/india-500-doors-20ft-container.html": {
+      "path": "case-study/india-500-doors-20ft-container"
+    },
+    "case-study/italy-private-label-white-primed-flush-doors.html": {
+      "path": "case-study/italy-private-label-white-primed-flush-doors"
+    },
+    "case-study/maldives-resort-door-package.html": {
+      "path": "case-study/maldives-resort-door-package"
+    },
+    "case-study/mexico-boutique-hotel-moisture-resistant-bathroom-doors.html": {
+      "path": "case-study/mexico-boutique-hotel-moisture-resistant-bathroom-doors"
+    },
+    "case-study/new-zealand-student-housing-wpc-bathroom-doors.html": {
+      "path": "case-study/new-zealand-student-housing-wpc-bathroom-doors"
+    },
+    "case-study/philippines-apartment-interior-wpc-door-package-humid-project.html": {
+      "path": "case-study/philippines-apartment-interior-wpc-door-package-humid-project"
+    },
+    "case-study/philippines-condominium-interior-doors.html": {
+      "path": "case-study/philippines-condominium-interior-doors"
+    },
+    "case-study/saudi-arabia-villa-cast-aluminium-entry-doors.html": {
+      "path": "case-study/saudi-arabia-villa-cast-aluminium-entry-doors"
+    },
+    "case-study/us-multifamily-interior-doors-container.html": {
+      "path": "case-study/us-multifamily-interior-doors-container"
+    },
+    "products/entrance-doors.html": {
+      "path": "products/entrance-doors"
+    },
+    "products/exterior-doors.html": {
+      "path": "products/exterior-doors"
+    },
+    "products/fire-security-doors.html": {
+      "path": "products/fire-security-doors"
+    },
+    "products/hospital-doors.html": {
+      "path": "products/hospital-doors"
+    },
+    "products/hotel-doors.html": {
+      "path": "products/hotel-doors"
+    },
+    "products/interior-doors.html": {
+      "path": "products/interior-doors"
+    },
+    "products/school-doors.html": {
+      "path": "products/school-doors"
+    },
+    "products/wooden-doors.html": {
+      "path": "products/wooden-doors"
+    },
+    "products/wpc-doors.html": {
+      "path": "products/wpc-doors"
+    },
+    "products/exterior-doors/modern-european-apartment-door.html": {
+      "path": "products/exterior-doors/modern-european-apartment-door"
+    },
+    "products/fire-security-doors/fire-rated-steel-security-door.html": {
+      "path": "products/fire-security-doors/fire-rated-steel-security-door"
+    },
+    "products/hospital-doors/automatic-hermetic-sliding-door.html": {
+      "path": "products/hospital-doors/automatic-hermetic-sliding-door"
+    },
+    "products/hotel-doors/hotel-guestroom-door.html": {
+      "path": "products/hotel-doors/hotel-guestroom-door"
+    },
+    "products/interior-doors/modern-pvc-wooden-door.html": {
+      "path": "products/interior-doors/modern-pvc-wooden-door"
+    },
+    "products/interior-doors/white-moulded-solid-wood.html": {
+      "path": "products/interior-doors/white-moulded-solid-wood"
+    },
+    "products/school-doors/galvanized-steel-school-door.html": {
+      "path": "products/school-doors/galvanized-steel-school-door"
+    },
+    "products/wooden-doors/soundproof-composite-entry-door.html": {
+      "path": "products/wooden-doors/soundproof-composite-entry-door"
+    },
+    "products/wpc-doors/waterproof-wpc-interior-door.html": {
+      "path": "products/wpc-doors/waterproof-wpc-interior-door"
+    },
+    "blog/door-handing-swing-direction-hardware-prep-project-schedules.html": {
+      "path": "blog/door-handing-swing-direction-hardware-prep-project-schedules"
+    },
+    "blog/wpc-door-frame-threshold-details-bathroom-projects.html": {
+      "path": "blog/wpc-door-frame-threshold-details-bathroom-projects"
+    },
+    "blog/smart-fingerprint-lock-compatible-doors.html": {
+      "path": "blog/smart-fingerprint-lock-compatible-doors"
+    },
+    "blog/custom-ral-pantone-door-color-finish-specification.html": {
+      "path": "blog/custom-ral-pantone-door-color-finish-specification"
+    },
+    "blog/pivot-swing-sliding-door-opening-style-guide.html": {
+      "path": "blog/pivot-swing-sliding-door-opening-style-guide"
+    },
+    "blog/shaker-flush-panel-door-style-guide.html": {
+      "path": "blog/shaker-flush-panel-door-style-guide"
+    },
+    "blog/french-doors-glazed-double-door-specification.html": {
+      "path": "blog/french-doors-glazed-double-door-specification"
+    },
+    "blog/carbon-crystal-wooden-doors-explained.html": {
+      "path": "blog/carbon-crystal-wooden-doors-explained"
+    },
+    "blog/louvered-ventilated-door-utility-plant-room-guide.html": {
+      "path": "blog/louvered-ventilated-door-utility-plant-room-guide"
+    },
+    "blog/child-safe-accessible-door-hardware-guide.html": {
+      "path": "blog/child-safe-accessible-door-hardware-guide"
+    },
+    "blog/trade-assurance-deposit-payment-terms-first-door-order.html": {
+      "path": "blog/trade-assurance-deposit-payment-terms-first-door-order"
+    },
+    "blog/pre-shipment-video-inspection-door-orders.html": {
+      "path": "blog/pre-shipment-video-inspection-door-orders"
+    },
+    "blog/hotel-door-replacement-phasing-room-by-room-packing-guide.html": {
+      "path": "blog/hotel-door-replacement-phasing-room-by-room-packing-guide"
+    },
+    "blog/wpc-bathroom-door-hardware-hinges-locks-threshold-guide.html": {
+      "path": "blog/wpc-bathroom-door-hardware-hinges-locks-threshold-guide"
+    },
+    "case-study/canada-multifamily-interior-door-package-imperial-sizes.html": {
+      "path": "case-study/canada-multifamily-interior-door-package-imperial-sizes"
+    },
+    "blog/hotel-door-renovation-rfq-template-existing-frames-hardware-phasing.html": {
+      "path": "blog/hotel-door-renovation-rfq-template-existing-frames-hardware-phasing"
+    },
+    "case-study/togo-lome-apartment-building-repeat-door-order.html": {
+      "path": "case-study/togo-lome-apartment-building-repeat-door-order"
+    },
+    "case-study/liberia-monrovia-family-home-door-container-consolidation.html": {
+      "path": "case-study/liberia-monrovia-family-home-door-container-consolidation"
+    },
+    "case-study/mauritius-cost-competitive-full-door-set-import.html": {
+      "path": "case-study/mauritius-cost-competitive-full-door-set-import"
+    },
+    "solutions/custom-interior-wood-door-projects.html": {
+      "path": "solutions/custom-interior-wood-door-projects"
+    },
+    "markets/united-states/custom-interior-wood-doors.html": {
+      "path": "markets/united-states/custom-interior-wood-doors"
+    },
+    "markets/canada/custom-interior-wood-doors.html": {
+      "path": "markets/canada/custom-interior-wood-doors"
+    },
+    "br/portas-internas-de-madeira-sob-medida.html": {
+      "path": "br/portas-internas-de-madeira-sob-medida"
+    },
+    "solutions/door-schedule-quotation.html": {
+      "path": "solutions/door-schedule-quotation"
+    },
+    "guides/rough-opening-vs-door-leaf-size.html": {
+      "path": "guides/rough-opening-vs-door-leaf-size"
+    },
+    "guides/door-jamb-depth-wall-thickness.html": {
+      "path": "guides/door-jamb-depth-wall-thickness"
+    },
+    "guides/solid-wood-vs-engineered-wood-vs-mdf-doors.html": {
+      "path": "guides/solid-wood-vs-engineered-wood-vs-mdf-doors"
+    },
+    "guides/prehung-vs-slab-doors-for-projects.html": {
+      "path": "guides/prehung-vs-slab-doors-for-projects"
+    },
+    "guides/custom-interior-door-sizes-us-canada.html": {
+      "path": "guides/custom-interior-door-sizes-us-canada"
+    },
+    "case-study/iraq-residential-rebuild-glazed-double-swing-doors.html": {
+      "path": "case-study/iraq-residential-rebuild-glazed-double-swing-doors"
+    },
+    "blog/fire-rated-steel-door-supplier-verification.html": {
+      "path": "blog/fire-rated-steel-door-supplier-verification"
+    },
+    "blog/door-schedule-project-rfq-guide.html": {
+      "path": "blog/door-schedule-project-rfq-guide"
+    },
+    "case-study/multifamily-interior-door-package-staged-delivery.html": {
+      "path": "case-study/multifamily-interior-door-package-staged-delivery"
+    },
+    "blog/fire-rated-doors-and-safety-solutions.html": {
+      "path": "blog/fire-rated-doors-and-safety-solutions"
+    },
+    "blog/wpc-door-suppliers-in-china.html": {
+      "path": "blog/wpc-door-suppliers-in-china"
+    },
+    "case-study/commercial-project-door-package.html": {
+      "path": "case-study/commercial-project-door-package"
+    }
+  },
+  "crons": []
+}

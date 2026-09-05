@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "effectiveFrom": {
+    "caseStudyPureSlug": "Batch 3"
+  },
+  "defaultDirectories": {
+    "blog": "/assets/images/blog/{slug}/",
+    "caseStudy": "/assets/images/case-study/{slug}/"
+  },
+  "legacyDirectories": {
+    "batch1AndBatch2": "/assets/images/blog/bNN-{slug}/"
+  },
+  "resolver": "Use legacyFolder when explicitly provided; otherwise use the content slug."
+}
