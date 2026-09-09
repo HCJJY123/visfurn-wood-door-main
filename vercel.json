@@ -1,6 +1,19 @@
 {
   "version": 2,
   "cleanUrls": true,
-  "trailingSlash": false,
-  "outputDirectory": "."
+  "trailingSlash": true,
+  "rewrites": [
+    {
+      "source": "/markets/saudi-arabia",
+      "destination": "/markets/saudi-arabia/index.html"
+    },
+    {
+      "source": "/markets/united-states",
+      "destination": "/markets/united-states/index.html"
+    },
+    {
+      "source": "/markets/united-kingdom",
+      "destination": "/markets/united-kingdom/index.html"
+    }
+  ]
 }
