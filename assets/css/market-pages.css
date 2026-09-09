@@ -57,6 +57,103 @@ section {
   justify-content: center;
 }
 
+.market-canada .hero-section,
+.market-australia .hero-section,
+.market-uae .hero-section {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+}
+
+.market-canada .hero-section {
+  background-image: linear-gradient(90deg, rgba(18, 24, 21, .86), rgba(18, 24, 21, .42)), url('/assets/images/markets/hero-canada.png');
+}
+
+.market-australia .hero-section {
+  background-image: linear-gradient(90deg, rgba(18, 24, 21, .86), rgba(18, 24, 21, .42)), url('/assets/images/markets/hero-australia.png');
+}
+
+.market-uae .hero-section {
+  background-image: linear-gradient(90deg, rgba(18, 24, 21, .86), rgba(18, 24, 21, .42)), url('/assets/images/markets/hero-uae.png');
+}
+
+.market-page .container {
+  width: min(100%, var(--max-width));
+  margin: 0 auto;
+}
+
+.market-page .hero-section .container {
+  position: relative;
+  z-index: 1;
+}
+
+.market-page .subtitle {
+  max-width: 650px;
+  margin: 0 0 28px;
+  color: rgba(255, 255, 255, .9);
+  font-size: clamp(1.05rem, 1.5vw, 1.3rem);
+}
+
+.market-page .value-proposition,
+.market-page .project-showcase,
+.market-page .villa-showcase,
+.market-page .logistics,
+.market-page .contact-section {
+  width: min(calc(100% - 48px), var(--max-width));
+  margin: 0 auto;
+}
+
+.market-page .value-proposition .grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.market-page .value-proposition .card {
+  min-height: 180px;
+}
+
+.market-page .project-showcase,
+.market-page .villa-showcase,
+.market-page .logistics {
+  padding-top: 24px;
+}
+
+.market-page .project-showcase h2,
+.market-page .villa-showcase h2,
+.market-page .logistics h2,
+.market-page .contact-section h2 {
+  margin: 0 0 14px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-weight: 400;
+  line-height: 1.05;
+}
+
+.market-page .project-showcase p,
+.market-page .villa-showcase p,
+.market-page .logistics p,
+.market-page .contact-section p {
+  max-width: 720px;
+  color: var(--muted);
+  font-size: 1.05rem;
+}
+
+.market-page .contact-section {
+  width: 100%;
+  max-width: none;
+  margin-top: 24px;
+  padding: 72px max(24px, calc((100% - var(--max-width)) / 2));
+  color: #fff;
+  background: var(--ink);
+}
+
+.market-page .contact-section p {
+  color: rgba(255, 255, 255, .76);
+}
+
 .hero-section h1 {
   max-width: 780px;
   margin: 0 0 22px;
@@ -329,5 +426,19 @@ th {
 
   .direct-answer {
     gap: 28px;
+  }
+
+  .market-page .value-proposition,
+  .market-page .project-showcase,
+  .market-page .villa-showcase,
+  .market-page .logistics,
+  .market-page .contact-section {
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .market-page .value-proposition .grid {
+    grid-template-columns: 1fr;
   }
 }
