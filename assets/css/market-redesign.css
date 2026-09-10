@@ -1,0 +1,228 @@
+:is(.market-new-zealand, .market-ireland, .market-qatar, .market-germany, .market-france) {
+  --market-ink: #25271f;
+  --market-forest: #31463a;
+  --market-clay: #a96537;
+  --market-clay-dark: #824d2d;
+  --market-paper: #e8e1d5;
+  --market-surface: #f4efe7;
+  --market-line: #d0c5b5;
+  --market-muted: #5e6258;
+  background: var(--market-paper);
+  color: var(--market-ink);
+  font-family: "Avenir Next", Avenir, "Segoe UI", sans-serif;
+}
+
+:is(.market-new-zealand, .market-ireland, .market-qatar, .market-germany, .market-france)::before {
+  display: none;
+}
+
+:is(.market-new-zealand, .market-ireland, .market-qatar, .market-germany, .market-france) .hero-section {
+  position: relative;
+  isolation: isolate;
+  min-height: clamp(540px, 67vh, 760px);
+  margin: 0;
+  padding: clamp(96px, 11vw, 164px) max(28px, calc((100% - 1180px) / 2)) clamp(84px, 9vw, 128px);
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+}
+
+:is(.market-new-zealand, .market-ireland, .market-qatar, .market-germany, .market-france) .hero-section::before {
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  content: "";
+  background: linear-gradient(90deg, rgba(29, 30, 24, .82) 0%, rgba(35, 35, 27, .62) 43%, rgba(35, 31, 23, .16) 78%, rgba(35, 31, 23, .05) 100%);
+}
+
+:is(.market-new-zealand, .market-ireland, .market-qatar, .market-germany, .market-france) .hero-section .container {
+  width: min(100%, 780px);
+  margin: 0;
+}
+
+:is(.market-new-zealand, .market-ireland, .market-qatar, .market-germany, .market-france) .hero-section h1 {
+  max-width: 12.5ch;
+  margin: 0 0 24px;
+  color: #f7f1e8;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(3rem, 3.8vw, 4.7rem);
+  font-weight: 400;
+  line-height: .96;
+  letter-spacing: -.035em;
+  text-wrap: balance;
+}
+
+:is(.market-new-zealand, .market-ireland, .market-qatar, .market-germany, .market-france) .hero-section .subtitle {
+  max-width: 54ch;
+  margin: 0 0 34px;
+  color: rgba(247, 241, 232, .86);
+  font-size: clamp(1rem, 1.25vw, 1.2rem);
+  line-height: 1.55;
+}
+
+:is(.market-new-zealand, .market-ireland, .market-qatar, .market-germany, .market-france) .cta-group {
+  gap: 12px;
+}
+
+:is(.market-new-zealand, .market-ireland, .market-qatar, .market-germany, .market-france) .btn-primary,
+:is(.market-new-zealand, .market-ireland, .market-qatar, .market-germany, .market-france) .btn-secondary {
+  min-height: 48px;
+  padding: 12px 19px;
+  border-radius: 4px;
+  font-size: .9rem;
+  letter-spacing: .01em;
+  transition: background-color .18s ease-out, border-color .18s ease-out, color .18s ease-out, transform .18s ease-out;
+}
+
+:is(.market-new-zealand, .market-ireland, .market-qatar, .market-germany, .market-france) .btn-primary {
+  color: #fffaf2;
+  background: var(--market-clay);
+}
+
+:is(.market-new-zealand, .market-ireland, .market-qatar, .market-germany, .market-france) .btn-primary:hover {
+  background: var(--market-clay-dark);
+  transform: translateY(-1px);
+}
+
+:is(.market-new-zealand, .market-ireland, .market-qatar, .market-germany, .market-france) .btn-secondary {
+  border-color: rgba(247, 241, 232, .7);
+  color: #f7f1e8;
+}
+
+:is(.market-new-zealand, .market-ireland, .market-qatar, .market-germany, .market-france) .btn-secondary:hover {
+  border-color: #f7f1e8;
+  background: rgba(247, 241, 232, .12);
+}
+
+:is(.market-new-zealand, .market-ireland, .market-qatar, .market-germany, .market-france) .value-proposition,
+:is(.market-new-zealand, .market-ireland, .market-qatar, .market-germany, .market-france) .case-study-section {
+  width: min(calc(100% - 56px), 1180px);
+  margin: 0 auto;
+}
+
+:is(.market-new-zealand, .market-ireland, .market-qatar, .market-germany, .market-france) .value-proposition {
+  padding-top: clamp(72px, 8vw, 112px);
+  padding-bottom: 42px;
+}
+
+:is(.market-new-zealand, .market-ireland, .market-qatar, .market-germany, .market-france) .value-proposition .grid {
+  gap: 0;
+  border-top: 1px solid var(--market-line);
+  border-bottom: 1px solid var(--market-line);
+}
+
+:is(.market-new-zealand, .market-ireland, .market-qatar, .market-germany, .market-france) .value-proposition .card {
+  min-height: 0;
+  padding: 30px 30px 34px;
+  border: 0;
+  border-radius: 0;
+  border-left: 1px solid var(--market-line);
+  background: transparent;
+}
+
+:is(.market-new-zealand, .market-ireland, .market-qatar, .market-germany, .market-france) .value-proposition .card:first-child {
+  border-left: 0;
+}
+
+:is(.market-new-zealand, .market-ireland, .market-qatar, .market-germany, .market-france) .value-proposition .card h3,
+:is(.market-new-zealand, .market-ireland, .market-qatar, .market-germany, .market-france) .case-study-content h3 {
+  color: var(--market-forest);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.35rem, 1.7vw, 1.7rem);
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+:is(.market-new-zealand, .market-ireland, .market-qatar, .market-germany, .market-france) .value-proposition .card p,
+:is(.market-new-zealand, .market-ireland, .market-qatar, .market-germany, .market-france) .case-study-content p {
+  color: var(--market-muted);
+  line-height: 1.7;
+}
+
+:is(.market-new-zealand, .market-ireland, .market-qatar, .market-germany, .market-france) .case-study-section {
+  padding-top: 48px;
+  padding-bottom: clamp(76px, 9vw, 118px);
+}
+
+:is(.market-new-zealand, .market-ireland, .market-qatar, .market-germany, .market-france) .case-study-section .section-title {
+  max-width: 17ch;
+  margin-bottom: 34px;
+  color: var(--market-ink);
+  font-size: clamp(2.1rem, 3.4vw, 3.9rem);
+  line-height: 1;
+  letter-spacing: -.03em;
+}
+
+:is(.market-new-zealand, .market-ireland, .market-qatar, .market-germany, .market-france) .case-study-grid {
+  gap: clamp(28px, 5vw, 72px);
+  align-items: start;
+}
+
+:is(.market-new-zealand, .market-ireland, .market-qatar, .market-germany, .market-france) .case-study-image img {
+  aspect-ratio: 4 / 3;
+  border-radius: 0;
+  object-fit: cover;
+}
+
+:is(.market-new-zealand, .market-ireland, .market-qatar, .market-germany, .market-france) .case-study-specs {
+  padding: 20px 0 0;
+  border: 0;
+  border-top: 1px solid var(--market-line);
+  background: transparent;
+}
+
+:is(.market-new-zealand, .market-ireland, .market-qatar, .market-germany, .market-france) .contact-section {
+  margin-top: 0;
+  padding: clamp(72px, 9vw, 120px) max(28px, calc((100% - 1180px) / 2));
+  background: var(--market-forest);
+}
+
+:is(.market-new-zealand, .market-ireland, .market-qatar, .market-germany, .market-france) .contact-section h2 {
+  max-width: 15ch;
+  color: #f7f1e8;
+  font-size: clamp(2.1rem, 3.8vw, 4.25rem);
+  letter-spacing: -.035em;
+}
+
+:is(.market-new-zealand, .market-ireland, .market-qatar, .market-germany, .market-france) .contact-section p {
+  color: rgba(247, 241, 232, .76);
+}
+
+:is(.market-new-zealand, .market-ireland, .market-qatar, .market-germany, .market-france) .contact-section .btn-primary {
+  margin-top: 12px;
+}
+
+:is(.market-new-zealand, .market-ireland, .market-qatar, .market-germany, .market-france) a:focus-visible {
+  outline: 3px solid #e5b17f;
+  outline-offset: 4px;
+}
+
+@media (max-width: 760px) {
+  :is(.market-new-zealand, .market-ireland, .market-qatar, .market-germany, .market-france) .hero-section {
+    min-height: 600px;
+    padding: 104px 24px 70px;
+  }
+
+  :is(.market-new-zealand, .market-ireland, .market-qatar, .market-germany, .market-france) .hero-section::before {
+    background: linear-gradient(180deg, rgba(29, 30, 24, .74) 0%, rgba(29, 30, 24, .55) 56%, rgba(29, 30, 24, .38) 100%);
+  }
+
+  :is(.market-new-zealand, .market-ireland, .market-qatar, .market-germany, .market-france) .hero-section h1 {
+    font-size: clamp(2.85rem, 12vw, 4.1rem);
+  }
+
+  :is(.market-new-zealand, .market-ireland, .market-qatar, .market-germany, .market-france) .value-proposition,
+  :is(.market-new-zealand, .market-ireland, .market-qatar, .market-germany, .market-france) .case-study-section {
+    width: min(calc(100% - 40px), 1180px);
+  }
+
+  :is(.market-new-zealand, .market-ireland, .market-qatar, .market-germany, .market-france) .value-proposition .grid {
+    border-bottom: 0;
+  }
+
+  :is(.market-new-zealand, .market-ireland, .market-qatar, .market-germany, .market-france) .value-proposition .card,
+  :is(.market-new-zealand, .market-ireland, .market-qatar, .market-germany, .market-france) .value-proposition .card:first-child {
+    border-bottom: 1px solid var(--market-line);
+    border-left: 0;
+  }
+}
