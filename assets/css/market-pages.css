@@ -154,6 +154,66 @@ section {
   color: rgba(255, 255, 255, .76);
 }
 
+.case-study-section {
+  width: min(calc(100% - 48px), var(--max-width));
+  margin: 0 auto;
+  padding: 24px 0 72px;
+}
+
+.case-study-section .section-title {
+  margin: 0 0 28px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-weight: 400;
+  line-height: 1.05;
+}
+
+.case-study-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 36px;
+  align-items: center;
+}
+
+.case-study-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.case-study-content h3 {
+  margin: 0 0 8px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.45rem;
+  font-weight: 400;
+}
+
+.case-study-content h3:not(:first-child) {
+  margin-top: 24px;
+}
+
+.case-study-content p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.case-study-specs {
+  margin-top: 24px;
+  padding: 20px 24px;
+  border-left: 3px solid var(--accent);
+  background: var(--surface);
+}
+
+.case-study-specs ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.case-study-specs li + li {
+  margin-top: 6px;
+}
+
 .hero-section h1 {
   max-width: 780px;
   margin: 0 0 22px;
@@ -422,6 +482,16 @@ th {
   .process ol,
   .faq {
     grid-template-columns: 1fr;
+  }
+
+  .case-study-section {
+    width: 100%;
+    padding: 24px 20px 52px;
+  }
+
+  .case-study-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
   }
 
   .direct-answer {
