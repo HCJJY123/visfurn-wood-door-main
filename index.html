@@ -62,17 +62,20 @@
     .home-hero-dot::before { content: ""; position: absolute; left: 13px; right: 13px; top: 13px; bottom: 13px; border-radius: 999px; background: rgba(255,255,255,.52); transition: .25s ease; }
     .home-hero-dot.is-active::before { left: 5px; right: 5px; background: #fff; }
     .solution-grid article { position: relative; overflow: hidden; color: #fff; border-radius: 8px; background-position: center; background-repeat: no-repeat; background-size: cover; transition: transform .3s ease; }
-    .solution-grid article::before { position: absolute; inset: 0; z-index: 1; content: ""; background: rgba(26, 77, 46, .85); transition: background .3s ease; }
+    .solution-grid article::before { position: absolute; inset: 0; z-index: 1; content: ""; background: rgba(26, 77, 46, .5); transition: background .3s ease; }
     .solution-grid article:hover { transform: translateY(-2px); }
-    .solution-grid article:hover::before { background: rgba(26, 77, 46, .7); }
+    .solution-grid article:hover::before { background: rgba(26, 77, 46, .4); }
     .solution-grid article > * { position: relative; z-index: 2; }
-    .solution-grid article:nth-child(1) { background-image: url('/assets/images/home/scenarios/bg-hotel.png'); }
+    .solution-grid article:nth-child(1) { background-image: url('/assets/images/home/scenarios/bg-hotel-bright.png'); }
     .solution-grid article:nth-child(2) { background-image: url('/assets/images/home/scenarios/bg-residential.png'); }
     .solution-grid article:nth-child(3) { background-image: url('/assets/images/home/scenarios/bg-school.png'); }
     .solution-grid article:nth-child(4) { background-image: url('/assets/images/home/scenarios/bg-hospital.png'); }
-    .solution-grid article:nth-child(5) { background-image: url('/assets/images/home/scenarios/bg-commercial.png'); }
+    .solution-grid article:nth-child(5) { background-image: url('/assets/images/home/scenarios/bg-commercial-bright.png'); }
     .solution-grid article:nth-child(6) { background-image: url('/assets/images/home/scenarios/bg-wholesale.png'); }
     .vf-market-section { padding: 60px 0; background: linear-gradient(180deg, #fff 0%, #f4f7f5 100%); }
+    .footer-cta { justify-content: center; align-items: center; flex-direction: column; padding: 120px 20px; color: #fff; text-align: center; }
+    .footer-cta::before { background-color: transparent; background-image: linear-gradient(rgba(26, 77, 46, .5), rgba(26, 77, 46, .5)), url('/assets/images/home/bg-cta-bright.png'); background-position: center; background-size: cover; }
+    .footer-cta h2 { margin-bottom: 50px; }
     @media (max-width: 620px) { .home-hero-dots { bottom: 16px; } }
   </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@context":"https://schema.org","@type":"Organization","@id":"https://www.visfurn.com/#organization","name":"Tianjin Vishome Furniture Co., Ltd.","legalName":"Tianjin Vishome Furniture Co., Ltd.","brand":{"@type":"Brand","name":"VISFURN"},"url":"https://www.visfurn.com/","logo":"https://www.visfurn.com/assets/brand/visfurn-logo-door-v2-720.webp","description":"Tianjin Vishome Furniture Co., Ltd. operates the VISFURN brand for B2B wooden, WPC, security and project door supply to international buyers.","areaServed":"Worldwide","knowsAbout":["Wooden doors","Interior doors","WPC doors","Steel security doors","Hotel doors","Hospital doors","School doors","OEM door manufacturing","ODM door manufacturing"]},{"@type":"BreadcrumbList","@id":"https://www.visfurn.com/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.visfurn.com/"}]},{"@type":"WebSite","@id":"https://www.visfurn.com/#website","url":"https://www.visfurn.com/","name":"VISFURN","publisher":{"@id":"https://www.visfurn.com/#organization"},"inLanguage":"en","potentialAction":{"@type":"SearchAction","target":"https://www.visfurn.com/products?q={search_term_string}","query-input":"required name=search_term_string"}}]}</script>
