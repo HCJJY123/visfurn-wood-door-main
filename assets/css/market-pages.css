@@ -509,7 +509,12 @@ th {
 }
 
 .market-page .final-cta {
+  width: min(calc(100% - 48px), var(--max-width));
+  margin: 48px auto;
   padding: 100px max(20px, calc((100% - var(--max-width)) / 2));
+  overflow: hidden;
+  border: 1px solid rgba(203, 218, 207, .58);
+  border-radius: 2px;
   color: #fff;
   text-align: center;
   background: linear-gradient(rgba(13, 27, 20, .4), rgba(13, 27, 20, .4)), url('/assets/images/markets/bg-cta-bright.png') center / cover no-repeat !important;
@@ -592,6 +597,9 @@ th {
   }
 
   .market-page .final-cta {
+    width: min(calc(100% - 40px), var(--max-width));
+    margin-top: 32px;
+    margin-bottom: 32px;
     padding-top: 72px;
     padding-bottom: 72px;
   }

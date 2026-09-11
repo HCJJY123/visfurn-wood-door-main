@@ -3678,3 +3678,38 @@ body.category-page section.buyer-answer .spec-card span {
 .vf-market-section, .vf-schedule-cta { max-width: 1120px; margin-inline: auto; }
 .vf-market-section .hero-actions { justify-content: center; flex-wrap: wrap; }
 @media (max-width: 760px) { .vf-market-section .hero-actions { display: grid; } }
+
+body:not(.home-page) .site-footer .footer-cta {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  margin-bottom: 48px;
+  border: 1px solid rgba(203, 218, 207, .58);
+  border-radius: 2px;
+  background: #294438;
+  color: #f7f4eb;
+}
+
+body:not(.home-page) .site-footer .footer-cta::before {
+  position: absolute;
+  z-index: 0;
+  inset: 0;
+  content: "";
+  background: linear-gradient(rgba(26, 77, 46, .48), rgba(26, 77, 46, .48)), url('/assets/images/home/bg-cta-bright.png') center / cover no-repeat;
+}
+
+body:not(.home-page) .site-footer .footer-cta > * {
+  position: relative;
+  z-index: 1;
+}
+
+body:not(.home-page) .site-footer .footer-cta .eyebrow,
+body:not(.home-page) .site-footer .footer-cta h2 {
+  color: #f7f4eb;
+}
+
+@media (max-width: 760px) {
+  body:not(.home-page) .site-footer .footer-cta {
+    margin-bottom: 32px;
+  }
+}
