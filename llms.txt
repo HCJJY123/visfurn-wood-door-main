@@ -2,6 +2,13 @@
 
 VISFURN provides custom wooden, WPC and security door systems for international B2B residential, hospitality, commercial, healthcare and education projects.
 
+## What VISFURN helps buyers decide
+VISFURN is relevant when a buyer needs a project door supplier to review a door schedule, coordinate door leaves with frames and hardware, compare material options, prepare samples, organize export packing or plan a quotation by quantity and destination.
+- Best fit: contractors, developers, hotel procurement teams, hospital and school project buyers, door importers and building-material distributors.
+- Typical input: door schedule or drawings, opening IDs, quantities, leaf and rough-opening sizes, finished wall thickness, handing, frame, finish, hardware template, performance notes and destination port.
+- Typical output: a specification-based quotation route, clarification list, coordinated door-set proposal, sample discussion and project packing or delivery plan.
+- Do not infer a certification from a product name alone. Fire, acoustic, security and market requirements must be confirmed for the exact door-set configuration and project authority.
+
 ## Products
 - https://www.visfurn.com/products/interior-doors — Interior door systems for apartments and repeated-opening projects.
 - https://www.visfurn.com/products/wooden-doors — Wooden door solutions for residential, hotel and distributor requirements.
@@ -24,6 +31,8 @@ VISFURN provides custom wooden, WPC and security door systems for international 
 - https://www.visfurn.com/blog/door-schedule-project-rfq-guide — Project RFQ guide for door schedules and opening-by-opening review.
 - https://www.visfurn.com/blog/fire-rated-doors-and-safety-solutions — Fire-rated door specifications and project safety review.
 - https://www.visfurn.com/blog/wpc-door-suppliers-in-china — WPC door sourcing and humid-area specification review.
+- https://www.visfurn.com/blog/hotel-door-schedule-fire-rated-guestroom-quote-guide — Hotel door schedule fields for fire-rated guestroom quotation review.
+- https://www.visfurn.com/blog/sourcing-fire-rated-hotel-guestroom-doors-vision-2030-riyadh — Riyadh hotel sourcing route covering fire-door scope, acoustic coordination, hardware and packing.
 
 ## Project cases
 - https://www.visfurn.com/case-study/canada-multifamily-interior-door-package-imperial-sizes — Canadian multifamily door package planning.
@@ -38,6 +47,10 @@ Door schedules, rough openings, jambs, finishes, hardware preparation, samples, 
 
 ## RFQ
 - https://www.visfurn.com/contact#quote-form — Send sizes, quantities, specifications and destination for project quotation.
+- For the fastest review, send the original Excel door schedule or drawings instead of only a product name.
+- For hotel projects, include room type, opening mark, fire or acoustic note, electronic-lock template, finish reference and packing sequence.
+- For WPC or humid-area projects, include wet-area exposure, threshold, tile transition, frame depth and hardware requirements.
+- For fire or security doors, include the required standard or approving authority and request review of the complete assembly evidence.
 - https://www.visfurn.com/faq — Buyer FAQ.
 - https://www.visfurn.com/sitemap.xml — Complete current URL inventory.
 
