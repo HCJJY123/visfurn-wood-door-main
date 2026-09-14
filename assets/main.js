@@ -6,6 +6,53 @@ const toggle = document.querySelector('[data-menu-toggle]');
 const track = (event, parameters = {}) => {
   window.dataLayer?.push({ event, ...parameters });
 };
+const successfulLeadMarker = 'visfurn_quote_submission_success';
+const googleAdsLeadSendTo = 'AW-18306142236/REPLACE_WITH_REAL_CONVERSION_LABEL';
+
+const getSessionStorage = () => {
+  try {
+    return window.sessionStorage;
+  } catch (error) {
+    return null;
+  }
+};
+
+const sendGoogleEvent = (event, parameters = {}) => {
+  if (typeof window.gtag === 'function') {
+    window.gtag('event', event, parameters);
+    return;
+  }
+
+  track(event, parameters);
+};
+
+const trackConfirmedLead = () => {
+  const successPage = document.querySelector('[data-quote-request-success]');
+  if (!successPage) return;
+
+  const storage = getSessionStorage();
+  let hasConfirmedSubmission = false;
+
+  try {
+    hasConfirmedSubmission = storage?.getItem(successfulLeadMarker) === '1';
+    if (!hasConfirmedSubmission) return;
+
+    sendGoogleEvent('generate_lead', {
+      lead_source: 'website_form',
+      lead_type: 'b2b_quote_request'
+    });
+
+    if (!googleAdsLeadSendTo.includes('REPLACE_WITH_REAL_CONVERSION_LABEL')) {
+      sendGoogleEvent('conversion', { send_to: googleAdsLeadSendTo });
+    }
+  } finally {
+    if (hasConfirmedSubmission) {
+      storage?.removeItem(successfulLeadMarker);
+    }
+  }
+};
+
+trackConfirmedLead();
 if (toggle && nav) {
   toggle.setAttribute('aria-expanded', 'false');
   toggle.addEventListener('click', () => {
@@ -168,8 +215,6 @@ if (quoteForm) {
     submitButton?.setAttribute('disabled', 'disabled');
     submitButton?.setAttribute('aria-busy', 'true');
     setFormStatus('Sending your project inquiry…', 'sending');
-    track('form_submit', { page: window.location.pathname });
-
     try {
       const response = await fetch(quoteForm.action, {
         method: 'POST',
@@ -188,9 +233,8 @@ if (quoteForm) {
       quoteForm.reset();
       if (fileName) fileName.textContent = 'No file chosen';
       setFormStatus('Thank you. Your inquiry has been sent to VISFURN. Redirecting you now…', 'success');
-      track('form_submit_success', { page: window.location.pathname });
-      track('generate_lead', { page: window.location.pathname, form_name: 'project_inquiry' });
-      const thankYouUrl = new URL('/thank-you', window.location.origin).href;
+      getSessionStorage()?.setItem(successfulLeadMarker, '1');
+      const thankYouUrl = new URL('/quote-request-success', window.location.origin).href;
       window.setTimeout(() => {
         try {
           window.location.replace(thankYouUrl);
@@ -201,7 +245,7 @@ if (quoteForm) {
         }
       }, 50);
       window.setTimeout(() => {
-        if (window.location.pathname === '/thank-you' || !status || status.dataset.state !== 'success') return;
+        if (window.location.pathname === '/quote-request-success' || !status || status.dataset.state !== 'success') return;
         status.innerHTML = `Your inquiry was sent successfully. <a href="${thankYouUrl}">Open the thank-you page</a>.`;
       }, 1200);
     } catch (error) {
