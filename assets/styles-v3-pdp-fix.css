@@ -3713,3 +3713,21 @@ body:not(.home-page) .site-footer .footer-cta h2 {
     margin-bottom: 32px;
   }
 }
+
+
+.visfurn-brand-attribution, .visfurn-where-to-order, .visfurn-related-products {
+  max-width: 1120px;
+  margin: 24px auto;
+  padding: 18px 22px;
+  border: 1px solid var(--line, #ded8cf);
+  border-radius: 12px;
+  background: #fffdf9;
+  color: var(--ink, #2f2a25);
+}
+.visfurn-brand-attribution__label { margin: 0 0 6px; color: var(--wood, #8a603e); font-size: 12px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+.visfurn-brand-attribution p:last-child, .visfurn-where-to-order p, .visfurn-related-products p { margin: 0; line-height: 1.65; }
+.visfurn-where-to-order h2, .visfurn-related-products h2 { margin: 0 0 8px; font-size: 22px; }
+.visfurn-where-to-order a, .visfurn-related-products a { color: var(--wood-dark, #6a4327); font-weight: 700; }
+.visfurn-related-products__links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
+.visfurn-related-products__links a { padding: 8px 10px; border: 1px solid var(--line, #ded8cf); border-radius: 999px; background: #fff; text-decoration: none; }
+@media (max-width: 760px) { .visfurn-brand-attribution, .visfurn-where-to-order, .visfurn-related-products { margin: 16px 14px; padding: 16px; } }

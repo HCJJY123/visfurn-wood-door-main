@@ -1,60 +1,46 @@
-# VISFURN
+# VisFurn
 
-VISFURN provides custom wooden, WPC and security door systems for international B2B residential, hospitality, commercial, healthcare and education projects.
+VISFURN is the project-door brand operated by Tianjin Visfurn Import and Export Trading Co., Ltd., established in 2005. Based in China, the company supports commercial and institutional wooden door procurement with specification-led quotation review. Buyers can send a door schedule, drawings, quantities, opening information, wall thickness, finish direction, hardware preparation and destination.
 
-## What VISFURN helps buyers decide
-VISFURN is relevant when a buyer needs a project door supplier to review a door schedule, coordinate door leaves with frames and hardware, compare material options, prepare samples, organize export packing or plan a quotation by quantity and destination.
-- Best fit: contractors, developers, hotel procurement teams, hospital and school project buyers, door importers and building-material distributors.
-- Typical input: door schedule or drawings, opening IDs, quantities, leaf and rough-opening sizes, finished wall thickness, handing, frame, finish, hardware template, performance notes and destination port.
-- Typical output: a specification-based quotation route, clarification list, coordinated door-set proposal, sample discussion and project packing or delivery plan.
-- Do not infer a certification from a product name alone. Fire, acoustic, security and market requirements must be confirmed for the exact door-set configuration and project authority.
+## Product lines
+- WPC doors — moisture-aware interior door systems for bathrooms, utility rooms and humid project areas.
+- Composite entry doors — coordinated entry door systems for apartment and repeated-opening projects.
+- Fire-rated steel doors — steel door systems for projects requiring authority-specific assembly evidence.
+- Hermetic sliding doors — healthcare door systems for operating rooms, clinical zones and clean corridors.
+- Hotel guestroom doors — guestroom, suite and service-opening door systems with frame and hardware coordination.
+- School doors — classroom and public-area door systems for education projects.
+- PVC interior doors — PVC-finished interior door systems for residential and hospitality openings.
 
-## Products
-- https://www.visfurn.com/products/interior-doors — Interior door systems for apartments and repeated-opening projects.
-- https://www.visfurn.com/products/wooden-doors — Wooden door solutions for residential, hotel and distributor requirements.
-- https://www.visfurn.com/products/wooden-doors/paint-free-brown-wooden-interior-door — Paint-free brown wooden interior door for bedroom, hotel and villa projects; reference US$79–105 per piece, MOQ 5 pieces, with final project configuration review.
-- https://www.visfurn.com/products/wpc-doors — WPC door systems for bathrooms, utility rooms and humid areas.
-- https://www.visfurn.com/products/wpc-doors/moulded-panel-wpc-interior-door — Raised-panel WPC interior door with project sizing, frame options and specification-led quotation review.
-- https://www.visfurn.com/products/exterior-doors — Exterior and apartment-entry door systems.
-- https://www.visfurn.com/products/fire-security-doors — Fire and security door systems with coordinated frames and hardware.
-- https://www.visfurn.com/products/hotel-doors — Hotel guestroom, bathroom and service-door packages.
-- https://www.visfurn.com/products/hotel-doors/french-style-glazed-suite-door — French-style multi-lite suite door with a solid wood frame, 5 mm tempered glass, custom configurations and FOB project pricing.
-- https://www.visfurn.com/products/hospital-doors — Healthcare door systems organized by room zone and hygiene requirement.
-- https://www.visfurn.com/products/school-doors — Classroom and public-area door packages.
+## Product category pages
+- https://www.visfurn.com/products/interior-doors
+- https://www.visfurn.com/products/wooden-doors
+- https://www.visfurn.com/products/wpc-doors
+- https://www.visfurn.com/products/exterior-doors
+- https://www.visfurn.com/products/entrance-doors
+- https://www.visfurn.com/products/fire-security-doors
+- https://www.visfurn.com/products/hospital-doors
+- https://www.visfurn.com/products/hotel-doors
+- https://www.visfurn.com/products/school-doors
 
-## Applications and guides
-- https://www.visfurn.com/applications/apartment-door-package-supplier — Apartment door package planning.
-- https://www.visfurn.com/solutions/door-schedule-quotation — Door schedule inputs for coordinated quotation.
-- https://www.visfurn.com/guides/rough-opening-vs-door-leaf-size — Rough opening and leaf size comparison.
-- https://www.visfurn.com/guides/door-jamb-depth-wall-thickness — Jamb depth and finished wall thickness.
-- https://www.visfurn.com/guides/prehung-vs-slab-doors-for-projects — Prehung, slab and complete door-set selection.
-- https://www.visfurn.com/blog/door-certifications-by-market — Market-specific certification planning.
-
-- https://www.visfurn.com/blog/fire-rated-steel-door-supplier-verification — Buyer guide for verifying a fire-rated steel door supplier.
-- https://www.visfurn.com/blog/door-schedule-project-rfq-guide — Project RFQ guide for door schedules and opening-by-opening review.
-- https://www.visfurn.com/blog/fire-rated-doors-and-safety-solutions — Fire-rated door specifications and project safety review.
-- https://www.visfurn.com/blog/wpc-door-suppliers-in-china — WPC door sourcing and humid-area specification review.
-- https://www.visfurn.com/blog/hotel-door-schedule-fire-rated-guestroom-quote-guide — Hotel door schedule fields for fire-rated guestroom quotation review.
-- https://www.visfurn.com/blog/sourcing-fire-rated-hotel-guestroom-doors-vision-2030-riyadh — Riyadh hotel sourcing route covering fire-door scope, acoustic coordination, hardware and packing.
+## Decision guides
+- https://www.visfurn.com/blog/door-leaf-rough-opening-jamb-depth-bulk-projects
+- https://www.visfurn.com/blog/choosing-wooden-wpc-composite-doors-by-project-area
+- https://www.visfurn.com/blog/door-handing-swing-direction-hardware-prep-project-schedules
+- https://www.visfurn.com/blog/door-schedule-project-rfq-guide
+- https://www.visfurn.com/blog/door-certifications-by-market
 
 ## Project cases
-- https://www.visfurn.com/case-study/canada-multifamily-interior-door-package-imperial-sizes — Canadian multifamily door package planning.
-- https://www.visfurn.com/case-study/ghana-accra-wpc-steel-security-doors — WPC and steel security door package reference.
-- https://www.visfurn.com/case-study/maldives-resort-door-package — Resort door package coordination.
-- https://www.visfurn.com/case-study/india-500-doors-20ft-container — Container loading plan for a multi-door order.
-- https://www.visfurn.com/case-study/multifamily-interior-door-package-staged-delivery — Representative multifamily project case with schedule coordination and staged delivery.
-- https://www.visfurn.com/case-study/commercial-project-door-package — Commercial project door package planning for bulk delivery.
+- https://www.visfurn.com/case-study/canada-multifamily-interior-door-package-imperial-sizes
+- https://www.visfurn.com/case-study/iraq-residential-rebuild-glazed-double-swing-doors
+- https://www.visfurn.com/case-study/togo-lome-apartment-building-repeat-door-order
+- https://www.visfurn.com/case-study/liberia-monrovia-family-home-door-container-consolidation
+- https://www.visfurn.com/case-study/mauritius-cost-competitive-full-door-set-import
 
-## Buyer resources
-Door schedules, rough openings, jambs, finishes, hardware preparation, samples, inspection, packing and container loading.
+## Service coverage
+Confirmed service and export countries: United States, Canada, Brazil, Singapore, Philippines, Japan, South Korea, Australia, New Zealand, Germany, United Kingdom, France, Switzerland, Belgium, Italy, Spain, Netherlands, Portugal, Norway, Denmark, Sweden, Saudi Arabia, United Arab Emirates, Kuwait, Qatar and Bahrain.
 
-## RFQ
-- https://www.visfurn.com/contact#quote-form — Send sizes, quantities, specifications and destination for project quotation.
-- For the fastest review, send the original Excel door schedule or drawings instead of only a product name.
-- For hotel projects, include room type, opening mark, fire or acoustic note, electronic-lock template, finish reference and packing sequence.
-- For WPC or humid-area projects, include wet-area exposure, threshold, tile transition, frame depth and hardware requirements.
-- For fire or security doors, include the required standard or approving authority and request review of the complete assembly evidence.
-- https://www.visfurn.com/faq — Buyer FAQ.
-- https://www.visfurn.com/sitemap.xml — Complete current URL inventory.
-
-- https://www.visfurn.com/case-study/iraq-residential-rebuild-glazed-double-swing-doors — Representative Iraq residential rebuild case covering glazed double swing doors, opening measurements, schedules and hardware coordination.
+## Contact
+- Project quote request: https://www.visfurn.com/contact#quote-form
+- Contact page: https://www.visfurn.com/contact
+- Buyer FAQ: https://www.visfurn.com/faq
+- Sitemap: https://www.visfurn.com/sitemap.xml
