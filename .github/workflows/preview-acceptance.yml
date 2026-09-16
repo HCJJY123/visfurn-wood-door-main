@@ -1,0 +1,35 @@
+name: Preview Acceptance
+on:
+  deployment_status:
+jobs:
+  accept:
+    if: github.event.deployment_status.state == 'success' && contains(github.event.deployment_status.environment_url, 'vercel.app')
+    runs-on: ubuntu-latest
+    env:
+      BASE: ${{ github.event.deployment_status.environment_url }}
+      BYPASS: ${{ secrets.VERCEL_AUTOMATION_BYPASS_SECRET }}
+      PATHS: "/es/puertas-para-proyectos"
+      PW: "playwright@1.47.2"
+    steps:
+      - name: HTTP status check
+        run: |
+          mkdir -p out
+          H=(); [ -n "$BYPASS" ] && H=(-H "x-vercel-protection-bypass: $BYPASS")
+          for p in $PATHS; do
+            curl -sS -o /dev/null "${H[@]}" \
+              -w "$p status=%{http_code} redirect=%{redirect_url}\n" \
+              --connect-timeout 15 --max-time 30 "$BASE$p" | tee -a out/status.txt
+          done
+      - name: Screenshots (desktop + mobile)
+        run: |
+          npx -y $PW install --with-deps chromium
+          Q=""; [ -n "$BYPASS" ] && Q="?x-vercel-protection-bypass=$BYPASS"
+          for p in $PATHS; do
+            n=$(echo "$p" | tr '/' '_')
+            npx -y $PW screenshot --full-page --wait-for-timeout=2000 --viewport-size=1440,900 "$BASE$p$Q" "out/desktop$n.png"
+            npx -y $PW screenshot --full-page --wait-for-timeout=2000 --device="iPhone 13" "$BASE$p$Q" "out/mobile$n.png"
+          done
+      - uses: actions/upload-artifact@v4
+        with:
+          name: preview-acceptance
+          path: out
