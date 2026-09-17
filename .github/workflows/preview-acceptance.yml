@@ -26,10 +26,11 @@ jobs:
           Q=""; [ -n "$BYPASS" ] && Q="?x-vercel-protection-bypass=$BYPASS"
           for p in $PATHS; do
             n=$(echo "$p" | tr '/' '_')
-            npx -y $PW screenshot --full-page --wait-for-timeout=2000 --viewport-size=1440,900 "$BASE$p$Q" "out/desktop$n.png"
-            npx -y $PW screenshot --full-page --wait-for-timeout=2000 --device="iPhone 13" "$BASE$p$Q" "out/mobile$n.png"
+            npx -y $PW screenshot --browser chromium --full-page --wait-for-timeout=2000 --viewport-size=1440,900 "$BASE$p$Q" "out/desktop$n.png"
+            npx -y $PW screenshot --browser chromium --full-page --wait-for-timeout=2000 --device="Pixel 5" "$BASE$p$Q" "out/mobile$n.png"
           done
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: preview-acceptance
           path: out
