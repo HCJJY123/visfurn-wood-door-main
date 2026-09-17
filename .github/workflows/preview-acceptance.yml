@@ -10,7 +10,7 @@ jobs:
       BYPASS: ${{ secrets.VERCEL_AUTOMATION_BYPASS_SECRET }}
       PAGES: "/es/puertas-para-proyectos /solutions/door-schedule-quotation /contact / /products/interior-doors/white-moulded-solid-wood"
       FILES: "/sitemap.xml /llms.txt /assets/main.js"
-      PRIVATE: "/.github/workflows/preview-acceptance.yml /scripts/check-es-latam-landing.py"
+      PRIVATE: "/.github/workflows/preview-acceptance.yml /scripts/check-es-latam-landing.py /.vercelignore"
       PW: "playwright@1.47.2"
     steps:
       - name: HTTP status check
