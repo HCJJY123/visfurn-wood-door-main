@@ -1,2 +1,6 @@
 /.github
 /scripts
+/source
+/download-log.txt
+/.gitignore
+.DS_Store

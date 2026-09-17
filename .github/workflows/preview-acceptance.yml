@@ -9,8 +9,8 @@ jobs:
       BASE: ${{ github.event.deployment_status.environment_url }}
       BYPASS: ${{ secrets.VERCEL_AUTOMATION_BYPASS_SECRET }}
       PAGES: "/es/puertas-para-proyectos /solutions/door-schedule-quotation /contact / /products/interior-doors/white-moulded-solid-wood"
-      FILES: "/sitemap.xml /llms.txt /assets/main.js"
-      PRIVATE: "/.github/workflows/preview-acceptance.yml /scripts/check-es-latam-landing.py /.vercelignore"
+      FILES: "/sitemap.xml /llms.txt /assets/main.js /robots.txt /2ad5155b9f4d0513e7f5dd67940e8a13.txt /downloads/door-schedule-template.csv /assets/content/asset-path-rules.json"
+      PRIVATE: "/.github/workflows/preview-acceptance.yml /scripts/check-es-latam-landing.py /.vercelignore /download-log.txt /.gitignore /.DS_Store /images/.DS_Store /source/.vercel/output/config.json /source/.vercel/output/static/robots.txt"
       PW: "playwright@1.47.2"
     steps:
       - name: HTTP status check
