@@ -1,0 +1,77 @@
+name: Preview Acceptance
+on:
+  deployment_status:
+jobs:
+  accept:
+    if: github.event.deployment_status.state == 'success' && contains(github.event.deployment_status.environment_url, 'vercel.app')
+    runs-on: ubuntu-latest
+    env:
+      BASE: ${{ github.event.deployment_status.environment_url }}
+      BYPASS: ${{ secrets.VERCEL_AUTOMATION_BYPASS_SECRET }}
+      PAGES: "/es/puertas-para-proyectos /solutions/door-schedule-quotation /contact / /products/interior-doors/white-moulded-solid-wood"
+      FILES: "/sitemap.xml /llms.txt /assets/main.js /robots.txt /2ad5155b9f4d0513e7f5dd67940e8a13.txt /downloads/door-schedule-template.csv /assets/content/asset-path-rules.json"
+      PRIVATE: "/.github/workflows/preview-acceptance.yml /scripts/check-es-latam-landing.py /.vercelignore /download-log.txt /.gitignore /.DS_Store /images/.DS_Store /source/.vercel/output/config.json /source/.vercel/output/static/robots.txt"
+      PW: "playwright@1.47.2"
+    steps:
+      - name: HTTP status check
+        run: |
+          mkdir -p out
+          H=(); [ -n "$BYPASS" ] && H=(-H "x-vercel-protection-bypass: $BYPASS")
+          for p in $PAGES $FILES; do
+            curl -sS -o /dev/null "${H[@]}" \
+              -w "$p status=%{http_code} redirect=%{redirect_url}\n" \
+              --connect-timeout 15 --max-time 30 "$BASE$p" | tee -a out/status.txt
+          done
+          for p in $PRIVATE; do
+            curl -sS -o /dev/null "${H[@]}" \
+              -w "EXPOSURE $p status=%{http_code}\n" \
+              --connect-timeout 15 --max-time 30 "$BASE$p" | tee -a out/status.txt
+          done
+      - name: Content checks
+        run: |
+          H=(); [ -n "$BYPASS" ] && H=(-H "x-vercel-protection-bypass: $BYPASS")
+          check() {
+            if curl -sS "${H[@]}" --connect-timeout 15 --max-time 30 "$BASE$1" | grep -Eq "$2"; then
+              echo "CHECK $3 = PASS" | tee -a out/status.txt
+            else
+              echo "CHECK $3 = FAIL" | tee -a out/status.txt
+            fi
+          }
+          check /solutions/door-schedule-quotation "hreflang=[\"']es" "solutions_hreflang_es"
+          check /es/puertas-para-proyectos "hreflang=[\"']en" "es_hreflang_en"
+          check /es/puertas-para-proyectos "<html[^>]*lang=[\"']es" "es_html_lang"
+          check /contact "gclid" "contact_gclid_markup"
+          check /sitemap.xml "/es/puertas-para-proyectos" "sitemap_es_url"
+          check /llms.txt "puertas-para-proyectos" "llms_es_url"
+      - name: Screenshots (desktop + mobile)
+        run: |
+          npx -y $PW install --with-deps chromium
+          Q=""; [ -n "$BYPASS" ] && Q="?x-vercel-protection-bypass=$BYPASS"
+          for p in $PAGES; do
+            n=$(echo "$p" | tr '/' '_')
+            npx -y $PW screenshot --browser chromium --full-page --wait-for-timeout=2000 --viewport-size=1440,900 "$BASE$p$Q" "out/desktop$n.png"
+            npx -y $PW screenshot --browser chromium --full-page --wait-for-timeout=2000 --device="Pixel 5" "$BASE$p$Q" "out/mobile$n.png"
+          done
+      - name: gclid attribution check (no submit)
+        run: |
+          cd "$RUNNER_TEMP" && npm init -y >/dev/null && npm i --silent $PW
+          npx playwright install chromium
+          cat > gclid.js <<'EOF2'
+          const { chromium } = require('playwright');
+          (async () => {
+            const b = await chromium.launch();
+            const pg = await b.newPage();
+            const qs = 'gclid=TESTGCLID123' + (process.env.BYPASS ? '&x-vercel-protection-bypass=' + process.env.BYPASS : '');
+            await pg.goto(process.env.BASE + '/contact?' + qs, { waitUntil: 'networkidle' });
+            await pg.waitForTimeout(2000);
+            const r = await pg.$$eval('input', els => els.filter(e => /gclid/i.test(e.name + ' ' + e.id)).map(e => (e.name || e.id) + '=' + e.value));
+            console.log('GCLID_FIELDS ' + (r.length ? r.join(' ') : 'NONE'));
+            await b.close();
+          })();
+          EOF2
+          node gclid.js | tee -a "$GITHUB_WORKSPACE/out/status.txt"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: preview-acceptance
+          path: out

@@ -320,7 +320,14 @@ document.querySelectorAll('.faq-question').forEach((question) => {
   };
 
   const normalizeText = (value) => value.replace(/\s+/g, ' ').trim();
+  // Page-locked locale: a fully translated static page (e.g. /es/...) declares
+  // <html data-vf-page-locale="es">. It always renders in that locale, never
+  // writes the choice to localStorage, and the switcher navigates to the
+  // hreflang alternate instead of relabelling the page.
+  const pageLocale = document.documentElement.dataset.vfPageLocale || '';
+  const isLockedPage = supportedLocales.has(pageLocale);
   const getStoredLocale = () => {
+    if (isLockedPage) return pageLocale;
     const queryLocale = new URLSearchParams(window.location.search).get('lang');
     if (supportedLocales.has(queryLocale)) return queryLocale;
     try {
@@ -340,7 +347,9 @@ document.querySelectorAll('.faq-question').forEach((question) => {
     document.documentElement.lang = currentLocale;
     document.documentElement.dir = currentLocale === 'ar' ? 'rtl' : 'ltr';
     document.body.classList.toggle('vf-rtl', currentLocale === 'ar');
-    try { window.localStorage.setItem('visfurn-locale', currentLocale); } catch (error) { /* storage is optional */ }
+    if (!isLockedPage) {
+      try { window.localStorage.setItem('visfurn-locale', currentLocale); } catch (error) { /* storage is optional */ }
+    }
 
     document.querySelectorAll('[data-vf-language-select]').forEach((select) => {
       select.value = currentLocale;
@@ -378,6 +387,18 @@ document.querySelectorAll('.faq-question').forEach((question) => {
       select.appendChild(option);
     });
     select.addEventListener('change', () => {
+      if (isLockedPage && select.value !== pageLocale) {
+        const alternate = document.querySelector(`link[rel="alternate"][hreflang="${select.value}"], link[rel="alternate"][hreflang^="${select.value}-"]`)
+          || document.querySelector('link[rel="alternate"][hreflang="x-default"]');
+        if (alternate) {
+          const target = new URL(alternate.href);
+          if (select.value !== 'en') target.searchParams.set('lang', select.value);
+          window.location.assign(target.toString());
+          return;
+        }
+        select.value = pageLocale;
+        return;
+      }
       const url = new URL(window.location.href);
       url.searchParams.set('lang', select.value);
       window.history.replaceState({}, '', `${url.pathname}${url.search}${url.hash}`);
