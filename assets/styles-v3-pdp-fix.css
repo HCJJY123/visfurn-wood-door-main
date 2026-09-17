@@ -2734,6 +2734,62 @@ h3 {
   padding: clamp(64px, 8vw, 112px) var(--gutter) clamp(72px, 9vw, 126px);
 }
 
+.contact-next-steps {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: 0 var(--gutter) clamp(72px, 9vw, 126px);
+}
+
+.contact-next-steps__intro {
+  max-width: 700px;
+}
+
+.contact-next-steps__intro h2 {
+  margin: 0;
+  color: var(--wood-dark);
+  font-family: var(--display);
+  font-size: clamp(30px, 3.5vw, 48px);
+  font-weight: 500;
+  line-height: 1.08;
+  letter-spacing: -.035em;
+}
+
+.contact-next-steps__intro > p:not(.eyebrow) {
+  max-width: 64ch;
+  margin: 16px 0 0;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.contact-next-steps__list {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+  margin: 34px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contact-next-steps__list li {
+  display: grid;
+  gap: 10px;
+  min-width: 0;
+  padding-top: 16px;
+  border-top: 1px solid rgba(49, 70, 56, .28);
+}
+
+.contact-next-steps__list strong {
+  color: var(--wood-dark);
+  font-size: 15px;
+  line-height: 1.35;
+}
+
+.contact-next-steps__list span {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.65;
+}
+
 .contact-information,
 .contact-quote-form {
   min-width: 0;
@@ -3435,6 +3491,11 @@ body.pdp-european-apartment #construction .pdp-application-grid > div:first-chil
   color: rgba(248, 244, 232, .86);
 }
 @media (max-width: 760px) {
+  .contact-next-steps__list {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
   body.pdp-european-apartment #construction .pdp-application-grid > div:first-child {
     transform: none;
     max-width: 100%;
@@ -3731,3 +3792,107 @@ body:not(.home-page) .site-footer .footer-cta h2 {
 .visfurn-related-products__links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
 .visfurn-related-products__links a { padding: 8px 10px; border: 1px solid var(--line, #ded8cf); border-radius: 999px; background: #fff; text-decoration: none; }
 @media (max-width: 760px) { .visfurn-brand-attribution, .visfurn-where-to-order, .visfurn-related-products { margin: 16px 14px; padding: 16px; } }
+
+.visfurn-compliance-note {
+  max-width: 1120px;
+  margin: 28px auto;
+  padding: 24px 26px;
+  border: 1px solid rgba(138, 96, 62, .3);
+  border-left: 4px solid var(--wood, #8a603e);
+  border-radius: 10px;
+  background: #fbf7ef;
+}
+.visfurn-compliance-note .eyebrow { margin-bottom: 8px; }
+.visfurn-compliance-note h2 { margin: 0; color: var(--wood-dark, #6a4327); font-size: clamp(22px, 2.4vw, 30px); line-height: 1.18; }
+.visfurn-compliance-note p:last-child { max-width: 88ch; margin: 14px 0 0; color: var(--muted, #6a665f); line-height: 1.7; }
+@media (max-width: 760px) { .visfurn-compliance-note { margin: 20px 14px; padding: 20px; } }
+
+.illustrative-visual-label {
+  display: inline-block;
+  margin: 0 0 8px;
+  color: var(--wood-dark, #6a4327);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .08em;
+  line-height: 1.25;
+  text-transform: uppercase;
+}
+.template-hero-content .illustrative-visual-label {
+  color: rgba(255, 250, 241, .82);
+}
+.project-system-scope {
+  max-width: var(--measure);
+  display: grid;
+  grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr);
+  gap: clamp(26px, 5vw, 72px);
+  align-items: center;
+  margin: 0 auto;
+  padding: clamp(64px, 8vw, 108px) var(--gutter);
+}
+.project-system-scope__copy h2 {
+  margin: 0;
+  color: var(--wood-dark);
+  font-family: var(--display);
+  font-size: clamp(30px, 4vw, 52px);
+  font-weight: 500;
+  line-height: 1.04;
+  letter-spacing: -.04em;
+}
+.project-system-scope__copy > p:not(.eyebrow) {
+  max-width: 52ch;
+  margin: 20px 0;
+  color: var(--muted);
+  line-height: 1.72;
+}
+.project-system-scope__visual,
+.contact-next-steps__visual {
+  margin: 0;
+}
+.project-system-scope__visual picture,
+.project-system-scope__visual img,
+.contact-next-steps__visual picture,
+.contact-next-steps__visual img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.project-system-scope__visual img,
+.contact-next-steps__visual img {
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  background: #f1eee8;
+}
+.project-system-scope__visual figcaption,
+.contact-next-steps__visual figcaption {
+  margin-top: 12px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.6;
+}
+.contact-next-steps__visual {
+  max-width: 820px;
+  margin: 34px 0 0 auto;
+}
+.product-card-v2 picture {
+  display: block;
+}
+.product-card-v2 figcaption .illustrative-visual-label {
+  display: block;
+  margin-bottom: 5px;
+}
+.project-system-inline-visual .product-grid-main {
+  grid-template-columns: minmax(0, 1fr);
+}
+.project-system-inline-visual .product-card-v2 {
+  max-width: 960px;
+}
+@media (max-width: 760px) {
+  .project-system-scope {
+    grid-template-columns: 1fr;
+    padding-top: 64px;
+    padding-bottom: 72px;
+  }
+  .contact-next-steps__visual {
+    margin-right: 0;
+  }
+}
