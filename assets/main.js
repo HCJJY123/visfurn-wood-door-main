@@ -35,7 +35,23 @@ const prefillMarketCountry = () => {
   if (country && field && !field.value) field.value = country;
 };
 
+const setupMarketsHubTracking = () => {
+  if (!document.documentElement.hasAttribute('data-markets-hub')) return;
+
+  const parameters = { market_page: '/markets', language: document.documentElement.lang || 'en' };
+  track('markets_hub_view', parameters);
+  document.querySelectorAll('[data-market-card]').forEach((link) => {
+    link.addEventListener('click', () => {
+      track('market_card_click', { ...parameters, market_name: link.dataset.marketCard || '' });
+    });
+  });
+  document.querySelectorAll('[data-markets-quote]').forEach((link) => {
+    link.addEventListener('click', () => track('markets_quote_click', parameters));
+  });
+};
+
 setupMarketPageTracking();
+setupMarketsHubTracking();
 prefillMarketCountry();
 const successfulLeadMarker = 'visfurn_quote_submission_success';
 const googleAdsLeadSendTo = 'AW-18306142236/REPLACE_WITH_REAL_CONVERSION_LABEL';
