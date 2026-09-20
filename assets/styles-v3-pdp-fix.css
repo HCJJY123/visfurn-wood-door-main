@@ -3896,3 +3896,167 @@ body:not(.home-page) .site-footer .footer-cta h2 {
     margin-right: 0;
   }
 }
+
+/* ==========================================================================
+   VISFURN visual refresh — ivory + pine + bronze + steel
+   Scoped to: trust stats band, solution cards, footer CTA.
+   Does not alter copy, numbers, image paths, SEO, Schema or links.
+   ========================================================================== */
+:root {
+  --vf-canvas: #f4f2ec;
+  --vf-surface: #fbfaf6;
+  --vf-ink: #18231f;
+  --vf-pine: #15231e;
+  --vf-pine-soft: #263b33;
+  --vf-bronze: #b58155;
+  --vf-champagne: #d7b98d;
+  --vf-tech: #93aaa5;
+  --vf-muted: #68736d;
+}
+
+/* 1. Trust stats band */
+.trust-stats-band {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  padding: 52px 0;
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(118deg, #15231e 0%, #1d3129 58%, #263b33 100%);
+  border-block: 1px solid rgba(255, 255, 255, .08);
+}
+.trust-stats-band::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, .04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, .04) 1px, transparent 1px);
+  background-size: 44px 44px;
+}
+.trust-stats-band .container {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  max-width: var(--measure, 1320px);
+  margin: 0 auto;
+  padding: 0 var(--gutter, clamp(20px, 5vw, 88px));
+}
+.stat-item {
+  padding: 8px clamp(14px, 3vw, 40px);
+  border-left: 1px solid rgba(255, 255, 255, .12);
+}
+.stat-item:first-child { border-left: 0; }
+.stat-item strong {
+  display: block;
+  font-size: clamp(2rem, 3.4vw, 2.75rem);
+  line-height: 1;
+  color: #d7b98d;
+  font-weight: 800;
+  letter-spacing: -.01em;
+}
+.stat-item span {
+  display: block;
+  margin-top: 10px;
+  font-size: .85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  color: rgba(246, 243, 236, .78);
+}
+
+/* 2. Solution cards */
+.solution-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(16px, 1.5vw, 24px);
+}
+.solution-grid article {
+  background-color: #15231e;
+  transition: transform .3s ease, box-shadow .3s ease;
+}
+.solution-grid article::before {
+  background: linear-gradient(180deg, rgba(11, 18, 15, .03) 18%, rgba(11, 18, 15, .18) 52%, rgba(11, 18, 15, .84) 100%);
+  transition: background .3s ease;
+}
+.solution-grid article:hover {
+  transform: translateY(-4px) scale(1.02);
+}
+.solution-grid article:hover::before {
+  background: linear-gradient(180deg, rgba(11, 18, 15, .02) 18%, rgba(11, 18, 15, .12) 52%, rgba(11, 18, 15, .72) 100%);
+}
+.solution-grid span { color: #d7b98d; }
+.solution-grid h3 { color: #f8f5ee; }
+
+/* 3. Unified footer CTA */
+.footer-cta {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: clamp(24px, 4vw, 48px);
+  min-height: clamp(340px, 28vw, 390px);
+  padding: clamp(34px, 6vw, 68px);
+  border-radius: 12px;
+  background: #15231e;
+  border: 1px solid rgba(255, 255, 255, .10);
+  color: #eef2eb;
+  text-align: left;
+}
+.footer-cta::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background:
+    linear-gradient(90deg, rgba(11, 20, 17, .88) 0%, rgba(11, 20, 17, .62) 46%, rgba(11, 20, 17, .18) 100%),
+    url('/assets/images/home/bg-cta-bright.webp') 58% center / cover no-repeat;
+}
+.footer-cta > * { position: relative; z-index: 1; }
+.footer-cta .eyebrow, .footer-cta h2 { color: #eef2eb; text-shadow: 0 1px 10px rgba(0, 0, 0, .28); }
+.footer-cta h2 { margin-bottom: 0; }
+.footer-cta .button.light {
+  flex: 0 0 auto;
+  background: #fbfaf6;
+  color: #18231f;
+  border: 1px solid rgba(255, 255, 255, .62);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, .18);
+  transition: background .25s ease, color .25s ease, border-color .25s ease;
+}
+.footer-cta .button.light:hover,
+.footer-cta .button.light:focus-visible {
+  background: #b58155;
+  color: #18231f;
+  border-color: #b58155;
+}
+
+/* Non-home footer CTA parity */
+body:not(.home-page) .site-footer .footer-cta {
+  background: #15231e;
+  border: 1px solid rgba(255, 255, 255, .10);
+}
+body:not(.home-page) .site-footer .footer-cta::before {
+  background:
+    linear-gradient(90deg, rgba(11, 20, 17, .88) 0%, rgba(11, 20, 17, .62) 46%, rgba(11, 20, 17, .18) 100%),
+    url('/assets/images/home/bg-cta-bright.webp') 58% center / cover no-repeat;
+}
+
+/* Responsive */
+@media (max-width: 980px) {
+  .solution-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 760px) {
+  .trust-stats-band .container { grid-template-columns: repeat(2, minmax(0, 1fr)); row-gap: 28px; }
+  .stat-item:nth-child(3) { border-left: 0; }
+  .solution-grid { grid-template-columns: 1fr; }
+  .footer-cta { flex-direction: column; align-items: flex-start; justify-content: center; gap: 26px; }
+  .footer-cta .button.light { width: 100%; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .solution-grid article,
+  .footer-cta .button.light { transition: none !important; }
+  .solution-grid article:hover { transform: none !important; }
+}
