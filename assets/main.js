@@ -119,9 +119,17 @@ if (toggle && nav) {
     });
   });
 }
-window.addEventListener('scroll', () => {
-  header?.classList.toggle('scrolled', window.scrollY > 12);
-});
+const headerScrollSentinel = document.createElement('div');
+headerScrollSentinel.setAttribute('aria-hidden', 'true');
+headerScrollSentinel.style.cssText = 'position:absolute;top:0;left:0;width:1px;height:12px;pointer-events:none;';
+document.body.prepend(headerScrollSentinel);
+
+if ('IntersectionObserver' in window) {
+  const headerObserver = new IntersectionObserver((entries) => {
+    header?.classList.toggle('scrolled', !entries[0].isIntersecting);
+  });
+  headerObserver.observe(headerScrollSentinel);
+}
 
 const setupHomeHeroCarousel = () => {
   const carousel = document.querySelector('[data-home-hero-carousel]');
@@ -509,14 +517,31 @@ document.querySelectorAll('.faq-question').forEach((question) => {
     inquiry.innerHTML = '<span aria-hidden="true">↗</span><span data-vf-i18n-label data-vf-source-text="Get Quote">' + getTranslation('Get Quote') + '</span>';
     document.body.appendChild(inquiry);
 
+    const mobileActionsSentinel = document.createElement('div');
+    mobileActionsSentinel.setAttribute('aria-hidden', 'true');
+    mobileActionsSentinel.style.cssText = 'position:absolute;top:0;left:0;width:1px;height:1px;pointer-events:none;';
+    document.body.prepend(mobileActionsSentinel);
+
+    let mobileActionsPastThreshold = false;
     const syncMobileActions = () => {
-      const threshold = Math.max(240, Math.round(window.innerHeight * 0.9));
       const isMobile = window.matchMedia('(max-width: 620px), (pointer: coarse)').matches;
-      document.body.classList.toggle('vf-mobile-actions-visible', isMobile && window.scrollY > threshold);
+      document.body.classList.toggle('vf-mobile-actions-visible', isMobile && mobileActionsPastThreshold);
     };
-    syncMobileActions();
-    window.addEventListener('scroll', syncMobileActions, { passive: true });
-    window.addEventListener('resize', syncMobileActions);
+
+    if ('IntersectionObserver' in window) {
+      let mobileActionsObserver;
+      const attachMobileActionsObserver = () => {
+        const threshold = Math.max(240, Math.round(window.innerHeight * 0.9));
+        if (mobileActionsObserver) mobileActionsObserver.disconnect();
+        mobileActionsObserver = new IntersectionObserver((entries) => {
+          mobileActionsPastThreshold = !entries[0].isIntersecting;
+          syncMobileActions();
+        }, { rootMargin: `${threshold}px 0px 0px 0px` });
+        mobileActionsObserver.observe(mobileActionsSentinel);
+      };
+      attachMobileActionsObserver();
+      window.addEventListener('resize', attachMobileActionsObserver);
+    }
   };
 
   const setupImageFallbacks = () => {

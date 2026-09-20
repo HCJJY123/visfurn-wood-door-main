@@ -79,59 +79,59 @@ section {
 }
 
 .market-united-states .hero-section {
-  background-image: linear-gradient(90deg, rgba(13, 27, 20, .4), rgba(13, 27, 20, .18)), url('/assets/images/markets/hero-usa.png');
+  background-image: linear-gradient(90deg, rgba(13, 27, 20, .4), rgba(13, 27, 20, .18)), url('/assets/images/markets/hero-usa.webp');
 }
 
 .market-saudi-arabia .hero-section {
-  background-image: linear-gradient(90deg, rgba(13, 27, 20, .4), rgba(13, 27, 20, .18)), url('/assets/images/markets/hero-saudi.png');
+  background-image: linear-gradient(90deg, rgba(13, 27, 20, .4), rgba(13, 27, 20, .18)), url('/assets/images/markets/hero-saudi.webp');
 }
 
 .market-united-kingdom .hero-section {
-  background-image: linear-gradient(90deg, rgba(13, 27, 20, .4), rgba(13, 27, 20, .18)), url('/assets/images/markets/hero-uk.png');
+  background-image: linear-gradient(90deg, rgba(13, 27, 20, .4), rgba(13, 27, 20, .18)), url('/assets/images/markets/hero-uk.webp');
 }
 
 .market-canada .hero-section {
-  background-image: linear-gradient(90deg, rgba(13, 27, 20, .4), rgba(13, 27, 20, .18)), url('/assets/images/markets/hero-canada.png');
+  background-image: linear-gradient(90deg, rgba(13, 27, 20, .4), rgba(13, 27, 20, .18)), url('/assets/images/markets/hero-canada.webp');
 }
 
 .market-australia .hero-section {
-  background-image: linear-gradient(90deg, rgba(13, 27, 20, .4), rgba(13, 27, 20, .18)), url('/assets/images/markets/hero-australia.png');
+  background-image: linear-gradient(90deg, rgba(13, 27, 20, .4), rgba(13, 27, 20, .18)), url('/assets/images/markets/hero-australia.webp');
 }
 
 .market-uae .hero-section {
-  background-image: linear-gradient(90deg, rgba(13, 27, 20, .4), rgba(13, 27, 20, .18)), url('/assets/images/markets/hero-uae.png');
+  background-image: linear-gradient(90deg, rgba(13, 27, 20, .4), rgba(13, 27, 20, .18)), url('/assets/images/markets/hero-uae.webp');
 }
 
 .market-norway .hero-section {
-  background-image: linear-gradient(90deg, rgba(13, 27, 20, .4), rgba(13, 27, 20, .18)), url('/assets/images/markets/hero-norway.png');
+  background-image: linear-gradient(90deg, rgba(13, 27, 20, .4), rgba(13, 27, 20, .18)), url('/assets/images/markets/hero-norway.webp');
 }
 
 .market-sweden .hero-section {
-  background-image: linear-gradient(90deg, rgba(13, 27, 20, .4), rgba(13, 27, 20, .18)), url('/assets/images/markets/hero-sweden.png');
+  background-image: linear-gradient(90deg, rgba(13, 27, 20, .4), rgba(13, 27, 20, .18)), url('/assets/images/markets/hero-sweden.webp');
 }
 
 .market-denmark .hero-section {
-  background-image: linear-gradient(90deg, rgba(13, 27, 20, .4), rgba(13, 27, 20, .18)), url('/assets/images/markets/hero-denmark.png');
+  background-image: linear-gradient(90deg, rgba(13, 27, 20, .4), rgba(13, 27, 20, .18)), url('/assets/images/markets/hero-denmark.webp');
 }
 
 .market-new-zealand .hero-section {
-  background-image: linear-gradient(90deg, rgba(13, 27, 20, .4), rgba(13, 27, 20, .18)), url('/assets/images/markets/hero-new-zealand.png');
+  background-image: linear-gradient(90deg, rgba(13, 27, 20, .4), rgba(13, 27, 20, .18)), url('/assets/images/markets/hero-new-zealand.webp');
 }
 
 .market-ireland .hero-section {
-  background-image: linear-gradient(90deg, rgba(13, 27, 20, .4), rgba(13, 27, 20, .18)), url('/assets/images/markets/hero-ireland.png');
+  background-image: linear-gradient(90deg, rgba(13, 27, 20, .4), rgba(13, 27, 20, .18)), url('/assets/images/markets/hero-ireland.webp');
 }
 
 .market-qatar .hero-section {
-  background-image: linear-gradient(90deg, rgba(13, 27, 20, .4), rgba(13, 27, 20, .18)), url('/assets/images/markets/hero-qatar.png');
+  background-image: linear-gradient(90deg, rgba(13, 27, 20, .4), rgba(13, 27, 20, .18)), url('/assets/images/markets/hero-qatar.webp');
 }
 
 .market-germany .hero-section {
-  background-image: linear-gradient(90deg, rgba(13, 27, 20, .4), rgba(13, 27, 20, .18)), url('/assets/images/markets/hero-germany.png');
+  background-image: linear-gradient(90deg, rgba(13, 27, 20, .4), rgba(13, 27, 20, .18)), url('/assets/images/markets/hero-germany.webp');
 }
 
 .market-france .hero-section {
-  background-image: linear-gradient(90deg, rgba(13, 27, 20, .4), rgba(13, 27, 20, .18)), url('/assets/images/markets/hero-france.png');
+  background-image: linear-gradient(90deg, rgba(13, 27, 20, .4), rgba(13, 27, 20, .18)), url('/assets/images/markets/hero-france.webp');
 }
 
 .market-page .container {
@@ -517,7 +517,7 @@ th {
   border-radius: 2px;
   color: #fff;
   text-align: center;
-  background: linear-gradient(rgba(13, 27, 20, .4), rgba(13, 27, 20, .4)), url('/assets/images/markets/bg-cta-bright.png') center / cover no-repeat !important;
+  background: linear-gradient(rgba(13, 27, 20, .4), rgba(13, 27, 20, .4)), url('/assets/images/markets/bg-cta-bright.webp') center / cover no-repeat !important;
 }
 
 .market-page .final-cta h2 {

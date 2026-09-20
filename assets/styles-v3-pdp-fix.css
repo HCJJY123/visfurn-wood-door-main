@@ -3756,7 +3756,7 @@ body:not(.home-page) .site-footer .footer-cta::before {
   z-index: 0;
   inset: 0;
   content: "";
-  background: linear-gradient(rgba(26, 77, 46, .48), rgba(26, 77, 46, .48)), url('/assets/images/home/bg-cta-bright.png') center / cover no-repeat;
+  background: linear-gradient(rgba(26, 77, 46, .48), rgba(26, 77, 46, .48)), url('/assets/images/home/bg-cta-bright.webp') center / cover no-repeat;
 }
 
 body:not(.home-page) .site-footer .footer-cta > * {
