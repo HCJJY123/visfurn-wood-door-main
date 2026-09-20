@@ -6,6 +6,53 @@ const toggle = document.querySelector('[data-menu-toggle]');
 const track = (event, parameters = {}) => {
   window.dataLayer?.push({ event, ...parameters });
 };
+
+const setupMarketPageTracking = () => {
+  const country = document.documentElement.dataset.marketCountry;
+  const marketPage = document.documentElement.dataset.marketPage;
+  if (!country || !marketPage) return;
+
+  const parameters = { market_country: country, market_page: marketPage, language: document.documentElement.lang || 'en' };
+  track('market_page_view', parameters);
+  document.querySelectorAll('[data-market-cta]').forEach((link) => {
+    link.addEventListener('click', () => {
+      track('market_cta_click', { ...parameters, cta_type: link.dataset.marketCta || 'quote' });
+      if (link.dataset.marketCta === 'quote') track('market_quote_start', parameters);
+    });
+  });
+  const quoteForm = document.querySelector('#quote-form');
+  quoteForm?.addEventListener('submit', () => track('market_quote_submit', parameters));
+  quoteForm?.querySelectorAll('input[type="file"]').forEach((input) => {
+    input.addEventListener('change', () => {
+      if (input.files?.length) track('market_schedule_upload', parameters);
+    });
+  });
+};
+
+const prefillMarketCountry = () => {
+  const country = new URLSearchParams(window.location.search).get('market_country');
+  const field = document.querySelector('input[name="country"]');
+  if (country && field && !field.value) field.value = country;
+};
+
+const setupMarketsHubTracking = () => {
+  if (!document.documentElement.hasAttribute('data-markets-hub')) return;
+
+  const parameters = { market_page: '/markets', language: document.documentElement.lang || 'en' };
+  track('markets_hub_view', parameters);
+  document.querySelectorAll('[data-market-card]').forEach((link) => {
+    link.addEventListener('click', () => {
+      track('market_card_click', { ...parameters, market_name: link.dataset.marketCard || '' });
+    });
+  });
+  document.querySelectorAll('[data-markets-quote]').forEach((link) => {
+    link.addEventListener('click', () => track('markets_quote_click', parameters));
+  });
+};
+
+setupMarketPageTracking();
+setupMarketsHubTracking();
+prefillMarketCountry();
 const successfulLeadMarker = 'visfurn_quote_submission_success';
 const googleAdsLeadSendTo = 'AW-18306142236/REPLACE_WITH_REAL_CONVERSION_LABEL';
 
@@ -283,15 +330,14 @@ document.querySelectorAll('.faq-question').forEach((question) => {
   const localeOptions = [
     ['en', 'English'],
     ['es', 'Español'],
-    ['ar', 'العربية'],
-    ['fr', 'Français'],
-    ['pt', 'Português'],
-    ['de', 'Deutsch'],
-    ['it', 'Italiano'],
-    ['ru', 'Русский'],
-    ['nl', 'Nederlands']
+    ['ar', 'العربية']
   ];
   const supportedLocales = new Set(localeOptions.map(([locale]) => locale));
+  const localeLandingRoutes = {
+    en: '/',
+    es: '/es/puertas-para-proyectos',
+    ar: '/ar/wpc-doors'
+  };
   const translations = {
     'Home': { es: 'Inicio', ar: 'الرئيسية', fr: 'Accueil', pt: 'Início', de: 'Startseite', it: 'Home', ru: 'Главная', nl: 'Home' },
     'Products': { es: 'Productos', ar: 'المنتجات', fr: 'Produits', pt: 'Produtos', de: 'Produkte', it: 'Prodotti', ru: 'Продукты', nl: 'Producten' },
@@ -387,22 +433,8 @@ document.querySelectorAll('.faq-question').forEach((question) => {
       select.appendChild(option);
     });
     select.addEventListener('change', () => {
-      if (isLockedPage && select.value !== pageLocale) {
-        const alternate = document.querySelector(`link[rel="alternate"][hreflang="${select.value}"], link[rel="alternate"][hreflang^="${select.value}-"]`)
-          || document.querySelector('link[rel="alternate"][hreflang="x-default"]');
-        if (alternate) {
-          const target = new URL(alternate.href);
-          if (select.value !== 'en') target.searchParams.set('lang', select.value);
-          window.location.assign(target.toString());
-          return;
-        }
-        select.value = pageLocale;
-        return;
-      }
-      const url = new URL(window.location.href);
-      url.searchParams.set('lang', select.value);
-      window.history.replaceState({}, '', `${url.pathname}${url.search}${url.hash}`);
-      applyLocale(select.value);
+      const destination = localeLandingRoutes[select.value];
+      if (destination) window.location.assign(destination);
     });
     const cta = target.querySelector('.header-cta, .vf-btn-primary, .wpc-header-cta, .pdp-header-cta');
     if (cta && cta.parentElement === target) target.insertBefore(switcher, cta);
