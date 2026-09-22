@@ -7,12 +7,18 @@ const track = (event, parameters = {}) => {
   window.dataLayer?.push({ event, ...parameters });
 };
 
-const setupMarketPageTracking = () => {
+const getMarketTrackingParameters = () => {
   const country = document.documentElement.dataset.marketCountry;
   const marketPage = document.documentElement.dataset.marketPage;
-  if (!country || !marketPage) return;
+  if (!country || !marketPage) return null;
 
-  const parameters = { market_country: country, market_page: marketPage, language: document.documentElement.lang || 'en' };
+  return { market_country: country, market_page: marketPage, language: document.documentElement.lang || 'en' };
+};
+
+const setupMarketPageTracking = () => {
+  const parameters = getMarketTrackingParameters();
+  if (!parameters) return;
+
   track('market_page_view', parameters);
   document.querySelectorAll('[data-market-cta]').forEach((link) => {
     link.addEventListener('click', () => {
@@ -21,7 +27,6 @@ const setupMarketPageTracking = () => {
     });
   });
   const quoteForm = document.querySelector('#quote-form');
-  quoteForm?.addEventListener('submit', () => track('market_quote_submit', parameters));
   quoteForm?.querySelectorAll('input[type="file"]').forEach((input) => {
     input.addEventListener('change', () => {
       if (input.files?.length) track('market_schedule_upload', parameters);
@@ -53,8 +58,6 @@ const setupMarketsHubTracking = () => {
 setupMarketPageTracking();
 setupMarketsHubTracking();
 prefillMarketCountry();
-const successfulLeadMarker = 'visfurn_quote_submission_success';
-const googleAdsLeadSendTo = 'AW-18306142236/REPLACE_WITH_REAL_CONVERSION_LABEL';
 
 const getSessionStorage = () => {
   try {
@@ -63,43 +66,6 @@ const getSessionStorage = () => {
     return null;
   }
 };
-
-const sendGoogleEvent = (event, parameters = {}) => {
-  if (typeof window.gtag === 'function') {
-    window.gtag('event', event, parameters);
-    return;
-  }
-
-  track(event, parameters);
-};
-
-const trackConfirmedLead = () => {
-  const successPage = document.querySelector('[data-quote-request-success]');
-  if (!successPage) return;
-
-  const storage = getSessionStorage();
-  let hasConfirmedSubmission = false;
-
-  try {
-    hasConfirmedSubmission = storage?.getItem(successfulLeadMarker) === '1';
-    if (!hasConfirmedSubmission) return;
-
-    sendGoogleEvent('generate_lead', {
-      lead_source: 'website_form',
-      lead_type: 'b2b_quote_request'
-    });
-
-    if (!googleAdsLeadSendTo.includes('REPLACE_WITH_REAL_CONVERSION_LABEL')) {
-      sendGoogleEvent('conversion', { send_to: googleAdsLeadSendTo });
-    }
-  } finally {
-    if (hasConfirmedSubmission) {
-      storage?.removeItem(successfulLeadMarker);
-    }
-  }
-};
-
-trackConfirmedLead();
 if (toggle && nav) {
   toggle.setAttribute('aria-expanded', 'false');
   toggle.addEventListener('click', () => {
@@ -245,9 +211,41 @@ document.querySelectorAll('[data-file-upload]').forEach((upload) => {
 if (quoteForm) {
   let hasStarted = false;
   let isSubmitting = false;
+  const successfulSubmissionIdsKey = 'vf_confirmed_quote_submission_ids';
   const status = document.querySelector('#quote-form-status');
   const submitButton = quoteForm.querySelector('button[type="submit"]');
   const fileName = quoteForm.querySelector('[data-file-name]');
+  const attemptField = quoteForm.querySelector('input[name="submission_attempt_id"]');
+
+  const createSubmissionAttemptId = () => {
+    if (window.crypto?.randomUUID) return window.crypto.randomUUID();
+    return `vf-${Date.now()}-${Math.random().toString(16).slice(2)}`;
+  };
+
+  const ensureSubmissionAttemptId = () => {
+    if (!attemptField) return '';
+    if (!attemptField.value) attemptField.value = createSubmissionAttemptId();
+    return attemptField.value;
+  };
+
+  const readConfirmedSubmissionIds = () => {
+    try {
+      const value = getSessionStorage()?.getItem(successfulSubmissionIdsKey);
+      const parsed = value ? JSON.parse(value) : [];
+      return Array.isArray(parsed) ? parsed : [];
+    } catch (error) {
+      return [];
+    }
+  };
+
+  const recordConfirmedSubmissionId = (attemptId) => {
+    if (!attemptId) return;
+    const ids = readConfirmedSubmissionIds();
+    if (!ids.includes(attemptId)) ids.push(attemptId);
+    try {
+      getSessionStorage()?.setItem(successfulSubmissionIdsKey, JSON.stringify(ids.slice(-20)));
+    } catch (error) {}
+  };
 
   const setFormStatus = (message, state = '') => {
     if (!status) return;
@@ -266,10 +264,35 @@ if (quoteForm) {
     if (isSubmitting) return;
     if (!quoteForm.reportValidity()) return;
 
+    const attemptId = ensureSubmissionAttemptId();
+    if (attemptId && readConfirmedSubmissionIds().includes(attemptId)) {
+      setFormStatus('This inquiry was already confirmed. Please start a new inquiry if you need to send another request.', 'success');
+      return;
+    }
+
     isSubmitting = true;
     submitButton?.setAttribute('disabled', 'disabled');
     submitButton?.setAttribute('aria-busy', 'true');
     setFormStatus('Sending your project inquiry…', 'sending');
+    const attributionValue = (name) => quoteForm.querySelector(`[name="${name}"]`)?.value || '';
+    const submissionContext = {
+      page: window.location.pathname,
+      submission_attempt_id: attemptId,
+      landing_page: attributionValue('landing_page'),
+      first_product_page: attributionValue('first_product_page'),
+      market_page: attributionValue('market_page'),
+      destination_country: attributionValue('country'),
+      utm_source: attributionValue('utm_source'),
+      utm_medium: attributionValue('utm_medium'),
+      utm_campaign: attributionValue('utm_campaign'),
+      gclid_present: Boolean(attributionValue('gclid')),
+      ai_source: attributionValue('ai_source')
+    };
+    track('form_submit_attempt', submissionContext);
+    const marketParameters = getMarketTrackingParameters() || (submissionContext.market_page
+      ? { market_country: submissionContext.destination_country, market_page: submissionContext.market_page, language: document.documentElement.lang || 'en' }
+      : null);
+    if (marketParameters) track('market_quote_submit_attempt', marketParameters);
     try {
       const response = await fetch(quoteForm.action, {
         method: 'POST',
@@ -288,7 +311,9 @@ if (quoteForm) {
       quoteForm.reset();
       if (fileName) fileName.textContent = 'No file chosen';
       setFormStatus('Thank you. Your inquiry has been sent to VISFURN. Redirecting you now…', 'success');
-      getSessionStorage()?.setItem(successfulLeadMarker, '1');
+      recordConfirmedSubmissionId(attemptId);
+      track('form_submit_success', submissionContext);
+      if (marketParameters) track('market_quote_submit_success', marketParameters);
       const thankYouUrl = new URL('/quote-request-success', window.location.origin).href;
       window.setTimeout(() => {
         try {
@@ -305,7 +330,7 @@ if (quoteForm) {
       }, 1200);
     } catch (error) {
       setFormStatus(`We could not send the inquiry. ${error.message} Please email rose@visfurn.com directly if the problem continues.`, 'error');
-      track('form_submit_error', { page: window.location.pathname });
+      track('form_submit_error', submissionContext);
     } finally {
       isSubmitting = false;
       submitButton?.removeAttribute('disabled');
@@ -338,13 +363,15 @@ document.querySelectorAll('.faq-question').forEach((question) => {
   const localeOptions = [
     ['en', 'English'],
     ['es', 'Español'],
-    ['ar', 'العربية']
+    ['ar', 'العربية'],
+    ['mn', 'Монгол']
   ];
   const supportedLocales = new Set(localeOptions.map(([locale]) => locale));
   const localeLandingRoutes = {
     en: '/',
     es: '/es/puertas-para-proyectos',
-    ar: '/ar/wpc-doors'
+    ar: '/ar/wpc-doors',
+    mn: '/mn'
   };
   const translations = {
     'Home': { es: 'Inicio', ar: 'الرئيسية', fr: 'Accueil', pt: 'Início', de: 'Startseite', it: 'Home', ru: 'Главная', nl: 'Home' },
@@ -677,28 +704,61 @@ setupFloatingActions();
 
 (() => {
   const params = new URLSearchParams(window.location.search);
-  const storageKey = 'vf_first_referrer';
-  const firstReferrer = localStorage.getItem(storageKey) || document.referrer || '';
-  localStorage.setItem(storageKey, firstReferrer);
+  const storageKey = 'vf_first_landing_context';
+  const getLocalStorage = () => {
+    try {
+      return window.localStorage;
+    } catch (error) {
+      return null;
+    }
+  };
+  const storage = getLocalStorage();
   const aiSources = ['chatgpt.com', 'chat.openai.com', 'gemini.google.com', 'perplexity.ai', 'claude.ai'];
   const referrer = document.referrer || '';
   const aiSource = aiSources.find((source) => referrer.includes(source)) || (params.get('utm_source') === 'chatgpt.com' ? 'chatgpt.com' : '');
-  if (aiSource) track('ai_referral_visit', { ai_source: aiSource, landing_page: window.location.pathname });
+  const currentPath = window.location.pathname;
+  let firstContext;
+
+  try {
+    firstContext = JSON.parse(storage?.getItem(storageKey) || 'null');
+  } catch (error) {
+    firstContext = null;
+  }
+
+  if (!firstContext || typeof firstContext !== 'object' || !firstContext.landing_page) {
+    firstContext = {
+      landing_page: currentPath,
+      first_referrer: referrer,
+      ai_source: aiSource,
+      utm_source: params.get('utm_source') || '',
+      utm_medium: params.get('utm_medium') || '',
+      utm_campaign: params.get('utm_campaign') || '',
+      gclid: params.get('gclid') || '',
+      first_product_page: currentPath.startsWith('/products/') ? currentPath : '',
+      first_market_page: document.documentElement.dataset.marketPage || ''
+    };
+    try {
+      storage?.setItem(storageKey, JSON.stringify(firstContext));
+    } catch (error) {}
+  }
+
+  if (aiSource) track('ai_referral_visit', { ai_source: aiSource, landing_page: firstContext.landing_page });
   document.querySelectorAll('[data-attribution]').forEach((field) => {
     const key = field.dataset.attribution;
-    field.value = key === 'landing_page' ? window.location.pathname : key === 'first_referrer' ? firstReferrer : key === 'ai_source' ? aiSource : params.get(key) || '';
+    if (key === 'submission_page') field.value = currentPath;
+    else field.value = firstContext[key] || '';
   });
-  document.querySelectorAll('[data-track="project_rfq_start"]').forEach((link) => link.addEventListener('click', () => track('project_rfq_start', { page: window.location.pathname })));
-  const rfq = document.querySelector('[data-qualified-rfq]');
-  if (!rfq) return;
-  const upload = rfq.querySelector('input[type="file"]');
-  upload?.addEventListener('change', () => track('schedule_upload', { page: window.location.pathname, file_name: upload.files?.[0]?.name || '' }));
-  rfq.addEventListener('submit', () => {
-    const quantity = Number.parseInt(rfq.querySelector('[name="quantity"]')?.value || '', 10) || 0;
-    const buyerType = rfq.querySelector('[name="buyer_type"]')?.value || '';
-    const hasUpload = Boolean(upload?.files?.length);
-    const score = (quantity >= 50 ? 40 : quantity >= 20 ? 25 : 0) + (hasUpload ? 20 : 0) + (rfq.querySelector('[name="company"]')?.value ? 15 : 0) + (/Builder|Developer|Distributor|Hotel|Commercial/.test(buyerType) ? 15 : 0) + (rfq.querySelector('[name="destination_port"]')?.value ? 10 : 0);
-    track('project_rfq_submit', { page: window.location.pathname, lead_score_internal: score });
-    if (score >= 60) track('qualified_lead', { page: window.location.pathname, lead_score_internal: score });
+  document.querySelectorAll('[data-track="project_rfq_start"]').forEach((link) => link.addEventListener('click', () => track('project_rfq_start', { page: currentPath })));
+  const rfq = document.querySelector('#quote-form');
+  const upload = rfq?.querySelector('input[type="file"]');
+  upload?.addEventListener('change', () => {
+    const file = upload.files?.[0];
+    if (!file) return;
+    track('schedule_upload', {
+      page: currentPath,
+      has_upload: true,
+      file_type: file.type || 'unknown',
+      file_size_bucket: file.size < 1_000_000 ? 'under_1mb' : file.size < 5_000_000 ? '1mb_to_5mb' : 'over_5mb'
+    });
   });
 })();
