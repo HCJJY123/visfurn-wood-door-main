@@ -4,12 +4,7 @@
   "redirects": [
     {
       "source": "/es",
-      "destination": "/",
-      "permanent": true
-    },
-    {
-      "source": "/mn",
-      "destination": "/",
+      "destination": "/es/puertas-para-proyectos",
       "permanent": true
     },
     {
