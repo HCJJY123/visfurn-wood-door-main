@@ -7,6 +7,12 @@ const track = (event, parameters = {}) => {
   window.dataLayer?.push({ event, ...parameters });
 };
 
+document.addEventListener('visfurn:product-action', ({ detail }) => {
+  if (detail?.product_slug !== 'steel-fire-door-for-house') return;
+  const event = detail.action === 'quote' ? 'product_quote_click' : detail.action === 'email' ? 'product_email_click' : null;
+  if (event) track(event, { product_slug: detail.product_slug, product_path: detail.product_path });
+});
+
 const getMarketTrackingParameters = () => {
   const country = document.documentElement.dataset.marketCountry;
   const marketPage = document.documentElement.dataset.marketPage;
