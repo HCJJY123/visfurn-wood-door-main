@@ -286,6 +286,7 @@ if (quoteForm) {
       submission_attempt_id: attemptId,
       landing_page: attributionValue('landing_page'),
       first_product_page: attributionValue('first_product_page'),
+      product_page: attributionValue('product_page'),
       market_page: attributionValue('market_page'),
       destination_country: attributionValue('country'),
       utm_source: attributionValue('utm_source'),
@@ -719,6 +720,8 @@ setupFloatingActions();
     }
   };
   const storage = getLocalStorage();
+  let session;
+  try { session = window.sessionStorage; } catch (error) {}
   const aiSources = ['chatgpt.com', 'chat.openai.com', 'gemini.google.com', 'perplexity.ai', 'claude.ai'];
   const referrer = document.referrer || '';
   const aiSource = aiSources.find((source) => referrer.includes(source)) || (params.get('utm_source') === 'chatgpt.com' ? 'chatgpt.com' : '');
@@ -743,15 +746,27 @@ setupFloatingActions();
       first_product_page: currentPath.startsWith('/products/') ? currentPath : '',
       first_market_page: document.documentElement.dataset.marketPage || ''
     };
-    try {
-      storage?.setItem(storageKey, JSON.stringify(firstContext));
-    } catch (error) {}
+  }
+
+  if (currentPath.startsWith('/products/')) {
+    if (!firstContext.first_product_page) firstContext.first_product_page = currentPath;
+    try { session?.setItem('vf_current_product_page', currentPath); } catch (error) {}
+  }
+  if (document.documentElement.dataset.marketPage && !firstContext.first_market_page) {
+    firstContext.first_market_page = document.documentElement.dataset.marketPage;
+  }
+  try { storage?.setItem(storageKey, JSON.stringify(firstContext)); } catch (error) {}
+
+  let productPage = params.get('product_page') || '';
+  if (!productPage) {
+    try { productPage = session?.getItem('vf_current_product_page') || ''; } catch (error) {}
   }
 
   if (aiSource) track('ai_referral_visit', { ai_source: aiSource, landing_page: firstContext.landing_page });
   document.querySelectorAll('[data-attribution]').forEach((field) => {
     const key = field.dataset.attribution;
     if (key === 'submission_page') field.value = currentPath;
+    else if (key === 'product_page') field.value = productPage;
     else field.value = firstContext[key] || '';
   });
   document.querySelectorAll('[data-track="project_rfq_start"]').forEach((link) => link.addEventListener('click', () => track('project_rfq_start', { page: currentPath })));
