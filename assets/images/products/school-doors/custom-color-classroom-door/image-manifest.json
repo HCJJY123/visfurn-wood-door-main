@@ -1,0 +1,73 @@
+{
+  "product": "Custom Color Classroom Door",
+  "assetStatus": "ready",
+  "visualStatus": "Concept rendering / Design reference",
+  "approved": false,
+  "reviewedOn": "2026-09-26",
+  "sourceManifest": "accio-image-handoff.json",
+  "baseUrl": "/assets/images/products/school-doors/custom-color-classroom-door/",
+  "usageRestrictions": [
+    "Do not describe these images as a completed Visfurn project or installed customer case.",
+    "Do not infer material, color code, fire rating, acoustic rating, security rating, certification, installation approval or hardware specification from these images."
+  ],
+  "images": [
+    {
+      "role": "01-front",
+      "status": "ready",
+      "alt": "Visfurn custom color classroom door, front view",
+      "caption": "Concept rendering — design reference only.",
+      "variants": [
+        {
+          "url": "/assets/images/products/school-doors/custom-color-classroom-door/visfurn-classroom-door-01-front-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 5386,
+          "sha256": "4e409f54d34f410214c7d318d37d4fd49c41a5e72442b32810f901598507ccc8"
+        },
+        {
+          "url": "/assets/images/products/school-doors/custom-color-classroom-door/visfurn-classroom-door-01-front-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 16680,
+          "sha256": "04afab11686f25c4a85f81ca714fffc40a0687e721af131fea1e68786d043f20"
+        },
+        {
+          "url": "/assets/images/products/school-doors/custom-color-classroom-door/visfurn-classroom-door-01-front-1600.webp",
+          "width": 1600,
+          "height": 2000,
+          "bytes": 40244,
+          "sha256": "b865201207acec26458cd8ddb52d38b35c3485071618838982ec14b82ddcaa75"
+        }
+      ]
+    },
+    {
+      "role": "03-classroom",
+      "status": "ready",
+      "alt": "Visfurn custom color classroom door in an illustrative school corridor",
+      "caption": "Illustrative classroom setting; not a completed Visfurn project photograph.",
+      "variants": [
+        {
+          "url": "/assets/images/products/school-doors/custom-color-classroom-door/visfurn-classroom-door-03-classroom-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 5806,
+          "sha256": "1701e5b11bb6a2c3c5f9bfa725a8b7d01b7fd18b82d5a0a22a554737a5c7c3ad"
+        },
+        {
+          "url": "/assets/images/products/school-doors/custom-color-classroom-door/visfurn-classroom-door-03-classroom-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 17642,
+          "sha256": "874effda3173420272d141b82e6f18dfff7c8c9e69e3b87c4675cc577d353b16"
+        },
+        {
+          "url": "/assets/images/products/school-doors/custom-color-classroom-door/visfurn-classroom-door-03-classroom-1600.webp",
+          "width": 1600,
+          "height": 1200,
+          "bytes": 49120,
+          "sha256": "a4bc4e6f21b8c0aceffa139bb912ad84c014e44d53b9d44ca18135773ab0acdb"
+        }
+      ]
+    }
+  ]
+}
