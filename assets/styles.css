@@ -1,0 +1,108 @@
+@import url("/assets/global-ui.css");
+
+:root {
+  --vf-page-ink: #18231f;
+  --vf-page-muted: #68736d;
+  --vf-page-line: #dde5df;
+  --vf-page-canvas: #f4f2ec;
+  --vf-page-surface: #fbfaf6;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  overflow-wrap: anywhere;
+  color: var(--vf-page-ink);
+  background: var(--vf-page-canvas);
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+a {
+  color: inherit;
+}
+
+p,
+li,
+figcaption {
+  color: var(--vf-page-muted);
+}
+
+figure {
+  min-width: 0;
+  margin: 0;
+}
+
+.market img {
+  height: auto;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  gap: clamp(18px, 3vw, 34px);
+  min-width: 0;
+  padding: 16px clamp(16px, 4vw, 56px);
+  border-bottom: 1px solid rgba(24, 35, 31, .12);
+  background: rgba(251, 250, 246, .94);
+  backdrop-filter: blur(14px);
+}
+
+.site-header a {
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.site-header a:first-child {
+  margin-right: auto;
+  color: var(--vf-page-ink);
+  font-size: 18px;
+  letter-spacing: .08em;
+}
+
+.site-header a:hover,
+.site-header a:focus-visible {
+  color: #7c4f2c;
+}
+
+.site-header a:focus-visible,
+.market a:focus-visible,
+summary:focus-visible {
+  outline: 3px solid rgba(181, 129, 85, .42);
+  outline-offset: 4px;
+}
+
+@media (max-width: 520px) {
+  .site-header {
+    gap: 16px;
+    padding-block: 13px;
+  }
+
+  .site-header a {
+    font-size: 13px;
+  }
+
+  .site-header a:first-child {
+    font-size: 16px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
