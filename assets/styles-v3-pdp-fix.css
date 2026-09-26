@@ -2925,6 +2925,14 @@ h3 {
   font-size: 15px;
 }
 
+.contact-form-intro .contact-product-context {
+  max-width: none;
+  padding: 12px 14px;
+  border: 1px solid rgba(86, 48, 25, 0.18);
+  background: rgba(181, 129, 85, 0.09);
+  color: var(--ink);
+}
+
 .contact-form-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));

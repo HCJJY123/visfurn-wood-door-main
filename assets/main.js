@@ -8,7 +8,7 @@ const track = (event, parameters = {}) => {
 };
 
 document.addEventListener('visfurn:product-action', ({ detail }) => {
-  if (detail?.product_slug !== 'steel-fire-door-for-house') return;
+  if (!detail?.product_slug || !detail?.product_path) return;
   const event = detail.action === 'quote' ? 'product_quote_click' : detail.action === 'email' ? 'product_email_click' : null;
   if (event) track(event, { product_slug: detail.product_slug, product_path: detail.product_path });
 });
@@ -757,7 +757,7 @@ setupFloatingActions();
   }
   try { storage?.setItem(storageKey, JSON.stringify(firstContext)); } catch (error) {}
 
-  let productPage = params.get('product_page') || '';
+  let productPage = params.get('product_page') || params.get('source_page') || '';
   if (!productPage) {
     try { productPage = session?.getItem('vf_current_product_page') || ''; } catch (error) {}
   }
