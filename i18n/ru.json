@@ -1,0 +1,244 @@
+{
+  "status": "approved",
+  "dir": "ltr",
+  "liveAlternates": [
+    {
+      "hreflang": "en",
+      "href": "https://www.visfurn.com/products/wpc-doors"
+    },
+    {
+      "hreflang": "en-US",
+      "href": "https://www.visfurn.com/us/prehung-interior-door-sets"
+    },
+    {
+      "hreflang": "ar",
+      "href": "https://www.visfurn.com/ar/wpc-doors"
+    },
+    {
+      "hreflang": "es",
+      "href": "https://www.visfurn.com/es/puertas-interiores"
+    },
+    {
+      "hreflang": "fr",
+      "href": "https://www.visfurn.com/fr/blocs-portes-interieures"
+    },
+    {
+      "hreflang": "ru",
+      "href": "https://www.visfurn.com/ru/mezhkomnatnye-dveri"
+    },
+    {
+      "hreflang": "mn-MN",
+      "href": "https://www.visfurn.com/mn"
+    },
+    {
+      "hreflang": "x-default",
+      "href": "https://www.visfurn.com/products/wpc-doors"
+    }
+  ],
+  "priceLadder": null,
+  "content": {
+    "videoNote": "",
+    "statLabel": "Planificación de contenedor"
+  },
+  "lang": "ru",
+  "slug": "mezhkomnatnye-dveri",
+  "meta": {
+    "title": "Межкомнатные двери оптом с завода в Китае | VISFURN",
+    "description": "Полные комплекты дверей: полотно, коробка, петли, замок. Размеры под заказ. Минимальный заказ 10 комплектов. EXW или доставка до Эрэн-Хото."
+  },
+  "h1": "Межкомнатные двери — прямые поставки с завода",
+  "subtitle": "Полный комплект: полотно + коробка + петли + замок. Размеры под заказ.",
+  "specChips": [
+    "WPC",
+    "Массив",
+    "Влагостойкие",
+    "Размеры под заказ",
+    "Покраска на выбор"
+  ],
+  "moq": {
+    "label": "Минимальный заказ",
+    "value": "10 комплектов"
+  },
+  "leadTime": {
+    "label": "Срок изготовления",
+    "value": "Подтверждается после согласования проекта"
+  },
+  "doorSetItems": [
+    {
+      "name": "Дверное полотно",
+      "spec": "Размер, толщина и отделка проверяются по спецификации."
+    },
+    {
+      "name": "Коробка",
+      "spec": "Ширина подбирается под чистовую толщину стены."
+    },
+    {
+      "name": "Петли",
+      "spec": "Подготовка проверяется по фурнитуре и открыванию."
+    },
+    {
+      "name": "Замок",
+      "spec": "Подготовка подтверждается до производства."
+    }
+  ],
+  "cta": {
+    "quote": "Запросить цену",
+    "sample": "Запросить образец",
+    "whatsapp": "WhatsApp"
+  },
+  "badges": [
+    "Fábrica directa",
+    "OEM / ODM",
+    "Embalaje de exportación",
+    "Medidas a pedido"
+  ],
+  "tabs": [
+    "Обзор",
+    "Характеристики",
+    "Применение",
+    "Доставка",
+    "Вопросы и ответы"
+  ],
+  "specTable": [
+    {
+      "k": "Materiales",
+      "v": "WPC, madera maciza y soluciones interiores revisadas según el uso."
+    },
+    {
+      "k": "Espesor de hoja",
+      "v": "Confirmado según construcción y proyecto."
+    },
+    {
+      "k": "Marco",
+      "v": "Profundidad adaptada al espesor final del muro."
+    },
+    {
+      "k": "Relleno",
+      "v": "Revisado por peso, durabilidad y presupuesto."
+    },
+    {
+      "k": "Superficie",
+      "v": "Muestra o referencia confirmada antes de producir."
+    },
+    {
+      "k": "Colores",
+      "v": "Referencias del proyecto revisadas antes de producir."
+    }
+  ],
+  "sizeTable": {
+    "title": "Стандартные размеры полотна",
+    "unit": "Финальные размеры проверяются по проёму, стене и коробке.",
+    "rows": [
+      [
+        "2020 × 800 мм",
+        "Основной ориентир"
+      ],
+      [
+        "2020 × 700 мм",
+        "Доступно"
+      ],
+      [
+        "2020 × 900 мм",
+        "Доступно"
+      ],
+      [
+        "Другие размеры",
+        "Под заказ"
+      ]
+    ]
+  },
+  "videoCaption": "Bloque de puerta montado: hoja, marco, bisagras y cerradura.",
+  "applications": [
+    {
+      "title": "Vivienda",
+      "body": "Medidas, acabados y marcos revisados por ambiente."
+    },
+    {
+      "title": "Departamentos",
+      "body": "Coordinación por lista de puertas."
+    },
+    {
+      "title": "Hotelería",
+      "body": "Puertas de habitación y baño por proyecto."
+    },
+    {
+      "title": "Distribuidores",
+      "body": "Modelos equivalentes desde catálogo."
+    }
+  ],
+  "packing": {
+    "title": "Экспортная упаковка и планирование контейнера",
+    "setsPer40HQ": "Подтверждается по размерам, коробке и плану упаковки.",
+    "note": "Фиксированное количество не публикуется."
+  },
+  "logisticsBlock": {
+    "title": "Условия поставки для Монголии",
+    "body": "EXW Tianjin, FCA Tianjin, FCA Erenhot или DAP Ulaanbaatar рассматриваются по проекту. Возможны авто- или железнодорожные перевозки через Эренхот."
+  },
+  "extraModule": {
+    "type": "filling-options",
+    "title": "Варианты заполнения полотна",
+    "body": "Сотовый картон — базовый вариант; деревянный брус — повышенная жёсткость; ППУ / XPS — тепло- и шумоизоляция. Заполнение влияет на вес, звук и стоимость.",
+    "cta": "Отправить требования к заполнению"
+  },
+  "faq": [
+    {
+      "q": "¿El precio incluye marco, bisagras y cerradura?",
+      "a": "La configuración y el alcance final se confirman con su lista de puertas, medidas, acabado, herrajes y destino."
+    },
+    {
+      "q": "¿Cuál es el pedido mínimo?",
+      "a": "La configuración y el alcance final se confirman con su lista de puertas, medidas, acabado, herrajes y destino."
+    },
+    {
+      "q": "¿Pueden fabricar medidas especiales?",
+      "a": "La configuración y el alcance final se confirman con su lista de puertas, medidas, acabado, herrajes y destino."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre puertas WPC y de madera?",
+      "a": "La configuración y el alcance final se confirman con su lista de puertas, medidas, acabado, herrajes y destino."
+    },
+    {
+      "q": "¿Cuántos juegos entran en un contenedor de 40 pies?",
+      "a": "La configuración y el alcance final se confirman con su lista de puertas, medidas, acabado, herrajes y destino."
+    },
+    {
+      "q": "¿Qué información debo enviar para una cotización?",
+      "a": "La configuración y el alcance final se confirman con su lista de puertas, medidas, acabado, herrajes y destino."
+    }
+  ],
+  "images": {
+    "hero": {
+      "src": "/assets/images/localized-doors/ru/ru-interior-door-set-hero-1600-1200.webp",
+      "srcset": "/assets/images/localized-doors/ru/ru-interior-door-set-hero-1600-480.webp 480w, /assets/images/localized-doors/ru/ru-interior-door-set-hero-1600-768.webp 768w, /assets/images/localized-doors/ru/ru-interior-door-set-hero-1600-1200.webp 1200w, /assets/images/localized-doors/ru/ru-interior-door-set-hero-1600-1600.webp 1600w",
+      "width": 1600,
+      "height": 2000
+    },
+    "heroAlt": "Комплект межкомнатной двери для жилого проекта",
+    "application": {
+      "src": "/assets/images/localized-doors/ru/ru-interior-door-apartment-project-1600-1200.webp",
+      "srcset": "/assets/images/localized-doors/ru/ru-interior-door-apartment-project-1600-480.webp 480w, /assets/images/localized-doors/ru/ru-interior-door-apartment-project-1600-768.webp 768w, /assets/images/localized-doors/ru/ru-interior-door-apartment-project-1600-1200.webp 1200w, /assets/images/localized-doors/ru/ru-interior-door-apartment-project-1600-1600.webp 1600w",
+      "width": 1600,
+      "height": 900
+    },
+    "applicationAlt": "Межкомнатные двери в проекте квартир",
+    "packing": {
+      "src": "/assets/images/localized-doors/ru/ru-interior-door-land-transport-packing-1600-1200.webp",
+      "srcset": "/assets/images/localized-doors/ru/ru-interior-door-land-transport-packing-1600-480.webp 480w, /assets/images/localized-doors/ru/ru-interior-door-land-transport-packing-1600-768.webp 768w, /assets/images/localized-doors/ru/ru-interior-door-land-transport-packing-1600-1200.webp 1200w, /assets/images/localized-doors/ru/ru-interior-door-land-transport-packing-1600-1600.webp 1600w",
+      "width": 1600,
+      "height": 900
+    },
+    "packingAlt": "Экспортная упаковка для наземной перевозки"
+  },
+  "statLabel": "Планирование контейнера",
+  "copy": {
+    "topLine": "Дверные комплекты для проектов",
+    "homeLabel": "Главная",
+    "categoryLabel": "Межкомнатные двери",
+    "categoryHref": "/products/interior-doors",
+    "eyebrow": "VISFURN · Поставка для проектов",
+    "illustrationCaption": "Иллюстративный визуал для планирования",
+    "footerCategoryLabel": "Межкомнатные двери",
+    "footerCategoryHref": "/products/interior-doors"
+  }
+}
