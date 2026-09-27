@@ -5,10 +5,38 @@
   "dir": "ltr",
   "slug": "prehung-interior-door-sets",
   "liveAlternates": [
-    { "hreflang": "en", "href": "https://www.visfurn.com/products/wpc-doors" },
-    { "hreflang": "en-US", "href": "https://www.visfurn.com/us/prehung-interior-door-sets" },
-    { "hreflang": "ar", "href": "https://www.visfurn.com/ar/wpc-doors" },
-    { "hreflang": "x-default", "href": "https://www.visfurn.com/products/wpc-doors" }
+    {
+      "hreflang": "en",
+      "href": "https://www.visfurn.com/products/wpc-doors"
+    },
+    {
+      "hreflang": "en-US",
+      "href": "https://www.visfurn.com/us/prehung-interior-door-sets"
+    },
+    {
+      "hreflang": "ar",
+      "href": "https://www.visfurn.com/ar/wpc-doors"
+    },
+    {
+      "hreflang": "es",
+      "href": "https://www.visfurn.com/es/puertas-interiores"
+    },
+    {
+      "hreflang": "fr",
+      "href": "https://www.visfurn.com/fr/blocs-portes-interieures"
+    },
+    {
+      "hreflang": "ru",
+      "href": "https://www.visfurn.com/ru/mezhkomnatnye-dveri"
+    },
+    {
+      "hreflang": "mn-MN",
+      "href": "https://www.visfurn.com/mn"
+    },
+    {
+      "hreflang": "x-default",
+      "href": "https://www.visfurn.com/products/wpc-doors"
+    }
   ],
   "meta": {
     "title": "Prehung Interior Door Sets Wholesale | Factory Direct | VISFURN",
@@ -16,47 +44,165 @@
   },
   "h1": "Prehung Interior Door Sets — Factory Direct from China",
   "subtitle": "Slab, jamb, hinges and lockset shipped as one complete unit. Custom sizes in inches.",
-  "specChips": ["WPC", "Solid Wood", "Moisture Resistant", "Custom Sizes", "Prehung or Slab Only"],
-  "moq": { "label": "Minimum Order", "value": "10 sets" },
-  "leadTime": { "label": "Production Lead Time", "value": "{{LEAD_TIME}}" },
+  "specChips": [
+    "WPC",
+    "Solid Wood",
+    "Moisture Resistant",
+    "Custom Sizes",
+    "Prehung or Slab Only"
+  ],
+  "moq": {
+    "label": "Minimum Order",
+    "value": "10 sets"
+  },
+  "leadTime": {
+    "label": "Production Lead Time",
+    "value": "{{LEAD_TIME}}"
+  },
   "priceLadder": null,
   "doorSetItems": [
-    { "name": "Door slab", "spec": "Size, thickness and finish reviewed against your opening schedule." },
-    { "name": "Jamb", "spec": "Depth matched to your finished wall thickness." },
-    { "name": "Hinges", "spec": "Pre-mortised preparation reviewed by hardware type and handing." },
-    { "name": "Lockset", "spec": "Bore preparation reviewed before production." }
+    {
+      "name": "Door slab",
+      "spec": "Size, thickness and finish reviewed against your opening schedule."
+    },
+    {
+      "name": "Jamb",
+      "spec": "Depth matched to your finished wall thickness."
+    },
+    {
+      "name": "Hinges",
+      "spec": "Pre-mortised preparation reviewed by hardware type and handing."
+    },
+    {
+      "name": "Lockset",
+      "spec": "Bore preparation reviewed before production."
+    }
   ],
-  "cta": { "quote": "Request Quote", "sample": "Request Sample", "whatsapp": "WhatsApp" },
-  "badges": ["Factory Direct", "OEM / ODM", "Export Packing", "Custom Sizes"],
-  "tabs": ["Overview", "Specifications", "Applications", "Shipping", "FAQ"],
+  "cta": {
+    "quote": "Request Quote",
+    "sample": "Request Sample",
+    "whatsapp": "WhatsApp"
+  },
+  "badges": [
+    "Factory Direct",
+    "OEM / ODM",
+    "Export Packing",
+    "Custom Sizes"
+  ],
+  "tabs": [
+    "Overview",
+    "Specifications",
+    "Applications",
+    "Shipping",
+    "FAQ"
+  ],
   "specTable": [
-    { "k": "Door materials", "v": "WPC, solid wood and project-specific interior door routes reviewed by application." },
-    { "k": "Leaf thickness", "v": "Reviewed by construction and project requirement." },
-    { "k": "Jamb depth", "v": "Matched to the finished wall thickness supplied for each opening." },
-    { "k": "Core / filling", "v": "Reviewed by durability, weight, acoustic intent and budget." },
-    { "k": "Surface", "v": "Finish sample and reference are confirmed before production." },
-    { "k": "Colors", "v": "Project colors and finish references reviewed before production." }
+    {
+      "k": "Door materials",
+      "v": "WPC, solid wood and project-specific interior door routes reviewed by application."
+    },
+    {
+      "k": "Leaf thickness",
+      "v": "Reviewed by construction and project requirement."
+    },
+    {
+      "k": "Jamb depth",
+      "v": "Matched to the finished wall thickness supplied for each opening."
+    },
+    {
+      "k": "Core / filling",
+      "v": "Reviewed by durability, weight, acoustic intent and budget."
+    },
+    {
+      "k": "Surface",
+      "v": "Finish sample and reference are confirmed before production."
+    },
+    {
+      "k": "Colors",
+      "v": "Project colors and finish references reviewed before production."
+    }
   ],
   "sizeTable": {
     "title": "Common US prehung door sizes",
     "unit": "Inches first · millimeter reference in parentheses",
-    "rows": [["30\" × 80\"", "762 × 2032 mm"], ["32\" × 80\"", "813 × 2032 mm"], ["36\" × 80\"", "914 × 2032 mm"], ["36\" × 84\"", "914 × 2134 mm"], ["36\" × 96\"", "914 × 2438 mm"], ["Custom sizes", "Available for review"]]
+    "rows": [
+      [
+        "30\" × 80\"",
+        "762 × 2032 mm"
+      ],
+      [
+        "32\" × 80\"",
+        "813 × 2032 mm"
+      ],
+      [
+        "36\" × 80\"",
+        "914 × 2032 mm"
+      ],
+      [
+        "36\" × 84\"",
+        "914 × 2134 mm"
+      ],
+      [
+        "36\" × 96\"",
+        "914 × 2438 mm"
+      ],
+      [
+        "Custom sizes",
+        "Available for review"
+      ]
+    ]
   },
   "videoCaption": "Prehung set assembled — slab, jamb, hinges and lockset. Video source pending.",
   "applications": [
-    { "title": "Rental & Apartment Turnover", "body": "Repeatable sizes, durable finish and packing by unit count." },
-    { "title": "Residential Project Supply", "body": "Mixed room types on one schedule, with jamb depth matched per opening." }
+    {
+      "title": "Rental & Apartment Turnover",
+      "body": "Repeatable sizes, durable finish and packing by unit count."
+    },
+    {
+      "title": "Residential Project Supply",
+      "body": "Mixed room types on one schedule, with jamb depth matched per opening."
+    }
   ],
-  "packing": { "title": "Export packing & container planning", "setsPer40HQ": "{{SETS_PER_40HQ}}", "note": "Packing configuration and 40HQ capacity are confirmed from the approved door schedule, jamb scope and packaging plan." },
-  "logisticsBlock": { "title": "Shipping Terms Explained", "body": "EXW: you arrange pickup from our factory. CIF: we ship to your port; you handle customs and duties. DDP: freight, customs, duties and delivery are quoted to your address. Tell us your city and whether you have a customs broker, and we will recommend the right route." },
-  "extraModule": { "type": "slab-only", "title": "Need slab only?", "body": "If your installer is reusing existing jambs, we can review door slabs without jamb or hardware. Specify slab size and handing.", "cta": "Quote slab only" },
+  "packing": {
+    "title": "Export packing & container planning",
+    "setsPer40HQ": "{{SETS_PER_40HQ}}",
+    "note": "Packing configuration and 40HQ capacity are confirmed from the approved door schedule, jamb scope and packaging plan."
+  },
+  "logisticsBlock": {
+    "title": "Shipping Terms Explained",
+    "body": "EXW: you arrange pickup from our factory. CIF: we ship to your port; you handle customs and duties. DDP: freight, customs, duties and delivery are quoted to your address. Tell us your city and whether you have a customs broker, and we will recommend the right route."
+  },
+  "extraModule": {
+    "type": "slab-only",
+    "title": "Need slab only?",
+    "body": "If your installer is reusing existing jambs, we can review door slabs without jamb or hardware. Specify slab size and handing.",
+    "cta": "Quote slab only"
+  },
   "faq": [
-    { "q": "Does the price include jamb, hinges and lockset?", "a": "A complete prehung set can include the slab, jamb, hinges and lockset preparation. The final scope and quotation are confirmed from your door schedule and hardware requirements." },
-    { "q": "What is the minimum order?", "a": "The minimum order is 10 sets." },
-    { "q": "Can you match my finished wall thickness?", "a": "Yes. Send the finished wall thickness for each opening so the jamb depth can be reviewed with the schedule." },
-    { "q": "Can I order slab only?", "a": "Yes. If you are reusing existing jambs, send the slab size and handing for review." },
-    { "q": "How many sets fit in a 40HQ container?", "a": "{{SETS_PER_40HQ}}. The final capacity depends on approved leaf sizes, jamb scope and packaging configuration." },
-    { "q": "What do you need from me to quote?", "a": "Send the quantity, door sizes, finished wall thickness, jamb scope, finish, hardware preparation, handing and destination." }
+    {
+      "q": "Does the price include jamb, hinges and lockset?",
+      "a": "A complete prehung set can include the slab, jamb, hinges and lockset preparation. The final scope and quotation are confirmed from your door schedule and hardware requirements."
+    },
+    {
+      "q": "What is the minimum order?",
+      "a": "The minimum order is 10 sets."
+    },
+    {
+      "q": "Can you match my finished wall thickness?",
+      "a": "Yes. Send the finished wall thickness for each opening so the jamb depth can be reviewed with the schedule."
+    },
+    {
+      "q": "Can I order slab only?",
+      "a": "Yes. If you are reusing existing jambs, send the slab size and handing for review."
+    },
+    {
+      "q": "How many sets fit in a 40HQ container?",
+      "a": "{{SETS_PER_40HQ}}. The final capacity depends on approved leaf sizes, jamb scope and packaging configuration."
+    },
+    {
+      "q": "What do you need from me to quote?",
+      "a": "Send the quantity, door sizes, finished wall thickness, jamb scope, finish, hardware preparation, handing and destination."
+    }
   ],
   "images": {
     "hero": {

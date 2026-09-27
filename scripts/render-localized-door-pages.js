@@ -16,7 +16,7 @@ for (const fileName of fs.readdirSync(i18nDirectory).filter((file) => file.endsW
     continue;
   }
   const languageDirectory = config.pathPrefix || config.lang.split('-')[0];
-  const outputPath = path.join(root, languageDirectory, `${config.slug}.html`);
+  const outputPath = path.join(root, languageDirectory, config.slug ? `${config.slug}.html` : 'index.html');
   fs.mkdirSync(path.dirname(outputPath), { recursive: true });
   fs.writeFileSync(outputPath, renderLandingPage(config));
   console.log(`Rendered ${path.relative(root, outputPath)}`);

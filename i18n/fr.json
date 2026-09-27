@@ -1,1 +1,240 @@
-{"status":"awaiting-native-review","lang":"fr","dir":"ltr","slug":"blocs-portes-interieures","meta":{"title":"","description":""},"h1":"","subtitle":"","specChips":["","","","",""],"moq":{"label":"","value":"10"},"leadTime":{"label":"","value":"{{LEAD_TIME}}"},"priceLadder":null,"doorSetItems":[],"cta":{"quote":"","sample":"","whatsapp":""},"badges":["","","",""],"tabs":["","","","",""],"specTable":[],"sizeTable":{"title":"","unit":"","rows":[]},"videoCaption":"","applications":[],"packing":{"title":"","setsPer40HQ":"{{SETS_PER_40HQ}}","note":""},"logisticsBlock":{"title":"","body":""},"extraModule":{"type":"","title":"","body":"","cta":""},"faq":[]}
+{
+  "status": "approved",
+  "dir": "ltr",
+  "liveAlternates": [
+    {
+      "hreflang": "en",
+      "href": "https://www.visfurn.com/products/wpc-doors"
+    },
+    {
+      "hreflang": "en-US",
+      "href": "https://www.visfurn.com/us/prehung-interior-door-sets"
+    },
+    {
+      "hreflang": "ar",
+      "href": "https://www.visfurn.com/ar/wpc-doors"
+    },
+    {
+      "hreflang": "es",
+      "href": "https://www.visfurn.com/es/puertas-interiores"
+    },
+    {
+      "hreflang": "fr",
+      "href": "https://www.visfurn.com/fr/blocs-portes-interieures"
+    },
+    {
+      "hreflang": "ru",
+      "href": "https://www.visfurn.com/ru/mezhkomnatnye-dveri"
+    },
+    {
+      "hreflang": "mn-MN",
+      "href": "https://www.visfurn.com/mn"
+    },
+    {
+      "hreflang": "x-default",
+      "href": "https://www.visfurn.com/products/wpc-doors"
+    }
+  ],
+  "priceLadder": null,
+  "content": {
+    "videoNote": "",
+    "statLabel": "Planificación de contenedor"
+  },
+  "lang": "fr",
+  "slug": "blocs-portes-interieures",
+  "meta": {
+    "title": "Blocs-Portes Intérieurs sur Mesure | Fabricant Chine | VISFURN",
+    "description": "Blocs-portes complets : vantail, huisserie, paumelles et serrure. Dimensions 83×204, 73×204 ou sur mesure. Commande minimum 10 blocs."
+  },
+  "h1": "Blocs-Portes Intérieurs — Fabricant Direct",
+  "subtitle": "Bloc complet : vantail + huisserie + paumelles + serrure. Dimensions sur mesure.",
+  "specChips": [
+    "WPC",
+    "Madera maciza",
+    "Resistente a la humedad",
+    "Medidas personalizadas",
+    "Acabado a elección"
+  ],
+  "moq": {
+    "label": "Commande minimum",
+    "value": "10 blocs"
+  },
+  "leadTime": {
+    "label": "Délai de fabrication",
+    "value": "Confirmé après revue du projet"
+  },
+  "doorSetItems": [
+    {
+      "name": "Vantail",
+      "spec": "Dimensions, épaisseur et finition revues selon votre tableau."
+    },
+    {
+      "name": "Huisserie",
+      "spec": "Largeur adaptée à l’épaisseur finie du mur."
+    },
+    {
+      "name": "Paumelles",
+      "spec": "Préparation revue selon la quincaillerie."
+    },
+    {
+      "name": "Serrure",
+      "spec": "Préparation confirmée avant production."
+    }
+  ],
+  "cta": {
+    "quote": "Demander un devis",
+    "sample": "Demander un échantillon",
+    "whatsapp": "WhatsApp"
+  },
+  "badges": [
+    "Fábrica directa",
+    "OEM / ODM",
+    "Embalaje de exportación",
+    "Medidas a pedido"
+  ],
+  "tabs": [
+    "Présentation",
+    "Caractéristiques",
+    "Applications",
+    "Expédition",
+    "FAQ"
+  ],
+  "specTable": [
+    {
+      "k": "Materiales",
+      "v": "WPC, madera maciza y soluciones interiores revisadas según el uso."
+    },
+    {
+      "k": "Espesor de hoja",
+      "v": "Confirmado según construcción y proyecto."
+    },
+    {
+      "k": "Marco",
+      "v": "Profundidad adaptada al espesor final del muro."
+    },
+    {
+      "k": "Relleno",
+      "v": "Revisado por peso, durabilidad y presupuesto."
+    },
+    {
+      "k": "Superficie",
+      "v": "Muestra o referencia confirmada antes de producir."
+    },
+    {
+      "k": "Colores",
+      "v": "Referencias del proyecto revisadas antes de producir."
+    }
+  ],
+  "sizeTable": {
+    "title": "Dimensions fréquemment demandées",
+    "unit": "Les dimensions finales sont revues avec l’ouverture, le mur et l’huisserie.",
+    "rows": [
+      [
+        "83 × 204 cm",
+        "Référence projet"
+      ],
+      [
+        "73 × 204 cm",
+        "Référence projet"
+      ],
+      [
+        "Autres dimensions",
+        "Sur mesure"
+      ]
+    ]
+  },
+  "videoCaption": "Bloque de puerta montado: hoja, marco, bisagras y cerradura.",
+  "applications": [
+    {
+      "title": "Vivienda",
+      "body": "Medidas, acabados y marcos revisados por ambiente."
+    },
+    {
+      "title": "Departamentos",
+      "body": "Coordinación por lista de puertas."
+    },
+    {
+      "title": "Hotelería",
+      "body": "Puertas de habitación y baño por proyecto."
+    },
+    {
+      "title": "Distribuidores",
+      "body": "Modelos equivalentes desde catálogo."
+    }
+  ],
+  "packing": {
+    "title": "Emballage export et planification conteneur",
+    "setsPer40HQ": "Confirmé selon les dimensions, l’huisserie et le plan d’emballage validés.",
+    "note": "Aucun chiffre fixe n’est publié."
+  },
+  "logisticsBlock": {
+    "title": "Expédition de projet",
+    "body": "Indiquez le pays, la ville ou le port, la quantité et le mode de dédouanement pour la revue du transport."
+  },
+  "extraModule": {
+    "type": "hotel-mix",
+    "title": "Projet hôtelier avec plusieurs types de portes ?",
+    "body": "Envoyez votre tableau de portes pour coordonner chambres, salles d’eau et autres ouvertures.",
+    "cta": "Envoyer le tableau hôtelier"
+  },
+  "faq": [
+    {
+      "q": "¿El precio incluye marco, bisagras y cerradura?",
+      "a": "La configuración y el alcance final se confirman con su lista de puertas, medidas, acabado, herrajes y destino."
+    },
+    {
+      "q": "¿Cuál es el pedido mínimo?",
+      "a": "La configuración y el alcance final se confirman con su lista de puertas, medidas, acabado, herrajes y destino."
+    },
+    {
+      "q": "¿Pueden fabricar medidas especiales?",
+      "a": "La configuración y el alcance final se confirman con su lista de puertas, medidas, acabado, herrajes y destino."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre puertas WPC y de madera?",
+      "a": "La configuración y el alcance final se confirman con su lista de puertas, medidas, acabado, herrajes y destino."
+    },
+    {
+      "q": "¿Cuántos juegos entran en un contenedor de 40 pies?",
+      "a": "La configuración y el alcance final se confirman con su lista de puertas, medidas, acabado, herrajes y destino."
+    },
+    {
+      "q": "¿Qué información debo enviar para una cotización?",
+      "a": "La configuración y el alcance final se confirman con su lista de puertas, medidas, acabado, herrajes y destino."
+    }
+  ],
+  "images": {
+    "hero": {
+      "src": "/assets/images/localized-doors/fr/fr-bloc-porte-interieur-hero-1600-1200.webp",
+      "srcset": "/assets/images/localized-doors/fr/fr-bloc-porte-interieur-hero-1600-480.webp 480w, /assets/images/localized-doors/fr/fr-bloc-porte-interieur-hero-1600-768.webp 768w, /assets/images/localized-doors/fr/fr-bloc-porte-interieur-hero-1600-1200.webp 1200w, /assets/images/localized-doors/fr/fr-bloc-porte-interieur-hero-1600-1600.webp 1600w",
+      "width": 1600,
+      "height": 2000
+    },
+    "heroAlt": "Bloc-porte intérieur pour projet résidentiel",
+    "application": {
+      "src": "/assets/images/localized-doors/fr/fr-bloc-porte-apartment-project-1600-1200.webp",
+      "srcset": "/assets/images/localized-doors/fr/fr-bloc-porte-apartment-project-1600-480.webp 480w, /assets/images/localized-doors/fr/fr-bloc-porte-apartment-project-1600-768.webp 768w, /assets/images/localized-doors/fr/fr-bloc-porte-apartment-project-1600-1200.webp 1200w, /assets/images/localized-doors/fr/fr-bloc-porte-apartment-project-1600-1600.webp 1600w",
+      "width": 1600,
+      "height": 900
+    },
+    "applicationAlt": "Blocs-portes installés dans un projet d’appartements",
+    "packing": {
+      "src": "/assets/images/localized-doors/fr/fr-bloc-porte-export-packing-1600-1200.webp",
+      "srcset": "/assets/images/localized-doors/fr/fr-bloc-porte-export-packing-1600-480.webp 480w, /assets/images/localized-doors/fr/fr-bloc-porte-export-packing-1600-768.webp 768w, /assets/images/localized-doors/fr/fr-bloc-porte-export-packing-1600-1200.webp 1200w, /assets/images/localized-doors/fr/fr-bloc-porte-export-packing-1600-1600.webp 1600w",
+      "width": 1600,
+      "height": 900
+    },
+    "packingAlt": "Blocs-portes préparés pour l’export"
+  },
+  "statLabel": "Planification conteneur",
+  "copy": {
+    "topLine": "Blocs-portes pour les projets",
+    "homeLabel": "Accueil",
+    "categoryLabel": "Portes intérieures",
+    "categoryHref": "/products/interior-doors",
+    "eyebrow": "VISFURN · Fourniture de projet",
+    "illustrationCaption": "Visuel illustratif de planification",
+    "footerCategoryLabel": "Portes intérieures",
+    "footerCategoryHref": "/products/interior-doors"
+  }
+}
