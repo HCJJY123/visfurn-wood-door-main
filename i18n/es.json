@@ -1,0 +1,244 @@
+{
+  "status": "approved",
+  "dir": "ltr",
+  "liveAlternates": [
+    {
+      "hreflang": "en",
+      "href": "https://www.visfurn.com/products/wpc-doors"
+    },
+    {
+      "hreflang": "en-US",
+      "href": "https://www.visfurn.com/us/prehung-interior-door-sets"
+    },
+    {
+      "hreflang": "ar",
+      "href": "https://www.visfurn.com/ar/wpc-doors"
+    },
+    {
+      "hreflang": "es",
+      "href": "https://www.visfurn.com/es/puertas-interiores"
+    },
+    {
+      "hreflang": "fr",
+      "href": "https://www.visfurn.com/fr/blocs-portes-interieures"
+    },
+    {
+      "hreflang": "ru",
+      "href": "https://www.visfurn.com/ru/mezhkomnatnye-dveri"
+    },
+    {
+      "hreflang": "mn-MN",
+      "href": "https://www.visfurn.com/mn"
+    },
+    {
+      "hreflang": "x-default",
+      "href": "https://www.visfurn.com/products/wpc-doors"
+    }
+  ],
+  "priceLadder": null,
+  "content": {
+    "videoNote": "",
+    "statLabel": "Planificación de contenedor"
+  },
+  "lang": "es",
+  "slug": "puertas-interiores",
+  "meta": {
+    "title": "Puertas Interiores de Madera y WPC | Fabricante en China | VISFURN",
+    "description": "Bloques de puerta completos con marco, bisagras y cerradura. Medidas a pedido desde 210×80×16. Pedido mínimo 10 juegos."
+  },
+  "h1": "Puertas Interiores de Madera y WPC — Fabricante Directo",
+  "subtitle": "Bloque completo: hoja + marco + bisagras + cerradura. Medidas a pedido.",
+  "specChips": [
+    "WPC",
+    "Madera maciza",
+    "Resistente a la humedad",
+    "Medidas personalizadas",
+    "Acabado a elección"
+  ],
+  "moq": {
+    "label": "Pedido mínimo",
+    "value": "10 juegos"
+  },
+  "leadTime": {
+    "label": "Tiempo de producción",
+    "value": "Se confirma tras revisar el proyecto"
+  },
+  "doorSetItems": [
+    {
+      "name": "Hoja de puerta",
+      "spec": "Medida, espesor y acabado revisados según su lista."
+    },
+    {
+      "name": "Marco",
+      "spec": "Ancho ajustable según el espesor final del muro."
+    },
+    {
+      "name": "Bisagras",
+      "spec": "Preparación revisada según herrajes y apertura."
+    },
+    {
+      "name": "Cerradura",
+      "spec": "Preparación confirmada antes de producir."
+    }
+  ],
+  "cta": {
+    "quote": "Solicitar cotización",
+    "sample": "Pedir muestra",
+    "whatsapp": "WhatsApp"
+  },
+  "badges": [
+    "Fábrica directa",
+    "OEM / ODM",
+    "Embalaje de exportación",
+    "Medidas a pedido"
+  ],
+  "tabs": [
+    "Descripción",
+    "Especificaciones",
+    "Aplicaciones",
+    "Envío",
+    "Preguntas frecuentes"
+  ],
+  "specTable": [
+    {
+      "k": "Materiales",
+      "v": "WPC, madera maciza y soluciones interiores revisadas según el uso."
+    },
+    {
+      "k": "Espesor de hoja",
+      "v": "Confirmado según construcción y proyecto."
+    },
+    {
+      "k": "Marco",
+      "v": "Profundidad adaptada al espesor final del muro."
+    },
+    {
+      "k": "Relleno",
+      "v": "Revisado por peso, durabilidad y presupuesto."
+    },
+    {
+      "k": "Superficie",
+      "v": "Muestra o referencia confirmada antes de producir."
+    },
+    {
+      "k": "Colores",
+      "v": "Referencias del proyecto revisadas antes de producir."
+    }
+  ],
+  "sizeTable": {
+    "title": "Medidas más solicitadas",
+    "unit": "Las medidas finales se revisan con el vano, muro y marco.",
+    "rows": [
+      [
+        "210 × 80 × 16 cm",
+        "Referencia habitual"
+      ],
+      [
+        "210 × 70 × 16 cm",
+        "Disponible"
+      ],
+      [
+        "210 × 90 × 16 cm",
+        "Disponible"
+      ],
+      [
+        "Otras medidas",
+        "A pedido"
+      ]
+    ]
+  },
+  "videoCaption": "Bloque de puerta montado: hoja, marco, bisagras y cerradura.",
+  "applications": [
+    {
+      "title": "Vivienda",
+      "body": "Medidas, acabados y marcos revisados por ambiente."
+    },
+    {
+      "title": "Departamentos",
+      "body": "Coordinación por lista de puertas."
+    },
+    {
+      "title": "Hotelería",
+      "body": "Puertas de habitación y baño por proyecto."
+    },
+    {
+      "title": "Distribuidores",
+      "body": "Modelos equivalentes desde catálogo."
+    }
+  ],
+  "packing": {
+    "title": "Embalaje de exportación y planificación de contenedor",
+    "setsPer40HQ": "Se confirma con las medidas, marco y plan de embalaje aprobados.",
+    "note": "No se publica una capacidad fija; se confirma por proyecto."
+  },
+  "logisticsBlock": {
+    "title": "Envío a puertos de América Latina",
+    "body": "Buenos Aires · Manzanillo · Veracruz · Callao · Cartagena. Indique puerto y cantidad para revisar el flete."
+  },
+  "extraModule": {
+    "type": "competitor-match",
+    "title": "¿Ya tiene proveedor?",
+    "body": "Envíenos su catálogo o ficha y revisaremos un modelo equivalente con las mismas medidas y acabado.",
+    "cta": "Enviar catálogo para cotización equivalente"
+  },
+  "faq": [
+    {
+      "q": "¿El precio incluye marco, bisagras y cerradura?",
+      "a": "La configuración y el alcance final se confirman con su lista de puertas, medidas, acabado, herrajes y destino."
+    },
+    {
+      "q": "¿Cuál es el pedido mínimo?",
+      "a": "La configuración y el alcance final se confirman con su lista de puertas, medidas, acabado, herrajes y destino."
+    },
+    {
+      "q": "¿Pueden fabricar medidas especiales?",
+      "a": "La configuración y el alcance final se confirman con su lista de puertas, medidas, acabado, herrajes y destino."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre puertas WPC y de madera?",
+      "a": "La configuración y el alcance final se confirman con su lista de puertas, medidas, acabado, herrajes y destino."
+    },
+    {
+      "q": "¿Cuántos juegos entran en un contenedor de 40 pies?",
+      "a": "La configuración y el alcance final se confirman con su lista de puertas, medidas, acabado, herrajes y destino."
+    },
+    {
+      "q": "¿Qué información debo enviar para una cotización?",
+      "a": "La configuración y el alcance final se confirman con su lista de puertas, medidas, acabado, herrajes y destino."
+    }
+  ],
+  "images": {
+    "hero": {
+      "src": "/assets/images/localized-doors/es/es-interior-door-set-hero-1600-1200.webp",
+      "srcset": "/assets/images/localized-doors/es/es-interior-door-set-hero-1600-480.webp 480w, /assets/images/localized-doors/es/es-interior-door-set-hero-1600-768.webp 768w, /assets/images/localized-doors/es/es-interior-door-set-hero-1600-1200.webp 1200w, /assets/images/localized-doors/es/es-interior-door-set-hero-1600-1600.webp 1600w",
+      "width": 1600,
+      "height": 2000
+    },
+    "heroAlt": "Bloque de puerta interior para proyecto residencial",
+    "application": {
+      "src": "/assets/images/localized-doors/es/es-interior-door-apartment-corridor-1600-1200.webp",
+      "srcset": "/assets/images/localized-doors/es/es-interior-door-apartment-corridor-1600-480.webp 480w, /assets/images/localized-doors/es/es-interior-door-apartment-corridor-1600-768.webp 768w, /assets/images/localized-doors/es/es-interior-door-apartment-corridor-1600-1200.webp 1200w, /assets/images/localized-doors/es/es-interior-door-apartment-corridor-1600-1600.webp 1600w",
+      "width": 1600,
+      "height": 900
+    },
+    "applicationAlt": "Puertas interiores en pasillo de departamentos",
+    "packing": {
+      "src": "/assets/images/localized-doors/es/es-interior-door-export-packing-1600-1200.webp",
+      "srcset": "/assets/images/localized-doors/es/es-interior-door-export-packing-1600-480.webp 480w, /assets/images/localized-doors/es/es-interior-door-export-packing-1600-768.webp 768w, /assets/images/localized-doors/es/es-interior-door-export-packing-1600-1200.webp 1200w, /assets/images/localized-doors/es/es-interior-door-export-packing-1600-1600.webp 1600w",
+      "width": 1600,
+      "height": 900
+    },
+    "packingAlt": "Puertas preparadas con embalaje de exportación"
+  },
+  "statLabel": "Planificación de contenedor",
+  "copy": {
+    "topLine": "Bloques de puerta para proyectos",
+    "homeLabel": "Inicio",
+    "categoryLabel": "Puertas interiores",
+    "categoryHref": "/products/interior-doors",
+    "eyebrow": "VISFURN · Suministro para proyectos",
+    "illustrationCaption": "Imagen ilustrativa de planificación",
+    "footerCategoryLabel": "Puertas interiores",
+    "footerCategoryHref": "/products/interior-doors"
+  }
+}
