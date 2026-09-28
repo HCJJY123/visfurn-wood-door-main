@@ -8,7 +8,7 @@ jobs:
     env:
       BASE: ${{ github.event.deployment_status.environment_url }}
       BYPASS: ${{ secrets.VERCEL_AUTOMATION_BYPASS_SECRET }}
-      PAGES: "/es/puertas-para-proyectos /solutions/door-schedule-quotation /contact / /products/interior-doors/white-moulded-solid-wood"
+      PAGES: "/es/puertas-para-proyectos /solutions/door-schedule-quotation /contact / /products/interior-doors/white-moulded-solid-wood /products/hospital-doors /products/hospital-doors/modern-laboratory-door /products/hospital-doors/automatic-hermetic-sliding-door"
       FILES: "/sitemap.xml /llms.txt /assets/main.js /robots.txt /2ad5155b9f4d0513e7f5dd67940e8a13.txt /downloads/door-schedule-template.csv /assets/content/asset-path-rules.json"
       PRIVATE: "/.github/workflows/preview-acceptance.yml /scripts/check-es-latam-landing.py /.vercelignore /download-log.txt /.gitignore /.DS_Store /images/.DS_Store /source/.vercel/output/config.json /source/.vercel/output/static/robots.txt"
       PW: "playwright@1.47.2"
@@ -43,6 +43,30 @@ jobs:
           check /contact "gclid" "contact_gclid_markup"
           check /sitemap.xml "/es/puertas-para-proyectos" "sitemap_es_url"
           check /llms.txt "puertas-para-proyectos" "llms_es_url"
+      - name: Hospital doors preview acceptance
+        run: |
+          set -euo pipefail
+          H=(); [ -n "$BYPASS" ] && H=(-H "x-vercel-protection-bypass: $BYPASS")
+          check_page() {
+            local path="$1" marker="$2" output="out/$(echo "$1" | tr '/' '_').html"
+            local code
+            code=$(curl -sS -L --connect-timeout 15 --max-time 30 "${H[@]}" -o "$output" -w '%{http_code}' "$BASE$path")
+            echo "$path status=$code" | tee -a out/status.txt
+            test "$code" = 200
+            grep -Fq "$marker" "$output"
+          }
+          check_page /products/hospital-doors '<h1>Hospital Doors Collection</h1>'
+          check_page /products/hospital-doors/modern-laboratory-door 'Modern Style Double Laboratory Hospital Room Door'
+          check_page /products/hospital-doors/automatic-hermetic-sliding-door '<h1 class="vf-h1">Automatic Sliding Door for Clinical Openings</h1>'
+          grep -Fq 'href="/products/hospital-doors/automatic-hermetic-sliding-door"' out/_products_hospital-doors.html
+          grep -Fq 'href="/products/hospital-doors/modern-laboratory-door"' out/_products_hospital-doors.html
+          grep -Fq 'rel="canonical" href="https://www.visfurn.com/products/hospital-doors/automatic-hermetic-sliding-door"' out/_products_hospital-doors_automatic-hermetic-sliding-door.html
+          grep -Fq 'href="/contact#quote-form"' out/_products_hospital-doors_automatic-hermetic-sliding-door.html
+          for asset in /assets/images/products/hospital-doors/responsive/automatic-hermetic-sliding-door-front-1200.webp /assets/styles-v3-pdp-fix.css; do
+            code=$(curl -sS -L --connect-timeout 15 --max-time 30 "${H[@]}" -o /dev/null -w '%{http_code}' "$BASE$asset")
+            echo "$asset status=$code" | tee -a out/status.txt
+            test "$code" = 200
+          done
       - name: Screenshots (desktop + mobile)
         run: |
           npx -y $PW install --with-deps chromium
