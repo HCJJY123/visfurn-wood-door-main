@@ -16,6 +16,14 @@
       projectType: 'School',
       doorType: 'School Doors',
       requirements: 'Color reference / finish direction: \nDoor marks / opening sizes: \nHardware, glazing or protection requirements: '
+    },
+    'modern-finished-hotel-interior-door': {
+      name: 'Modern Finished Hotel Interior Door',
+      path: '/products/hotel-doors/modern-finished-hotel-interior-door',
+      context: 'Product selected',
+      projectType: 'Hotel',
+      doorType: 'Hotel Doors',
+      requirements: 'Room marks / quantities: \nOpening sizes / frame scope: \nFinish reference / hardware drawings: '
     }
   };
   const slug = new URLSearchParams(window.location.search).get('product');
