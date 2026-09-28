@@ -1,8 +1,6 @@
 document.documentElement.classList.add('js-enabled');
 
 const header = document.querySelector('[data-header]');
-const nav = document.querySelector('[data-nav]');
-const toggle = document.querySelector('[data-menu-toggle]');
 const track = (event, parameters = {}) => {
   window.dataLayer?.push({ event, ...parameters });
 };
@@ -72,25 +70,6 @@ const getSessionStorage = () => {
     return null;
   }
 };
-if (toggle && nav) {
-  toggle.setAttribute('aria-expanded', 'false');
-  toggle.addEventListener('click', () => {
-    const isOpen = nav.classList.toggle('open');
-    toggle.setAttribute('aria-expanded', String(isOpen));
-    toggle.setAttribute('aria-label', isOpen ? 'Close navigation' : 'Open navigation');
-    toggle.textContent = isOpen ? 'Close' : 'Menu';
-    document.body.classList.toggle('nav-open', isOpen);
-  });
-  nav.querySelectorAll('a').forEach((link) => {
-    link.addEventListener('click', () => {
-      nav.classList.remove('open');
-      toggle.setAttribute('aria-expanded', 'false');
-      toggle.setAttribute('aria-label', 'Open navigation');
-      toggle.textContent = 'Menu';
-      document.body.classList.remove('nav-open');
-    });
-  });
-}
 const headerScrollSentinel = document.createElement('div');
 headerScrollSentinel.setAttribute('aria-hidden', 'true');
 headerScrollSentinel.style.cssText = 'position:absolute;top:0;left:0;width:1px;height:12px;pointer-events:none;';
@@ -513,7 +492,7 @@ document.querySelectorAll('.faq-question').forEach((question) => {
     whatsapp.target = '_blank';
     whatsapp.rel = 'nofollow noopener';
     whatsapp.setAttribute('aria-label', 'WhatsApp');
-    whatsapp.innerHTML = `<span class="vf-header-icon" aria-hidden="true">${whatsappSvg}</span><span data-vf-i18n-label data-vf-source-text="WhatsApp Business">${getTranslation('WhatsApp Business')}</span>`;
+    whatsapp.innerHTML = `<span class="vf-header-icon" aria-hidden="true">${whatsappSvg}</span><span data-vf-i18n-label data-vf-source-text="WhatsApp">${getTranslation('WhatsApp')}</span>`;
     const email = document.createElement('a');
     email.className = 'vf-header-email';
     email.href = 'mailto:rose@visfurn.com?subject=VISFURN%20Door%20Project%20Inquiry';
@@ -521,12 +500,12 @@ document.querySelectorAll('.faq-question').forEach((question) => {
     email.dataset.vfI18n = 'Email';
     email.innerHTML = `<span class="vf-header-icon" aria-hidden="true">${emailSvg}</span><span data-vf-i18n-label data-vf-source-text="Email">${getTranslation('Email')}</span>`;
     if (cta) {
-      target.insertBefore(actions, cta);
+      target.insertBefore(actions, target.querySelector('.vf-language-switcher') || cta);
       actions.append(whatsapp, email);
       cta.remove();
     } else {
       actions.append(whatsapp, email);
-      target.appendChild(actions);
+      target.insertBefore(actions, target.querySelector('.vf-language-switcher'));
     }
 
   };
@@ -698,6 +677,219 @@ document.querySelectorAll('.faq-question').forEach((question) => {
     if (event.target.closest('img')) event.preventDefault();
   });
 
+  const setupSiteNavigation = () => {
+    let siteHeader = document.querySelector('.site-header');
+    let quoteHref = '/contact#quote-form';
+    if ((!siteHeader || !siteHeader.querySelector('.nav')) && document.documentElement.lang.toLowerCase().startsWith('en')) {
+      const legacyHeader = siteHeader || document.querySelector('header.vf-header, header.wpc-header, header.pdp-header, header.pvc-header, header.brown-header, header.smart-header, header.hub-header, header.ld-header, body > header:has(.nav-links), body > header.hero-section, body > .nav');
+      if (legacyHeader) {
+        quoteHref = legacyHeader.querySelector('a[href*="/contact"][href*="#quote-form"]')?.getAttribute('href') || quoteHref;
+        if (!document.querySelector('link[href*="/assets/global-ui.css"]')) {
+          const stylesheet = document.createElement('link');
+          stylesheet.rel = 'stylesheet';
+          stylesheet.href = '/assets/global-ui.css?v=20260928-navigation-v1';
+          document.head.append(stylesheet);
+        }
+        siteHeader = document.createElement('header');
+        siteHeader.className = 'site-header';
+        siteHeader.dataset.header = '';
+        const originalBrand = legacyHeader.querySelector('a[href="/"]:has(img)');
+        const sharedBrand = originalBrand?.cloneNode(true) || document.createElement('a');
+        sharedBrand.className = 'brand';
+        sharedBrand.href = '/';
+        sharedBrand.setAttribute('aria-label', 'Visfurn home');
+        if (!originalBrand) {
+          const image = document.createElement('img');
+          image.src = '/assets/brand/visfurn-logo-door-v2-360.webp';
+          image.alt = 'Visfurn';
+          image.width = 154;
+          image.height = 115;
+          sharedBrand.append(image);
+        }
+        sharedBrand.querySelector('img').className = 'brand-logo';
+        const sharedNav = document.createElement('nav');
+        sharedNav.className = 'nav';
+        siteHeader.append(sharedBrand, sharedNav);
+        legacyHeader.before(siteHeader);
+        if (!legacyHeader.classList.contains('hero-section')) legacyHeader.classList.add('vf-replaced-header');
+      }
+    }
+    const siteNav = siteHeader?.querySelector('.nav');
+    if (!siteNav || !document.documentElement.lang.toLowerCase().startsWith('en')) return;
+
+    const whatsapp = 'https://wa.me/8615222885400?text=Hello%20Visfurn%2C%20I%20would%20like%20to%20discuss%20a%20door%20project.';
+    const email = 'mailto:rose@visfurn.com?subject=VISFURN%20Door%20Project%20Inquiry';
+    const menuData = [
+      { label: 'Home', href: '/' },
+      { label: 'Products', href: '/products', items: [
+        ['All Products', '/products'], ['Interior Doors', '/products/interior-doors'],
+        ['Exterior Doors', '/products/exterior-doors'], ['Wooden Doors', '/products/wooden-doors'],
+        ['WPC Doors', '/products/wpc-doors'], ['Fire & Security Doors', '/products/fire-security-doors'],
+        ['Hotel Doors', '/products/hotel-doors'], ['School Doors', '/products/school-doors'],
+        ['Hospital Doors', '/products/hospital-doors'],
+        ['PVC Interior Door', '/products/interior-doors/modern-pvc-wooden-door'],
+        ['Composite Entry Door', '/products/wooden-doors/soundproof-composite-entry-door']
+      ] },
+      { label: 'About Us', href: '/about', items: [
+        ['Company Profile', '/about#company-profile'], ['Factory', '/about#factory'],
+        ['Manufacturing Process', '/about#manufacturing-process'], ['Quality Control', '/about#quality-control']
+      ] },
+      { label: 'Projects', href: '/projects', items: [
+        ['All Projects', '/projects#all-projects'],
+        ['Hotel Door Package', '/case-study/mexico-boutique-hotel-moisture-resistant-bathroom-doors'],
+        ['Apartment Door Package', '/case-study/philippines-apartment-interior-wpc-door-package-humid-project'],
+        ['Hospital Door Planning', '/case-study/hospital-door-package-specification-planning']
+      ] },
+      { label: 'Blogs', href: '/blog', items: [
+        ['All Articles', '/blog#all-articles'],
+        ['Hotel Door Buying Guide', '/blog/hotel-door-package-checklist-guestroom-bathroom-fire-hardware'],
+        ['WPC Material Guide', '/blog/bathroom-utility-room-door-material-guide'],
+        ['Project Door Schedule', '/blog/door-schedule-takeoff-checklist-for-bulk-orders']
+      ] },
+      { label: 'FAQ', href: '/faq', items: [
+        ['All FAQs', '/faq'], ['Product Selection', '/faq#materials-door-selection'],
+        ['Customization', '/faq#oem-odm'], ['Project Orders', '/faq#project-orders'],
+        ['Packing & Shipping', '/faq#packing-cbm-shipping']
+      ] },
+      { label: 'Contact', href: '/contact', items: [
+        ['Contact Visfurn', '/contact'], ['Request a Quote', quoteHref],
+        ['WhatsApp', whatsapp], ['Email', email]
+      ] }
+    ];
+
+    const currentPath = location.pathname.replace(/\/index\.html$|\.html$|\/$/, '') || '/';
+    const isCurrent = (href) => href.startsWith('/') && (href.includes('#') ?
+      href === currentPath + location.hash : href === currentPath);
+    const isSection = (href) => href === '/' ? currentPath === '/' :
+      currentPath === href || currentPath.startsWith(href + '/') ||
+      (href === '/blog' && currentPath.startsWith('/blog/')) ||
+      (href === '/projects' && currentPath.startsWith('/case-study/'));
+    const link = (label, href, className) => {
+      const anchor = document.createElement('a');
+      anchor.className = className;
+      anchor.href = href;
+      anchor.textContent = label;
+      if (isCurrent(href)) anchor.setAttribute('aria-current', 'page');
+      else if (className === 'vf-menu-link' && href.startsWith('/products/') && currentPath.startsWith(href + '/')) {
+        anchor.setAttribute('aria-current', 'location');
+      }
+      if (href.startsWith('https://')) {
+        anchor.target = '_blank';
+        anchor.rel = 'nofollow noopener';
+      }
+      return anchor;
+    };
+
+    siteHeader.classList.add('vf-site-nav');
+    siteNav.className = 'nav vf-navigation';
+    siteNav.setAttribute('aria-label', 'Primary navigation');
+    siteNav.id = 'vf-primary-nav';
+    siteNav.replaceChildren();
+    const items = [];
+    menuData.forEach((entry, index) => {
+      if (!entry.items) {
+        siteNav.append(link(entry.label, entry.href, 'vf-nav-link'));
+        return;
+      }
+      const item = document.createElement('div');
+      item.className = 'vf-menu-item';
+      if (isSection(entry.href)) item.classList.add('vf-current');
+      const row = document.createElement('div');
+      row.className = 'vf-menu-row';
+      row.append(link(entry.label, entry.href, 'vf-nav-link'));
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'vf-menu-arrow';
+      button.setAttribute('aria-label', `Expand ${entry.label} menu`);
+      button.setAttribute('aria-expanded', 'false');
+      button.setAttribute('aria-controls', `vf-nav-panel-${index}`);
+      button.innerHTML = '<span aria-hidden="true"></span>';
+      row.append(button);
+      const panel = document.createElement('div');
+      panel.id = `vf-nav-panel-${index}`;
+      panel.className = 'vf-menu-panel';
+      if (entry.label === 'Products') panel.classList.add('vf-products-panel');
+      if (index > 3) panel.classList.add('vf-menu-panel-right');
+      panel.setAttribute('aria-label', `${entry.label} links`);
+      entry.items.forEach(([label, href]) => panel.append(link(label, href, 'vf-menu-link')));
+      item.append(row, panel);
+      siteNav.append(item);
+      items.push({ item, button });
+    });
+
+    const footer = document.createElement('div');
+    footer.className = 'vf-nav-footer';
+    footer.append(link('Request a Quote', quoteHref, 'vf-nav-footer-quote'),
+      link('WhatsApp', whatsapp, 'vf-nav-footer-link'), link('Email', email, 'vf-nav-footer-link'));
+    siteNav.append(footer);
+
+    let menuToggle = siteHeader.querySelector('[data-menu-toggle]');
+    if (!menuToggle) {
+      menuToggle = document.createElement('button');
+      siteHeader.insertBefore(menuToggle, siteNav);
+    }
+    menuToggle.className = 'menu-toggle vf-menu-toggle';
+    menuToggle.type = 'button';
+    menuToggle.dataset.menuToggle = '';
+    menuToggle.setAttribute('aria-controls', siteNav.id);
+    menuToggle.setAttribute('aria-expanded', 'false');
+    menuToggle.setAttribute('aria-label', 'Open navigation');
+    menuToggle.textContent = 'Menu';
+
+    const mobile = matchMedia('(max-width: 1199px)');
+    const closePanels = () => items.forEach(({ item, button }) => {
+      item.classList.remove('is-open');
+      button.setAttribute('aria-expanded', 'false');
+      button.setAttribute('aria-label', `Expand ${item.querySelector('.vf-nav-link').textContent} menu`);
+    });
+    const closeNav = () => {
+      siteNav.classList.remove('open');
+      document.body.classList.remove('nav-open');
+      menuToggle.setAttribute('aria-expanded', 'false');
+      menuToggle.setAttribute('aria-label', 'Open navigation');
+      menuToggle.textContent = 'Menu';
+      closePanels();
+    };
+    const openPanel = (target) => items.forEach(({ item, button }) => {
+      const open = item === target;
+      item.classList.toggle('is-open', open);
+      button.setAttribute('aria-expanded', String(open));
+      button.setAttribute('aria-label', `${open ? 'Collapse' : 'Expand'} ${item.querySelector('.vf-nav-link').textContent} menu`);
+    });
+    items.forEach(({ item, button }) => {
+      button.addEventListener('click', () => {
+        if (item.classList.contains('is-open')) closePanels();
+        else openPanel(item);
+      });
+      item.addEventListener('mouseenter', () => { if (!mobile.matches) openPanel(item); });
+      item.addEventListener('mouseleave', () => { if (!mobile.matches) closePanels(); });
+    });
+    menuToggle.addEventListener('click', () => {
+      if (siteNav.classList.contains('open')) return closeNav();
+      siteNav.classList.add('open');
+      document.body.classList.add('nav-open');
+      siteHeader.style.setProperty('--vf-nav-top', `${siteHeader.getBoundingClientRect().bottom}px`);
+      menuToggle.setAttribute('aria-expanded', 'true');
+      menuToggle.setAttribute('aria-label', 'Close navigation');
+      menuToggle.textContent = 'Close';
+    });
+    siteNav.addEventListener('click', (event) => { if (event.target.closest('a')) closeNav(); });
+    document.addEventListener('click', (event) => {
+      if (!siteHeader.contains(event.target)) { closePanels(); if (mobile.matches) closeNav(); }
+    });
+    document.addEventListener('keydown', (event) => {
+      if (event.key !== 'Escape') return;
+      const wasOpen = siteNav.classList.contains('open') || items.some(({ item }) => item.classList.contains('is-open'));
+      closeNav();
+      if (wasOpen) menuToggle.focus();
+    });
+    mobile.addEventListener('change', closeNav);
+    window.addEventListener('resize', () => {
+      if (siteNav.classList.contains('open')) siteHeader.style.setProperty('--vf-nav-top', `${siteHeader.getBoundingClientRect().bottom}px`);
+    });
+  };
+
+setupSiteNavigation();
 createLanguageSwitcher();
 setupHomeHeroCarousel();
 setupHeaderActions();
