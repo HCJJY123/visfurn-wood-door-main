@@ -56,7 +56,8 @@ jobs:
             grep -Fq "$marker" "$output"
           }
           check_page /products/hospital-doors '<h1>Hospital Doors Collection</h1>'
-          check_page /products/hospital-doors/modern-laboratory-door 'Modern Style Double Laboratory Hospital Room Door'
+          check_page /products/hospital-doors/modern-laboratory-door '<h1 id="lab-title">Double Swing Laboratory Door for Healthcare Projects</h1>'
+          grep -Fq '$105.00 - $175.00' out/_products_hospital-doors_modern-laboratory-door.html
           check_page /products/hospital-doors/automatic-hermetic-sliding-door '<h1 class="vf-h1">Automatic Sliding Door for Clinical Openings</h1>'
           grep -Fq 'href="/products/hospital-doors/automatic-hermetic-sliding-door"' out/_products_hospital-doors.html
           grep -Fq 'href="/products/hospital-doors/modern-laboratory-door"' out/_products_hospital-doors.html

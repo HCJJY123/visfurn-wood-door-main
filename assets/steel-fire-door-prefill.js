@@ -24,6 +24,14 @@
       projectType: 'Hotel',
       doorType: 'Hotel Doors',
       requirements: 'Room marks / quantities: \nOpening sizes / frame scope: \nFinish reference / hardware drawings: '
+    },
+    'modern-laboratory-door': {
+      name: 'Double Swing Laboratory Door for Healthcare Projects',
+      path: '/products/hospital-doors/modern-laboratory-door',
+      context: 'Product selected',
+      projectType: 'Hospital / Healthcare',
+      doorType: 'Hospital Doors',
+      requirements: 'Door marks / opening dimensions: \nFrame, vision panel and hardware requirements: \nRequired documentation and destination: '
     }
   };
   const slug = new URLSearchParams(window.location.search).get('product');
