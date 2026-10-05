@@ -1,0 +1,89 @@
+.vf-material-review.editorial-detail {
+  padding-top: 24px;
+}
+
+.vf-material-review .editorial-detail-header {
+  max-width: 900px;
+  padding: 16px 0 24px;
+}
+
+.vf-material-review .editorial-detail-header h1 {
+  font-size: clamp(30px, 4vw, 48px);
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+  overflow-wrap: anywhere;
+}
+
+.vf-material-review .editorial-answer {
+  max-width: 800px;
+  margin: 16px auto 24px;
+}
+
+.vf-material-review .editorial-answer p,
+.vf-material-review .editorial-detail-header .editorial-dek {
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 1.65;
+}
+
+.vf-material-review .vf-material-publisher {
+  max-width: 800px;
+  margin: 24px auto;
+  font-size: 14px;
+}
+
+.vf-material-review .editorial-body {
+  max-width: 800px;
+  margin-inline: auto;
+}
+
+.vf-material-review .editorial-body p,
+.vf-material-review .editorial-body li {
+  line-height: 1.7;
+}
+
+.vf-material-review .editorial-body a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  overflow-wrap: anywhere;
+}
+
+.vf-material-review .editorial-table-wrap {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.vf-material-review table caption {
+  padding: 12px;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.vf-material-review .editorial-table-wrap:focus-visible,
+.vf-material-review summary:focus-visible {
+  outline: 2px solid var(--wood);
+  outline-offset: 3px;
+}
+
+.vf-material-review summary {
+  min-height: 44px;
+  padding-block: 12px;
+  cursor: pointer;
+}
+
+@media (max-width: 760px) {
+  .vf-material-review .editorial-detail-header {
+    text-align: left;
+  }
+
+  .vf-material-review .editorial-detail-header h1 {
+    font-size: clamp(28px, 8vw, 34px);
+  }
+
+  .vf-material-review .editorial-answer p,
+  .vf-material-review .editorial-detail-header .editorial-dek,
+  .vf-material-review .editorial-body p,
+  .vf-material-review .editorial-body li {
+    font-size: 16px;
+  }
+}
