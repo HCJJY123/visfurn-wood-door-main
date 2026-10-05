@@ -423,6 +423,96 @@ section {
   padding-top: 24px;
 }
 
+.uk-tender-delivery {
+  scroll-margin-top: 110px;
+}
+
+.uk-tender-table {
+  max-width: 100%;
+  margin: 18px 0 28px;
+  padding: 0;
+  overscroll-behavior-inline: contain;
+  -webkit-overflow-scrolling: touch;
+}
+
+.uk-tender-table table {
+  min-width: 860px;
+  font-size: .92rem;
+}
+
+.uk-tender-table th,
+.uk-tender-table td {
+  overflow-wrap: anywhere;
+}
+
+.uk-tender-table th:first-child {
+  min-width: 175px;
+}
+
+.uk-tender-table-hint {
+  display: none;
+  margin: 18px 0 -12px;
+  color: var(--muted);
+  font-size: .9rem;
+}
+
+.us-bid-screening {
+  scroll-margin-top: 110px;
+}
+
+.us-bid-matrix {
+  max-width: 100%;
+  margin: 18px 0 28px;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  -webkit-overflow-scrolling: touch;
+}
+
+.us-bid-matrix table {
+  min-width: 940px;
+  font-size: .9rem;
+}
+
+.us-bid-matrix th,
+.us-bid-matrix td {
+  overflow-wrap: anywhere;
+}
+
+.us-bid-matrix th:first-child {
+  min-width: 180px;
+}
+
+.us-bid-table-hint {
+  display: none;
+  margin: 18px 0 -12px;
+  color: var(--muted);
+  font-size: .9rem;
+}
+
+.market-united-states.us-bid-reading .vf-whatsapp-float,
+.market-united-states.us-bid-reading .vf-inquiry-float {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+@media (max-width: 920px) {
+  .us-bid-table-hint {
+    display: block;
+  }
+}
+
+.market-united-kingdom.uk-tender-reading .vf-whatsapp-float,
+.market-united-kingdom.uk-tender-reading .vf-inquiry-float {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+@media (max-width: 920px) {
+  .uk-tender-table-hint {
+    display: block;
+  }
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -550,6 +640,15 @@ th {
   section {
     padding-top: 52px;
     padding-bottom: 52px;
+  }
+
+  .uk-tender-table-hint {
+    display: block;
+  }
+
+  .uk-tender-table table {
+    min-width: 820px;
+    font-size: .88rem;
   }
 
   .hero-section {

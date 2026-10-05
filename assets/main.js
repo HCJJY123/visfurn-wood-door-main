@@ -678,18 +678,33 @@ document.querySelectorAll('.faq-question').forEach((question) => {
   });
 
   const setupSiteNavigation = () => {
+    let stylesheet = document.querySelector('link[href*="/assets/global-ui.css"]');
+    if (!stylesheet) {
+      stylesheet = document.createElement('link');
+      stylesheet.rel = 'stylesheet';
+      document.head.append(stylesheet);
+    }
+    if (!stylesheet.dataset.vfNavigationReady) {
+      stylesheet.dataset.vfNavigationReady = 'pending';
+      const navigationStylesheet = new URL('/assets/global-ui.css?v=20260929-navigation-responsive-v2', location.href).href;
+      if (stylesheet.href === navigationStylesheet && stylesheet.sheet) {
+        stylesheet.dataset.vfNavigationReady = 'ready';
+      } else {
+        stylesheet.addEventListener('load', () => {
+          stylesheet.dataset.vfNavigationReady = 'ready';
+          setupSiteNavigation();
+        }, { once: true });
+        if (stylesheet.href !== navigationStylesheet) stylesheet.href = navigationStylesheet;
+        return;
+      }
+    }
+    if (stylesheet.dataset.vfNavigationReady !== 'ready') return;
     let siteHeader = document.querySelector('.site-header');
     let quoteHref = '/contact#quote-form';
     if ((!siteHeader || !siteHeader.querySelector('.nav')) && document.documentElement.lang.toLowerCase().startsWith('en')) {
       const legacyHeader = siteHeader || document.querySelector('header.vf-header, header.wpc-header, header.pdp-header, header.pvc-header, header.brown-header, header.smart-header, header.hub-header, header.ld-header, body > header:has(.nav-links), body > header.hero-section, body > .nav');
       if (legacyHeader) {
         quoteHref = legacyHeader.querySelector('a[href*="/contact"][href*="#quote-form"]')?.getAttribute('href') || quoteHref;
-        if (!document.querySelector('link[href*="/assets/global-ui.css"]')) {
-          const stylesheet = document.createElement('link');
-          stylesheet.rel = 'stylesheet';
-          stylesheet.href = '/assets/global-ui.css?v=20260928-navigation-v1';
-          document.head.append(stylesheet);
-        }
         siteHeader = document.createElement('header');
         siteHeader.className = 'site-header';
         siteHeader.dataset.header = '';
@@ -837,11 +852,15 @@ document.querySelectorAll('.faq-question').forEach((question) => {
     menuToggle.textContent = 'Menu';
 
     const mobile = matchMedia('(max-width: 1199px)');
-    const closePanels = () => items.forEach(({ item, button }) => {
-      item.classList.remove('is-open');
-      button.setAttribute('aria-expanded', 'false');
-      button.setAttribute('aria-label', `Expand ${item.querySelector('.vf-nav-link').textContent} menu`);
-    });
+    let openedByClick = null;
+    const closePanels = () => {
+      openedByClick = null;
+      items.forEach(({ item, button }) => {
+        item.classList.remove('is-open');
+        button.setAttribute('aria-expanded', 'false');
+        button.setAttribute('aria-label', `Expand ${item.querySelector('.vf-nav-link').textContent} menu`);
+      });
+    };
     const closeNav = () => {
       siteNav.classList.remove('open');
       document.body.classList.remove('nav-open');
@@ -858,11 +877,15 @@ document.querySelectorAll('.faq-question').forEach((question) => {
     });
     items.forEach(({ item, button }) => {
       button.addEventListener('click', () => {
-        if (item.classList.contains('is-open')) closePanels();
-        else openPanel(item);
+        if (item.classList.contains('is-open') && openedByClick === item) closePanels();
+        else { openPanel(item); openedByClick = item; }
       });
-      item.addEventListener('mouseenter', () => { if (!mobile.matches) openPanel(item); });
+      item.addEventListener('mouseenter', () => { if (!mobile.matches) { openPanel(item); openedByClick = null; } });
+      item.addEventListener('focusin', () => { if (!mobile.matches) openPanel(item); });
       item.addEventListener('mouseleave', () => { if (!mobile.matches) closePanels(); });
+    });
+    document.addEventListener('focusin', (event) => {
+      if (!mobile.matches && !siteNav.contains(event.target)) closePanels();
     });
     menuToggle.addEventListener('click', () => {
       if (siteNav.classList.contains('open')) return closeNav();
@@ -889,7 +912,23 @@ document.querySelectorAll('.faq-question').forEach((question) => {
     });
   };
 
+  const setupProductAttribution = () => {
+    if (!location.pathname.startsWith('/products')) return;
+    const attribution = document.querySelector('main > .visfurn-brand-attribution');
+    if (!attribution) return;
+    const placeholder = document.createComment('Product attribution position');
+    attribution.before(placeholder);
+    const mobileProduct = matchMedia('(max-width: 620px)');
+    const placeAttribution = () => {
+      if (mobileProduct.matches) attribution.parentElement.append(attribution);
+      else placeholder.after(attribution);
+    };
+    mobileProduct.addEventListener('change', placeAttribution);
+    placeAttribution();
+  };
+
 setupSiteNavigation();
+setupProductAttribution();
 createLanguageSwitcher();
 setupHomeHeroCarousel();
 setupHeaderActions();

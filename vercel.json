@@ -22,6 +22,21 @@
       "source": "/ru",
       "destination": "/",
       "permanent": true
+    },
+    {
+      "source": "/about-us",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/applications/hotel-door-package-supplier",
+      "destination": "/products/hotel-doors",
+      "permanent": true
+    },
+    {
+      "source": "/solutions/hotel-hospitality",
+      "destination": "/products/hotel-doors",
+      "permanent": true
     }
   ]
 }

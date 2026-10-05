@@ -421,6 +421,7 @@
         .specs-table {
             width: 100%;
             border-collapse: collapse;
+            table-layout: fixed;
         }
 
         .specs-table tr {
@@ -429,6 +430,7 @@
 
         .specs-table td {
             padding: 15px 10px;
+            overflow-wrap: anywhere;
         }
 
         .specs-table td:first-child {
@@ -451,7 +453,7 @@
 
         .features-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
             gap: 25px;
             margin-top: 25px;
         }
@@ -749,6 +751,7 @@
         }
 
         @media (max-width: 640px) {
+            .review-summary { flex-direction: column; align-items: stretch; gap: 16px; }
             .product-container {
                 padding: 15px;
             }
@@ -903,7 +906,7 @@
                     </div>
 
                     <div class="cta-buttons">
-                        <a href="/contact?product=hospital-doors" class="btn btn-primary">Contact Supplier</a>
+                        <a href="/contact?product=hospital-doors#quote-form" class="btn btn-primary">Contact Supplier</a>
                         <a href="#specs" class="btn btn-secondary">View Full Specs</a>
                     </div>
 
@@ -1355,7 +1358,7 @@
                     <h3>Contact</h3>
                     <ul>
                         <li><a href="/contact">Contact Us</a></li>
-                        <li><a href="/request-quote">Request Quote</a></li>
+                        <li><a href="/contact#quote-form">Request Quote</a></li>
                         <li><a href="/support">Technical Support</a></li>
                         <li><a href="/warranty">Warranty</a></li>
                     </ul>

@@ -1,0 +1,72 @@
+.vf-size-guide .editorial-detail {
+  padding-top: 0;
+}
+
+.vf-size-guide .editorial-detail-header {
+  padding: 36px 0 24px;
+}
+
+.vf-size-guide .editorial-detail-header h1 {
+  font-size: clamp(30px, 4vw, 48px);
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+  overflow-wrap: anywhere;
+}
+
+.vf-size-guide .editorial-detail-header .editorial-dek {
+  font-size: 18px;
+}
+
+.vf-size-guide .editorial-answer {
+  margin-top: 16px;
+  margin-bottom: 24px;
+  padding-top: 20px;
+}
+
+.vf-size-guide .editorial-answer p:not(.eyebrow) {
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 1.65;
+}
+
+.vf-size-guide .visfurn-brand-attribution {
+  margin: 24px auto;
+}
+
+.vf-size-guide .editorial-table-wrap {
+  max-width: 100%;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+}
+
+.vf-size-guide .editorial-table-wrap:focus-visible {
+  outline: 2px solid var(--wood);
+  outline-offset: 3px;
+}
+
+.vf-size-guide table caption {
+  padding: 12px;
+  text-align: left;
+  line-height: 1.5;
+}
+
+@media (max-width: 760px) {
+  .vf-size-guide .editorial-detail-header {
+    padding-top: 24px;
+    text-align: left;
+  }
+
+  .vf-size-guide .editorial-detail-header h1 {
+    font-size: clamp(28px, 8vw, 34px);
+  }
+
+  .vf-size-guide .editorial-detail-header .editorial-dek,
+  .vf-size-guide .editorial-answer p:not(.eyebrow) {
+    font-size: 16px;
+  }
+
+  .vf-size-guide .editorial-meta {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+}
