@@ -1,0 +1,21 @@
+.about-page #quality-control .evidence-visual {
+  aspect-ratio: 12 / 13;
+  min-height: 0;
+  height: auto;
+  padding: 0;
+  border: 0;
+  line-height: 0;
+}
+
+.about-page #quality-control .evidence-visual picture,
+.about-page #quality-control .evidence-visual img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.about-page #quality-control .evidence-visual img {
+  object-fit: cover;
+  object-position: center;
+  border: 0;
+}
