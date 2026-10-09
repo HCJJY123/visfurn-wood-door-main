@@ -50,15 +50,17 @@
     flex: 0 0 60px; width: 60px; min-width: 60px;
     min-height: 60px; scroll-snap-align: start;
   }
-  body.vf-product-detail :is(.vf-main-img, .pdp-main-stage, .wpc-stage, .pvc-stage, main.page .stage) {
+  body.vf-product-detail :is(.vf-main-img, .pdp-main-stage, .wpc-stage, .pvc-stage, .pvc-main-media, .brown-main-media, main.page .stage) {
     box-sizing: border-box; width: 100%; min-width: 0; margin-inline: 0;
   }
-  body.vf-product-detail .pdp-main-stage { aspect-ratio: auto; flex: 0 0 auto; }
-  body.vf-product-detail :is(.vf-main-img, .pdp-main-stage, .wpc-stage, .pvc-stage, main.page .stage) img {
-    display: block; width: 100%; max-width: 100%;
-    height: auto; max-height: 480px; object-fit: contain;
+  /* Follow the selected image rather than retaining a portrait-shaped empty stage. */
+  body.vf-product-detail :is(.vf-main-img, .pdp-main-stage, .wpc-stage, .pvc-stage, .pvc-main-media, .brown-main-media, main.page .stage) {
+    aspect-ratio: auto; height: auto; min-height: 0; max-height: none; flex: 0 0 auto;
   }
-  body.vf-product-detail .pvc-main-media img { object-fit: contain; }
+  body.vf-product-detail :is(.vf-main-img, .pdp-main-stage, .wpc-stage, .pvc-stage, .pvc-main-media, .brown-main-media, main.page .stage) img {
+    display: block; width: 100%; max-width: 100%;
+    height: auto; max-height: none; aspect-ratio: auto; object-fit: contain;
+  }
   body.vf-product-detail :is(.pdp-info-sticky, .wpc-info) { position: static; }
   body.vf-product-detail :is(.vf-actions, .pdp-actions, .wpc-actions, .pvc-actions, .brown-actions-row, .smart-actions, main.page .actions) {
     display: grid; grid-template-columns: minmax(0, 1fr); gap: 10px;
