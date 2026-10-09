@@ -53,6 +53,7 @@
   body.vf-product-detail :is(.vf-main-img, .pdp-main-stage, .wpc-stage, .pvc-stage, main.page .stage) {
     box-sizing: border-box; width: 100%; min-width: 0; margin-inline: 0;
   }
+  body.vf-product-detail .pdp-main-stage { aspect-ratio: auto; flex: 0 0 auto; }
   body.vf-product-detail :is(.vf-main-img, .pdp-main-stage, .wpc-stage, .pvc-stage, main.page .stage) img {
     display: block; width: 100%; max-width: 100%;
     height: auto; max-height: 480px; object-fit: contain;

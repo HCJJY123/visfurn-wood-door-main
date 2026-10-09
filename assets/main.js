@@ -703,7 +703,7 @@ document.querySelectorAll('.faq-question').forEach((question) => {
     let siteHeader = document.querySelector('.site-header');
     let quoteHref = '/contact#quote-form';
     if ((!siteHeader || !siteHeader.querySelector('.nav')) && document.documentElement.lang.toLowerCase().startsWith('en')) {
-      const legacyHeader = siteHeader || document.querySelector('header.vf-header, header.wpc-header, header.pdp-header, header.pvc-header, header.brown-header, header.smart-header, header.hub-header, header.ld-header, body > header:has(.nav-links), body > header.hero-section, body > .nav');
+      const legacyHeader = siteHeader || document.querySelector('header.vf-header, header.wpc-header, header.pdp-header, header.pvc-header, header.brown-header, header.smart-header, header.hub-header, header.ld-header, body > header:has(.nav-links), body > header.hero-section, body > .nav, body.vf-product-detail > header');
       if (legacyHeader) {
         quoteHref = legacyHeader.querySelector('a[href*="/contact"][href*="#quote-form"]')?.getAttribute('href') || quoteHref;
         siteHeader = document.createElement('header');
@@ -726,6 +726,11 @@ document.querySelectorAll('.faq-question').forEach((question) => {
         const sharedNav = document.createElement('nav');
         sharedNav.className = 'nav';
         siteHeader.append(sharedBrand, sharedNav);
+        // CSS loads asynchronously: preserve controls initialized on the old header.
+        const languageControl = document.querySelector('.vf-language-switcher');
+        const contactControls = legacyHeader.querySelector('[data-vf-header-actions]');
+        if (languageControl) siteHeader.append(languageControl);
+        if (contactControls) siteHeader.append(contactControls);
         legacyHeader.before(siteHeader);
         if (!legacyHeader.classList.contains('hero-section')) legacyHeader.classList.add('vf-replaced-header');
       }
@@ -911,6 +916,8 @@ document.querySelectorAll('.faq-question').forEach((question) => {
     window.addEventListener('resize', () => {
       if (siteNav.classList.contains('open')) siteHeader.style.setProperty('--vf-nav-top', `${siteHeader.getBoundingClientRect().bottom}px`);
     });
+    createLanguageSwitcher();
+    setupHeaderActions();
   };
 
   const setupProductAttribution = () => {
