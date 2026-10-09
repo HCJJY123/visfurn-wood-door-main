@@ -495,6 +495,7 @@ document.querySelectorAll('.faq-question').forEach((question) => {
     whatsapp.innerHTML = `<span class="vf-header-icon" aria-hidden="true">${whatsappSvg}</span><span data-vf-i18n-label data-vf-source-text="WhatsApp">${getTranslation('WhatsApp')}</span>`;
     const email = document.createElement('a');
     email.className = 'vf-header-email';
+    email.setAttribute('aria-label', 'Email');
     email.href = 'mailto:rose@visfurn.com?subject=VISFURN%20Door%20Project%20Inquiry';
     email.dataset.vfSourceText = 'Email';
     email.dataset.vfI18n = 'Email';
@@ -686,7 +687,7 @@ document.querySelectorAll('.faq-question').forEach((question) => {
     }
     if (!stylesheet.dataset.vfNavigationReady) {
       stylesheet.dataset.vfNavigationReady = 'pending';
-      const navigationStylesheet = new URL('/assets/global-ui.css?v=20260929-navigation-responsive-v2', location.href).href;
+      const navigationStylesheet = new URL('/assets/global-ui.css?v=20261009-mobile-gutters-v1', location.href).href;
       if (stylesheet.href === navigationStylesheet && stylesheet.sheet) {
         stylesheet.dataset.vfNavigationReady = 'ready';
       } else {

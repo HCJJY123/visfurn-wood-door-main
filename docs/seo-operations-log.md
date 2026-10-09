@@ -15,6 +15,14 @@ This file records material, evidence-backed changes so later maintenance cycles 
 
 ## Evidence boundary
 
+## 2026-10-09 mobile layout correction (pending visual QA / deployment)
+
+- Base: main `dbe5df2`; isolated branch `fix/mobile-gutters-20261009`. Original worktree's uncommitted migration notes preserved.
+- Evidence: supplied iPhone screenshots; inventory of 153 HTML files (152 content pages share UI CSS or main.js; remaining file is Google verification). Ten pages use `main.page-width` with no CSS definition, including nine category pages and white-moulded-solid-wood product.
+- Changes: shared page shell uses at least 24px / 3ch horizontal padding; related-product links wrap with 10px gaps and 44px minimum height; shared mobile header controls use 44px height, centered icons, no invisible label layout slot, compact logo at narrow widths. Existing card interior padding retained. No copy, URLs, tracking, contacts or domain changes.
+- Checks: JavaScript syntax, git diff whitespace and existing static build script pass (build is a no-op); stylesheet brace balance checked. Browser service timed out and local browser installation failed, so this is NOT full-site rendered/mobile acceptance and NOT deployed.
+- Required next check: 320/375/390/430px and desktop rendering across home, category, product, blog, country, contact and RTL pages; verify no horizontal overflow, header/menu/language behavior, CTA destinations and page gutters. Review screenshot pages first. Publish only after visual acceptance; verify live asset revision `20261009-mobile-gutters-v1`.
+
 - Crawl baseline: all 138 sitemap URLs returned HTTP 200 on 2026-10-09; conclusions about orphan pages came from an HTML anchor-link crawl, not Google crawl data.
 - Google Search Console property `https://www.visfurn.com/` was visible but not verified/readable in the connected account, so no GSC performance or URL inspection data was used in this cycle.
 - Bing Webmaster API access was not configured. The existing verified IndexNow key was used for recent URL submission; an accepted submission is not evidence of indexing.

@@ -178,6 +178,46 @@ html[dir="rtl"] .vf-language-switcher { direction: rtl; }
   .vf-whatsapp-float--desktop-only { display: none; }
 }
 
+/* Shared content shell: three character-width minimum inset, not text indentation. */
+:root { --vf-content-inset: max(24px, 3ch); }
+main.page-width {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1440px;
+  margin-inline: auto;
+  padding-inline: max(var(--vf-content-inset), env(safe-area-inset-left)) max(var(--vf-content-inset), env(safe-area-inset-right));
+}
+.visfurn-related-products__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 16px;
+}
+.visfurn-related-products__links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 8px 14px;
+  border: 1px solid var(--vf-ui-line);
+  border-radius: 8px;
+  line-height: 1.4;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+@media (max-width: 760px) {
+  /* Shared editorial blocks also occur outside the category shell. */
+  .visfurn-brand-attribution, .visfurn-where-to-order, .visfurn-related-products {
+    box-sizing: border-box;
+    max-width: calc(100% - 2 * var(--vf-content-inset));
+    margin: 24px auto;
+    padding: 18px 22px;
+  }
+  main.page-width > :is(.visfurn-brand-attribution, .visfurn-where-to-order, .visfurn-related-products) {
+    max-width: 100%;
+  }
+  .category-layout > *, .category-layout .content-area { min-width: 0; }
+}
+
 /* Shared VISFURN navigation; legacy page markup remains as a no-script fallback. */
 .vf-replaced-header { display: none !important; }
 .vf-site-nav.site-header { position: sticky; top: 0; z-index: 1100; grid-template-columns: auto minmax(0, 1fr) auto auto; gap: clamp(10px, 1.25vw, 22px); padding-inline: clamp(18px, 2.5vw, 42px); overflow: visible; backdrop-filter: none; }
@@ -503,4 +543,43 @@ html[dir="rtl"] .vf-language-switcher { direction: rtl; }
 
 @media (max-width: 620px) {
   .home-page .markets-grid-reconstructed { grid-template-columns: minmax(0, 1fr) !important; }
+}
+
+/* Final shared navigation sizing, after legacy mobile overrides. */
+@media (max-width: 1199px) {
+  body .vf-site-nav.site-header { gap: 6px; }
+  body .vf-site-nav .vf-header-actions { gap: 6px; flex: 0 0 auto; }
+  body .vf-site-nav .vf-header-actions > :is(.vf-header-whatsapp, .vf-header-email) {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 44px; min-width: 44px; height: 44px; min-height: 44px;
+    padding: 0; gap: 0; line-height: 1;
+  }
+  body .vf-site-nav .vf-header-actions [data-vf-i18n-label] { display: none; }
+  body .vf-site-nav .vf-header-actions .vf-header-icon {
+    display: flex; align-items: center; justify-content: center;
+    width: 20px; height: 20px; flex: 0 0 20px;
+  }
+  body .vf-site-nav .vf-header-icon svg { display: block; }
+  body .vf-site-nav .vf-language-switcher { width: 54px; flex: 0 0 54px; }
+  body .vf-site-nav .vf-language-switcher::before { display: none; }
+  body .vf-site-nav .vf-language-switcher select {
+    box-sizing: border-box; width: 54px; max-width: 54px; height: 44px;
+    min-height: 44px; margin: 0; padding: 0 4px; border-radius: 8px;
+    text-align: center; font-size: 12px; line-height: normal;
+  }
+  body .vf-site-nav .vf-menu-toggle { box-sizing: border-box; line-height: 1; border-radius: 8px; }
+}
+@media (max-width: 420px) {
+  body .vf-site-nav.site-header { padding-inline: 12px; }
+  body .vf-site-nav .brand { min-width: 0; }
+  body .vf-site-nav .brand-logo { width: 96px; max-width: 100%; }
+}
+@media (max-width: 360px) {
+  body .vf-site-nav.site-header { gap: 4px; padding-inline: 8px; }
+  body .vf-site-nav .brand-logo { width: 88px; }
+  body .vf-site-nav .vf-header-actions { gap: 4px; }
+  body .vf-site-nav .vf-menu-toggle { min-width: 50px; padding-inline: 6px; }
 }
