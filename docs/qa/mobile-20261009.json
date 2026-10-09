@@ -1,0 +1,3805 @@
+{
+  "renderedChecks": [
+    {
+      "route": "/products/exterior-doors/modern-european-apartment-door",
+      "width": 320,
+      "scrollWidth": 305,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 28.390625,
+          "width": 248.21875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 8,
+          "right": 89
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 247,
+          "right": 297
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 189,
+          "right": 243
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 93,
+          "right": 185
+        }
+      ]
+    },
+    {
+      "route": "/products/exterior-doors/smart-steel-entrance-door",
+      "width": 320,
+      "scrollWidth": 307,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.03125,
+          "width": 254.9375
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 8,
+          "right": 89
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 247,
+          "right": 297
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 93,
+          "right": 185
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 189,
+          "right": 243
+        }
+      ]
+    },
+    {
+      "route": "/products/fire-security-doors/fire-rated-steel-security-door",
+      "width": 320,
+      "scrollWidth": 305,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.015625,
+          "width": 254.96875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 8,
+          "right": 89
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 247,
+          "right": 297
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 189,
+          "right": 243
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 93,
+          "right": 185
+        }
+      ]
+    },
+    {
+      "route": "/products/fire-security-doors/steel-fire-door-for-house",
+      "width": 320,
+      "scrollWidth": 305,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 251.625
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 8,
+          "right": 89
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 247,
+          "right": 297
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 93,
+          "right": 185
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 189,
+          "right": 243
+        }
+      ]
+    },
+    {
+      "route": "/products/hospital-doors/automatic-hermetic-sliding-door",
+      "width": 320,
+      "scrollWidth": 305,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.015625,
+          "width": 254.96875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 8,
+          "right": 89
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 247,
+          "right": 297
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 189,
+          "right": 243
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 93,
+          "right": 185
+        }
+      ]
+    },
+    {
+      "route": "/products/hospital-doors/modern-laboratory-door",
+      "width": 320,
+      "scrollWidth": 305,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 251.609375
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 8,
+          "right": 89
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 247,
+          "right": 297
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 93,
+          "right": 185
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 189,
+          "right": 243
+        }
+      ]
+    },
+    {
+      "route": "/products/hotel-doors/french-style-glazed-suite-door",
+      "width": 320,
+      "scrollWidth": 305,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.015625,
+          "width": 254.96875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 8,
+          "right": 89
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 247,
+          "right": 297
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 189,
+          "right": 243
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 93,
+          "right": 185
+        }
+      ]
+    },
+    {
+      "route": "/products/hotel-doors/hotel-guestroom-door",
+      "width": 320,
+      "scrollWidth": 305,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.015625,
+          "width": 254.96875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 8,
+          "right": 89
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 247,
+          "right": 297
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 189,
+          "right": 243
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 93,
+          "right": 185
+        }
+      ]
+    },
+    {
+      "route": "/products/hotel-doors/modern-finished-hotel-interior-door",
+      "width": 320,
+      "scrollWidth": 305,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 251.625
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 8,
+          "right": 89
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 247,
+          "right": 297
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 93,
+          "right": 185
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 189,
+          "right": 243
+        }
+      ]
+    },
+    {
+      "route": "/products/interior-doors/modern-pvc-wooden-door",
+      "width": 320,
+      "scrollWidth": 305,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 28.390625,
+          "width": 248.21875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 8,
+          "right": 89
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 247,
+          "right": 297
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 93,
+          "right": 185
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 189,
+          "right": 243
+        }
+      ]
+    },
+    {
+      "route": "/products/interior-doors/white-moulded-solid-wood",
+      "width": 320,
+      "scrollWidth": 305,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 28.390625,
+          "width": 248.21875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 8,
+          "right": 89
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 247,
+          "right": 297
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 189,
+          "right": 243
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 93,
+          "right": 185
+        }
+      ]
+    },
+    {
+      "route": "/products/school-doors/custom-color-classroom-door",
+      "width": 320,
+      "scrollWidth": 305,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 251.625
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 8,
+          "right": 89
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 247,
+          "right": 297
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 93,
+          "right": 185
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 189,
+          "right": 243
+        }
+      ]
+    },
+    {
+      "route": "/products/school-doors/galvanized-steel-school-door",
+      "width": 320,
+      "scrollWidth": 305,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.015625,
+          "width": 254.96875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 8,
+          "right": 89
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 247,
+          "right": 297
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 189,
+          "right": 243
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 93,
+          "right": 185
+        }
+      ]
+    },
+    {
+      "route": "/products/wooden-doors/paint-free-brown-wooden-interior-door",
+      "width": 320,
+      "scrollWidth": 305,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.03125,
+          "width": 254.9375
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 8,
+          "right": 89
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 247,
+          "right": 297
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 93,
+          "right": 185
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 189,
+          "right": 243
+        }
+      ]
+    },
+    {
+      "route": "/products/wooden-doors/soundproof-composite-entry-door",
+      "width": 320,
+      "scrollWidth": 305,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 251.625
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 8,
+          "right": 89
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 247,
+          "right": 297
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 189,
+          "right": 243
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 93,
+          "right": 185
+        }
+      ]
+    },
+    {
+      "route": "/products/wpc-doors/modern-grooved-wpc-interior-door",
+      "width": 320,
+      "scrollWidth": 305,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 251.609375
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 8,
+          "right": 89
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 247,
+          "right": 297
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 93,
+          "right": 185
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 189,
+          "right": 243
+        }
+      ]
+    },
+    {
+      "route": "/products/wpc-doors/moulded-panel-wpc-interior-door",
+      "width": 320,
+      "scrollWidth": 305,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 251.609375
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 8,
+          "right": 89
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 247,
+          "right": 297
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 189,
+          "right": 243
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 93,
+          "right": 185
+        }
+      ]
+    },
+    {
+      "route": "/products/wpc-doors/waterproof-wpc-interior-door",
+      "width": 320,
+      "scrollWidth": 305,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 28.390625,
+          "width": 248.21875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 8,
+          "right": 89
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 247,
+          "right": 297
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 189,
+          "right": 243
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 93,
+          "right": 185
+        }
+      ]
+    },
+    {
+      "route": "/products/exterior-doors/modern-european-apartment-door",
+      "width": 375,
+      "scrollWidth": 360,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 28.390625,
+          "width": 303.21875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 294,
+          "right": 348
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 234,
+          "right": 288
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 134,
+          "right": 228
+        }
+      ]
+    },
+    {
+      "route": "/products/exterior-doors/smart-steel-entrance-door",
+      "width": 375,
+      "scrollWidth": 360,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.03125,
+          "width": 309.9375
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 294,
+          "right": 348
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 134,
+          "right": 228
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 234,
+          "right": 288
+        }
+      ]
+    },
+    {
+      "route": "/products/fire-security-doors/fire-rated-steel-security-door",
+      "width": 375,
+      "scrollWidth": 360,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.015625,
+          "width": 309.96875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 294,
+          "right": 348
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 234,
+          "right": 288
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 134,
+          "right": 228
+        }
+      ]
+    },
+    {
+      "route": "/products/fire-security-doors/steel-fire-door-for-house",
+      "width": 375,
+      "scrollWidth": 360,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 306.625
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 294,
+          "right": 348
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 134,
+          "right": 228
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 234,
+          "right": 288
+        }
+      ]
+    },
+    {
+      "route": "/products/hospital-doors/automatic-hermetic-sliding-door",
+      "width": 375,
+      "scrollWidth": 360,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.015625,
+          "width": 309.96875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 294,
+          "right": 348
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 234,
+          "right": 288
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 134,
+          "right": 228
+        }
+      ]
+    },
+    {
+      "route": "/products/hospital-doors/modern-laboratory-door",
+      "width": 375,
+      "scrollWidth": 360,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 306.609375
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 294,
+          "right": 348
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 134,
+          "right": 228
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 234,
+          "right": 288
+        }
+      ]
+    },
+    {
+      "route": "/products/hotel-doors/french-style-glazed-suite-door",
+      "width": 375,
+      "scrollWidth": 360,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.015625,
+          "width": 309.96875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 294,
+          "right": 348
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 234,
+          "right": 288
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 134,
+          "right": 228
+        }
+      ]
+    },
+    {
+      "route": "/products/hotel-doors/hotel-guestroom-door",
+      "width": 375,
+      "scrollWidth": 360,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.015625,
+          "width": 309.96875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 294,
+          "right": 348
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 234,
+          "right": 288
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 134,
+          "right": 228
+        }
+      ]
+    },
+    {
+      "route": "/products/hotel-doors/modern-finished-hotel-interior-door",
+      "width": 375,
+      "scrollWidth": 360,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 306.625
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 294,
+          "right": 348
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 134,
+          "right": 228
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 234,
+          "right": 288
+        }
+      ]
+    },
+    {
+      "route": "/products/interior-doors/modern-pvc-wooden-door",
+      "width": 375,
+      "scrollWidth": 360,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 28.390625,
+          "width": 303.21875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 294,
+          "right": 348
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 134,
+          "right": 228
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 234,
+          "right": 288
+        }
+      ]
+    },
+    {
+      "route": "/products/interior-doors/white-moulded-solid-wood",
+      "width": 375,
+      "scrollWidth": 360,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 28.390625,
+          "width": 303.21875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 294,
+          "right": 348
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 234,
+          "right": 288
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 134,
+          "right": 228
+        }
+      ]
+    },
+    {
+      "route": "/products/school-doors/custom-color-classroom-door",
+      "width": 375,
+      "scrollWidth": 360,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 306.625
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 294,
+          "right": 348
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 134,
+          "right": 228
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 234,
+          "right": 288
+        }
+      ]
+    },
+    {
+      "route": "/products/school-doors/galvanized-steel-school-door",
+      "width": 375,
+      "scrollWidth": 360,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.015625,
+          "width": 309.96875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 294,
+          "right": 348
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 234,
+          "right": 288
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 134,
+          "right": 228
+        }
+      ]
+    },
+    {
+      "route": "/products/wooden-doors/paint-free-brown-wooden-interior-door",
+      "width": 375,
+      "scrollWidth": 360,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.03125,
+          "width": 309.9375
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 294,
+          "right": 348
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 134,
+          "right": 228
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 234,
+          "right": 288
+        }
+      ]
+    },
+    {
+      "route": "/products/wooden-doors/soundproof-composite-entry-door",
+      "width": 375,
+      "scrollWidth": 360,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 306.625
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 294,
+          "right": 348
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 234,
+          "right": 288
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 134,
+          "right": 228
+        }
+      ]
+    },
+    {
+      "route": "/products/wpc-doors/modern-grooved-wpc-interior-door",
+      "width": 375,
+      "scrollWidth": 360,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 306.609375
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 294,
+          "right": 348
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 134,
+          "right": 228
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 234,
+          "right": 288
+        }
+      ]
+    },
+    {
+      "route": "/products/wpc-doors/moulded-panel-wpc-interior-door",
+      "width": 375,
+      "scrollWidth": 360,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 306.609375
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 294,
+          "right": 348
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 234,
+          "right": 288
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 134,
+          "right": 228
+        }
+      ]
+    },
+    {
+      "route": "/products/wpc-doors/waterproof-wpc-interior-door",
+      "width": 375,
+      "scrollWidth": 360,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 28.390625,
+          "width": 303.21875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 294,
+          "right": 348
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 234,
+          "right": 288
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 134,
+          "right": 228
+        }
+      ]
+    },
+    {
+      "route": "/products/exterior-doors/modern-european-apartment-door",
+      "width": 390,
+      "scrollWidth": 375,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 28.390625,
+          "width": 318.21875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 309,
+          "right": 363
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 249,
+          "right": 303
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 149,
+          "right": 243
+        }
+      ]
+    },
+    {
+      "route": "/products/exterior-doors/smart-steel-entrance-door",
+      "width": 390,
+      "scrollWidth": 375,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.03125,
+          "width": 324.9375
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 309,
+          "right": 363
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 149,
+          "right": 243
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 249,
+          "right": 303
+        }
+      ]
+    },
+    {
+      "route": "/products/fire-security-doors/fire-rated-steel-security-door",
+      "width": 390,
+      "scrollWidth": 375,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.015625,
+          "width": 324.96875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 309,
+          "right": 363
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 249,
+          "right": 303
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 149,
+          "right": 243
+        }
+      ]
+    },
+    {
+      "route": "/products/fire-security-doors/steel-fire-door-for-house",
+      "width": 390,
+      "scrollWidth": 375,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 321.625
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 309,
+          "right": 363
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 149,
+          "right": 243
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 249,
+          "right": 303
+        }
+      ]
+    },
+    {
+      "route": "/products/hospital-doors/automatic-hermetic-sliding-door",
+      "width": 390,
+      "scrollWidth": 375,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.015625,
+          "width": 324.96875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 309,
+          "right": 363
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 249,
+          "right": 303
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 149,
+          "right": 243
+        }
+      ]
+    },
+    {
+      "route": "/products/hospital-doors/modern-laboratory-door",
+      "width": 390,
+      "scrollWidth": 375,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 321.609375
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 309,
+          "right": 363
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 149,
+          "right": 243
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 249,
+          "right": 303
+        }
+      ]
+    },
+    {
+      "route": "/products/hotel-doors/french-style-glazed-suite-door",
+      "width": 390,
+      "scrollWidth": 375,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.015625,
+          "width": 324.96875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 309,
+          "right": 363
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 249,
+          "right": 303
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 149,
+          "right": 243
+        }
+      ]
+    },
+    {
+      "route": "/products/hotel-doors/hotel-guestroom-door",
+      "width": 390,
+      "scrollWidth": 375,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.015625,
+          "width": 324.96875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 309,
+          "right": 363
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 249,
+          "right": 303
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 149,
+          "right": 243
+        }
+      ]
+    },
+    {
+      "route": "/products/hotel-doors/modern-finished-hotel-interior-door",
+      "width": 390,
+      "scrollWidth": 375,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 321.625
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 309,
+          "right": 363
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 149,
+          "right": 243
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 249,
+          "right": 303
+        }
+      ]
+    },
+    {
+      "route": "/products/interior-doors/modern-pvc-wooden-door",
+      "width": 390,
+      "scrollWidth": 375,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 28.390625,
+          "width": 318.21875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 309,
+          "right": 363
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 149,
+          "right": 243
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 249,
+          "right": 303
+        }
+      ]
+    },
+    {
+      "route": "/products/interior-doors/white-moulded-solid-wood",
+      "width": 390,
+      "scrollWidth": 375,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 28.390625,
+          "width": 318.21875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 309,
+          "right": 363
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 249,
+          "right": 303
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 149,
+          "right": 243
+        }
+      ]
+    },
+    {
+      "route": "/products/school-doors/custom-color-classroom-door",
+      "width": 390,
+      "scrollWidth": 375,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 321.625
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 309,
+          "right": 363
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 149,
+          "right": 243
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 249,
+          "right": 303
+        }
+      ]
+    },
+    {
+      "route": "/products/school-doors/galvanized-steel-school-door",
+      "width": 390,
+      "scrollWidth": 375,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.015625,
+          "width": 324.96875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 309,
+          "right": 363
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 249,
+          "right": 303
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 149,
+          "right": 243
+        }
+      ]
+    },
+    {
+      "route": "/products/wooden-doors/paint-free-brown-wooden-interior-door",
+      "width": 390,
+      "scrollWidth": 375,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.03125,
+          "width": 324.9375
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 309,
+          "right": 363
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 149,
+          "right": 243
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 249,
+          "right": 303
+        }
+      ]
+    },
+    {
+      "route": "/products/wooden-doors/soundproof-composite-entry-door",
+      "width": 390,
+      "scrollWidth": 375,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 321.625
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 309,
+          "right": 363
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 249,
+          "right": 303
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 149,
+          "right": 243
+        }
+      ]
+    },
+    {
+      "route": "/products/wpc-doors/modern-grooved-wpc-interior-door",
+      "width": 390,
+      "scrollWidth": 375,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 321.609375
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 309,
+          "right": 363
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 149,
+          "right": 243
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 249,
+          "right": 303
+        }
+      ]
+    },
+    {
+      "route": "/products/wpc-doors/moulded-panel-wpc-interior-door",
+      "width": 390,
+      "scrollWidth": 375,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 321.609375
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 309,
+          "right": 363
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 249,
+          "right": 303
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 149,
+          "right": 243
+        }
+      ]
+    },
+    {
+      "route": "/products/wpc-doors/waterproof-wpc-interior-door",
+      "width": 390,
+      "scrollWidth": 375,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 28.390625,
+          "width": 318.21875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 309,
+          "right": 363
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 249,
+          "right": 303
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 149,
+          "right": 243
+        }
+      ]
+    },
+    {
+      "route": "/products/exterior-doors/modern-european-apartment-door",
+      "width": 430,
+      "scrollWidth": 415,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 28.390625,
+          "width": 358.21875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 118
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 343,
+          "right": 397
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 283,
+          "right": 337
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 183,
+          "right": 277
+        }
+      ]
+    },
+    {
+      "route": "/products/exterior-doors/smart-steel-entrance-door",
+      "width": 430,
+      "scrollWidth": 415,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.03125,
+          "width": 364.9375
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 118
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 343,
+          "right": 397
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 183,
+          "right": 277
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 283,
+          "right": 337
+        }
+      ]
+    },
+    {
+      "route": "/products/fire-security-doors/fire-rated-steel-security-door",
+      "width": 430,
+      "scrollWidth": 415,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.015625,
+          "width": 364.96875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 118
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 343,
+          "right": 397
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 283,
+          "right": 337
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 183,
+          "right": 277
+        }
+      ]
+    },
+    {
+      "route": "/products/fire-security-doors/steel-fire-door-for-house",
+      "width": 430,
+      "scrollWidth": 415,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 361.625
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 118
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 343,
+          "right": 397
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 183,
+          "right": 277
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 283,
+          "right": 337
+        }
+      ]
+    },
+    {
+      "route": "/products/hospital-doors/automatic-hermetic-sliding-door",
+      "width": 430,
+      "scrollWidth": 415,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.015625,
+          "width": 364.96875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 118
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 343,
+          "right": 397
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 283,
+          "right": 337
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 183,
+          "right": 277
+        }
+      ]
+    },
+    {
+      "route": "/products/hospital-doors/modern-laboratory-door",
+      "width": 430,
+      "scrollWidth": 415,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 361.609375
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 118
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 343,
+          "right": 397
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 183,
+          "right": 277
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 283,
+          "right": 337
+        }
+      ]
+    },
+    {
+      "route": "/products/hotel-doors/french-style-glazed-suite-door",
+      "width": 430,
+      "scrollWidth": 415,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.015625,
+          "width": 364.96875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 118
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 343,
+          "right": 397
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 283,
+          "right": 337
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 183,
+          "right": 277
+        }
+      ]
+    },
+    {
+      "route": "/products/hotel-doors/hotel-guestroom-door",
+      "width": 430,
+      "scrollWidth": 415,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.015625,
+          "width": 364.96875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 118
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 343,
+          "right": 397
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 283,
+          "right": 337
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 183,
+          "right": 277
+        }
+      ]
+    },
+    {
+      "route": "/products/hotel-doors/modern-finished-hotel-interior-door",
+      "width": 430,
+      "scrollWidth": 415,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 361.625
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 118
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 343,
+          "right": 397
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 183,
+          "right": 277
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 283,
+          "right": 337
+        }
+      ]
+    },
+    {
+      "route": "/products/interior-doors/modern-pvc-wooden-door",
+      "width": 430,
+      "scrollWidth": 415,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 28.390625,
+          "width": 358.21875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 118
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 343,
+          "right": 397
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 183,
+          "right": 277
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 283,
+          "right": 337
+        }
+      ]
+    },
+    {
+      "route": "/products/interior-doors/white-moulded-solid-wood",
+      "width": 430,
+      "scrollWidth": 415,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 28.390625,
+          "width": 358.21875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 118
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 343,
+          "right": 397
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 283,
+          "right": 337
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 183,
+          "right": 277
+        }
+      ]
+    },
+    {
+      "route": "/products/school-doors/custom-color-classroom-door",
+      "width": 430,
+      "scrollWidth": 415,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 361.625
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 118
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 343,
+          "right": 397
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 183,
+          "right": 277
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 283,
+          "right": 337
+        }
+      ]
+    },
+    {
+      "route": "/products/school-doors/galvanized-steel-school-door",
+      "width": 430,
+      "scrollWidth": 415,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.015625,
+          "width": 364.96875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 118
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 343,
+          "right": 397
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 283,
+          "right": 337
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 183,
+          "right": 277
+        }
+      ]
+    },
+    {
+      "route": "/products/wooden-doors/paint-free-brown-wooden-interior-door",
+      "width": 430,
+      "scrollWidth": 415,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.03125,
+          "width": 364.9375
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 118
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 343,
+          "right": 397
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 183,
+          "right": 277
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 283,
+          "right": 337
+        }
+      ]
+    },
+    {
+      "route": "/products/wooden-doors/soundproof-composite-entry-door",
+      "width": 430,
+      "scrollWidth": 415,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 361.625
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 134
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 343,
+          "right": 397
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 283,
+          "right": 337
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 183,
+          "right": 277
+        }
+      ]
+    },
+    {
+      "route": "/products/wpc-doors/modern-grooved-wpc-interior-door",
+      "width": 430,
+      "scrollWidth": 415,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 361.609375
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 118
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 343,
+          "right": 397
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 183,
+          "right": 277
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 283,
+          "right": 337
+        }
+      ]
+    },
+    {
+      "route": "/products/wpc-doors/moulded-panel-wpc-interior-door",
+      "width": 430,
+      "scrollWidth": 415,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 361.609375
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 118
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 343,
+          "right": 397
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 283,
+          "right": 337
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 183,
+          "right": 277
+        }
+      ]
+    },
+    {
+      "route": "/products/wpc-doors/waterproof-wpc-interior-door",
+      "width": 430,
+      "scrollWidth": 415,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 28.390625,
+          "width": 358.21875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 118
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 343,
+          "right": 397
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 283,
+          "right": 337
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 183,
+          "right": 277
+        }
+      ]
+    },
+    {
+      "route": "/products/exterior-doors/modern-european-apartment-door",
+      "width": 768,
+      "scrollWidth": 753,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 24,
+          "width": 680
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 134
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 681,
+          "right": 735
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 621,
+          "right": 675
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 521,
+          "right": 615
+        }
+      ]
+    },
+    {
+      "route": "/products/exterior-doors/smart-steel-entrance-door",
+      "width": 768,
+      "scrollWidth": 753,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 24,
+          "width": 705
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 134
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 681,
+          "right": 735
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 521,
+          "right": 615
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 621,
+          "right": 675
+        }
+      ]
+    },
+    {
+      "route": "/products/fire-security-doors/fire-rated-steel-security-door",
+      "width": 768,
+      "scrollWidth": 753,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 20,
+          "width": 713
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 134
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 681,
+          "right": 735
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 621,
+          "right": 675
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 521,
+          "right": 615
+        }
+      ]
+    },
+    {
+      "route": "/products/fire-security-doors/steel-fire-door-for-house",
+      "width": 768,
+      "scrollWidth": 753,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 398.796875,
+          "width": 332.203125
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 134
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 681,
+          "right": 735
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 521,
+          "right": 615
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 621,
+          "right": 675
+        }
+      ]
+    },
+    {
+      "route": "/products/hospital-doors/automatic-hermetic-sliding-door",
+      "width": 768,
+      "scrollWidth": 753,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 20,
+          "width": 713
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 134
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 681,
+          "right": 735
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 621,
+          "right": 675
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 521,
+          "right": 615
+        }
+      ]
+    },
+    {
+      "route": "/products/hospital-doors/modern-laboratory-door",
+      "width": 768,
+      "scrollWidth": 753,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 20,
+          "width": 396
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 134
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 681,
+          "right": 735
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 521,
+          "right": 615
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 621,
+          "right": 675
+        }
+      ]
+    },
+    {
+      "route": "/products/hotel-doors/french-style-glazed-suite-door",
+      "width": 768,
+      "scrollWidth": 753,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 20,
+          "width": 713
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 134
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 681,
+          "right": 735
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 621,
+          "right": 675
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 521,
+          "right": 615
+        }
+      ]
+    },
+    {
+      "route": "/products/hotel-doors/hotel-guestroom-door",
+      "width": 768,
+      "scrollWidth": 753,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 20,
+          "width": 713
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 134
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 681,
+          "right": 735
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 621,
+          "right": 675
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 521,
+          "right": 615
+        }
+      ]
+    },
+    {
+      "route": "/products/hotel-doors/modern-finished-hotel-interior-door",
+      "width": 768,
+      "scrollWidth": 753,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 390.5,
+          "width": 340.5
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 134
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 681,
+          "right": 735
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 521,
+          "right": 615
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 621,
+          "right": 675
+        }
+      ]
+    },
+    {
+      "route": "/products/interior-doors/modern-pvc-wooden-door",
+      "width": 768,
+      "scrollWidth": 753,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 22,
+          "width": 709
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 134
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 681,
+          "right": 735
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 521,
+          "right": 615
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 621,
+          "right": 675
+        }
+      ]
+    },
+    {
+      "route": "/products/interior-doors/white-moulded-solid-wood",
+      "width": 768,
+      "scrollWidth": 753,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 30.28125,
+          "width": 692.4375
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 134
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 681,
+          "right": 735
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 621,
+          "right": 675
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 521,
+          "right": 615
+        }
+      ]
+    },
+    {
+      "route": "/products/school-doors/custom-color-classroom-door",
+      "width": 768,
+      "scrollWidth": 753,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 398.796875,
+          "width": 332.203125
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 134
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 681,
+          "right": 735
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 521,
+          "right": 615
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 621,
+          "right": 675
+        }
+      ]
+    },
+    {
+      "route": "/products/school-doors/galvanized-steel-school-door",
+      "width": 768,
+      "scrollWidth": 753,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 20,
+          "width": 713
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 134
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 681,
+          "right": 735
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 621,
+          "right": 675
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 521,
+          "right": 615
+        }
+      ]
+    },
+    {
+      "route": "/products/wooden-doors/paint-free-brown-wooden-interior-door",
+      "width": 768,
+      "scrollWidth": 753,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 20,
+          "width": 713
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 134
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 681,
+          "right": 735
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 521,
+          "right": 615
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 621,
+          "right": 675
+        }
+      ]
+    },
+    {
+      "route": "/products/wooden-doors/soundproof-composite-entry-door",
+      "width": 768,
+      "scrollWidth": 753,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 20,
+          "width": 713
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 134
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 681,
+          "right": 735
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 621,
+          "right": 675
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 521,
+          "right": 615
+        }
+      ]
+    },
+    {
+      "route": "/products/wpc-doors/modern-grooved-wpc-interior-door",
+      "width": 768,
+      "scrollWidth": 753,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 15,
+          "width": 723
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 134
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 681,
+          "right": 735
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 521,
+          "right": 615
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 621,
+          "right": 675
+        }
+      ]
+    },
+    {
+      "route": "/products/wpc-doors/moulded-panel-wpc-interior-door",
+      "width": 768,
+      "scrollWidth": 753,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 24,
+          "width": 705
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 134
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 681,
+          "right": 735
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 621,
+          "right": 675
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 521,
+          "right": 615
+        }
+      ]
+    },
+    {
+      "route": "/products/wpc-doors/waterproof-wpc-interior-door",
+      "width": 768,
+      "scrollWidth": 753,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 24,
+          "width": 705
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 134
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 681,
+          "right": 735
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 621,
+          "right": 675
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 521,
+          "right": 615
+        }
+      ]
+    },
+    {
+      "route": "/products/exterior-doors/modern-european-apartment-door",
+      "width": 1440,
+      "scrollWidth": 1425,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 808.34375,
+          "width": 592.65625
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 36,
+          "right": 172
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 0,
+          "right": 0
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 1090,
+          "right": 1179
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 1197,
+          "right": 1389
+        }
+      ]
+    },
+    {
+      "route": "/products/exterior-doors/smart-steel-entrance-door",
+      "width": 1440,
+      "scrollWidth": 1425,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 765.046875,
+          "width": 567.453125
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 36,
+          "right": 172
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 0,
+          "right": 0
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 1093,
+          "right": 1282
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 1300,
+          "right": 1389
+        }
+      ]
+    },
+    {
+      "route": "/products/fire-security-doors/fire-rated-steel-security-door",
+      "width": 1440,
+      "scrollWidth": 1425,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 736.5,
+          "width": 556
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 36,
+          "right": 172
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 0,
+          "right": 0
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 1093,
+          "right": 1182
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 1200,
+          "right": 1389
+        }
+      ]
+    },
+    {
+      "route": "/products/fire-security-doors/steel-fire-door-for-house",
+      "width": 1440,
+      "scrollWidth": 1425,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 754.921875,
+          "width": 545.578125
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 36,
+          "right": 172
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 0,
+          "right": 0
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 1093,
+          "right": 1282
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 1300,
+          "right": 1389
+        }
+      ]
+    },
+    {
+      "route": "/products/hospital-doors/automatic-hermetic-sliding-door",
+      "width": 1440,
+      "scrollWidth": 1425,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 736.5,
+          "width": 556
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 36,
+          "right": 172
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 0,
+          "right": 0
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 1093,
+          "right": 1182
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 1200,
+          "right": 1389
+        }
+      ]
+    },
+    {
+      "route": "/products/hospital-doors/modern-laboratory-door",
+      "width": 1440,
+      "scrollWidth": 1425,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 112.5,
+          "width": 434
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 36,
+          "right": 172
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 0,
+          "right": 0
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 1093,
+          "right": 1282
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 1300,
+          "right": 1389
+        }
+      ]
+    },
+    {
+      "route": "/products/hotel-doors/french-style-glazed-suite-door",
+      "width": 1440,
+      "scrollWidth": 1425,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 736.5,
+          "width": 556
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 36,
+          "right": 172
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 0,
+          "right": 0
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 1093,
+          "right": 1182
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 1200,
+          "right": 1389
+        }
+      ]
+    },
+    {
+      "route": "/products/hotel-doors/hotel-guestroom-door",
+      "width": 1440,
+      "scrollWidth": 1425,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 736.5,
+          "width": 556
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 36,
+          "right": 172
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 0,
+          "right": 0
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 1093,
+          "right": 1182
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 1200,
+          "right": 1389
+        }
+      ]
+    },
+    {
+      "route": "/products/hotel-doors/modern-finished-hotel-interior-door",
+      "width": 1440,
+      "scrollWidth": 1425,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 741.296875,
+          "width": 559.203125
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 36,
+          "right": 172
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 0,
+          "right": 0
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 1093,
+          "right": 1282
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 1300,
+          "right": 1389
+        }
+      ]
+    },
+    {
+      "route": "/products/interior-doors/modern-pvc-wooden-door",
+      "width": 1440,
+      "scrollWidth": 1425,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 769.140625,
+          "width": 563.34375
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 36,
+          "right": 172
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 0,
+          "right": 0
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 1090,
+          "right": 1282
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 1300,
+          "right": 1389
+        }
+      ]
+    },
+    {
+      "route": "/products/interior-doors/white-moulded-solid-wood",
+      "width": 1440,
+      "scrollWidth": 1425,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 807.71875,
+          "width": 587
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 36,
+          "right": 172
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 0,
+          "right": 0
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 1090,
+          "right": 1179
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 1197,
+          "right": 1389
+        }
+      ]
+    },
+    {
+      "route": "/products/school-doors/custom-color-classroom-door",
+      "width": 1440,
+      "scrollWidth": 1425,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 754.921875,
+          "width": 545.578125
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 36,
+          "right": 172
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 0,
+          "right": 0
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 1093,
+          "right": 1282
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 1300,
+          "right": 1389
+        }
+      ]
+    },
+    {
+      "route": "/products/school-doors/galvanized-steel-school-door",
+      "width": 1440,
+      "scrollWidth": 1425,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 736.5,
+          "width": 556
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 36,
+          "right": 172
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 0,
+          "right": 0
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 1093,
+          "right": 1182
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 1200,
+          "right": 1389
+        }
+      ]
+    },
+    {
+      "route": "/products/wooden-doors/paint-free-brown-wooden-interior-door",
+      "width": 1440,
+      "scrollWidth": 1425,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 782.578125,
+          "width": 529.921875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 36,
+          "right": 172
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 0,
+          "right": 0
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 1093,
+          "right": 1282
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 1300,
+          "right": 1389
+        }
+      ]
+    },
+    {
+      "route": "/products/wooden-doors/soundproof-composite-entry-door",
+      "width": 1440,
+      "scrollWidth": 1425,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 736.5,
+          "width": 556
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 36,
+          "right": 1389
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 0,
+          "right": 0
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 36,
+          "right": 125
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 125,
+          "right": 314
+        }
+      ]
+    },
+    {
+      "route": "/products/wpc-doors/modern-grooved-wpc-interior-door",
+      "width": 1440,
+      "scrollWidth": 1425,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 788.984375,
+          "width": 583.515625
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 36,
+          "right": 172
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 0,
+          "right": 0
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 1093,
+          "right": 1282
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 1300,
+          "right": 1389
+        }
+      ]
+    },
+    {
+      "route": "/products/wpc-doors/moulded-panel-wpc-interior-door",
+      "width": 1440,
+      "scrollWidth": 1425,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 793.90625,
+          "width": 607.09375
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 36,
+          "right": 172
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 0,
+          "right": 0
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 1093,
+          "right": 1182
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 1200,
+          "right": 1389
+        }
+      ]
+    },
+    {
+      "route": "/products/wpc-doors/waterproof-wpc-interior-door",
+      "width": 1440,
+      "scrollWidth": 1425,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 797.015625,
+          "width": 603.984375
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 36,
+          "right": 172
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 0,
+          "right": 0
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 1090,
+          "right": 1179
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 1197,
+          "right": 1389
+        }
+      ]
+    }
+  ],
+  "interactionResults": [
+    {
+      "path": "/products/exterior-doors/modern-european-apartment-door",
+      "thumbs": 6,
+      "galleryChanged": true,
+      "opened": "true",
+      "closed": "false"
+    },
+    {
+      "path": "/products/exterior-doors/smart-steel-entrance-door",
+      "thumbs": 4,
+      "galleryChanged": false,
+      "opened": "true",
+      "closed": "false"
+    },
+    {
+      "path": "/products/fire-security-doors/fire-rated-steel-security-door",
+      "thumbs": 5,
+      "galleryChanged": true,
+      "opened": "true",
+      "closed": "false"
+    },
+    {
+      "path": "/products/fire-security-doors/steel-fire-door-for-house",
+      "thumbs": 2,
+      "galleryChanged": true,
+      "opened": "true",
+      "closed": "false"
+    },
+    {
+      "path": "/products/hospital-doors/automatic-hermetic-sliding-door",
+      "thumbs": 5,
+      "galleryChanged": true,
+      "opened": "true",
+      "closed": "false"
+    },
+    {
+      "path": "/products/hospital-doors/modern-laboratory-door",
+      "thumbs": 0,
+      "galleryChanged": null,
+      "opened": "true",
+      "closed": "false"
+    },
+    {
+      "path": "/products/hotel-doors/french-style-glazed-suite-door",
+      "thumbs": 5,
+      "galleryChanged": true,
+      "opened": "true",
+      "closed": "false"
+    },
+    {
+      "path": "/products/hotel-doors/hotel-guestroom-door",
+      "thumbs": 5,
+      "galleryChanged": true,
+      "opened": "true",
+      "closed": "false"
+    },
+    {
+      "path": "/products/hotel-doors/modern-finished-hotel-interior-door",
+      "thumbs": 0,
+      "galleryChanged": null,
+      "opened": "true",
+      "closed": "false"
+    },
+    {
+      "path": "/products/interior-doors/modern-pvc-wooden-door",
+      "thumbs": 4,
+      "galleryChanged": true,
+      "opened": "true",
+      "closed": "false"
+    },
+    {
+      "path": "/products/interior-doors/white-moulded-solid-wood",
+      "thumbs": 5,
+      "galleryChanged": true,
+      "opened": "true",
+      "closed": "false"
+    },
+    {
+      "path": "/products/school-doors/custom-color-classroom-door",
+      "thumbs": 2,
+      "galleryChanged": true,
+      "opened": "true",
+      "closed": "false"
+    },
+    {
+      "path": "/products/school-doors/galvanized-steel-school-door",
+      "thumbs": 5,
+      "galleryChanged": true,
+      "opened": "true",
+      "closed": "false"
+    },
+    {
+      "path": "/products/wooden-doors/paint-free-brown-wooden-interior-door",
+      "thumbs": 3,
+      "galleryChanged": true,
+      "opened": "true",
+      "closed": "false"
+    },
+    {
+      "path": "/products/wooden-doors/soundproof-composite-entry-door",
+      "thumbs": 5,
+      "galleryChanged": true,
+      "opened": "true",
+      "closed": "false"
+    },
+    {
+      "path": "/products/wpc-doors/modern-grooved-wpc-interior-door",
+      "thumbs": 4,
+      "galleryChanged": true,
+      "opened": "true",
+      "closed": "false"
+    },
+    {
+      "path": "/products/wpc-doors/moulded-panel-wpc-interior-door",
+      "thumbs": 4,
+      "galleryChanged": true,
+      "opened": "true",
+      "closed": "false"
+    },
+    {
+      "path": "/products/wpc-doors/waterproof-wpc-interior-door",
+      "thumbs": 5,
+      "galleryChanged": true,
+      "opened": "true",
+      "closed": "false"
+    }
+  ],
+  "environment": "Cloud Chrome; CSS viewports in same-origin iframe; not iPhone Safari hardware"
+}

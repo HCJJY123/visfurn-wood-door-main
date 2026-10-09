@@ -35,3 +35,12 @@ This file records material, evidence-backed changes so later maintenance cycles 
 - Google Search Console property `https://www.visfurn.com/` was visible but not verified/readable in the connected account, so no GSC performance or URL inspection data was used in this cycle.
 - Bing Webmaster API access was not configured. The existing verified IndexNow key was used for recent URL submission; an accepted submission is not evidence of indexing.
 - No new images were required. Existing images were retained and no generated visual is presented as factory, product-delivery or certification evidence.
+
+## 2026-10-09 rendered product mobile QA follow-up
+
+- Scope: all 18 product detail routes from production base `8bbc997`; six CSS viewport widths (320, 375, 390, 430, 768, 1440), 108 rendered geometry checks. Results: `docs/qa/mobile-20261009.json`. No viewport overflow or missing shared header controls after correction.
+- Actual browser finding: asynchronous shared header replacement could leave contact and language controls inside the hidden legacy header. Preserve existing controls and run their idempotent setup after replacement; recognize the grooved WPC header. Remove forced portrait aspect ratio from the mobile apartment main-image stage to reduce empty space.
+- Interaction: all 18 menus opened and closed with Escape; all 15 switchable galleries changed main image. Laboratory and finished-hotel pages use static images; smart-steel `.smart-thumb` elements are static div tiles, so its raw `changed:false` is not a failed interactive gallery. Product submenu and apartment quote link were clicked; contact form anchor and fields rendered. WPC duplicate sticky CTA suppression was checked. No inquiry submitted.
+- Visual samples: apartment, contact, WPC and PVC at 390px. Browser environment: cloud Chrome using a same-origin iframe with real CSS media-query widths; not physical iPhone/Safari or touch-device certification.
+- Tested preview: deployment `E1uF5Zu4KvUwL4LDyoGPkqu6y3wP`. QA-only harness stays on separate preview branch and is excluded from production. Static JS syntax and existing three product checks pass. Release status and final SHA are recorded in the release PR.
+- Next review: real iPhone Safari spot-check of header, gallery and RFQ; monitor product-page to inquiry engagement without treating clicks as qualified inquiries. Existing imagery retained; no new image required.
