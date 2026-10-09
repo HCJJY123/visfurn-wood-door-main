@@ -61,6 +61,11 @@
     display: block; width: 100%; max-width: 100%;
     height: auto; max-height: none; aspect-ratio: auto; object-fit: contain;
   }
+  /* Intrinsic HTML dimensions must not become fixed CSS heights on narrow screens. */
+  body.vf-product-detail main figure img,
+  body.vf-product-detail .pvc-two img {
+    display: block; max-width: 100%; height: auto;
+  }
   body.vf-product-detail :is(.pdp-info-sticky, .wpc-info) { position: static; }
   body.vf-product-detail :is(.vf-actions, .pdp-actions, .wpc-actions, .pvc-actions, .brown-actions-row, .smart-actions, main.page .actions) {
     display: grid; grid-template-columns: minmax(0, 1fr); gap: 10px;
