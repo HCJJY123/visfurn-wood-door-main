@@ -1,0 +1,98 @@
+/* Product detail templates only. Keep desktop layouts and category pages intact. */
+@media screen and (max-width: 760px) {
+  body.vf-product-detail { --vf-product-gutter: max(24px, 3ch); }
+  body.vf-product-detail main { min-width: 0; }
+  body.vf-product-detail :is(.pdp-page-width, .wpc-page-width, .brown-wrap, .lab-wrap, .page-width, main.page) {
+    box-sizing: border-box;
+    width: calc(100% - 2 * var(--vf-product-gutter));
+    max-width: 1400px;
+    margin-inline: auto;
+    padding-inline: 0;
+  }
+  body.vf-product-detail .vf-wrap {
+    box-sizing: border-box;
+    width: 100%;
+    padding-inline: var(--vf-product-gutter);
+  }
+  /* Avoid multiplying the gutter in nested legacy wrappers. */
+  body.vf-product-detail :is(.pdp-page-width, .wpc-page-width, .brown-wrap, .lab-wrap, .page-width, .vf-wrap) :is(.pdp-page-width, .wpc-page-width, .brown-wrap, .lab-wrap, .page-width, .vf-wrap) {
+    width: 100%; padding-inline: 0;
+  }
+  body.vf-product-detail main :is(h1, h2, h3, p, li, a, th, td) { overflow-wrap: anywhere; }
+  body.vf-product-detail main h1 {
+    font-size: clamp(28px, 8vw, 36px);
+    line-height: 1.14;
+    max-width: 100%;
+  }
+  body.vf-product-detail :is(.vf-hero, .pdp-main-grid, .wpc-hero-grid, .pvc-hero-grid, .brown-hero, .smart-hero, .lab-hero, main.page > .hero) {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 28px;
+  }
+  body.vf-product-detail :is(.vf-hero, .pdp-main-grid, .wpc-hero-grid, .pvc-hero-grid, .brown-hero, .smart-hero, .lab-hero, main.page > .hero) > * {
+    min-width: 0; max-width: 100%;
+  }
+  body.vf-product-detail :is(.vf-gallery, .pdp-gallery-layout, .wpc-gallery-layout, .wpc-gallery, .pvc-gallery, .brown-gallery, .smart-gallery, main.page .gallery) {
+    position: static; min-width: 0; max-width: 100%;
+  }
+  body.vf-product-detail :is(.vf-gallery, .wpc-gallery, .pvc-gallery, main.page .gallery) {
+    display: flex; flex-direction: column; gap: 12px;
+  }
+  body.vf-product-detail :is(.pdp-gallery-layout, .wpc-gallery-layout) {
+    flex-direction: column; gap: 12px;
+  }
+  body.vf-product-detail :is(.vf-thumbs, .pdp-thumbs-vertical, .wpc-thumbs, .pvc-thumbs, main.page .thumbs) {
+    display: flex; flex-direction: row; gap: 8px; order: 2; flex: 0 0 auto;
+    width: 100%; max-width: 100%; min-width: 0;
+    overflow-x: auto; padding: 3px; box-sizing: border-box;
+    scroll-snap-type: x proximity;
+  }
+  body.vf-product-detail :is(.vf-thumbs, .pdp-thumbs-vertical, .wpc-thumbs, .pvc-thumbs, main.page .thumbs) > * {
+    flex: 0 0 60px; width: 60px; min-width: 60px;
+    min-height: 60px; scroll-snap-align: start;
+  }
+  body.vf-product-detail :is(.vf-main-img, .pdp-main-stage, .wpc-stage, .pvc-stage, main.page .stage) {
+    box-sizing: border-box; width: 100%; min-width: 0; margin-inline: 0;
+  }
+  body.vf-product-detail :is(.vf-main-img, .pdp-main-stage, .wpc-stage, .pvc-stage, main.page .stage) img {
+    display: block; width: 100%; max-width: 100%;
+    height: auto; max-height: 480px; object-fit: contain;
+  }
+  body.vf-product-detail .pvc-main-media img { object-fit: contain; }
+  body.vf-product-detail :is(.pdp-info-sticky, .wpc-info) { position: static; }
+  body.vf-product-detail :is(.vf-actions, .pdp-actions, .wpc-actions, .pvc-actions, .brown-actions-row, .smart-actions, main.page .actions) {
+    display: grid; grid-template-columns: minmax(0, 1fr); gap: 10px;
+  }
+  body.vf-product-detail :is(.vf-actions, .pdp-actions, .wpc-actions, .pvc-actions, .brown-actions-row, .smart-actions, main.page .actions) > a {
+    box-sizing: border-box; display: flex; align-items: center; justify-content: center;
+    width: 100%; min-width: 0; min-height: 48px; height: auto;
+    padding: 12px 16px; white-space: normal; text-align: center; line-height: 1.4;
+  }
+  /* Two-column key/value tables must fit; comparison tables scroll locally. */
+  body.vf-product-detail :is(.spec-table, .pdp-spec-table, .wpc-spec-table, .vf-spec-table, .pvc-spec, .brown-table) {
+    display: table; width: 100%; min-width: 0; table-layout: fixed; white-space: normal;
+  }
+  body.vf-product-detail :is(.spec-table, .pdp-spec-table, .wpc-spec-table, .vf-spec-table, .pvc-spec) th {
+    width: 36%;
+  }
+  body.vf-product-detail :is(.spec-table, .pdp-spec-table, .wpc-spec-table, .vf-spec-table, .pvc-spec) :is(th, td) {
+    padding: 12px 10px; font-size: 14px; line-height: 1.55;
+  }
+  body.vf-product-detail :is(.vf-table-scroll, .lab-table-wrap) {
+    min-width: 0; max-width: 100%; overflow-x: auto; overscroll-behavior-inline: contain;
+  }
+  body.vf-product-detail :is(.vf-tabs, .pdp-section-nav, .pdp-tabs, .wpc-tabs, .pvc-tabs, .brown-nav, .vf-subnav) {
+    position: static; max-width: 100%;
+  }
+  body.vf-product-detail :is(.vf-tabs-in, .pdp-section-nav-inner, .pdp-tabs, .wpc-tabs, .pvc-tabs-inner) {
+    display: flex; flex-wrap: nowrap; gap: 18px; overflow-x: auto;
+  }
+  body.vf-product-detail :is(.vf-tabs-in, .pdp-section-nav-inner, .pdp-tabs, .wpc-tabs, .pvc-tabs-inner) > a {
+    flex: 0 0 auto; min-height: 44px; display: inline-flex; align-items: center;
+  }
+  body.vf-product-detail main :is(input, select, textarea) { max-width: 100%; font-size: 16px; }
+  body.vf-product-detail main [id] { scroll-margin-top: 120px; }
+}
+@media screen and (max-width: 620px) {
+  /* Keep one contact bar when the shared mobile actions are visible. */
+  body.vf-product-detail.vf-mobile-actions-visible :is(.wpc-sticky-cta, .pvc-sticky) { display: none; }
+}

@@ -15,6 +15,14 @@ This file records material, evidence-backed changes so later maintenance cycles 
 
 ## Evidence boundary
 
+## 2026-10-10 product-detail mobile adaptation
+
+- Scope: 18 product-detail HTML routes beneath the product catalogue, including directory-index laboratory and finished-hotel products. Base production `77cbd15`; branch `fix/product-mobile-20261010`.
+- Code evidence: independent templates use 14–24px mobile gutters; WPC specification table forces nowrap; white moulded product table has a 250px heading column; moulded/grooved WPC galleries retain sidebar tracks; PVC/WPC fixed CTAs can coexist with shared mobile actions.
+- Changes: explicit `vf-product-detail` scope and final stylesheet on every detail page; minimum 24px/3ch outer gutters, single-column hero, bounded main images, horizontal thumbnail strips, wrapped full-width CTAs, wrapping key/value tables, local scrolling for comparison tables, non-sticky in-page tabs, and duplicate CTA prevention only when shared actions are visible. Desktop rules and commercial content unchanged; no new images.
+- Validation: `python scripts/check-product-mobile.py` verifies all 18 pages, stylesheet inclusion and unchanged business links/metadata/images/form markup against `77cbd15`; existing build is static/no-op. Rendered mobile/desktop acceptance remains unavailable because browser service timed out and local Chromium download failed in preceding cycle. Do not describe this as visual acceptance.
+- Release/HTTP verification: see the linked product-mobile pull request for final production commit and online asset checks. After release, review 320/375/390/430px screenshots, gallery interaction, sticky contact overlap and RFQ navigation. No test inquiries sent.
+
 ## 2026-10-09 mobile layout correction (pending visual QA / deployment)
 
 - Base: main `dbe5df2`; isolated branch `fix/mobile-gutters-20261009`. Original worktree's uncommitted migration notes preserved.
