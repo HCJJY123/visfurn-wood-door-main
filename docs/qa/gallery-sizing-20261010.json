@@ -1,0 +1,4275 @@
+{
+  "baseline": [
+    {
+      "path": "/products/exterior-doors/modern-european-apartment-door",
+      "images": [
+        {
+          "h": 211,
+          "nh": 800,
+          "nw": 1200,
+          "parent": "",
+          "ph": 211,
+          "w": 316
+        },
+        {
+          "h": 178,
+          "nh": 0,
+          "nw": 0,
+          "parent": "",
+          "ph": 0,
+          "w": 316
+        },
+        {
+          "h": 178,
+          "nh": 0,
+          "nw": 0,
+          "parent": "",
+          "ph": 0,
+          "w": 316
+        }
+      ]
+    },
+    {
+      "path": "/products/exterior-doors/smart-steel-entrance-door",
+      "images": [
+        {
+          "h": 404,
+          "nh": 800,
+          "nw": 640,
+          "parent": "",
+          "ph": 0,
+          "w": 323
+        },
+        {
+          "h": 202,
+          "nh": 0,
+          "nw": 0,
+          "parent": "visual-card",
+          "ph": 202,
+          "w": 323
+        },
+        {
+          "h": 205,
+          "nh": 0,
+          "nw": 0,
+          "parent": "visual-card",
+          "ph": 205,
+          "w": 323
+        },
+        {
+          "h": 205,
+          "nh": 0,
+          "nw": 0,
+          "parent": "visual-card",
+          "ph": 205,
+          "w": 323
+        }
+      ]
+    },
+    {
+      "path": "/products/fire-security-doors/fire-rated-steel-security-door",
+      "images": [
+        {
+          "h": 404,
+          "nh": 1500,
+          "nw": 1200,
+          "parent": "vf-main-img",
+          "ph": 404,
+          "w": 323
+        },
+        {
+          "h": 202,
+          "nh": 0,
+          "nw": 0,
+          "parent": "vf-figure",
+          "ph": 202,
+          "w": 323
+        },
+        {
+          "h": 202,
+          "nh": 0,
+          "nw": 0,
+          "parent": "vf-figure",
+          "ph": 202,
+          "w": 323
+        },
+        {
+          "h": 202,
+          "nh": 0,
+          "nw": 0,
+          "parent": "vf-figure",
+          "ph": 202,
+          "w": 323
+        }
+      ]
+    },
+    {
+      "path": "/products/fire-security-doors/steel-fire-door-for-house",
+      "images": [
+        {
+          "h": 400,
+          "nh": 442,
+          "nw": 354,
+          "parent": "",
+          "ph": 400,
+          "w": 320
+        }
+      ]
+    },
+    {
+      "path": "/products/hospital-doors/automatic-hermetic-sliding-door",
+      "images": [
+        {
+          "h": 404,
+          "nh": 1500,
+          "nw": 1200,
+          "parent": "vf-main-img",
+          "ph": 404,
+          "w": 323
+        },
+        {
+          "h": 202,
+          "nh": 0,
+          "nw": 0,
+          "parent": "vf-figure",
+          "ph": 202,
+          "w": 323
+        },
+        {
+          "h": 202,
+          "nh": 0,
+          "nw": 0,
+          "parent": "vf-figure",
+          "ph": 202,
+          "w": 323
+        },
+        {
+          "h": 202,
+          "nh": 0,
+          "nw": 0,
+          "parent": "vf-figure",
+          "ph": 202,
+          "w": 323
+        }
+      ]
+    },
+    {
+      "path": "/products/hospital-doors/modern-laboratory-door",
+      "images": [
+        {
+          "h": 320,
+          "nh": 354,
+          "nw": 354,
+          "parent": "lab-image-frame",
+          "ph": 320,
+          "w": 320
+        }
+      ]
+    },
+    {
+      "path": "/products/hotel-doors/french-style-glazed-suite-door",
+      "images": [
+        {
+          "h": 404,
+          "nh": 1500,
+          "nw": 1200,
+          "parent": "vf-main-img",
+          "ph": 404,
+          "w": 323
+        },
+        {
+          "h": 202,
+          "nh": 0,
+          "nw": 0,
+          "parent": "vf-figure",
+          "ph": 202,
+          "w": 323
+        },
+        {
+          "h": 202,
+          "nh": 0,
+          "nw": 0,
+          "parent": "vf-figure",
+          "ph": 202,
+          "w": 323
+        },
+        {
+          "h": 202,
+          "nh": 0,
+          "nw": 0,
+          "parent": "vf-figure",
+          "ph": 202,
+          "w": 323
+        }
+      ]
+    },
+    {
+      "path": "/products/hotel-doors/hotel-guestroom-door",
+      "images": [
+        {
+          "h": 403,
+          "nh": 1024,
+          "nw": 820,
+          "parent": "vf-main-img",
+          "ph": 403,
+          "w": 323
+        },
+        {
+          "h": 202,
+          "nh": 0,
+          "nw": 0,
+          "parent": "vf-figure",
+          "ph": 202,
+          "w": 323
+        },
+        {
+          "h": 202,
+          "nh": 0,
+          "nw": 0,
+          "parent": "vf-figure",
+          "ph": 202,
+          "w": 323
+        },
+        {
+          "h": 202,
+          "nh": 0,
+          "nw": 0,
+          "parent": "vf-figure",
+          "ph": 202,
+          "w": 323
+        }
+      ]
+    },
+    {
+      "path": "/products/hotel-doors/modern-finished-hotel-interior-door",
+      "images": [
+        {
+          "h": 320,
+          "nh": 437,
+          "nw": 349,
+          "parent": "",
+          "ph": 320,
+          "w": 320
+        },
+        {
+          "h": 240,
+          "nh": 0,
+          "nw": 0,
+          "parent": "vf-scene",
+          "ph": 297,
+          "w": 320
+        }
+      ]
+    },
+    {
+      "path": "/products/interior-doors/modern-pvc-wooden-door",
+      "images": [
+        {
+          "h": 1024,
+          "nh": 358,
+          "nw": 358,
+          "parent": "pvc-main-media",
+          "ph": 1024,
+          "w": 316
+        },
+        {
+          "h": 1024,
+          "nh": 0,
+          "nw": 0,
+          "parent": "pvc-detail-card",
+          "ph": 1127,
+          "w": 316
+        },
+        {
+          "h": 1024,
+          "nh": 0,
+          "nw": 0,
+          "parent": "pvc-detail-card",
+          "ph": 1127,
+          "w": 316
+        },
+        {
+          "h": 1024,
+          "nh": 0,
+          "nw": 0,
+          "parent": "pvc-detail-card",
+          "ph": 1127,
+          "w": 316
+        },
+        {
+          "h": 1022,
+          "nh": 0,
+          "nw": 0,
+          "parent": "",
+          "ph": 1024,
+          "w": 316
+        }
+      ]
+    },
+    {
+      "path": "/products/interior-doors/white-moulded-solid-wood",
+      "images": [
+        {
+          "h": 474,
+          "nh": 1800,
+          "nw": 1200,
+          "parent": "",
+          "ph": 474,
+          "w": 316
+        }
+      ]
+    },
+    {
+      "path": "/products/school-doors/custom-color-classroom-door",
+      "images": [
+        {
+          "h": 400,
+          "nh": 442,
+          "nw": 354,
+          "parent": "",
+          "ph": 400,
+          "w": 320
+        },
+        {
+          "h": 239,
+          "nh": 0,
+          "nw": 0,
+          "parent": "",
+          "ph": 0,
+          "w": 320
+        }
+      ]
+    },
+    {
+      "path": "/products/school-doors/galvanized-steel-school-door",
+      "images": [
+        {
+          "h": 404,
+          "nh": 1500,
+          "nw": 1200,
+          "parent": "vf-main-img",
+          "ph": 404,
+          "w": 323
+        },
+        {
+          "h": 202,
+          "nh": 0,
+          "nw": 0,
+          "parent": "vf-figure",
+          "ph": 202,
+          "w": 323
+        },
+        {
+          "h": 202,
+          "nh": 0,
+          "nw": 0,
+          "parent": "vf-figure",
+          "ph": 202,
+          "w": 323
+        },
+        {
+          "h": 202,
+          "nh": 0,
+          "nw": 0,
+          "parent": "vf-figure",
+          "ph": 202,
+          "w": 323
+        }
+      ]
+    },
+    {
+      "path": "/products/wooden-doors/paint-free-brown-wooden-interior-door",
+      "images": [
+        {
+          "h": 242,
+          "nh": 1808,
+          "nw": 2400,
+          "parent": "brown-main-media",
+          "ph": 242,
+          "w": 323
+        },
+        {
+          "h": 243,
+          "nh": 0,
+          "nw": 0,
+          "parent": "",
+          "ph": 243,
+          "w": 323
+        },
+        {
+          "h": 281,
+          "nh": 0,
+          "nw": 0,
+          "parent": "brown-detail-card",
+          "ph": 351,
+          "w": 323
+        },
+        {
+          "h": 281,
+          "nh": 0,
+          "nw": 0,
+          "parent": "brown-detail-card",
+          "ph": 351,
+          "w": 323
+        },
+        {
+          "h": 281,
+          "nh": 0,
+          "nw": 0,
+          "parent": "brown-detail-card",
+          "ph": 351,
+          "w": 323
+        },
+        {
+          "h": 243,
+          "nh": 0,
+          "nw": 0,
+          "parent": "brown-figure",
+          "ph": 243,
+          "w": 323
+        }
+      ]
+    },
+    {
+      "path": "/products/wooden-doors/soundproof-composite-entry-door",
+      "images": [
+        {
+          "h": 479,
+          "nh": 1536,
+          "nw": 1024,
+          "parent": "vf-main-img",
+          "ph": 400,
+          "w": 320
+        },
+        {
+          "h": 213,
+          "nh": 0,
+          "nw": 0,
+          "parent": "vf-figure",
+          "ph": 213,
+          "w": 320
+        },
+        {
+          "h": 213,
+          "nh": 0,
+          "nw": 0,
+          "parent": "vf-figure",
+          "ph": 213,
+          "w": 320
+        },
+        {
+          "h": 213,
+          "nh": 0,
+          "nw": 0,
+          "parent": "vf-figure",
+          "ph": 213,
+          "w": 320
+        }
+      ]
+    },
+    {
+      "path": "/products/wpc-doors/modern-grooved-wpc-interior-door",
+      "images": [
+        {
+          "h": 479,
+          "nh": 1536,
+          "nw": 1024,
+          "parent": "stage",
+          "ph": 479,
+          "w": 320
+        },
+        {
+          "h": 608,
+          "nh": 0,
+          "nw": 0,
+          "parent": "",
+          "ph": 659,
+          "w": 322
+        },
+        {
+          "h": 752,
+          "nh": 0,
+          "nw": 0,
+          "parent": "",
+          "ph": 803,
+          "w": 322
+        },
+        {
+          "h": 608,
+          "nh": 0,
+          "nw": 0,
+          "parent": "",
+          "ph": 659,
+          "w": 322
+        }
+      ]
+    },
+    {
+      "path": "/products/wpc-doors/moulded-panel-wpc-interior-door",
+      "images": [
+        {
+          "h": 401,
+          "nh": 1504,
+          "nw": 1200,
+          "parent": "wpc-stage",
+          "ph": 400,
+          "w": 320
+        },
+        {
+          "h": 752,
+          "nh": 0,
+          "nw": 0,
+          "parent": "",
+          "ph": 783,
+          "w": 322
+        },
+        {
+          "h": 608,
+          "nh": 0,
+          "nw": 0,
+          "parent": "",
+          "ph": 639,
+          "w": 322
+        },
+        {
+          "h": 608,
+          "nh": 0,
+          "nw": 0,
+          "parent": "",
+          "ph": 639,
+          "w": 322
+        }
+      ]
+    },
+    {
+      "path": "/products/wpc-doors/waterproof-wpc-interior-door",
+      "images": [
+        {
+          "h": 474,
+          "nh": 1536,
+          "nw": 1024,
+          "parent": "wpc-stage",
+          "ph": 396,
+          "w": 316
+        },
+        {
+          "h": 212,
+          "nh": 0,
+          "nw": 0,
+          "parent": "wpc-copy-grid",
+          "ph": 921,
+          "w": 318
+        },
+        {
+          "h": 212,
+          "nh": 0,
+          "nw": 0,
+          "parent": "wpc-image-copy",
+          "ph": 757,
+          "w": 318
+        },
+        {
+          "h": 212,
+          "nh": 0,
+          "nw": 0,
+          "parent": "wpc-image-copy",
+          "ph": 708,
+          "w": 318
+        },
+        {
+          "h": 900,
+          "nh": 0,
+          "nw": 0,
+          "parent": "",
+          "ph": 955,
+          "w": 238
+        },
+        {
+          "h": 675,
+          "nh": 0,
+          "nw": 0,
+          "parent": "",
+          "ph": 754,
+          "w": 238
+        },
+        {
+          "h": 675,
+          "nh": 0,
+          "nw": 0,
+          "parent": "",
+          "ph": 730,
+          "w": 238
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/exterior-doors/responsive/visfurn-modern-european-apartment-door-gallery-new-01-1200.webp?v=gallery6",
+          "w": 246,
+          "h": 164,
+          "nw": 1200,
+          "nh": 800,
+          "parent": "",
+          "ph": 164
+        },
+        {
+          "src": "/assets/images/products/exterior-doors/responsive/visfurn-modern-european-apartment-door-scene-1200.webp",
+          "w": 246,
+          "h": 138,
+          "nw": 0,
+          "nh": 0,
+          "parent": "",
+          "ph": 0
+        },
+        {
+          "src": "/assets/images/products/exterior-doors/responsive/visfurn-modern-european-apartment-door-packing-1200.webp",
+          "w": 246,
+          "h": 138,
+          "nw": 0,
+          "nh": 0,
+          "parent": "",
+          "ph": 0
+        }
+      ],
+      "route": "/products/exterior-doors/modern-european-apartment-door",
+      "width": 320,
+      "scrollWidth": 305,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 28.390625,
+          "width": 248.21875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 8,
+          "right": 89
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 247,
+          "right": 297
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 189,
+          "right": 243
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 93,
+          "right": 185
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/exterior-doors/responsive/smart-steel-entrance-door-front-1200.webp",
+          "w": 253,
+          "h": 317,
+          "nw": 640,
+          "nh": 800,
+          "parent": "",
+          "ph": 0
+        },
+        {
+          "src": "/assets/images/products/exterior-doors/responsive/smart-steel-entrance-door-house-1200.webp",
+          "w": 253,
+          "h": 159,
+          "nw": 0,
+          "nh": 0,
+          "parent": "visual-card",
+          "ph": 159
+        },
+        {
+          "src": "/assets/images/products/exterior-doors/responsive/smart-steel-entrance-door-apartment-960.webp",
+          "w": 253,
+          "h": 160,
+          "nw": 0,
+          "nh": 0,
+          "parent": "visual-card",
+          "ph": 160
+        },
+        {
+          "src": "/assets/images/products/exterior-doors/responsive/smart-steel-entrance-door-packaging-960.webp",
+          "w": 253,
+          "h": 160,
+          "nw": 0,
+          "nh": 0,
+          "parent": "visual-card",
+          "ph": 160
+        }
+      ],
+      "route": "/products/exterior-doors/smart-steel-entrance-door",
+      "width": 320,
+      "scrollWidth": 307,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.03125,
+          "width": 254.9375
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 8,
+          "right": 89
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 247,
+          "right": 297
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 93,
+          "right": 185
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 189,
+          "right": 243
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/fire-security-doors/responsive/fire-rated-steel-security-door-front-1200.webp",
+          "w": 253,
+          "h": 316,
+          "nw": 1200,
+          "nh": 1500,
+          "parent": "vf-main-img",
+          "ph": 316
+        },
+        {
+          "src": "/assets/images/products/fire-security-doors/responsive/fire-rated-steel-security-door-entrance-1200.webp",
+          "w": 253,
+          "h": 158,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 158
+        },
+        {
+          "src": "/assets/images/products/fire-security-doors/responsive/fire-rated-steel-security-door-stairwell-960.webp",
+          "w": 253,
+          "h": 158,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 158
+        },
+        {
+          "src": "/assets/images/products/fire-security-doors/responsive/fire-rated-steel-security-door-packaging-960.webp",
+          "w": 253,
+          "h": 158,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 158
+        }
+      ],
+      "route": "/products/fire-security-doors/fire-rated-steel-security-door",
+      "width": 320,
+      "scrollWidth": 305,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.015625,
+          "width": 254.96875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 8,
+          "right": 89
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 247,
+          "right": 297
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 189,
+          "right": 243
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 93,
+          "right": 185
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/fire-security-doors/steel-fire-door-for-house/visfurn-steel-fire-door-house-front-left-model.png",
+          "w": 250,
+          "h": 313,
+          "nw": 284,
+          "nh": 354,
+          "parent": "",
+          "ph": 313
+        }
+      ],
+      "route": "/products/fire-security-doors/steel-fire-door-for-house",
+      "width": 320,
+      "scrollWidth": 305,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 251.625
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 8,
+          "right": 89
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 247,
+          "right": 297
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 93,
+          "right": 185
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 189,
+          "right": 243
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/hospital-doors/responsive/automatic-hermetic-sliding-door-front-1200.webp",
+          "w": 253,
+          "h": 316,
+          "nw": 1200,
+          "nh": 1500,
+          "parent": "vf-main-img",
+          "ph": 316
+        },
+        {
+          "src": "/assets/images/products/hospital-doors/responsive/automatic-hermetic-sliding-door-operating-room-1200.webp",
+          "w": 253,
+          "h": 158,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 158
+        },
+        {
+          "src": "/assets/images/products/hospital-doors/responsive/automatic-hermetic-sliding-door-corridor-960.webp",
+          "w": 253,
+          "h": 158,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 158
+        },
+        {
+          "src": "/assets/images/products/hospital-doors/responsive/automatic-hermetic-sliding-door-packaging-960.webp",
+          "w": 253,
+          "h": 158,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 158
+        }
+      ],
+      "route": "/products/hospital-doors/automatic-hermetic-sliding-door",
+      "width": 320,
+      "scrollWidth": 305,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.015625,
+          "width": 254.96875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 8,
+          "right": 89
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 247,
+          "right": 297
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 189,
+          "right": 243
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 93,
+          "right": 185
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/hospital-doors/visfurn-hospital-door-main-front-view-960.webp",
+          "w": 250,
+          "h": 250,
+          "nw": 284,
+          "nh": 284,
+          "parent": "lab-image-frame",
+          "ph": 250
+        }
+      ],
+      "route": "/products/hospital-doors/modern-laboratory-door",
+      "width": 320,
+      "scrollWidth": 305,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 251.609375
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 8,
+          "right": 89
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 247,
+          "right": 297
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 93,
+          "right": 185
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 189,
+          "right": 243
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/hotel-doors/responsive/french-style-glazed-suite-door-front-1200.webp",
+          "w": 253,
+          "h": 316,
+          "nw": 1200,
+          "nh": 1500,
+          "parent": "vf-main-img",
+          "ph": 316
+        },
+        {
+          "src": "/assets/images/products/hotel-doors/responsive/french-style-glazed-suite-door-suite-1200.webp",
+          "w": 253,
+          "h": 158,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 158
+        },
+        {
+          "src": "/assets/images/products/hotel-doors/responsive/french-style-glazed-suite-door-villa-960.webp",
+          "w": 253,
+          "h": 158,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 158
+        },
+        {
+          "src": "/assets/images/products/hotel-doors/responsive/french-style-glazed-suite-door-packaging-960.webp",
+          "w": 253,
+          "h": 158,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 158
+        }
+      ],
+      "route": "/products/hotel-doors/french-style-glazed-suite-door",
+      "width": 320,
+      "scrollWidth": 305,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.015625,
+          "width": 254.96875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 8,
+          "right": 89
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 247,
+          "right": 297
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 189,
+          "right": 243
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 93,
+          "right": 185
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/hotel-doors/responsive/hotel-guestroom-door-front-1200-v20260815-a6.webp",
+          "w": 253,
+          "h": 316,
+          "nw": 820,
+          "nh": 1024,
+          "parent": "vf-main-img",
+          "ph": 316
+        },
+        {
+          "src": "/assets/images/products/hotel-doors/responsive/hotel-guestroom-door-corridor-1200.webp",
+          "w": 253,
+          "h": 158,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 158
+        },
+        {
+          "src": "/assets/images/products/hotel-doors/responsive/hotel-guestroom-door-room-entry-960.webp",
+          "w": 253,
+          "h": 158,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 158
+        },
+        {
+          "src": "/assets/images/products/hotel-doors/responsive/hotel-guestroom-door-packaging-960.webp",
+          "w": 253,
+          "h": 158,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 158
+        }
+      ],
+      "route": "/products/hotel-doors/hotel-guestroom-door",
+      "width": 320,
+      "scrollWidth": 305,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.015625,
+          "width": 254.96875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 8,
+          "right": 89
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 247,
+          "right": 297
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 189,
+          "right": 243
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 93,
+          "right": 185
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/hotel-doors/modern-finished-hotel-interior-door/visfurn-hotel-interior-door-01-front-960.webp",
+          "w": 250,
+          "h": 250,
+          "nw": 280,
+          "nh": 350,
+          "parent": "",
+          "ph": 250
+        },
+        {
+          "src": "/assets/images/products/hotel-doors/modern-finished-hotel-interior-door/visfurn-hotel-interior-door-03-interior-960.webp",
+          "w": 250,
+          "h": 187,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-scene",
+          "ph": 244
+        }
+      ],
+      "route": "/products/hotel-doors/modern-finished-hotel-interior-door",
+      "width": 320,
+      "scrollWidth": 305,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 251.625
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 8,
+          "right": 89
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 247,
+          "right": 297
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 93,
+          "right": 185
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 189,
+          "right": 243
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/images/products/interior-doors/modern-pvc-wooden-door/main-01.webp",
+          "w": 246,
+          "h": 246,
+          "nw": 294,
+          "nh": 294,
+          "parent": "pvc-main-media",
+          "ph": 246
+        },
+        {
+          "src": "/images/products/interior-doors/modern-pvc-wooden-door/detail-01-structure.webp",
+          "w": 246,
+          "h": 138,
+          "nw": 0,
+          "nh": 0,
+          "parent": "pvc-detail-card",
+          "ph": 265
+        },
+        {
+          "src": "/images/products/interior-doors/modern-pvc-wooden-door/detail-02-waterproof.webp",
+          "w": 246,
+          "h": 138,
+          "nw": 0,
+          "nh": 0,
+          "parent": "pvc-detail-card",
+          "ph": 265
+        },
+        {
+          "src": "/images/products/interior-doors/modern-pvc-wooden-door/detail-03-colors.webp",
+          "w": 246,
+          "h": 138,
+          "nw": 0,
+          "nh": 0,
+          "parent": "pvc-detail-card",
+          "ph": 265
+        },
+        {
+          "src": "/images/products/interior-doors/modern-pvc-wooden-door/main-04.webp",
+          "w": 246,
+          "h": 246,
+          "nw": 0,
+          "nh": 0,
+          "parent": "",
+          "ph": 248
+        }
+      ],
+      "route": "/products/interior-doors/modern-pvc-wooden-door",
+      "width": 320,
+      "scrollWidth": 305,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 28.390625,
+          "width": 248.21875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 8,
+          "right": 89
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 247,
+          "right": 297
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 93,
+          "right": 185
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 189,
+          "right": 243
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/interior-doors/responsive/white-moulded-door-front-1200.webp",
+          "w": 246,
+          "h": 369,
+          "nw": 1200,
+          "nh": 1800,
+          "parent": "",
+          "ph": 369
+        }
+      ],
+      "route": "/products/interior-doors/white-moulded-solid-wood",
+      "width": 320,
+      "scrollWidth": 305,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 28.390625,
+          "width": 248.21875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 8,
+          "right": 89
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 247,
+          "right": 297
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 189,
+          "right": 243
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 93,
+          "right": 185
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/school-doors/custom-color-classroom-door/visfurn-classroom-door-01-front-960.webp",
+          "w": 250,
+          "h": 313,
+          "nw": 284,
+          "nh": 354,
+          "parent": "",
+          "ph": 313
+        },
+        {
+          "src": "/assets/images/products/school-doors/custom-color-classroom-door/visfurn-classroom-door-03-classroom-960.webp",
+          "w": 250,
+          "h": 187,
+          "nw": 284,
+          "nh": 212,
+          "parent": "",
+          "ph": 0
+        }
+      ],
+      "route": "/products/school-doors/custom-color-classroom-door",
+      "width": 320,
+      "scrollWidth": 305,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 251.625
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 8,
+          "right": 89
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 247,
+          "right": 297
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 93,
+          "right": 185
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 189,
+          "right": 243
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/school-doors/responsive/galvanized-steel-school-door-front-1200.webp?v=nokickplate-20260813",
+          "w": 253,
+          "h": 316,
+          "nw": 1200,
+          "nh": 1500,
+          "parent": "vf-main-img",
+          "ph": 316
+        },
+        {
+          "src": "/assets/images/products/school-doors/responsive/galvanized-steel-school-door-classroom-1200.webp?v=nokickplate-20260813",
+          "w": 253,
+          "h": 158,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 158
+        },
+        {
+          "src": "/assets/images/products/school-doors/responsive/galvanized-steel-school-door-corridor-960.webp?v=nokickplate-20260813",
+          "w": 253,
+          "h": 158,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 158
+        },
+        {
+          "src": "/assets/images/products/school-doors/responsive/galvanized-steel-school-door-packaging-960.webp?v=nokickplate-20260813",
+          "w": 253,
+          "h": 158,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 158
+        }
+      ],
+      "route": "/products/school-doors/galvanized-steel-school-door",
+      "width": 320,
+      "scrollWidth": 305,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.015625,
+          "width": 254.96875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 8,
+          "right": 89
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 247,
+          "right": 297
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 189,
+          "right": 243
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 93,
+          "right": 185
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/wooden-doors/paint-free-brown-wooden-interior-door/01-main-4x3.webp",
+          "w": 253,
+          "h": 191,
+          "nw": 2400,
+          "nh": 1808,
+          "parent": "brown-main-media",
+          "ph": 191
+        },
+        {
+          "src": "/assets/images/products/wooden-doors/paint-free-brown-wooden-interior-door/02-bedroom-application.webp",
+          "w": 253,
+          "h": 191,
+          "nw": 0,
+          "nh": 0,
+          "parent": "",
+          "ph": 191
+        },
+        {
+          "src": "/assets/images/products/wooden-doors/paint-free-brown-wooden-interior-door/03-woodgrain-finish-detail.webp",
+          "w": 253,
+          "h": 260,
+          "nw": 0,
+          "nh": 0,
+          "parent": "brown-detail-card",
+          "ph": 330
+        },
+        {
+          "src": "/assets/images/products/wooden-doors/paint-free-brown-wooden-interior-door/04-door-jamb-detail.webp",
+          "w": 253,
+          "h": 260,
+          "nw": 0,
+          "nh": 0,
+          "parent": "brown-detail-card",
+          "ph": 351
+        },
+        {
+          "src": "/assets/images/products/wooden-doors/paint-free-brown-wooden-interior-door/05-qc-inspection.webp",
+          "w": 253,
+          "h": 260,
+          "nw": 0,
+          "nh": 0,
+          "parent": "brown-detail-card",
+          "ph": 351
+        },
+        {
+          "src": "/assets/images/products/wooden-doors/paint-free-brown-wooden-interior-door/06-export-packing.webp",
+          "w": 253,
+          "h": 191,
+          "nw": 0,
+          "nh": 0,
+          "parent": "brown-figure",
+          "ph": 191
+        }
+      ],
+      "route": "/products/wooden-doors/paint-free-brown-wooden-interior-door",
+      "width": 320,
+      "scrollWidth": 305,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.03125,
+          "width": 254.9375
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 8,
+          "right": 89
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 247,
+          "right": 297
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 93,
+          "right": 185
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 189,
+          "right": 243
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/wooden-doors/responsive/soundproof-composite-entry-door-front-1200.webp",
+          "w": 250,
+          "h": 374,
+          "nw": 1024,
+          "nh": 1536,
+          "parent": "vf-main-img",
+          "ph": 374
+        },
+        {
+          "src": "/assets/images/products/wooden-doors/responsive/soundproof-composite-entry-door-entrance-1200.webp",
+          "w": 250,
+          "h": 166,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 166
+        },
+        {
+          "src": "/assets/images/products/wooden-doors/responsive/soundproof-composite-entry-door-hotel-960.webp",
+          "w": 250,
+          "h": 166,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 166
+        },
+        {
+          "src": "/assets/images/products/wooden-doors/responsive/soundproof-composite-entry-door-packaging-960.webp",
+          "w": 250,
+          "h": 166,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 166
+        }
+      ],
+      "route": "/products/wooden-doors/soundproof-composite-entry-door",
+      "width": 320,
+      "scrollWidth": 305,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 251.625
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 8,
+          "right": 89
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 247,
+          "right": 297
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 189,
+          "right": 243
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 93,
+          "right": 185
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/wpc-doors/responsive/waterproof-wpc-door-front-1200.webp",
+          "w": 250,
+          "h": 374,
+          "nw": 1024,
+          "nh": 1536,
+          "parent": "stage",
+          "ph": 374
+        },
+        {
+          "src": "/assets/images/products/wpc-doors/responsive/waterproof-wpc-door-apartment-960.webp",
+          "w": 252,
+          "h": 157,
+          "nw": 0,
+          "nh": 0,
+          "parent": "",
+          "ph": 200
+        },
+        {
+          "src": "/assets/images/products/wpc-doors/responsive/waterproof-wpc-door-bathroom-1200.webp",
+          "w": 252,
+          "h": 157,
+          "nw": 0,
+          "nh": 0,
+          "parent": "",
+          "ph": 200
+        },
+        {
+          "src": "/assets/images/products/wpc-doors/responsive/waterproof-wpc-door-packaging-960.webp",
+          "w": 252,
+          "h": 157,
+          "nw": 0,
+          "nh": 0,
+          "parent": "",
+          "ph": 200
+        }
+      ],
+      "route": "/products/wpc-doors/modern-grooved-wpc-interior-door",
+      "width": 320,
+      "scrollWidth": 305,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 251.609375
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 8,
+          "right": 89
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 247,
+          "right": 297
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 93,
+          "right": 185
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 189,
+          "right": 243
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/wpc-doors/responsive/moulded-panel-wpc-interior-door-front-1200.webp",
+          "w": 250,
+          "h": 313,
+          "nw": 1200,
+          "nh": 1504,
+          "parent": "wpc-stage",
+          "ph": 313
+        },
+        {
+          "src": "/assets/images/products/wpc-doors/responsive/moulded-panel-wpc-interior-door-bedroom-1200.webp",
+          "w": 252,
+          "h": 157,
+          "nw": 0,
+          "nh": 0,
+          "parent": "",
+          "ph": 209
+        },
+        {
+          "src": "/assets/images/products/wpc-doors/responsive/moulded-panel-wpc-interior-door-villa-960.webp",
+          "w": 252,
+          "h": 157,
+          "nw": 0,
+          "nh": 0,
+          "parent": "",
+          "ph": 188
+        },
+        {
+          "src": "/assets/images/products/wpc-doors/responsive/moulded-panel-wpc-interior-door-packaging-960.webp",
+          "w": 252,
+          "h": 157,
+          "nw": 0,
+          "nh": 0,
+          "parent": "",
+          "ph": 188
+        }
+      ],
+      "route": "/products/wpc-doors/moulded-panel-wpc-interior-door",
+      "width": 320,
+      "scrollWidth": 305,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 251.609375
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 8,
+          "right": 89
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 247,
+          "right": 297
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 189,
+          "right": 243
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 93,
+          "right": 185
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/wpc-doors/responsive/waterproof-wpc-door-front-1200.webp",
+          "w": 246,
+          "h": 369,
+          "nw": 1024,
+          "nh": 1536,
+          "parent": "wpc-stage",
+          "ph": 369
+        },
+        {
+          "src": "/assets/images/products/wpc-doors/responsive/waterproof-wpc-door-bathroom-1200.webp",
+          "w": 248,
+          "h": 165,
+          "nw": 0,
+          "nh": 0,
+          "parent": "wpc-copy-grid",
+          "ph": 1029
+        },
+        {
+          "src": "/assets/images/products/wpc-doors/responsive/waterproof-wpc-door-apartment-960.webp",
+          "w": 248,
+          "h": 165,
+          "nw": 0,
+          "nh": 0,
+          "parent": "wpc-image-copy",
+          "ph": 874
+        },
+        {
+          "src": "/assets/images/products/wpc-doors/responsive/waterproof-wpc-door-packaging-960.webp",
+          "w": 248,
+          "h": 165,
+          "nw": 0,
+          "nh": 0,
+          "parent": "wpc-image-copy",
+          "ph": 772
+        }
+      ],
+      "route": "/products/wpc-doors/waterproof-wpc-interior-door",
+      "width": 320,
+      "scrollWidth": 305,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 28.390625,
+          "width": 248.21875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 8,
+          "right": 89
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 247,
+          "right": 297
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 189,
+          "right": 243
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 93,
+          "right": 185
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/exterior-doors/responsive/visfurn-modern-european-apartment-door-gallery-new-01-1200.webp?v=gallery6",
+          "w": 316,
+          "h": 211,
+          "nw": 1200,
+          "nh": 800,
+          "parent": "",
+          "ph": 211
+        },
+        {
+          "src": "/assets/images/products/exterior-doors/responsive/visfurn-modern-european-apartment-door-scene-1200.webp",
+          "w": 316,
+          "h": 178,
+          "nw": 0,
+          "nh": 0,
+          "parent": "",
+          "ph": 0
+        },
+        {
+          "src": "/assets/images/products/exterior-doors/responsive/visfurn-modern-european-apartment-door-packing-1200.webp",
+          "w": 316,
+          "h": 178,
+          "nw": 0,
+          "nh": 0,
+          "parent": "",
+          "ph": 0
+        }
+      ],
+      "route": "/products/exterior-doors/modern-european-apartment-door",
+      "width": 390,
+      "scrollWidth": 375,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 28.390625,
+          "width": 318.21875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 309,
+          "right": 363
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 249,
+          "right": 303
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 149,
+          "right": 243
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/exterior-doors/responsive/smart-steel-entrance-door-front-1200.webp",
+          "w": 323,
+          "h": 404,
+          "nw": 640,
+          "nh": 800,
+          "parent": "",
+          "ph": 0
+        },
+        {
+          "src": "/assets/images/products/exterior-doors/responsive/smart-steel-entrance-door-house-1200.webp",
+          "w": 323,
+          "h": 202,
+          "nw": 0,
+          "nh": 0,
+          "parent": "visual-card",
+          "ph": 202
+        },
+        {
+          "src": "/assets/images/products/exterior-doors/responsive/smart-steel-entrance-door-apartment-960.webp",
+          "w": 323,
+          "h": 205,
+          "nw": 0,
+          "nh": 0,
+          "parent": "visual-card",
+          "ph": 205
+        },
+        {
+          "src": "/assets/images/products/exterior-doors/responsive/smart-steel-entrance-door-packaging-960.webp",
+          "w": 323,
+          "h": 205,
+          "nw": 0,
+          "nh": 0,
+          "parent": "visual-card",
+          "ph": 205
+        }
+      ],
+      "route": "/products/exterior-doors/smart-steel-entrance-door",
+      "width": 390,
+      "scrollWidth": 375,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.03125,
+          "width": 324.9375
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 309,
+          "right": 363
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 149,
+          "right": 243
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 249,
+          "right": 303
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/fire-security-doors/responsive/fire-rated-steel-security-door-front-1200.webp",
+          "w": 323,
+          "h": 404,
+          "nw": 1200,
+          "nh": 1500,
+          "parent": "vf-main-img",
+          "ph": 404
+        },
+        {
+          "src": "/assets/images/products/fire-security-doors/responsive/fire-rated-steel-security-door-entrance-1200.webp",
+          "w": 323,
+          "h": 202,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 202
+        },
+        {
+          "src": "/assets/images/products/fire-security-doors/responsive/fire-rated-steel-security-door-stairwell-960.webp",
+          "w": 323,
+          "h": 202,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 202
+        },
+        {
+          "src": "/assets/images/products/fire-security-doors/responsive/fire-rated-steel-security-door-packaging-960.webp",
+          "w": 323,
+          "h": 202,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 202
+        }
+      ],
+      "route": "/products/fire-security-doors/fire-rated-steel-security-door",
+      "width": 390,
+      "scrollWidth": 375,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.015625,
+          "width": 324.96875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 309,
+          "right": 363
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 249,
+          "right": 303
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 149,
+          "right": 243
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/fire-security-doors/steel-fire-door-for-house/visfurn-steel-fire-door-house-front-left-model.png",
+          "w": 320,
+          "h": 400,
+          "nw": 354,
+          "nh": 442,
+          "parent": "",
+          "ph": 400
+        }
+      ],
+      "route": "/products/fire-security-doors/steel-fire-door-for-house",
+      "width": 390,
+      "scrollWidth": 375,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 321.625
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 309,
+          "right": 363
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 149,
+          "right": 243
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 249,
+          "right": 303
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/hospital-doors/responsive/automatic-hermetic-sliding-door-front-1200.webp",
+          "w": 323,
+          "h": 404,
+          "nw": 1200,
+          "nh": 1500,
+          "parent": "vf-main-img",
+          "ph": 404
+        },
+        {
+          "src": "/assets/images/products/hospital-doors/responsive/automatic-hermetic-sliding-door-operating-room-1200.webp",
+          "w": 323,
+          "h": 202,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 202
+        },
+        {
+          "src": "/assets/images/products/hospital-doors/responsive/automatic-hermetic-sliding-door-corridor-960.webp",
+          "w": 323,
+          "h": 202,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 202
+        },
+        {
+          "src": "/assets/images/products/hospital-doors/responsive/automatic-hermetic-sliding-door-packaging-960.webp",
+          "w": 323,
+          "h": 202,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 202
+        }
+      ],
+      "route": "/products/hospital-doors/automatic-hermetic-sliding-door",
+      "width": 390,
+      "scrollWidth": 375,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.015625,
+          "width": 324.96875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 309,
+          "right": 363
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 249,
+          "right": 303
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 149,
+          "right": 243
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/hospital-doors/visfurn-hospital-door-main-front-view-960.webp",
+          "w": 320,
+          "h": 320,
+          "nw": 354,
+          "nh": 354,
+          "parent": "lab-image-frame",
+          "ph": 320
+        }
+      ],
+      "route": "/products/hospital-doors/modern-laboratory-door",
+      "width": 390,
+      "scrollWidth": 375,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 321.609375
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 309,
+          "right": 363
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 149,
+          "right": 243
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 249,
+          "right": 303
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/hotel-doors/responsive/french-style-glazed-suite-door-front-1200.webp",
+          "w": 323,
+          "h": 404,
+          "nw": 1200,
+          "nh": 1500,
+          "parent": "vf-main-img",
+          "ph": 404
+        },
+        {
+          "src": "/assets/images/products/hotel-doors/responsive/french-style-glazed-suite-door-suite-1200.webp",
+          "w": 323,
+          "h": 202,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 202
+        },
+        {
+          "src": "/assets/images/products/hotel-doors/responsive/french-style-glazed-suite-door-villa-960.webp",
+          "w": 323,
+          "h": 202,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 202
+        },
+        {
+          "src": "/assets/images/products/hotel-doors/responsive/french-style-glazed-suite-door-packaging-960.webp",
+          "w": 323,
+          "h": 202,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 202
+        }
+      ],
+      "route": "/products/hotel-doors/french-style-glazed-suite-door",
+      "width": 390,
+      "scrollWidth": 375,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.015625,
+          "width": 324.96875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 309,
+          "right": 363
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 249,
+          "right": 303
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 149,
+          "right": 243
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/hotel-doors/responsive/hotel-guestroom-door-front-1200-v20260815-a6.webp",
+          "w": 323,
+          "h": 403,
+          "nw": 820,
+          "nh": 1024,
+          "parent": "vf-main-img",
+          "ph": 403
+        },
+        {
+          "src": "/assets/images/products/hotel-doors/responsive/hotel-guestroom-door-corridor-1200.webp",
+          "w": 323,
+          "h": 202,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 202
+        },
+        {
+          "src": "/assets/images/products/hotel-doors/responsive/hotel-guestroom-door-room-entry-960.webp",
+          "w": 323,
+          "h": 202,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 202
+        },
+        {
+          "src": "/assets/images/products/hotel-doors/responsive/hotel-guestroom-door-packaging-960.webp",
+          "w": 323,
+          "h": 202,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 202
+        }
+      ],
+      "route": "/products/hotel-doors/hotel-guestroom-door",
+      "width": 390,
+      "scrollWidth": 375,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.015625,
+          "width": 324.96875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 309,
+          "right": 363
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 249,
+          "right": 303
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 149,
+          "right": 243
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/hotel-doors/modern-finished-hotel-interior-door/visfurn-hotel-interior-door-01-front-960.webp",
+          "w": 320,
+          "h": 320,
+          "nw": 349,
+          "nh": 437,
+          "parent": "",
+          "ph": 320
+        },
+        {
+          "src": "/assets/images/products/hotel-doors/modern-finished-hotel-interior-door/visfurn-hotel-interior-door-03-interior-960.webp",
+          "w": 320,
+          "h": 240,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-scene",
+          "ph": 297
+        }
+      ],
+      "route": "/products/hotel-doors/modern-finished-hotel-interior-door",
+      "width": 390,
+      "scrollWidth": 375,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 321.625
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 309,
+          "right": 363
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 149,
+          "right": 243
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 249,
+          "right": 303
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/images/products/interior-doors/modern-pvc-wooden-door/main-01.webp",
+          "w": 316,
+          "h": 316,
+          "nw": 358,
+          "nh": 358,
+          "parent": "pvc-main-media",
+          "ph": 316
+        },
+        {
+          "src": "/images/products/interior-doors/modern-pvc-wooden-door/detail-01-structure.webp",
+          "w": 316,
+          "h": 178,
+          "nw": 0,
+          "nh": 0,
+          "parent": "pvc-detail-card",
+          "ph": 281
+        },
+        {
+          "src": "/images/products/interior-doors/modern-pvc-wooden-door/detail-02-waterproof.webp",
+          "w": 316,
+          "h": 178,
+          "nw": 0,
+          "nh": 0,
+          "parent": "pvc-detail-card",
+          "ph": 281
+        },
+        {
+          "src": "/images/products/interior-doors/modern-pvc-wooden-door/detail-03-colors.webp",
+          "w": 316,
+          "h": 178,
+          "nw": 0,
+          "nh": 0,
+          "parent": "pvc-detail-card",
+          "ph": 281
+        },
+        {
+          "src": "/images/products/interior-doors/modern-pvc-wooden-door/main-04.webp",
+          "w": 316,
+          "h": 316,
+          "nw": 358,
+          "nh": 358,
+          "parent": "",
+          "ph": 318
+        }
+      ],
+      "route": "/products/interior-doors/modern-pvc-wooden-door",
+      "width": 390,
+      "scrollWidth": 375,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 28.390625,
+          "width": 318.21875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 309,
+          "right": 363
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 149,
+          "right": 243
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 249,
+          "right": 303
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/interior-doors/responsive/white-moulded-door-front-1200.webp",
+          "w": 316,
+          "h": 474,
+          "nw": 1200,
+          "nh": 1800,
+          "parent": "",
+          "ph": 474
+        }
+      ],
+      "route": "/products/interior-doors/white-moulded-solid-wood",
+      "width": 390,
+      "scrollWidth": 375,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 28.390625,
+          "width": 318.21875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 309,
+          "right": 363
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 249,
+          "right": 303
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 149,
+          "right": 243
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/school-doors/custom-color-classroom-door/visfurn-classroom-door-01-front-960.webp",
+          "w": 320,
+          "h": 400,
+          "nw": 354,
+          "nh": 442,
+          "parent": "",
+          "ph": 400
+        },
+        {
+          "src": "/assets/images/products/school-doors/custom-color-classroom-door/visfurn-classroom-door-03-classroom-960.webp",
+          "w": 320,
+          "h": 240,
+          "nw": 0,
+          "nh": 0,
+          "parent": "",
+          "ph": 0
+        }
+      ],
+      "route": "/products/school-doors/custom-color-classroom-door",
+      "width": 390,
+      "scrollWidth": 375,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 321.625
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 309,
+          "right": 363
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 149,
+          "right": 243
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 249,
+          "right": 303
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/school-doors/responsive/galvanized-steel-school-door-front-1200.webp?v=nokickplate-20260813",
+          "w": 323,
+          "h": 404,
+          "nw": 1200,
+          "nh": 1500,
+          "parent": "vf-main-img",
+          "ph": 404
+        },
+        {
+          "src": "/assets/images/products/school-doors/responsive/galvanized-steel-school-door-classroom-1200.webp?v=nokickplate-20260813",
+          "w": 323,
+          "h": 202,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 202
+        },
+        {
+          "src": "/assets/images/products/school-doors/responsive/galvanized-steel-school-door-corridor-960.webp?v=nokickplate-20260813",
+          "w": 323,
+          "h": 202,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 202
+        },
+        {
+          "src": "/assets/images/products/school-doors/responsive/galvanized-steel-school-door-packaging-960.webp?v=nokickplate-20260813",
+          "w": 323,
+          "h": 202,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 202
+        }
+      ],
+      "route": "/products/school-doors/galvanized-steel-school-door",
+      "width": 390,
+      "scrollWidth": 375,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.015625,
+          "width": 324.96875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 309,
+          "right": 363
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 249,
+          "right": 303
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 149,
+          "right": 243
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/wooden-doors/paint-free-brown-wooden-interior-door/01-main-4x3.webp",
+          "w": 323,
+          "h": 243,
+          "nw": 2400,
+          "nh": 1808,
+          "parent": "brown-main-media",
+          "ph": 243
+        },
+        {
+          "src": "/assets/images/products/wooden-doors/paint-free-brown-wooden-interior-door/02-bedroom-application.webp",
+          "w": 323,
+          "h": 243,
+          "nw": 2400,
+          "nh": 1808,
+          "parent": "",
+          "ph": 243
+        },
+        {
+          "src": "/assets/images/products/wooden-doors/paint-free-brown-wooden-interior-door/03-woodgrain-finish-detail.webp",
+          "w": 323,
+          "h": 281,
+          "nw": 2400,
+          "nh": 2400,
+          "parent": "brown-detail-card",
+          "ph": 351
+        },
+        {
+          "src": "/assets/images/products/wooden-doors/paint-free-brown-wooden-interior-door/04-door-jamb-detail.webp",
+          "w": 323,
+          "h": 281,
+          "nw": 0,
+          "nh": 0,
+          "parent": "brown-detail-card",
+          "ph": 351
+        },
+        {
+          "src": "/assets/images/products/wooden-doors/paint-free-brown-wooden-interior-door/05-qc-inspection.webp",
+          "w": 323,
+          "h": 281,
+          "nw": 0,
+          "nh": 0,
+          "parent": "brown-detail-card",
+          "ph": 351
+        },
+        {
+          "src": "/assets/images/products/wooden-doors/paint-free-brown-wooden-interior-door/06-export-packing.webp",
+          "w": 323,
+          "h": 243,
+          "nw": 0,
+          "nh": 0,
+          "parent": "brown-figure",
+          "ph": 243
+        }
+      ],
+      "route": "/products/wooden-doors/paint-free-brown-wooden-interior-door",
+      "width": 390,
+      "scrollWidth": 375,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.03125,
+          "width": 324.9375
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 309,
+          "right": 363
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 149,
+          "right": 243
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 249,
+          "right": 303
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/wooden-doors/responsive/soundproof-composite-entry-door-front-1200.webp",
+          "w": 320,
+          "h": 479,
+          "nw": 1024,
+          "nh": 1536,
+          "parent": "vf-main-img",
+          "ph": 479
+        },
+        {
+          "src": "/assets/images/products/wooden-doors/responsive/soundproof-composite-entry-door-entrance-1200.webp",
+          "w": 320,
+          "h": 213,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 213
+        },
+        {
+          "src": "/assets/images/products/wooden-doors/responsive/soundproof-composite-entry-door-hotel-960.webp",
+          "w": 320,
+          "h": 213,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 213
+        },
+        {
+          "src": "/assets/images/products/wooden-doors/responsive/soundproof-composite-entry-door-packaging-960.webp",
+          "w": 320,
+          "h": 213,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 213
+        }
+      ],
+      "route": "/products/wooden-doors/soundproof-composite-entry-door",
+      "width": 390,
+      "scrollWidth": 375,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 321.625
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 309,
+          "right": 363
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 249,
+          "right": 303
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 149,
+          "right": 243
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/wpc-doors/responsive/waterproof-wpc-door-front-1200.webp",
+          "w": 320,
+          "h": 479,
+          "nw": 1024,
+          "nh": 1536,
+          "parent": "stage",
+          "ph": 479
+        },
+        {
+          "src": "/assets/images/products/wpc-doors/responsive/waterproof-wpc-door-apartment-960.webp",
+          "w": 322,
+          "h": 201,
+          "nw": 0,
+          "nh": 0,
+          "parent": "",
+          "ph": 244
+        },
+        {
+          "src": "/assets/images/products/wpc-doors/responsive/waterproof-wpc-door-bathroom-1200.webp",
+          "w": 322,
+          "h": 201,
+          "nw": 0,
+          "nh": 0,
+          "parent": "",
+          "ph": 244
+        },
+        {
+          "src": "/assets/images/products/wpc-doors/responsive/waterproof-wpc-door-packaging-960.webp",
+          "w": 322,
+          "h": 201,
+          "nw": 0,
+          "nh": 0,
+          "parent": "",
+          "ph": 244
+        }
+      ],
+      "route": "/products/wpc-doors/modern-grooved-wpc-interior-door",
+      "width": 390,
+      "scrollWidth": 375,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 321.609375
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 309,
+          "right": 363
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 149,
+          "right": 243
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 249,
+          "right": 303
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/wpc-doors/responsive/moulded-panel-wpc-interior-door-front-1200.webp",
+          "w": 320,
+          "h": 401,
+          "nw": 1200,
+          "nh": 1504,
+          "parent": "wpc-stage",
+          "ph": 401
+        },
+        {
+          "src": "/assets/images/products/wpc-doors/responsive/moulded-panel-wpc-interior-door-bedroom-1200.webp",
+          "w": 322,
+          "h": 201,
+          "nw": 0,
+          "nh": 0,
+          "parent": "",
+          "ph": 232
+        },
+        {
+          "src": "/assets/images/products/wpc-doors/responsive/moulded-panel-wpc-interior-door-villa-960.webp",
+          "w": 322,
+          "h": 201,
+          "nw": 0,
+          "nh": 0,
+          "parent": "",
+          "ph": 232
+        },
+        {
+          "src": "/assets/images/products/wpc-doors/responsive/moulded-panel-wpc-interior-door-packaging-960.webp",
+          "w": 322,
+          "h": 201,
+          "nw": 0,
+          "nh": 0,
+          "parent": "",
+          "ph": 232
+        }
+      ],
+      "route": "/products/wpc-doors/moulded-panel-wpc-interior-door",
+      "width": 390,
+      "scrollWidth": 375,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 321.609375
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 309,
+          "right": 363
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 249,
+          "right": 303
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 149,
+          "right": 243
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/wpc-doors/responsive/waterproof-wpc-door-front-1200.webp",
+          "w": 316,
+          "h": 474,
+          "nw": 1024,
+          "nh": 1536,
+          "parent": "wpc-stage",
+          "ph": 474
+        },
+        {
+          "src": "/assets/images/products/wpc-doors/responsive/waterproof-wpc-door-bathroom-1200.webp",
+          "w": 318,
+          "h": 212,
+          "nw": 0,
+          "nh": 0,
+          "parent": "wpc-copy-grid",
+          "ph": 921
+        },
+        {
+          "src": "/assets/images/products/wpc-doors/responsive/waterproof-wpc-door-apartment-960.webp",
+          "w": 318,
+          "h": 212,
+          "nw": 0,
+          "nh": 0,
+          "parent": "wpc-image-copy",
+          "ph": 757
+        },
+        {
+          "src": "/assets/images/products/wpc-doors/responsive/waterproof-wpc-door-packaging-960.webp",
+          "w": 318,
+          "h": 212,
+          "nw": 0,
+          "nh": 0,
+          "parent": "wpc-image-copy",
+          "ph": 708
+        },
+        {
+          "src": "/assets/images/products/wpc-doors/buyer-intelligence/wpc-bathroom-wet-area-door-hero-1600.webp",
+          "w": 238,
+          "h": 134,
+          "nw": 0,
+          "nh": 0,
+          "parent": "",
+          "ph": 182
+        },
+        {
+          "src": "/assets/images/products/wpc-doors/buyer-intelligence/wpc-door-frame-wall-thickness-detail-1200.webp",
+          "w": 238,
+          "h": 134,
+          "nw": 0,
+          "nh": 0,
+          "parent": "",
+          "ph": 206
+        },
+        {
+          "src": "/assets/images/products/wpc-doors/buyer-intelligence/wpc-bathroom-door-hardware-corrosion-detail-1200.webp",
+          "w": 238,
+          "h": 134,
+          "nw": 0,
+          "nh": 0,
+          "parent": "",
+          "ph": 182
+        }
+      ],
+      "route": "/products/wpc-doors/waterproof-wpc-interior-door",
+      "width": 390,
+      "scrollWidth": 375,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 28.390625,
+          "width": 318.21875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 12,
+          "right": 108
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 309,
+          "right": 363
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 249,
+          "right": 303
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 149,
+          "right": 243
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/exterior-doors/responsive/visfurn-modern-european-apartment-door-gallery-new-01-1200.webp?v=gallery6",
+          "w": 356,
+          "h": 237,
+          "nw": 1200,
+          "nh": 800,
+          "parent": "",
+          "ph": 237
+        },
+        {
+          "src": "/assets/images/products/exterior-doors/responsive/visfurn-modern-european-apartment-door-scene-1200.webp",
+          "w": 356,
+          "h": 200,
+          "nw": 0,
+          "nh": 0,
+          "parent": "",
+          "ph": 0
+        },
+        {
+          "src": "/assets/images/products/exterior-doors/responsive/visfurn-modern-european-apartment-door-packing-1200.webp",
+          "w": 356,
+          "h": 200,
+          "nw": 0,
+          "nh": 0,
+          "parent": "",
+          "ph": 0
+        }
+      ],
+      "route": "/products/exterior-doors/modern-european-apartment-door",
+      "width": 430,
+      "scrollWidth": 415,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 28.390625,
+          "width": 358.21875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 118
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 343,
+          "right": 397
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 283,
+          "right": 337
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 183,
+          "right": 277
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/exterior-doors/responsive/smart-steel-entrance-door-front-1200.webp",
+          "w": 363,
+          "h": 454,
+          "nw": 640,
+          "nh": 800,
+          "parent": "",
+          "ph": 0
+        },
+        {
+          "src": "/assets/images/products/exterior-doors/responsive/smart-steel-entrance-door-house-1200.webp",
+          "w": 363,
+          "h": 227,
+          "nw": 0,
+          "nh": 0,
+          "parent": "visual-card",
+          "ph": 227
+        },
+        {
+          "src": "/assets/images/products/exterior-doors/responsive/smart-steel-entrance-door-apartment-960.webp",
+          "w": 363,
+          "h": 230,
+          "nw": 0,
+          "nh": 0,
+          "parent": "visual-card",
+          "ph": 230
+        },
+        {
+          "src": "/assets/images/products/exterior-doors/responsive/smart-steel-entrance-door-packaging-960.webp",
+          "w": 363,
+          "h": 230,
+          "nw": 0,
+          "nh": 0,
+          "parent": "visual-card",
+          "ph": 230
+        }
+      ],
+      "route": "/products/exterior-doors/smart-steel-entrance-door",
+      "width": 430,
+      "scrollWidth": 415,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.03125,
+          "width": 364.9375
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 118
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 343,
+          "right": 397
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 183,
+          "right": 277
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 283,
+          "right": 337
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/fire-security-doors/responsive/fire-rated-steel-security-door-front-1200.webp",
+          "w": 363,
+          "h": 454,
+          "nw": 1200,
+          "nh": 1500,
+          "parent": "vf-main-img",
+          "ph": 454
+        },
+        {
+          "src": "/assets/images/products/fire-security-doors/responsive/fire-rated-steel-security-door-entrance-1200.webp",
+          "w": 363,
+          "h": 227,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 227
+        },
+        {
+          "src": "/assets/images/products/fire-security-doors/responsive/fire-rated-steel-security-door-stairwell-960.webp",
+          "w": 363,
+          "h": 227,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 227
+        },
+        {
+          "src": "/assets/images/products/fire-security-doors/responsive/fire-rated-steel-security-door-packaging-960.webp",
+          "w": 363,
+          "h": 227,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 227
+        }
+      ],
+      "route": "/products/fire-security-doors/fire-rated-steel-security-door",
+      "width": 430,
+      "scrollWidth": 415,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.015625,
+          "width": 364.96875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 118
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 343,
+          "right": 397
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 283,
+          "right": 337
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 183,
+          "right": 277
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/fire-security-doors/steel-fire-door-for-house/visfurn-steel-fire-door-house-front-left-model.png",
+          "w": 360,
+          "h": 450,
+          "nw": 394,
+          "nh": 492,
+          "parent": "",
+          "ph": 450
+        }
+      ],
+      "route": "/products/fire-security-doors/steel-fire-door-for-house",
+      "width": 430,
+      "scrollWidth": 415,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 361.625
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 118
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 343,
+          "right": 397
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 183,
+          "right": 277
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 283,
+          "right": 337
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/hospital-doors/responsive/automatic-hermetic-sliding-door-front-1200.webp",
+          "w": 363,
+          "h": 454,
+          "nw": 1200,
+          "nh": 1500,
+          "parent": "vf-main-img",
+          "ph": 454
+        },
+        {
+          "src": "/assets/images/products/hospital-doors/responsive/automatic-hermetic-sliding-door-operating-room-1200.webp",
+          "w": 363,
+          "h": 227,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 227
+        },
+        {
+          "src": "/assets/images/products/hospital-doors/responsive/automatic-hermetic-sliding-door-corridor-960.webp",
+          "w": 363,
+          "h": 227,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 227
+        },
+        {
+          "src": "/assets/images/products/hospital-doors/responsive/automatic-hermetic-sliding-door-packaging-960.webp",
+          "w": 363,
+          "h": 227,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 227
+        }
+      ],
+      "route": "/products/hospital-doors/automatic-hermetic-sliding-door",
+      "width": 430,
+      "scrollWidth": 415,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.015625,
+          "width": 364.96875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 118
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 343,
+          "right": 397
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 283,
+          "right": 337
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 183,
+          "right": 277
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/hospital-doors/visfurn-hospital-door-main-front-view-960.webp",
+          "w": 360,
+          "h": 360,
+          "nw": 394,
+          "nh": 394,
+          "parent": "lab-image-frame",
+          "ph": 360
+        }
+      ],
+      "route": "/products/hospital-doors/modern-laboratory-door",
+      "width": 430,
+      "scrollWidth": 415,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 361.609375
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 118
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 343,
+          "right": 397
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 183,
+          "right": 277
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 283,
+          "right": 337
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/hotel-doors/responsive/french-style-glazed-suite-door-front-1200.webp",
+          "w": 363,
+          "h": 454,
+          "nw": 1200,
+          "nh": 1500,
+          "parent": "vf-main-img",
+          "ph": 454
+        },
+        {
+          "src": "/assets/images/products/hotel-doors/responsive/french-style-glazed-suite-door-suite-1200.webp",
+          "w": 363,
+          "h": 227,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 227
+        },
+        {
+          "src": "/assets/images/products/hotel-doors/responsive/french-style-glazed-suite-door-villa-960.webp",
+          "w": 363,
+          "h": 227,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 227
+        },
+        {
+          "src": "/assets/images/products/hotel-doors/responsive/french-style-glazed-suite-door-packaging-960.webp",
+          "w": 363,
+          "h": 227,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 227
+        }
+      ],
+      "route": "/products/hotel-doors/french-style-glazed-suite-door",
+      "width": 430,
+      "scrollWidth": 415,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.015625,
+          "width": 364.96875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 118
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 343,
+          "right": 397
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 283,
+          "right": 337
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 183,
+          "right": 277
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/hotel-doors/responsive/hotel-guestroom-door-front-1200-v20260815-a6.webp",
+          "w": 363,
+          "h": 453,
+          "nw": 820,
+          "nh": 1024,
+          "parent": "vf-main-img",
+          "ph": 453
+        },
+        {
+          "src": "/assets/images/products/hotel-doors/responsive/hotel-guestroom-door-corridor-1200.webp",
+          "w": 363,
+          "h": 227,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 227
+        },
+        {
+          "src": "/assets/images/products/hotel-doors/responsive/hotel-guestroom-door-room-entry-960.webp",
+          "w": 363,
+          "h": 227,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 227
+        },
+        {
+          "src": "/assets/images/products/hotel-doors/responsive/hotel-guestroom-door-packaging-960.webp",
+          "w": 363,
+          "h": 227,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 227
+        }
+      ],
+      "route": "/products/hotel-doors/hotel-guestroom-door",
+      "width": 430,
+      "scrollWidth": 415,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.015625,
+          "width": 364.96875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 118
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 343,
+          "right": 397
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 283,
+          "right": 337
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 183,
+          "right": 277
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/hotel-doors/modern-finished-hotel-interior-door/visfurn-hotel-interior-door-01-front-960.webp",
+          "w": 360,
+          "h": 360,
+          "nw": 389,
+          "nh": 487,
+          "parent": "",
+          "ph": 360
+        },
+        {
+          "src": "/assets/images/products/hotel-doors/modern-finished-hotel-interior-door/visfurn-hotel-interior-door-03-interior-960.webp",
+          "w": 360,
+          "h": 270,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-scene",
+          "ph": 327
+        }
+      ],
+      "route": "/products/hotel-doors/modern-finished-hotel-interior-door",
+      "width": 430,
+      "scrollWidth": 415,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 361.625
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 118
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 343,
+          "right": 397
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 183,
+          "right": 277
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 283,
+          "right": 337
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/images/products/interior-doors/modern-pvc-wooden-door/main-01.webp",
+          "w": 356,
+          "h": 356,
+          "nw": 395,
+          "nh": 395,
+          "parent": "pvc-main-media",
+          "ph": 356
+        },
+        {
+          "src": "/images/products/interior-doors/modern-pvc-wooden-door/detail-01-structure.webp",
+          "w": 356,
+          "h": 200,
+          "nw": 0,
+          "nh": 0,
+          "parent": "pvc-detail-card",
+          "ph": 281
+        },
+        {
+          "src": "/images/products/interior-doors/modern-pvc-wooden-door/detail-02-waterproof.webp",
+          "w": 356,
+          "h": 200,
+          "nw": 0,
+          "nh": 0,
+          "parent": "pvc-detail-card",
+          "ph": 304
+        },
+        {
+          "src": "/images/products/interior-doors/modern-pvc-wooden-door/detail-03-colors.webp",
+          "w": 356,
+          "h": 200,
+          "nw": 0,
+          "nh": 0,
+          "parent": "pvc-detail-card",
+          "ph": 304
+        },
+        {
+          "src": "/images/products/interior-doors/modern-pvc-wooden-door/main-04.webp",
+          "w": 356,
+          "h": 356,
+          "nw": 395,
+          "nh": 395,
+          "parent": "",
+          "ph": 358
+        }
+      ],
+      "route": "/products/interior-doors/modern-pvc-wooden-door",
+      "width": 430,
+      "scrollWidth": 415,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 28.390625,
+          "width": 358.21875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 118
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 343,
+          "right": 397
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 183,
+          "right": 277
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 283,
+          "right": 337
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/interior-doors/responsive/white-moulded-door-front-1200.webp",
+          "w": 356,
+          "h": 534,
+          "nw": 1200,
+          "nh": 1800,
+          "parent": "",
+          "ph": 534
+        }
+      ],
+      "route": "/products/interior-doors/white-moulded-solid-wood",
+      "width": 430,
+      "scrollWidth": 415,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 28.390625,
+          "width": 358.21875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 118
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 343,
+          "right": 397
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 283,
+          "right": 337
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 183,
+          "right": 277
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/school-doors/custom-color-classroom-door/visfurn-classroom-door-01-front-960.webp",
+          "w": 360,
+          "h": 450,
+          "nw": 394,
+          "nh": 492,
+          "parent": "",
+          "ph": 450
+        },
+        {
+          "src": "/assets/images/products/school-doors/custom-color-classroom-door/visfurn-classroom-door-03-classroom-960.webp",
+          "w": 360,
+          "h": 270,
+          "nw": 0,
+          "nh": 0,
+          "parent": "",
+          "ph": 0
+        }
+      ],
+      "route": "/products/school-doors/custom-color-classroom-door",
+      "width": 430,
+      "scrollWidth": 415,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 361.625
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 118
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 343,
+          "right": 397
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 183,
+          "right": 277
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 283,
+          "right": 337
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/school-doors/responsive/galvanized-steel-school-door-front-1200.webp?v=nokickplate-20260813",
+          "w": 363,
+          "h": 454,
+          "nw": 1200,
+          "nh": 1500,
+          "parent": "vf-main-img",
+          "ph": 454
+        },
+        {
+          "src": "/assets/images/products/school-doors/responsive/galvanized-steel-school-door-classroom-1200.webp?v=nokickplate-20260813",
+          "w": 363,
+          "h": 227,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 227
+        },
+        {
+          "src": "/assets/images/products/school-doors/responsive/galvanized-steel-school-door-corridor-960.webp?v=nokickplate-20260813",
+          "w": 363,
+          "h": 227,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 227
+        },
+        {
+          "src": "/assets/images/products/school-doors/responsive/galvanized-steel-school-door-packaging-960.webp?v=nokickplate-20260813",
+          "w": 363,
+          "h": 227,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 227
+        }
+      ],
+      "route": "/products/school-doors/galvanized-steel-school-door",
+      "width": 430,
+      "scrollWidth": 415,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.015625,
+          "width": 364.96875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 118
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 343,
+          "right": 397
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 283,
+          "right": 337
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 183,
+          "right": 277
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/wooden-doors/paint-free-brown-wooden-interior-door/01-main-4x3.webp",
+          "w": 363,
+          "h": 273,
+          "nw": 2400,
+          "nh": 1808,
+          "parent": "brown-main-media",
+          "ph": 273
+        },
+        {
+          "src": "/assets/images/products/wooden-doors/paint-free-brown-wooden-interior-door/02-bedroom-application.webp",
+          "w": 363,
+          "h": 273,
+          "nw": 2400,
+          "nh": 1808,
+          "parent": "",
+          "ph": 273
+        },
+        {
+          "src": "/assets/images/products/wooden-doors/paint-free-brown-wooden-interior-door/03-woodgrain-finish-detail.webp",
+          "w": 363,
+          "h": 300,
+          "nw": 2400,
+          "nh": 2400,
+          "parent": "brown-detail-card",
+          "ph": 370
+        },
+        {
+          "src": "/assets/images/products/wooden-doors/paint-free-brown-wooden-interior-door/04-door-jamb-detail.webp",
+          "w": 363,
+          "h": 300,
+          "nw": 0,
+          "nh": 0,
+          "parent": "brown-detail-card",
+          "ph": 370
+        },
+        {
+          "src": "/assets/images/products/wooden-doors/paint-free-brown-wooden-interior-door/05-qc-inspection.webp",
+          "w": 363,
+          "h": 300,
+          "nw": 0,
+          "nh": 0,
+          "parent": "brown-detail-card",
+          "ph": 370
+        },
+        {
+          "src": "/assets/images/products/wooden-doors/paint-free-brown-wooden-interior-door/06-export-packing.webp",
+          "w": 363,
+          "h": 273,
+          "nw": 0,
+          "nh": 0,
+          "parent": "brown-figure",
+          "ph": 273
+        }
+      ],
+      "route": "/products/wooden-doors/paint-free-brown-wooden-interior-door",
+      "width": 430,
+      "scrollWidth": 415,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 25.03125,
+          "width": 364.9375
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 118
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 343,
+          "right": 397
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 183,
+          "right": 277
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 283,
+          "right": 337
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/wooden-doors/responsive/soundproof-composite-entry-door-front-1200.webp",
+          "w": 360,
+          "h": 539,
+          "nw": 1024,
+          "nh": 1536,
+          "parent": "vf-main-img",
+          "ph": 539
+        },
+        {
+          "src": "/assets/images/products/wooden-doors/responsive/soundproof-composite-entry-door-entrance-1200.webp",
+          "w": 360,
+          "h": 240,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 240
+        },
+        {
+          "src": "/assets/images/products/wooden-doors/responsive/soundproof-composite-entry-door-hotel-960.webp",
+          "w": 360,
+          "h": 240,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 240
+        },
+        {
+          "src": "/assets/images/products/wooden-doors/responsive/soundproof-composite-entry-door-packaging-960.webp",
+          "w": 360,
+          "h": 240,
+          "nw": 0,
+          "nh": 0,
+          "parent": "vf-figure",
+          "ph": 240
+        }
+      ],
+      "route": "/products/wooden-doors/soundproof-composite-entry-door",
+      "width": 430,
+      "scrollWidth": 415,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 361.625
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 134
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 343,
+          "right": 397
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 283,
+          "right": 337
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 183,
+          "right": 277
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/wpc-doors/responsive/waterproof-wpc-door-front-1200.webp",
+          "w": 360,
+          "h": 539,
+          "nw": 1024,
+          "nh": 1536,
+          "parent": "stage",
+          "ph": 539
+        },
+        {
+          "src": "/assets/images/products/wpc-doors/responsive/waterproof-wpc-door-apartment-960.webp",
+          "w": 362,
+          "h": 226,
+          "nw": 0,
+          "nh": 0,
+          "parent": "",
+          "ph": 269
+        },
+        {
+          "src": "/assets/images/products/wpc-doors/responsive/waterproof-wpc-door-bathroom-1200.webp",
+          "w": 362,
+          "h": 226,
+          "nw": 0,
+          "nh": 0,
+          "parent": "",
+          "ph": 269
+        },
+        {
+          "src": "/assets/images/products/wpc-doors/responsive/waterproof-wpc-door-packaging-960.webp",
+          "w": 362,
+          "h": 226,
+          "nw": 0,
+          "nh": 0,
+          "parent": "",
+          "ph": 269
+        }
+      ],
+      "route": "/products/wpc-doors/modern-grooved-wpc-interior-door",
+      "width": 430,
+      "scrollWidth": 415,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 361.609375
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 118
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 343,
+          "right": 397
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 183,
+          "right": 277
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 283,
+          "right": 337
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/wpc-doors/responsive/moulded-panel-wpc-interior-door-front-1200.webp",
+          "w": 360,
+          "h": 451,
+          "nw": 1200,
+          "nh": 1504,
+          "parent": "wpc-stage",
+          "ph": 451
+        },
+        {
+          "src": "/assets/images/products/wpc-doors/responsive/moulded-panel-wpc-interior-door-bedroom-1200.webp",
+          "w": 362,
+          "h": 226,
+          "nw": 0,
+          "nh": 0,
+          "parent": "",
+          "ph": 257
+        },
+        {
+          "src": "/assets/images/products/wpc-doors/responsive/moulded-panel-wpc-interior-door-villa-960.webp",
+          "w": 362,
+          "h": 226,
+          "nw": 0,
+          "nh": 0,
+          "parent": "",
+          "ph": 257
+        },
+        {
+          "src": "/assets/images/products/wpc-doors/responsive/moulded-panel-wpc-interior-door-packaging-960.webp",
+          "w": 362,
+          "h": 226,
+          "nw": 0,
+          "nh": 0,
+          "parent": "",
+          "ph": 257
+        }
+      ],
+      "route": "/products/wpc-doors/moulded-panel-wpc-interior-door",
+      "width": 430,
+      "scrollWidth": 415,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 26.6875,
+          "width": 361.609375
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 118
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 343,
+          "right": 397
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 283,
+          "right": 337
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 183,
+          "right": 277
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "/assets/images/products/wpc-doors/responsive/waterproof-wpc-door-front-1200.webp",
+          "w": 356,
+          "h": 534,
+          "nw": 1024,
+          "nh": 1536,
+          "parent": "wpc-stage",
+          "ph": 534
+        },
+        {
+          "src": "/assets/images/products/wpc-doors/responsive/waterproof-wpc-door-bathroom-1200.webp",
+          "w": 358,
+          "h": 239,
+          "nw": 0,
+          "nh": 0,
+          "parent": "wpc-copy-grid",
+          "ph": 861
+        },
+        {
+          "src": "/assets/images/products/wpc-doors/responsive/waterproof-wpc-door-apartment-960.webp",
+          "w": 358,
+          "h": 239,
+          "nw": 0,
+          "nh": 0,
+          "parent": "wpc-image-copy",
+          "ph": 784
+        },
+        {
+          "src": "/assets/images/products/wpc-doors/responsive/waterproof-wpc-door-packaging-960.webp",
+          "w": 358,
+          "h": 239,
+          "nw": 0,
+          "nh": 0,
+          "parent": "wpc-image-copy",
+          "ph": 709
+        },
+        {
+          "src": "/assets/images/products/wpc-doors/buyer-intelligence/wpc-bathroom-wet-area-door-hero-1600.webp",
+          "w": 278,
+          "h": 156,
+          "nw": 0,
+          "nh": 0,
+          "parent": "",
+          "ph": 204
+        },
+        {
+          "src": "/assets/images/products/wpc-doors/buyer-intelligence/wpc-door-frame-wall-thickness-detail-1200.webp",
+          "w": 278,
+          "h": 156,
+          "nw": 0,
+          "nh": 0,
+          "parent": "",
+          "ph": 228
+        },
+        {
+          "src": "/assets/images/products/wpc-doors/buyer-intelligence/wpc-bathroom-door-hardware-corrosion-detail-1200.webp",
+          "w": 278,
+          "h": 156,
+          "nw": 0,
+          "nh": 0,
+          "parent": "",
+          "ph": 204
+        }
+      ],
+      "route": "/products/wpc-doors/waterproof-wpc-interior-door",
+      "width": 430,
+      "scrollWidth": 415,
+      "overflow": [],
+      "h1": [
+        {
+          "x": 28.390625,
+          "width": 358.21875
+        }
+      ],
+      "header": [
+        {
+          "cls": "brand",
+          "x": 18,
+          "right": 118
+        },
+        {
+          "cls": "menu-toggle vf-menu-toggle",
+          "x": 343,
+          "right": 397
+        },
+        {
+          "cls": "vf-language-switcher",
+          "x": 283,
+          "right": 337
+        },
+        {
+          "cls": "vf-header-actions",
+          "x": 183,
+          "right": 277
+        }
+      ]
+    }
+  ],
+  "pvcSwitch": [
+    {
+      "h": 316,
+      "src": "/images/products/interior-doors/modern-pvc-wooden-door/main-01.webp",
+      "w": 316
+    },
+    {
+      "h": 316,
+      "src": "/images/products/interior-doors/modern-pvc-wooden-door/main-02.webp",
+      "w": 316
+    },
+    {
+      "h": 316,
+      "src": "/images/products/interior-doors/modern-pvc-wooden-door/main-03.webp",
+      "w": 316
+    },
+    {
+      "h": 316,
+      "src": "/images/products/interior-doors/modern-pvc-wooden-door/main-04.webp",
+      "w": 316
+    }
+  ]
+}
