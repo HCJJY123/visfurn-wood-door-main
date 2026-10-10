@@ -350,14 +350,20 @@ document.querySelectorAll('.faq-question').forEach((question) => {
     ['en', 'English'],
     ['es', 'Español'],
     ['ar', 'العربية'],
-    ['mn', 'Монгол']
+    ['mn', 'Монгол'],
+    ['fr', 'Français'],
+    ['pt', 'Português'],
+    ['ru', 'Русский']
   ];
   const supportedLocales = new Set(localeOptions.map(([locale]) => locale));
   const localeLandingRoutes = {
     en: '/',
     es: '/es/puertas-para-proyectos',
     ar: '/ar/wpc-doors',
-    mn: '/mn'
+    mn: '/mn',
+    fr: '/fr/blocs-portes-interieures',
+    pt: '/br/portas-internas-de-madeira-sob-medida',
+    ru: '/ru/mezhkomnatnye-dveri'
   };
   const translations = {
     'Home': { es: 'Inicio', ar: 'الرئيسية', fr: 'Accueil', pt: 'Início', de: 'Startseite', it: 'Home', ru: 'Главная', nl: 'Home' },
@@ -387,39 +393,28 @@ document.querySelectorAll('.faq-question').forEach((question) => {
   };
 
   const normalizeText = (value) => value.replace(/\s+/g, ' ').trim();
-  // Page-locked locale: a fully translated static page (e.g. /es/...) declares
-  // <html data-vf-page-locale="es">. It always renders in that locale, never
-  // writes the choice to localStorage, and the switcher navigates to the
-  // hreflang alternate instead of relabelling the page.
-  const pageLocale = document.documentElement.dataset.vfPageLocale || '';
-  const isLockedPage = supportedLocales.has(pageLocale);
-  const getStoredLocale = () => {
-    if (isLockedPage) return pageLocale;
-    const queryLocale = new URLSearchParams(window.location.search).get('lang');
-    if (supportedLocales.has(queryLocale)) return queryLocale;
-    try {
-      const storedLocale = window.localStorage.getItem('visfurn-locale');
-      if (supportedLocales.has(storedLocale)) return storedLocale;
-    } catch (error) {
-      return 'en';
-    }
-    return 'en';
-  };
+  // Language describes the current document, not a previous visitor preference.
+  // Existing regional tags (pt-BR, mn-MN) are preserved. Language links lead to
+  // real landing pages; they do not translate an unrelated English page.
+  const documentLanguage = document.documentElement.lang || 'en';
+  const declaredLocale = document.documentElement.dataset.vfPageLocale || documentLanguage.split('-')[0].toLowerCase();
+  const pageLocale = supportedLocales.has(declaredLocale) ? declaredLocale : 'en';
+  const getStoredLocale = () => pageLocale;
 
   let currentLocale = getStoredLocale();
   const getTranslation = (source, locale = currentLocale) => translations[source]?.[locale] || source;
 
   const applyLocale = (locale) => {
     currentLocale = supportedLocales.has(locale) ? locale : 'en';
-    document.documentElement.lang = currentLocale;
+    document.documentElement.lang = documentLanguage;
     document.documentElement.dir = currentLocale === 'ar' ? 'rtl' : 'ltr';
     document.body.classList.toggle('vf-rtl', currentLocale === 'ar');
-    if (!isLockedPage) {
-      try { window.localStorage.setItem('visfurn-locale', currentLocale); } catch (error) { /* storage is optional */ }
-    }
-
-    document.querySelectorAll('[data-vf-language-select]').forEach((select) => {
-      select.value = currentLocale;
+    document.querySelectorAll('[data-vf-language-code]').forEach((label) => {
+      label.textContent = currentLocale.toUpperCase();
+    });
+    document.querySelectorAll('[data-vf-language-link]').forEach((link) => {
+      if (link.dataset.vfLanguageLink === currentLocale) link.setAttribute('aria-current', 'true');
+      else link.removeAttribute('aria-current');
     });
 
     const candidates = document.querySelectorAll('a, button, summary, .topbar, .vf-topbar, .vf-tab, .header-cta, .button, .vf-btn, .wpc-header-cta, .pdp-header-cta, [data-vf-i18n]');
@@ -444,18 +439,47 @@ document.querySelectorAll('.faq-question').forEach((question) => {
     const target = document.querySelector('.site-header, .vf-header-in, .wpc-header-inner, .pdp-header .pdp-header-inner') || document.body;
     const switcher = document.createElement('div');
     switcher.className = 'vf-language-switcher';
-    switcher.innerHTML = '<label class="vf-visually-hidden" data-vf-language-label>Language</label><select data-vf-language-select aria-label="Website language"></select>';
-    const select = switcher.querySelector('select');
+    const languageName = localeOptions.find(([code]) => code === currentLocale)?.[1] || 'English';
+    switcher.innerHTML = `<button type="button" class="vf-language-trigger" data-vf-language-trigger aria-label="Choose language. Current: ${languageName}" aria-expanded="false" aria-controls="vf-language-panel"><span data-vf-language-code>${currentLocale.toUpperCase()}</span><svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><path d="m4 6 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div id="vf-language-panel" class="vf-language-panel" hidden><p>Language pages</p><ul></ul></div>`;
+    const trigger = switcher.querySelector('button');
+    const panel = switcher.querySelector('.vf-language-panel');
+    const list = panel.querySelector('ul');
     localeOptions.forEach(([code, label]) => {
-      const option = document.createElement('option');
-      option.value = code;
-      option.textContent = code.toUpperCase();
-      option.title = label;
-      select.appendChild(option);
+      const item = document.createElement('li');
+      const link = document.createElement('a');
+      link.href = localeLandingRoutes[code];
+      link.lang = code;
+      link.hreflang = code;
+      link.dataset.vfLanguageLink = code;
+      link.textContent = label;
+      if (code === currentLocale) link.setAttribute('aria-current', 'true');
+      item.append(link);
+      list.append(item);
     });
-    select.addEventListener('change', () => {
-      const destination = localeLandingRoutes[select.value];
-      if (destination) window.location.assign(destination);
+    const closeLanguages = () => {
+      panel.hidden = true;
+      trigger.setAttribute('aria-expanded', 'false');
+    };
+    trigger.addEventListener('click', () => {
+      const open = trigger.getAttribute('aria-expanded') !== 'true';
+      // Keep the language list separate from the mobile navigation drawer.
+      const menu = document.querySelector('.vf-menu-toggle[aria-expanded="true"]');
+      if (open && menu) menu.click();
+      panel.hidden = !open;
+      trigger.setAttribute('aria-expanded', String(open));
+    });
+    document.addEventListener('click', (event) => {
+      if (!switcher.contains(event.target)) closeLanguages();
+    });
+    document.addEventListener('focusin', (event) => {
+      if (!switcher.contains(event.target)) closeLanguages();
+    });
+    switcher.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && !panel.hidden) {
+        event.stopPropagation();
+        closeLanguages();
+        trigger.focus();
+      }
     });
     const cta = target.querySelector('.header-cta, .vf-btn-primary, .wpc-header-cta, .pdp-header-cta');
     if (cta && cta.parentElement === target) target.insertBefore(switcher, cta);
@@ -687,7 +711,7 @@ document.querySelectorAll('.faq-question').forEach((question) => {
     }
     if (!stylesheet.dataset.vfNavigationReady) {
       stylesheet.dataset.vfNavigationReady = 'pending';
-      const navigationStylesheet = new URL('/assets/global-ui.css?v=20261009-mobile-gutters-v1', location.href).href;
+      const navigationStylesheet = new URL('/assets/global-ui.css?v=20261010-language-disclosure-v1', location.href).href;
       if (stylesheet.href === navigationStylesheet && stylesheet.sheet) {
         stylesheet.dataset.vfNavigationReady = 'ready';
       } else {
