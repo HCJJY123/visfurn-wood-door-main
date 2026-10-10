@@ -620,6 +620,6 @@ body .vf-language-panel a {
 body .vf-language-panel a:hover, body .vf-language-panel a[aria-current] { background: #eaf0eb; }
 body .vf-language-panel a[aria-current]::after { content: '✓'; margin-inline-start: auto; padding-inline-start: 14px; }
 @media (max-width: 1199px) {
-  body .vf-site-nav .vf-language-switcher { position: relative; }
+  body .vf-site-nav .vf-language-switcher { position: relative; inset: auto; }
   body .vf-language-trigger { width: 54px; height: 44px; min-height: 44px; padding-inline: 4px; }
 }
