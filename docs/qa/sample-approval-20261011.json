@@ -1,0 +1,304 @@
+{
+  "layout": [
+    {
+      "url": "/blog/door-sample-approval-checklist-before-mass-production",
+      "width": 375,
+      "innerWidth": 375,
+      "scrollWidth": 360,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/blog/door-sample-approval-checklist-before-mass-production",
+      "hero": {
+        "width": 312,
+        "height": 195
+      },
+      "loadedImages": 2,
+      "brokenImages": [],
+      "quoteLinks": 8,
+      "counts": []
+    },
+    {
+      "url": "/blog/door-sample-approval-checklist-before-mass-production",
+      "width": 390,
+      "innerWidth": 390,
+      "scrollWidth": 375,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/blog/door-sample-approval-checklist-before-mass-production",
+      "hero": {
+        "width": 327,
+        "height": 204
+      },
+      "loadedImages": 2,
+      "brokenImages": [],
+      "quoteLinks": 8,
+      "counts": []
+    },
+    {
+      "url": "/blog/door-sample-approval-checklist-before-mass-production",
+      "width": 1440,
+      "innerWidth": 1440,
+      "scrollWidth": 1425,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/blog/door-sample-approval-checklist-before-mass-production",
+      "hero": {
+        "width": 976,
+        "height": 549
+      },
+      "loadedImages": 2,
+      "brokenImages": [],
+      "quoteLinks": 8,
+      "counts": []
+    },
+    {
+      "url": "/products/interior-doors",
+      "width": 375,
+      "innerWidth": 375,
+      "scrollWidth": 360,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/products/interior-doors",
+      "hero": null,
+      "loadedImages": 2,
+      "brokenImages": [],
+      "quoteLinks": 4,
+      "counts": []
+    },
+    {
+      "url": "/products/interior-doors",
+      "width": 390,
+      "innerWidth": 390,
+      "scrollWidth": 375,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/products/interior-doors",
+      "hero": null,
+      "loadedImages": 2,
+      "brokenImages": [],
+      "quoteLinks": 4,
+      "counts": []
+    },
+    {
+      "url": "/products/interior-doors",
+      "width": 1440,
+      "innerWidth": 1440,
+      "scrollWidth": 1425,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/products/interior-doors",
+      "hero": null,
+      "loadedImages": 2,
+      "brokenImages": [],
+      "quoteLinks": 4,
+      "counts": []
+    },
+    {
+      "url": "/blog",
+      "width": 375,
+      "innerWidth": 375,
+      "scrollWidth": 360,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/blog",
+      "hero": null,
+      "loadedImages": 2,
+      "brokenImages": [],
+      "quoteLinks": 6,
+      "counts": [
+        "All articles53",
+        "Compliance & import03",
+        "Specifications17",
+        "Procurement & project planning20",
+        "Shipping & container planning04",
+        "Materials & performance09"
+      ]
+    },
+    {
+      "url": "/blog",
+      "width": 390,
+      "innerWidth": 390,
+      "scrollWidth": 375,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/blog",
+      "hero": null,
+      "loadedImages": 2,
+      "brokenImages": [],
+      "quoteLinks": 6,
+      "counts": [
+        "All articles53",
+        "Compliance & import03",
+        "Specifications17",
+        "Procurement & project planning20",
+        "Shipping & container planning04",
+        "Materials & performance09"
+      ]
+    },
+    {
+      "url": "/blog",
+      "width": 1440,
+      "innerWidth": 1440,
+      "scrollWidth": 1425,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/blog",
+      "hero": null,
+      "loadedImages": 7,
+      "brokenImages": [],
+      "quoteLinks": 6,
+      "counts": [
+        "All articles53",
+        "Compliance & import03",
+        "Specifications17",
+        "Procurement & project planning20",
+        "Shipping & container planning04",
+        "Materials & performance09"
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "category": "compliance",
+      "visible": 3,
+      "wrong": [
+        "compliance",
+        "compliance",
+        "compliance"
+      ]
+    },
+    {
+      "category": "specifications",
+      "visible": 17,
+      "wrong": [
+        "specifications",
+        "specifications",
+        "specifications",
+        "specifications",
+        "specifications",
+        "specifications",
+        "specifications",
+        "specifications",
+        "specifications",
+        "specifications",
+        "specifications",
+        "specifications",
+        "specifications",
+        "specifications",
+        "specifications",
+        "specifications",
+        "specifications"
+      ]
+    },
+    {
+      "category": "procurement",
+      "visible": 20,
+      "wrong": [
+        "procurement",
+        "procurement",
+        "procurement",
+        "procurement",
+        "procurement",
+        "procurement",
+        "procurement",
+        "procurement",
+        "procurement",
+        "procurement",
+        "procurement",
+        "procurement",
+        "procurement",
+        "procurement",
+        "procurement",
+        "procurement",
+        "procurement",
+        "procurement",
+        "procurement",
+        "procurement"
+      ]
+    },
+    {
+      "category": "shipping",
+      "visible": 4,
+      "wrong": [
+        "shipping",
+        "shipping",
+        "shipping",
+        "shipping"
+      ]
+    },
+    {
+      "category": "materials",
+      "visible": 9,
+      "wrong": [
+        "materials",
+        "materials",
+        "materials",
+        "materials",
+        "materials",
+        "materials",
+        "materials",
+        "materials",
+        "materials"
+      ]
+    },
+    {
+      "category": "all",
+      "visible": 53,
+      "wrong": [
+        "procurement",
+        "procurement",
+        "procurement",
+        "procurement",
+        "specifications",
+        "procurement",
+        "procurement",
+        "procurement",
+        "specifications",
+        "procurement",
+        "procurement",
+        "procurement",
+        "specifications",
+        "specifications",
+        "materials",
+        "specifications",
+        "specifications",
+        "specifications",
+        "specifications",
+        "specifications",
+        "materials",
+        "specifications",
+        "procurement",
+        "procurement",
+        "procurement",
+        "materials",
+        "procurement",
+        "specifications",
+        "materials",
+        "procurement",
+        "specifications",
+        "procurement",
+        "procurement",
+        "shipping",
+        "materials",
+        "specifications",
+        "compliance",
+        "shipping",
+        "procurement",
+        "specifications",
+        "specifications",
+        "materials",
+        "shipping",
+        "specifications",
+        "compliance",
+        "compliance",
+        "shipping",
+        "procurement",
+        "materials",
+        "procurement",
+        "materials",
+        "specifications",
+        "materials"
+      ]
+    }
+  ],
+  "baseline": "003b6a3ab16f29ebe51bc22b2a52296f9d6f482f",
+  "environment": "Cloud Chrome same-origin iframe CSS widths; not physical iPhone Safari",
+  "preview": "https://visfurn-wood-door-site-git-qa-sampl-29ed46-danny-4173s-projects.vercel.app/qa-sample-20261011",
+  "faqExpanded": true,
+  "quoteFormAnchorFound": true,
+  "quoteFormAction": "https://formspree.io/f/xoeadjwv",
+  "formSubmitted": false,
+  "limits": "Offscreen lazy images not all loaded by initial layout audit; source assets exist. No real-user performance or inbox validation.",
+  "notes": "Filter initializer originally saw 49 of 53 cards; DOMContentLoaded correction verified with six filters. Mike feature preview successful; separate Mike QA-only deployment failed and its details unavailable via connector 404; Danny QA preview verified exact affected HTML bytes."
+}
