@@ -356,15 +356,6 @@ document.querySelectorAll('.faq-question').forEach((question) => {
     ['ru', 'Русский']
   ];
   const supportedLocales = new Set(localeOptions.map(([locale]) => locale));
-  const localeLandingRoutes = {
-    en: '/',
-    es: '/es/puertas-para-proyectos',
-    ar: '/ar/wpc-doors',
-    mn: '/mn',
-    fr: '/fr/blocs-portes-interieures',
-    pt: '/br/portas-internas-de-madeira-sob-medida',
-    ru: '/ru/mezhkomnatnye-dveri'
-  };
   const translations = {
     'Home': { es: 'Inicio', ar: 'الرئيسية', fr: 'Accueil', pt: 'Início', de: 'Startseite', it: 'Home', ru: 'Главная', nl: 'Home' },
     'Products': { es: 'Productos', ar: 'المنتجات', fr: 'Produits', pt: 'Produtos', de: 'Produkte', it: 'Prodotti', ru: 'Продукты', nl: 'Producten' },
@@ -435,55 +426,12 @@ document.querySelectorAll('.faq-question').forEach((question) => {
   };
 
   const createLanguageSwitcher = () => {
-    if (document.querySelector('.vf-language-switcher')) return;
-    const target = document.querySelector('.site-header, .vf-header-in, .wpc-header-inner, .pdp-header .pdp-header-inner') || document.body;
-    const switcher = document.createElement('div');
-    switcher.className = 'vf-language-switcher';
-    const languageName = localeOptions.find(([code]) => code === currentLocale)?.[1] || 'English';
-    switcher.innerHTML = `<button type="button" class="vf-language-trigger" data-vf-language-trigger aria-label="Choose language. Current: ${languageName}" aria-expanded="false" aria-controls="vf-language-panel"><span data-vf-language-code>${currentLocale.toUpperCase()}</span><svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><path d="m4 6 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div id="vf-language-panel" class="vf-language-panel" hidden><p>Language pages</p><ul></ul></div>`;
-    const trigger = switcher.querySelector('button');
-    const panel = switcher.querySelector('.vf-language-panel');
-    const list = panel.querySelector('ul');
-    localeOptions.forEach(([code, label]) => {
-      const item = document.createElement('li');
-      const link = document.createElement('a');
-      link.href = localeLandingRoutes[code];
-      link.lang = code;
-      link.hreflang = code;
-      link.dataset.vfLanguageLink = code;
-      link.textContent = label;
-      if (code === currentLocale) link.setAttribute('aria-current', 'true');
-      item.append(link);
-      list.append(item);
-    });
-    const closeLanguages = () => {
-      panel.hidden = true;
-      trigger.setAttribute('aria-expanded', 'false');
-    };
-    trigger.addEventListener('click', () => {
-      const open = trigger.getAttribute('aria-expanded') !== 'true';
-      // Keep the language list separate from the mobile navigation drawer.
-      const menu = document.querySelector('.vf-menu-toggle[aria-expanded="true"]');
-      if (open && menu) menu.click();
-      panel.hidden = !open;
-      trigger.setAttribute('aria-expanded', String(open));
-    });
-    document.addEventListener('click', (event) => {
-      if (!switcher.contains(event.target)) closeLanguages();
-    });
-    document.addEventListener('focusin', (event) => {
-      if (!switcher.contains(event.target)) closeLanguages();
-    });
-    switcher.addEventListener('keydown', (event) => {
-      if (event.key === 'Escape' && !panel.hidden) {
-        event.stopPropagation();
-        closeLanguages();
-        trigger.focus();
-      }
-    });
-    const cta = target.querySelector('.header-cta, .vf-btn-primary, .wpc-header-cta, .pdp-header-cta');
-    if (cta && cta.parentElement === target) target.insertBefore(switcher, cta);
-    else target.appendChild(switcher);
+    if (window.visfurnSetupLanguageMenu) return window.visfurnSetupLanguageMenu();
+    if (document.querySelector('[data-vf-language-script]')) return;
+    const script = document.createElement('script');
+    script.src = '/assets/language-menu.js?v=20261010-v2';
+    script.dataset.vfLanguageScript = 'true';
+    document.head.append(script);
   };
 
   const whatsappSvg = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.52 3.48A11.82 11.82 0 0 0 12.1 0 11.9 11.9 0 0 0 .2 11.9c0 2.1.55 4.15 1.6 5.96L.1 24l6.29-1.65a11.9 11.9 0 0 0 5.7 1.45h.01A11.9 11.9 0 0 0 24 11.9a11.82 11.82 0 0 0-3.48-8.42Zm-8.42 18.3h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.73.98 1-3.64-.23-.37a9.86 9.86 0 1 1 8.36 4.62Zm5.42-7.38c-.3-.15-1.77-.87-2.05-.97-.28-.1-.49-.15-.7.15-.2.3-.8.97-.98 1.17-.18.2-.36.23-.66.08-.3-.15-1.25-.46-2.38-1.46-.88-.78-1.47-1.75-1.64-2.05-.17-.3-.02-.46.13-.61.13-.13.3-.36.45-.54.15-.18.2-.3.3-.5.1-.2.05-.38-.03-.53-.08-.15-.7-1.68-.96-2.3-.25-.6-.51-.52-.7-.53h-.6c-.2 0-.53.08-.8.38-.28.3-1.06 1.03-1.06 2.5 0 1.47 1.08 2.9 1.23 3.1.15.2 2.13 3.25 5.16 4.55.72.31 1.28.49 1.72.63.72.23 1.38.2 1.9.12.58-.09 1.77-.72 2.02-1.42.25-.7.25-1.3.18-1.42-.08-.13-.28-.2-.58-.35Z"/></svg>';
@@ -711,7 +659,7 @@ document.querySelectorAll('.faq-question').forEach((question) => {
     }
     if (!stylesheet.dataset.vfNavigationReady) {
       stylesheet.dataset.vfNavigationReady = 'pending';
-      const navigationStylesheet = new URL('/assets/global-ui.css?v=20261010-language-disclosure-v1', location.href).href;
+      const navigationStylesheet = new URL('/assets/global-ui.css?v=20261010-language-disclosure-v2', location.href).href;
       if (stylesheet.href === navigationStylesheet && stylesheet.sheet) {
         stylesheet.dataset.vfNavigationReady = 'ready';
       } else {

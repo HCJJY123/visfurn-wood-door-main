@@ -623,3 +623,19 @@ body .vf-language-panel a[aria-current]::after { content: '✓'; margin-inline-s
   body .vf-site-nav .vf-language-switcher { position: relative; inset: auto; }
   body .vf-language-trigger { width: 54px; height: 44px; min-height: 44px; padding-inline: 4px; }
 }
+
+/* Independent translated landing headers share only the language component. */
+:is(.ld-header-in, .ar-header-in) { gap: 12px; }
+:is(.ld-header-in, .ar-header-in) .vf-language-switcher {
+  position: relative; inset: auto; transform: none; flex: 0 0 auto;
+  margin-inline-start: auto; margin-inline-end: 0;
+}
+@media (max-width: 620px) {
+  :is(.ld-header-in, .ar-header-in) { gap: 8px; }
+  :is(.ld-header-in, .ar-header-in) :is(.ld-logo, .ar-brand) { min-width: 0; flex: 0 1 100px; }
+  :is(.ld-header-in, .ar-header-in) :is(.ld-logo, .ar-brand) img { width: 100%; max-width: 100px; height: auto; }
+  :is(.ld-header-in, .ar-header-in) :is(.ld-header-cta, .ar-header-link) {
+    max-width: 130px; padding-inline: 10px; white-space: normal; text-align: center;
+    font-size: 12px; line-height: 1.4;
+  }
+}
