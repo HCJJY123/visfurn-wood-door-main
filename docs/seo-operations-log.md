@@ -109,3 +109,14 @@ This file records material, evidence-backed changes so later maintenance cycles 
 - Review 2026-10-17: GSC access first, then category discovery/crawl/index status, relevant query impressions/clicks and category-to-RFQ engagement; qualified inquiries require product/project/quantity/destination/contactability, not just button clicks.
 
 - Scope refinement before release: initial scan included 73 tracked build-output mirrors under source/.vercel/output/static. Those edits were reverted; final scope is 73 production HTML pages, 152 href repairs, plus log and QA evidence. Only 73 canonical URLs are eligible for IndexNow.
+
+
+## 2026-10-10 WPC sourcing claim and mobile reading repair
+
+- Baseline 95177ac; clean before editing. PR61 reviewed: seven homepage/product files, no overlap with this article; leave PR61/72/76 unchanged.
+- Target: /blog/wpc-doors-commercial-sourcing-guide-2026, already in sitemap and linked from WPC category. Current table states 100% immersion-proof, No Formaldehyde and High Glue Content; body claims cannot rot and general failure of traditional doors. No matching product test evidence supplied. These are unsupported assertions, not a finding that any actual product failed a test.
+- Replace absolute comparison with evidence-based procurement questions covering exposure, construction, emissions documentation and cleaning instructions. Add assembly scope, sample/document review, quotation inputs and contextual existing guide links. Preserve URL/canonical/company identity/GTM and form. Change sample-kit CTA to accurate project-quote CTA /contact#quote-form, without promising sample availability. H1 and breadcrumb title aligned; no new article or duplicate intent.
+- Source accessed 2026-10-10: https://www.epa.gov/formaldehyde/formaldehyde-emission-standards-composite-wood-products (page updated February 12, 2026). Link offered for US importer review; no product certification or universal WPC exemption inferred. No legal thresholds or new market-trend assertions added.
+- Mobile: replace fixed 500px hero with natural responsive crop at <=600px, reduce article padding from80px to24px, readable headings/table/CTA. Reuse existing images, add descriptive alt; core image is a reference, not density/performance evidence. No image generation.
+- Static checks: existing links/quote anchor, JSON-LD, unique H1/self-canonical and removal of unsupported phrases; static no-op build and diff checks. Responsive preview at375/390/1440 and deployment/index results to be recorded in release PR. No live form submission.
+- GSC still blocked by connected unverified property; this change is based on HTML evidence, not GSC index diagnosis. Submit only this changed canonical URL to IndexNow after production verification. Review October17: GSC access, article discovery, WPC/product/RFQ navigation and qualified buyer briefs; no short-term ranking attribution.
