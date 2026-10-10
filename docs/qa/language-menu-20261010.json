@@ -1,0 +1,722 @@
+[
+  {
+    "panel": {
+      "left": 25,
+      "right": 243,
+      "top": 143,
+      "bottom": 511
+    },
+    "path": "/",
+    "width": 320,
+    "scrollWidth": 305,
+    "lang": "en",
+    "code": "EN",
+    "count": 7,
+    "button": {
+      "x": 189,
+      "y": 89,
+      "width": 54,
+      "height": 44
+    }
+  },
+  {
+    "panel": {
+      "left": 25,
+      "right": 243,
+      "top": 168.1875,
+      "bottom": 536.1875
+    },
+    "path": "/products/interior-doors/modern-pvc-wooden-door",
+    "width": 320,
+    "scrollWidth": 305,
+    "lang": "en",
+    "code": "EN",
+    "count": 7,
+    "button": {
+      "x": 189,
+      "y": 114.1875,
+      "width": 54,
+      "height": 44
+    }
+  },
+  {
+    "panel": {
+      "left": 25,
+      "right": 243,
+      "top": 71,
+      "bottom": 439
+    },
+    "path": "/blog/interior-door-delivery-storage-site-readiness-checklist",
+    "width": 320,
+    "scrollWidth": 305,
+    "lang": "en",
+    "code": "EN",
+    "count": 7,
+    "button": {
+      "x": 189,
+      "y": 17,
+      "width": 54,
+      "height": 44
+    }
+  },
+  {
+    "panel": {
+      "left": 12,
+      "right": 230,
+      "top": 101.796875,
+      "bottom": 469.796875
+    },
+    "path": "/fr/blocs-portes-interieures",
+    "width": 320,
+    "scrollWidth": 305,
+    "lang": "fr",
+    "code": "FR",
+    "count": 7,
+    "button": {
+      "x": 110.375,
+      "y": 47.796875,
+      "width": 54,
+      "height": 44
+    }
+  },
+  {
+    "panel": {
+      "left": 12,
+      "right": 230,
+      "top": 121.59375,
+      "bottom": 489.59375
+    },
+    "path": "/ru/mezhkomnatnye-dveri",
+    "width": 320,
+    "scrollWidth": 305,
+    "lang": "ru",
+    "code": "RU",
+    "count": 7,
+    "button": {
+      "x": 116.8125,
+      "y": 67.59375,
+      "width": 54,
+      "height": 44
+    }
+  },
+  {
+    "panel": {
+      "left": 15,
+      "right": 233,
+      "top": 72,
+      "bottom": 440
+    },
+    "path": "/br/portas-internas-de-madeira-sob-medida",
+    "width": 320,
+    "scrollWidth": 305,
+    "lang": "pt-BR",
+    "code": "PT",
+    "count": 7,
+    "button": {
+      "x": 181,
+      "y": 18,
+      "width": 52,
+      "height": 44
+    }
+  },
+  {
+    "panel": {
+      "left": 75,
+      "right": 293,
+      "top": 105.125,
+      "bottom": 473.125
+    },
+    "path": "/ar/wpc-doors",
+    "width": 320,
+    "scrollWidth": 305,
+    "lang": "ar",
+    "code": "AR",
+    "count": 7,
+    "button": {
+      "x": 140.65625,
+      "y": 51.125,
+      "width": 54,
+      "height": 44
+    }
+  },
+  {
+    "panel": {
+      "left": 12,
+      "right": 230,
+      "top": 127.09375,
+      "bottom": 495.09375
+    },
+    "path": "/es/puertas-para-proyectos",
+    "width": 320,
+    "scrollWidth": 305,
+    "lang": "es",
+    "code": "ES",
+    "count": 7,
+    "button": {
+      "x": 165,
+      "y": 73.09375,
+      "width": 52,
+      "height": 44
+    }
+  },
+  {
+    "panel": {
+      "left": 12,
+      "right": 230,
+      "top": 121.59375,
+      "bottom": 489.59375
+    },
+    "path": "/mn",
+    "width": 320,
+    "scrollWidth": 305,
+    "lang": "mn-MN",
+    "code": "MN",
+    "count": 7,
+    "button": {
+      "x": 112.3125,
+      "y": 67.59375,
+      "width": 54,
+      "height": 44
+    }
+  },
+  {
+    "panel": {
+      "left": 70,
+      "right": 288,
+      "top": 143,
+      "bottom": 511
+    },
+    "path": "/",
+    "width": 375,
+    "scrollWidth": 360,
+    "lang": "en",
+    "code": "EN",
+    "count": 7,
+    "button": {
+      "x": 234,
+      "y": 89,
+      "width": 54,
+      "height": 44
+    }
+  },
+  {
+    "panel": {
+      "left": 70,
+      "right": 288,
+      "top": 148.390625,
+      "bottom": 516.390625
+    },
+    "path": "/products/interior-doors/modern-pvc-wooden-door",
+    "width": 375,
+    "scrollWidth": 360,
+    "lang": "en",
+    "code": "EN",
+    "count": 7,
+    "button": {
+      "x": 234,
+      "y": 94.390625,
+      "width": 54,
+      "height": 44
+    }
+  },
+  {
+    "panel": {
+      "left": 70,
+      "right": 288,
+      "top": 71,
+      "bottom": 439
+    },
+    "path": "/blog/interior-door-delivery-storage-site-readiness-checklist",
+    "width": 375,
+    "scrollWidth": 360,
+    "lang": "en",
+    "code": "EN",
+    "count": 7,
+    "button": {
+      "x": 234,
+      "y": 17,
+      "width": 54,
+      "height": 44
+    }
+  },
+  {
+    "panel": {
+      "left": 12,
+      "right": 230,
+      "top": 101.796875,
+      "bottom": 469.796875
+    },
+    "path": "/fr/blocs-portes-interieures",
+    "width": 375,
+    "scrollWidth": 360,
+    "lang": "fr",
+    "code": "FR",
+    "count": 7,
+    "button": {
+      "x": 144,
+      "y": 47.796875,
+      "width": 54,
+      "height": 44
+    }
+  },
+  {
+    "panel": {
+      "left": 12,
+      "right": 230,
+      "top": 101.796875,
+      "bottom": 469.796875
+    },
+    "path": "/ru/mezhkomnatnye-dveri",
+    "width": 375,
+    "scrollWidth": 360,
+    "lang": "ru",
+    "code": "RU",
+    "count": 7,
+    "button": {
+      "x": 157.078125,
+      "y": 47.796875,
+      "width": 54,
+      "height": 44
+    }
+  },
+  {
+    "panel": {
+      "left": 60,
+      "right": 278,
+      "top": 72,
+      "bottom": 440
+    },
+    "path": "/br/portas-internas-de-madeira-sob-medida",
+    "width": 375,
+    "scrollWidth": 360,
+    "lang": "pt-BR",
+    "code": "PT",
+    "count": 7,
+    "button": {
+      "x": 220,
+      "y": 18,
+      "width": 54,
+      "height": 44
+    }
+  },
+  {
+    "panel": {
+      "left": 130,
+      "right": 348,
+      "top": 108.359375,
+      "bottom": 476.359375
+    },
+    "path": "/ar/wpc-doors",
+    "width": 375,
+    "scrollWidth": 360,
+    "lang": "ar",
+    "code": "AR",
+    "count": 7,
+    "button": {
+      "x": 147.4375,
+      "y": 54.359375,
+      "width": 54,
+      "height": 44
+    }
+  },
+  {
+    "panel": {
+      "left": 44,
+      "right": 262,
+      "top": 127.09375,
+      "bottom": 495.09375
+    },
+    "path": "/es/puertas-para-proyectos",
+    "width": 375,
+    "scrollWidth": 360,
+    "lang": "es",
+    "code": "ES",
+    "count": 7,
+    "button": {
+      "x": 204,
+      "y": 73.09375,
+      "width": 54,
+      "height": 44
+    }
+  },
+  {
+    "panel": {
+      "left": 12,
+      "right": 230,
+      "top": 101.796875,
+      "bottom": 469.796875
+    },
+    "path": "/mn",
+    "width": 375,
+    "scrollWidth": 360,
+    "lang": "mn-MN",
+    "code": "MN",
+    "count": 7,
+    "button": {
+      "x": 146.046875,
+      "y": 47.796875,
+      "width": 54,
+      "height": 44
+    }
+  },
+  {
+    "panel": {
+      "left": 85,
+      "right": 303,
+      "top": 143,
+      "bottom": 511
+    },
+    "path": "/",
+    "width": 390,
+    "scrollWidth": 375,
+    "lang": "en",
+    "code": "EN",
+    "count": 7,
+    "button": {
+      "x": 249,
+      "y": 89,
+      "width": 54,
+      "height": 44
+    }
+  },
+  {
+    "panel": {
+      "left": 85,
+      "right": 303,
+      "top": 148.390625,
+      "bottom": 516.390625
+    },
+    "path": "/products/interior-doors/modern-pvc-wooden-door",
+    "width": 390,
+    "scrollWidth": 375,
+    "lang": "en",
+    "code": "EN",
+    "count": 7,
+    "button": {
+      "x": 249,
+      "y": 94.390625,
+      "width": 54,
+      "height": 44
+    }
+  },
+  {
+    "panel": {
+      "left": 85,
+      "right": 303,
+      "top": 71,
+      "bottom": 439
+    },
+    "path": "/blog/interior-door-delivery-storage-site-readiness-checklist",
+    "width": 390,
+    "scrollWidth": 375,
+    "lang": "en",
+    "code": "EN",
+    "count": 7,
+    "button": {
+      "x": 249,
+      "y": 17,
+      "width": 54,
+      "height": 44
+    }
+  },
+  {
+    "panel": {
+      "left": 12,
+      "right": 230,
+      "top": 101.796875,
+      "bottom": 469.796875
+    },
+    "path": "/fr/blocs-portes-interieures",
+    "width": 390,
+    "scrollWidth": 375,
+    "lang": "fr",
+    "code": "FR",
+    "count": 7,
+    "button": {
+      "x": 159,
+      "y": 47.796875,
+      "width": 54,
+      "height": 44
+    }
+  },
+  {
+    "panel": {
+      "left": 12,
+      "right": 230,
+      "top": 101.796875,
+      "bottom": 469.796875
+    },
+    "path": "/ru/mezhkomnatnye-dveri",
+    "width": 390,
+    "scrollWidth": 375,
+    "lang": "ru",
+    "code": "RU",
+    "count": 7,
+    "button": {
+      "x": 172.078125,
+      "y": 47.796875,
+      "width": 54,
+      "height": 44
+    }
+  },
+  {
+    "panel": {
+      "left": 75,
+      "right": 293,
+      "top": 72,
+      "bottom": 440
+    },
+    "path": "/br/portas-internas-de-madeira-sob-medida",
+    "width": 390,
+    "scrollWidth": 375,
+    "lang": "pt-BR",
+    "code": "PT",
+    "count": 7,
+    "button": {
+      "x": 235,
+      "y": 18,
+      "width": 54,
+      "height": 44
+    }
+  },
+  {
+    "panel": {
+      "left": 145,
+      "right": 363,
+      "top": 108.359375,
+      "bottom": 476.359375
+    },
+    "path": "/ar/wpc-doors",
+    "width": 390,
+    "scrollWidth": 375,
+    "lang": "ar",
+    "code": "AR",
+    "count": 7,
+    "button": {
+      "x": 147.4375,
+      "y": 54.359375,
+      "width": 54,
+      "height": 44
+    }
+  },
+  {
+    "panel": {
+      "left": 59,
+      "right": 277,
+      "top": 127.09375,
+      "bottom": 495.09375
+    },
+    "path": "/es/puertas-para-proyectos",
+    "width": 390,
+    "scrollWidth": 375,
+    "lang": "es",
+    "code": "ES",
+    "count": 7,
+    "button": {
+      "x": 219,
+      "y": 73.09375,
+      "width": 54,
+      "height": 44
+    }
+  },
+  {
+    "panel": {
+      "left": 12,
+      "right": 230,
+      "top": 101.796875,
+      "bottom": 469.796875
+    },
+    "path": "/mn",
+    "width": 390,
+    "scrollWidth": 375,
+    "lang": "mn-MN",
+    "code": "MN",
+    "count": 7,
+    "button": {
+      "x": 161.046875,
+      "y": 47.796875,
+      "width": 54,
+      "height": 44
+    }
+  },
+  {
+    "panel": {
+      "left": 1171,
+      "right": 1389,
+      "top": 114,
+      "bottom": 482
+    },
+    "path": "/",
+    "width": 1440,
+    "scrollWidth": 1425,
+    "lang": "en",
+    "code": "EN",
+    "count": 7,
+    "button": {
+      "x": 1327,
+      "y": 64,
+      "width": 62,
+      "height": 40
+    }
+  },
+  {
+    "panel": {
+      "left": 1171,
+      "right": 1389,
+      "top": 117.796875,
+      "bottom": 485.796875
+    },
+    "path": "/products/interior-doors/modern-pvc-wooden-door",
+    "width": 1440,
+    "scrollWidth": 1425,
+    "lang": "en",
+    "code": "EN",
+    "count": 7,
+    "button": {
+      "x": 1327,
+      "y": 67.796875,
+      "width": 62,
+      "height": 40
+    }
+  },
+  {
+    "panel": {
+      "left": 1171,
+      "right": 1389,
+      "top": 80,
+      "bottom": 448
+    },
+    "path": "/blog/interior-door-delivery-storage-site-readiness-checklist",
+    "width": 1440,
+    "scrollWidth": 1425,
+    "lang": "en",
+    "code": "EN",
+    "count": 7,
+    "button": {
+      "x": 1327,
+      "y": 30,
+      "width": 62,
+      "height": 40
+    }
+  },
+  {
+    "panel": {
+      "left": 975.703125,
+      "right": 1193.703125,
+      "top": 104.796875,
+      "bottom": 472.796875
+    },
+    "path": "/fr/blocs-portes-interieures",
+    "width": 1440,
+    "scrollWidth": 1425,
+    "lang": "fr",
+    "code": "FR",
+    "count": 7,
+    "button": {
+      "x": 1131.703125,
+      "y": 54.796875,
+      "width": 62,
+      "height": 40
+    }
+  },
+  {
+    "panel": {
+      "left": 997.28125,
+      "right": 1215.28125,
+      "top": 104.796875,
+      "bottom": 472.796875
+    },
+    "path": "/ru/mezhkomnatnye-dveri",
+    "width": 1440,
+    "scrollWidth": 1425,
+    "lang": "ru",
+    "code": "RU",
+    "count": 7,
+    "button": {
+      "x": 1153.28125,
+      "y": 54.796875,
+      "width": 62,
+      "height": 40
+    }
+  },
+  {
+    "panel": {
+      "left": 1127,
+      "right": 1345,
+      "top": 80,
+      "bottom": 448
+    },
+    "path": "/br/portas-internas-de-madeira-sob-medida",
+    "width": 1440,
+    "scrollWidth": 1425,
+    "lang": "pt-BR",
+    "code": "PT",
+    "count": 7,
+    "button": {
+      "x": 1283,
+      "y": 30,
+      "width": 62,
+      "height": 40
+    }
+  },
+  {
+    "panel": {
+      "left": 189.015625,
+      "right": 407.015625,
+      "top": 108,
+      "bottom": 476
+    },
+    "path": "/ar/wpc-doors",
+    "width": 1440,
+    "scrollWidth": 1425,
+    "lang": "ar",
+    "code": "AR",
+    "count": 7,
+    "button": {
+      "x": 189.015625,
+      "y": 58,
+      "width": 62,
+      "height": 40
+    }
+  },
+  {
+    "panel": {
+      "left": 1106.5,
+      "right": 1324.5,
+      "top": 104.296875,
+      "bottom": 472.296875
+    },
+    "path": "/es/puertas-para-proyectos",
+    "width": 1440,
+    "scrollWidth": 1425,
+    "lang": "es",
+    "code": "ES",
+    "count": 7,
+    "button": {
+      "x": 1262.5,
+      "y": 54.296875,
+      "width": 62,
+      "height": 40
+    }
+  },
+  {
+    "panel": {
+      "left": 982.5625,
+      "right": 1200.5625,
+      "top": 104.796875,
+      "bottom": 472.796875
+    },
+    "path": "/mn",
+    "width": 1440,
+    "scrollWidth": 1425,
+    "lang": "mn-MN",
+    "code": "MN",
+    "count": 7,
+    "button": {
+      "x": 1138.5625,
+      "y": 54.796875,
+      "width": 62,
+      "height": 40
+    }
+  }
+]
