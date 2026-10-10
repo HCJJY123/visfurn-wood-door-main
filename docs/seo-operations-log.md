@@ -120,3 +120,34 @@ This file records material, evidence-backed changes so later maintenance cycles 
 - Mobile: replace fixed 500px hero with natural responsive crop at <=600px, reduce article padding from80px to24px, readable headings/table/CTA. Reuse existing images, add descriptive alt; core image is a reference, not density/performance evidence. No image generation.
 - Static checks: existing links/quote anchor, JSON-LD, unique H1/self-canonical and removal of unsupported phrases; static no-op build and diff checks. Responsive preview at375/390/1440 and deployment/index results to be recorded in release PR. No live form submission.
 - GSC still blocked by connected unverified property; this change is based on HTML evidence, not GSC index diagnosis. Submit only this changed canonical URL to IndexNow after production verification. Review October17: GSC access, article discovery, WPC/product/RFQ navigation and qualified buyer briefs; no short-term ranking attribution.
+
+## 2026-10-11 — Sample approval decision record and buyer-resource discovery
+
+- Site: https://www.visfurn.com/; source baseline main `003b6a3ab16f29ebe51bc22b2a52296f9d6f482f`; clean checkout. Open PRs 61, 72, 76 left untouched. Seven live files (home, Contact, Interior Doors, Blog, sample approval article, robots, sitemap) returned 200 and exact source bytes.
+- Data boundary: GSC fresh check still `siteUnverifiedUser`, `readable=false`; no Search Analytics, URL Inspection or Google sitemap submission attempted. GA4 property null; no Clarity/inquiry data. Bing Webmaster API not configured. IndexNow key configured and verified; recent submissions reviewed. No search volume, fixed rank or traffic trend claimed.
+- Primary evidence (accessed 2026-10-11 Beijing): Cornell Facilities 087100, https://fcs.cornell.edu/087100-door-hardware, section 1.02 requires coordinated door/hardware submittals and early schedule approval where fabrication depends on it. This is project-specific procurement evidence, not a new market trend or VISFURN certification. Search queries: `door hardware mockup approval university specifications pdf`, `door full size mockup pilot opening hotel door approval specifications`. No private RFQs/community groups accessed.
+- Bottleneck: existing buyer guide names sample approval but lacks a usable installed mock-up review and production release record. Blog lists 53 actual cards while All articles shows 47; specifications shows 16 vs 17, procurement 16 vs 20, materials 7 vs 9. No claim that these explain measured conversion loss.
+
+### Candidate decisions (each dimension 0–3; R relevance / B buyer intent / E evidence / G gap / A available facts / C conversion value)
+| Candidate | R/B/E/G/A/C | Total | Decision |
+|---|---|---:|---|
+| Expand sample approval guide with pilot-opening review and release record | 3/3/2/3/3/3 | 17 | Implement full English content update at existing URL |
+| Correct blog topic counts and resilient filtering | 3/2/3/2/3/2 | 15 | Implement, direct code evidence |
+| Standalone hardware-substitution guide | 3/3/1/1/2/3 | 13 | Defer: overlaps hardware preparation article |
+| New country page | 2/2/0/1/1/2 | 8 | Defer: no independent local demand evidence |
+| GSC-led indexing recovery | 3/3/0/2/0/3 | 11 | Blocked by unreadable property; no invented indexing diagnosis |
+
+### Content unit and implementation
+- Action B/C: update `/blog/door-sample-approval-checklist-before-mass-production`; no new competing URL. Daily English content unit is a substantially expanded existing guide, not a keyword variant. Audience: importers, contractors and hotel/apartment project procurement teams; English, international markets, pre-order/sample approval stage.
+- Primary keyword: door sample approval checklist. Related: door mock-up approval, pre-production door sample, door set approval record. Intent: decide what the sample covers, verify an installed representative opening and document release/hold conditions before repeated production.
+- Complete publishable English copy is in the HTML. Sections: sample scope; representative configurations; installation review; copyable approval record; closing issues/revisions; packing and RFQ brief. No invented tolerances, product performance, sample availability, pricing or timelines.
+- Retain effective title/H1 and canonical; update description/social descriptions; consolidate duplicate Article schemas with conflicting old dates into one Article node; retain visible matching FAQs. Update lastmod only for three changed canonical pages.
+- Bidirectional links: Interior Doors, before site-receiving guidance → `door sample and site mock-up approval checklist`; guide → Interior/Wooden/WPC categories, dimension/hardware/storage guides and `/contact#quote-form`. Blog existing card updated; no duplicate card.
+- Blog fallback counts corrected (53/03/17/20/04/09) and runtime counts derive from actual cards; hidden cards explicitly hidden. Tracking and inquiry service unchanged.
+- Images: reuse three existing WebP illustrations; clarified illustration captions instead of implying verified factory/packing evidence. No new image generation. Mobile guide spacing/hero sizing and single-column inline visuals scoped to this page.
+- Status at authoring: completed content; preview and production validation pending. Release PR will record final commit, production checks and IndexNow result after merge (avoid a second deployment merely to record its own SHA).
+- Follow-up: 2026-10-18 check crawl/inspection when access restored, article → commercial/Contact navigation, sample-scope RFQs and qualification (product/use/quantity/project/destination/contactability); 2026-11-08 compare complete 28-day periods if data available. Sample submissions and CTA clicks are not qualified inquiries. Company legal-name conflict remains unresolved and unchanged.
+
+- Preview found and fixed a further real interaction defect: the inline filter initializer executed before the final four cards were parsed (runtime count 49 despite 53 DOM cards), so those four never participated in filtering. Initialization now waits for DOMContentLoaded; category visibility and counts rechecked below.
+
+- Preview validated: nine layout combinations (three pages × 375/390/1440 CSS widths), one H1 and expected canonical per page, no horizontal overflow; six filters returned 3/17/20/4/9/53 correct cards. FAQ expanded and article CTA reached existing quote form/action; no submission. Existing main scripts/JSON-LD/XML/local destinations/diff checks passed; build remains static no-op. Screenshot and structured QA: `docs/qa/sample-approval-390-20261011.jpg`, `docs/qa/sample-approval-20261011.json`. Status: locally/preview verified, awaiting production Git deployment; authoritative final release/index receipt in PR #100. QA-only PR #101 will close unmerged.
