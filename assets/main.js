@@ -659,7 +659,7 @@ document.querySelectorAll('.faq-question').forEach((question) => {
     }
     if (!stylesheet.dataset.vfNavigationReady) {
       stylesheet.dataset.vfNavigationReady = 'pending';
-      const navigationStylesheet = new URL('/assets/global-ui.css?v=20261010-language-disclosure-v2', location.href).href;
+      const navigationStylesheet = new URL('/assets/global-ui.css?v=20261010-language-disclosure-v3', location.href).href;
       if (stylesheet.href === navigationStylesheet && stylesheet.sheet) {
         stylesheet.dataset.vfNavigationReady = 'ready';
       } else {
