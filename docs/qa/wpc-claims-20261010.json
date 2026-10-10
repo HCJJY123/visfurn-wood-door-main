@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-10",
+  "qa_commit": "5557f6f03ae0abb80e1d89b66ee89ecd00cca4e3",
+  "environment": "Cloud Chrome iframe CSS widths, not physical iPhone Safari",
+  "rows": [
+    {
+      "width": 375,
+      "scrollWidth": 360,
+      "hero": [
+        360,
+        225
+      ],
+      "tableWidth": 312,
+      "tableScrollWidth": 312
+    },
+    {
+      "width": 390,
+      "scrollWidth": 375,
+      "hero": [
+        375,
+        234
+      ],
+      "tableWidth": 327,
+      "tableScrollWidth": 327
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1425,
+      "hero": [
+        900,
+        500
+      ],
+      "tableWidth": 740,
+      "tableScrollWidth": 740
+    }
+  ],
+  "one_h1": true,
+  "self_canonical": true,
+  "images_loaded": true,
+  "mobile_padding": "28px 24px",
+  "sticky_header_background": "rgb(255, 255, 255)",
+  "cta": "/contact#quote-form",
+  "form_action": "https://formspree.io/f/xoeadjwv",
+  "form_submitted": false
+}
