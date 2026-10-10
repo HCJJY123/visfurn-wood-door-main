@@ -1,0 +1,594 @@
+{
+  "date": "2026-10-10",
+  "baseline": "8960acf7ffd2c1f37149c63c49f40fdcba2644a3",
+  "scope": "Only two href values replaced; all other bytes unchanged on affected HTML files",
+  "files": 146,
+  "links": 304,
+  "validation": "exact replacement equality for every file; targets self-canonical and in sitemap; static build and git diff --check pass",
+  "affected": [
+    {
+      "path": "applications/apartment-door-package-supplier.html",
+      "links": 2
+    },
+    {
+      "path": "blog.html",
+      "links": 2
+    },
+    {
+      "path": "blog/acoustic-door-specification-apartment-hotel-projects.html",
+      "links": 2
+    },
+    {
+      "path": "blog/apartment-interior-door-selection-guide-door-leaf-frame-jamb-hardware-packing.html",
+      "links": 2
+    },
+    {
+      "path": "blog/bathroom-utility-room-door-material-guide.html",
+      "links": 2
+    },
+    {
+      "path": "blog/carbon-crystal-wooden-doors-explained.html",
+      "links": 2
+    },
+    {
+      "path": "blog/child-safe-accessible-door-hardware-guide.html",
+      "links": 2
+    },
+    {
+      "path": "blog/custom-ral-pantone-door-color-finish-specification.html",
+      "links": 2
+    },
+    {
+      "path": "blog/custom-wooden-door-lead-time-from-china.html",
+      "links": 2
+    },
+    {
+      "path": "blog/door-certifications-by-market.html",
+      "links": 2
+    },
+    {
+      "path": "blog/door-frame-jamb-width-architrave-specification-bulk-orders.html",
+      "links": 2
+    },
+    {
+      "path": "blog/door-handing-swing-direction-hardware-prep-project-schedules.html",
+      "links": 2
+    },
+    {
+      "path": "blog/door-hardware-preparation-checklist-bulk-orders.html",
+      "links": 2
+    },
+    {
+      "path": "blog/door-packaging-labels-installation-room-schedule.html",
+      "links": 2
+    },
+    {
+      "path": "blog/door-sample-approval-checklist-before-mass-production.html",
+      "links": 2
+    },
+    {
+      "path": "blog/door-schedule-project-rfq-guide.html",
+      "links": 2
+    },
+    {
+      "path": "blog/door-schedule-takeoff-checklist-for-bulk-orders.html",
+      "links": 2
+    },
+    {
+      "path": "blog/door-size-standards-imperial-metric-guide.html",
+      "links": 2
+    },
+    {
+      "path": "blog/fire-rated-doors-and-safety-solutions.html",
+      "links": 4
+    },
+    {
+      "path": "blog/fire-rated-steel-door-supplier-verification.html",
+      "links": 2
+    },
+    {
+      "path": "blog/first-door-container-from-china-process.html",
+      "links": 2
+    },
+    {
+      "path": "blog/french-doors-glazed-double-door-specification.html",
+      "links": 2
+    },
+    {
+      "path": "blog/hotel-door-package-checklist-guestroom-bathroom-fire-hardware.html",
+      "links": 2
+    },
+    {
+      "path": "blog/hotel-door-renovation-existing-frame-hardware-compatibility-checklist.html",
+      "links": 2
+    },
+    {
+      "path": "blog/hotel-door-renovation-rfq-template-existing-frames-hardware-phasing.html",
+      "links": 2
+    },
+    {
+      "path": "blog/hotel-door-replacement-phasing-room-by-room-packing-guide.html",
+      "links": 2
+    },
+    {
+      "path": "blog/how-many-doors-fit-in-a-container.html",
+      "links": 2
+    },
+    {
+      "path": "blog/louvered-ventilated-door-utility-plant-room-guide.html",
+      "links": 2
+    },
+    {
+      "path": "blog/pivot-swing-sliding-door-opening-style-guide.html",
+      "links": 2
+    },
+    {
+      "path": "blog/pre-shipment-video-inspection-door-orders.html",
+      "links": 2
+    },
+    {
+      "path": "blog/prehung-interior-doors-rough-opening-jamb-hardware-prep.html",
+      "links": 2
+    },
+    {
+      "path": "blog/pvc-laminated-wooden-doors-vs-painted-wooden-doors.html",
+      "links": 2
+    },
+    {
+      "path": "blog/shaker-flush-panel-door-style-guide.html",
+      "links": 2
+    },
+    {
+      "path": "blog/slab-vs-prehung-vs-full-door-set-specification.html",
+      "links": 2
+    },
+    {
+      "path": "blog/smart-fingerprint-lock-compatible-doors.html",
+      "links": 2
+    },
+    {
+      "path": "blog/trade-assurance-deposit-payment-terms-first-door-order.html",
+      "links": 2
+    },
+    {
+      "path": "blog/tsca-title-vi-carb-phase-2-imported-doors.html",
+      "links": 2
+    },
+    {
+      "path": "blog/us-import-duty-wooden-doors-china-hs-code.html",
+      "links": 2
+    },
+    {
+      "path": "blog/wpc-bathroom-door-hardware-hinges-locks-threshold-guide.html",
+      "links": 2
+    },
+    {
+      "path": "blog/wpc-door-frame-threshold-details-bathroom-projects.html",
+      "links": 2
+    },
+    {
+      "path": "blog/wpc-door-suppliers-in-china.html",
+      "links": 4
+    },
+    {
+      "path": "blog/wpc-doors-vs-pvc-laminated-wooden-doors-humid-areas.html",
+      "links": 2
+    },
+    {
+      "path": "blog/wpc-vs-mdf-vs-solid-wood-vs-melamine-doors.html",
+      "links": 2
+    },
+    {
+      "path": "br/portas-internas-de-madeira-sob-medida.html",
+      "links": 2
+    },
+    {
+      "path": "case-study/australia-queensland-acoustic-interior-doors.html",
+      "links": 2
+    },
+    {
+      "path": "case-study/berlin-office-acoustic-timber-doors.html",
+      "links": 2
+    },
+    {
+      "path": "case-study/canada-multifamily-interior-door-package-imperial-sizes.html",
+      "links": 2
+    },
+    {
+      "path": "case-study/commercial-project-door-package.html",
+      "links": 4
+    },
+    {
+      "path": "case-study/ghana-accra-wpc-steel-security-doors.html",
+      "links": 2
+    },
+    {
+      "path": "case-study/india-500-doors-20ft-container.html",
+      "links": 2
+    },
+    {
+      "path": "case-study/iraq-residential-rebuild-glazed-double-swing-doors.html",
+      "links": 2
+    },
+    {
+      "path": "case-study/italy-private-label-white-primed-flush-doors.html",
+      "links": 2
+    },
+    {
+      "path": "case-study/liberia-monrovia-family-home-door-container-consolidation.html",
+      "links": 2
+    },
+    {
+      "path": "case-study/maldives-resort-door-package.html",
+      "links": 2
+    },
+    {
+      "path": "case-study/mauritius-cost-competitive-full-door-set-import.html",
+      "links": 2
+    },
+    {
+      "path": "case-study/mexico-boutique-hotel-moisture-resistant-bathroom-doors.html",
+      "links": 2
+    },
+    {
+      "path": "case-study/multifamily-interior-door-package-staged-delivery.html",
+      "links": 2
+    },
+    {
+      "path": "case-study/new-zealand-student-housing-wpc-bathroom-doors.html",
+      "links": 2
+    },
+    {
+      "path": "case-study/philippines-apartment-interior-wpc-door-package-humid-project.html",
+      "links": 2
+    },
+    {
+      "path": "case-study/philippines-condominium-interior-doors.html",
+      "links": 2
+    },
+    {
+      "path": "case-study/saudi-arabia-villa-cast-aluminium-entry-doors.html",
+      "links": 2
+    },
+    {
+      "path": "case-study/togo-lome-apartment-building-repeat-door-order.html",
+      "links": 2
+    },
+    {
+      "path": "case-study/us-multifamily-interior-doors-container.html",
+      "links": 2
+    },
+    {
+      "path": "guides/custom-interior-door-sizes-us-canada.html",
+      "links": 2
+    },
+    {
+      "path": "guides/door-jamb-depth-wall-thickness.html",
+      "links": 2
+    },
+    {
+      "path": "guides/prehung-vs-slab-doors-for-projects.html",
+      "links": 2
+    },
+    {
+      "path": "guides/rough-opening-vs-door-leaf-size.html",
+      "links": 2
+    },
+    {
+      "path": "guides/solid-wood-vs-engineered-wood-vs-mdf-doors.html",
+      "links": 2
+    },
+    {
+      "path": "markets/canada/custom-interior-wood-doors.html",
+      "links": 2
+    },
+    {
+      "path": "markets/united-states/custom-interior-wood-doors.html",
+      "links": 2
+    },
+    {
+      "path": "projects.html",
+      "links": 2
+    },
+    {
+      "path": "solutions/custom-interior-wood-door-projects.html",
+      "links": 2
+    },
+    {
+      "path": "solutions/door-schedule-quotation.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/applications/apartment-door-package-supplier.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/blog.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/blog/acoustic-door-specification-apartment-hotel-projects.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/blog/apartment-interior-door-selection-guide-door-leaf-frame-jamb-hardware-packing.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/blog/bathroom-utility-room-door-material-guide.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/blog/carbon-crystal-wooden-doors-explained.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/blog/child-safe-accessible-door-hardware-guide.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/blog/custom-ral-pantone-door-color-finish-specification.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/blog/custom-wooden-door-lead-time-from-china.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/blog/door-certifications-by-market.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/blog/door-frame-jamb-width-architrave-specification-bulk-orders.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/blog/door-handing-swing-direction-hardware-prep-project-schedules.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/blog/door-hardware-preparation-checklist-bulk-orders.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/blog/door-packaging-labels-installation-room-schedule.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/blog/door-sample-approval-checklist-before-mass-production.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/blog/door-schedule-project-rfq-guide.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/blog/door-schedule-takeoff-checklist-for-bulk-orders.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/blog/door-size-standards-imperial-metric-guide.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/blog/fire-rated-doors-and-safety-solutions.html",
+      "links": 4
+    },
+    {
+      "path": "source/.vercel/output/static/blog/fire-rated-steel-door-supplier-verification.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/blog/first-door-container-from-china-process.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/blog/french-doors-glazed-double-door-specification.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/blog/hotel-door-package-checklist-guestroom-bathroom-fire-hardware.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/blog/hotel-door-renovation-existing-frame-hardware-compatibility-checklist.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/blog/hotel-door-renovation-rfq-template-existing-frames-hardware-phasing.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/blog/hotel-door-replacement-phasing-room-by-room-packing-guide.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/blog/how-many-doors-fit-in-a-container.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/blog/louvered-ventilated-door-utility-plant-room-guide.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/blog/pivot-swing-sliding-door-opening-style-guide.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/blog/pre-shipment-video-inspection-door-orders.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/blog/prehung-interior-doors-rough-opening-jamb-hardware-prep.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/blog/pvc-laminated-wooden-doors-vs-painted-wooden-doors.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/blog/shaker-flush-panel-door-style-guide.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/blog/slab-vs-prehung-vs-full-door-set-specification.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/blog/smart-fingerprint-lock-compatible-doors.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/blog/trade-assurance-deposit-payment-terms-first-door-order.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/blog/tsca-title-vi-carb-phase-2-imported-doors.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/blog/us-import-duty-wooden-doors-china-hs-code.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/blog/wpc-bathroom-door-hardware-hinges-locks-threshold-guide.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/blog/wpc-door-frame-threshold-details-bathroom-projects.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/blog/wpc-door-suppliers-in-china.html",
+      "links": 4
+    },
+    {
+      "path": "source/.vercel/output/static/blog/wpc-doors-vs-pvc-laminated-wooden-doors-humid-areas.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/blog/wpc-vs-mdf-vs-solid-wood-vs-melamine-doors.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/br/portas-internas-de-madeira-sob-medida.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/case-study/australia-queensland-acoustic-interior-doors.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/case-study/berlin-office-acoustic-timber-doors.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/case-study/canada-multifamily-interior-door-package-imperial-sizes.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/case-study/commercial-project-door-package.html",
+      "links": 4
+    },
+    {
+      "path": "source/.vercel/output/static/case-study/ghana-accra-wpc-steel-security-doors.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/case-study/india-500-doors-20ft-container.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/case-study/iraq-residential-rebuild-glazed-double-swing-doors.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/case-study/italy-private-label-white-primed-flush-doors.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/case-study/liberia-monrovia-family-home-door-container-consolidation.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/case-study/maldives-resort-door-package.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/case-study/mauritius-cost-competitive-full-door-set-import.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/case-study/mexico-boutique-hotel-moisture-resistant-bathroom-doors.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/case-study/multifamily-interior-door-package-staged-delivery.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/case-study/new-zealand-student-housing-wpc-bathroom-doors.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/case-study/philippines-apartment-interior-wpc-door-package-humid-project.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/case-study/philippines-condominium-interior-doors.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/case-study/saudi-arabia-villa-cast-aluminium-entry-doors.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/case-study/togo-lome-apartment-building-repeat-door-order.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/case-study/us-multifamily-interior-doors-container.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/guides/custom-interior-door-sizes-us-canada.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/guides/door-jamb-depth-wall-thickness.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/guides/prehung-vs-slab-doors-for-projects.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/guides/rough-opening-vs-door-leaf-size.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/guides/solid-wood-vs-engineered-wood-vs-mdf-doors.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/markets/canada/custom-interior-wood-doors.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/markets/united-states/custom-interior-wood-doors.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/projects.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/solutions/custom-interior-wood-door-projects.html",
+      "links": 2
+    },
+    {
+      "path": "source/.vercel/output/static/solutions/door-schedule-quotation.html",
+      "links": 2
+    }
+  ]
+}
