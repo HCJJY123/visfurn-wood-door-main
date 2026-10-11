@@ -43,7 +43,7 @@ for (const query of ['', '?product=unknown', '?product=__proto__']) {
   assert.equal(result.fields.project_type.value, '');
   assert.equal(result.context.hidden, true);
 }
-for (const [slug, door, project] of [['modern-laboratory-door', 'Hospital Doors', 'Hospital / Healthcare'], ['custom-color-classroom-door', 'School Doors', 'School'], ['modern-finished-hotel-interior-door', 'Hotel Doors', 'Hotel']]) {
+for (const [slug, door, project] of [['modern-laboratory-door', 'Hospital Doors', 'Hospital / Healthcare'], ['custom-color-classroom-door', 'School Doors', 'School'], ['modern-finished-hotel-interior-door', 'Hotel Doors', 'Hotel / Hospitality']]) {
   const result = run('?product=' + slug);
   assert.equal(result.fields.door_type.value, door);
   assert.equal(result.fields.project_type.value, project);

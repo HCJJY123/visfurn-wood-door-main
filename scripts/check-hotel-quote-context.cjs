@@ -23,7 +23,7 @@ for (const href of links) {
   const url = new URL(href, 'https://www.visfurn.com');
   const result = run(url.search);
   assert.equal(result.fields.door_type.value, 'Hotel Doors');
-  assert.equal(result.fields.project_type.value, 'Hotel');
+  assert.equal(result.fields.project_type.value, 'Hotel / Hospitality');
   assert.equal(result.fields.source_page.value, '/products/hotel-doors');
   assert.equal(result.fields.product_url.value, 'https://www.visfurn.com/products/hotel-doors');
   assert.equal(result.fields.product_slug.value, 'hotel-doors');
@@ -43,7 +43,7 @@ for (const query of ['', '?product=unknown', '?product=__proto__']) {
   assert.equal(result.fields.project_type.value, '');
   assert.equal(result.context.hidden, true);
 }
-for (const [slug, door, project] of [['modern-laboratory-door', 'Hospital Doors', 'Hospital / Healthcare'], ['custom-color-classroom-door', 'School Doors', 'School'], ['modern-finished-hotel-interior-door', 'Hotel Doors', 'Hotel']]) {
+for (const [slug, door, project] of [['modern-laboratory-door', 'Hospital Doors', 'Hospital / Healthcare'], ['custom-color-classroom-door', 'School Doors', 'School'], ['modern-finished-hotel-interior-door', 'Hotel Doors', 'Hotel / Hospitality']]) {
   const result = run('?product=' + slug);
   assert.equal(result.fields.door_type.value, door);
   assert.equal(result.fields.project_type.value, project);
@@ -66,3 +66,5 @@ for (const path of ['/contact', '/products/school-doors', '/products/hospital-do
 assert.match(main, /inquiry\.href = getPageQuoteHref\(\)/);
 assert.match(main, /let quoteHref = getPageQuoteHref\(\)/);
 console.log('PASS: generated floating and navigation quote route scoped to supported categories; unrelated routes retain defaults.');
+
+for (const match of script.matchAll(/projectType: '([^']+)'/g)) assert.ok(contact.includes('<option>' + match[1] + '</option>'), 'Project type must exist in real contact select: ' + match[1]);
