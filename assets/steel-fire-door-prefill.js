@@ -21,9 +21,17 @@
       name: 'Modern Finished Hotel Interior Door',
       path: '/products/hotel-doors/modern-finished-hotel-interior-door',
       context: 'Product selected',
-      projectType: 'Hotel',
+      projectType: 'Hotel / Hospitality',
       doorType: 'Hotel Doors',
       requirements: 'Room marks / quantities: \nOpening sizes / frame scope: \nFinish reference / hardware drawings: '
+    },
+    'hotel-doors': {
+      name: 'Hotel Doors Collection',
+      path: '/products/hotel-doors',
+      context: 'Collection selected',
+      projectType: 'Hotel / Hospitality',
+      doorType: 'Hotel Doors',
+      requirements: 'Room schedule / quantities: \nSupply scope (leaf only, leaf + frame, or specified hardware set): \nExisting frame / finished wall thickness: \nHardware supplied vs preparation only / approved drawings: \nFinish reference / destination / delivery phase: '
     },
     'hospital-doors': {
       name: 'Hospital Doors Collection',

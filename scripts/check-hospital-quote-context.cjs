@@ -43,7 +43,7 @@ for (const query of ['', '?product=unknown', '?product=__proto__']) {
   assert.equal(result.fields.project_type.value, '');
   assert.equal(result.context.hidden, true);
 }
-for (const [slug, door, project] of [['modern-laboratory-door', 'Hospital Doors', 'Hospital / Healthcare'], ['custom-color-classroom-door', 'School Doors', 'School'], ['modern-finished-hotel-interior-door', 'Hotel Doors', 'Hotel']]) {
+for (const [slug, door, project] of [['modern-laboratory-door', 'Hospital Doors', 'Hospital / Healthcare'], ['custom-color-classroom-door', 'School Doors', 'School'], ['modern-finished-hotel-interior-door', 'Hotel Doors', 'Hotel / Hospitality']]) {
   const result = run('?product=' + slug);
   assert.equal(result.fields.door_type.value, door);
   assert.equal(result.fields.project_type.value, project);
@@ -52,7 +52,7 @@ const prior = run('?product=hospital-doors', { project: 'Other', requirements: '
 assert.equal(prior.fields.project_type.value, 'Other');
 assert.equal(prior.fields.requirements.value, 'Buyer-entered detail');
 const contact = fs.readFileSync('contact.html', 'utf8');
-assert.match(contact, /steel-fire-door-prefill\.js\?v=20261011-hospital-category-v4/);
+assert.match(contact, /steel-fire-door-prefill\.js\?v=20261011-hotel-category-v5/);
 console.log('PASS: hospital CTAs, category selections, source, context, history restoration, buyer edits, unknown/default routes and existing product mappings. No network or form submission.');
 
 const main = fs.readFileSync('assets/main.js', 'utf8');
@@ -65,4 +65,4 @@ for (const path of ['/contact', '/products/school-doors', '/products/hospital-do
 }
 assert.match(main, /inquiry\.href = getPageQuoteHref\(\)/);
 assert.match(main, /let quoteHref = getPageQuoteHref\(\)/);
-console.log('PASS: generated floating and navigation quote route scoped to hospital category only.');
+console.log('PASS: generated floating and navigation quote route scoped to supported categories; unrelated routes retain defaults.');
