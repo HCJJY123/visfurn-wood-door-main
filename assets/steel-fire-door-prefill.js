@@ -25,6 +25,14 @@
       doorType: 'Hotel Doors',
       requirements: 'Room marks / quantities: \nOpening sizes / frame scope: \nFinish reference / hardware drawings: '
     },
+    'hotel-doors': {
+      name: 'Hotel Doors Collection',
+      path: '/products/hotel-doors',
+      context: 'Collection selected',
+      projectType: 'Hotel',
+      doorType: 'Hotel Doors',
+      requirements: 'Room schedule / quantities: \nSupply scope (leaf only, leaf + frame, or specified hardware set): \nExisting frame / finished wall thickness: \nHardware supplied vs preparation only / approved drawings: \nFinish reference / destination / delivery phase: '
+    },
     'hospital-doors': {
       name: 'Hospital Doors Collection',
       path: '/products/hospital-doors',

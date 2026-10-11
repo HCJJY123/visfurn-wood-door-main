@@ -485,8 +485,12 @@ document.querySelectorAll('.faq-question').forEach((question) => {
 
   const getPageQuoteHref = () => {
     const path = location.pathname.replace(/\/index\.html$|\.html$|\/$/, '');
-    return path === '/products/hospital-doors'
-      ? '/contact?product=hospital-doors&source_page=%2Fproducts%2Fhospital-doors#quote-form'
+    const category = {
+      '/products/hospital-doors': 'hospital-doors',
+      '/products/hotel-doors': 'hotel-doors'
+    }[path];
+    return category
+      ? `/contact?product=${category}&source_page=${encodeURIComponent(path)}#quote-form`
       : '/contact#quote-form';
   };
 
