@@ -54,3 +54,15 @@ assert.equal(prior.fields.requirements.value, 'Buyer-entered detail');
 const contact = fs.readFileSync('contact.html', 'utf8');
 assert.match(contact, /steel-fire-door-prefill\.js\?v=20261011-hospital-category-v4/);
 console.log('PASS: hospital CTAs, category selections, source, context, history restoration, buyer edits, unknown/default routes and existing product mappings. No network or form submission.');
+
+const main = fs.readFileSync('assets/main.js', 'utf8');
+const helper = main.match(/const getPageQuoteHref = \(\) => \{[\s\S]*?\n  \};/)[0];
+for (const path of ['/products/hospital-doors', '/products/hospital-doors/', '/products/hospital-doors.html', '/products/hospital-doors/index.html']) {
+  assert.equal(vm.runInNewContext(helper + '\ngetPageQuoteHref()', { location: { pathname: path } }), links[0]);
+}
+for (const path of ['/contact', '/products/school-doors', '/products/hospital-doors/modern-laboratory-door']) {
+  assert.equal(vm.runInNewContext(helper + '\ngetPageQuoteHref()', { location: { pathname: path } }), '/contact#quote-form');
+}
+assert.match(main, /inquiry\.href = getPageQuoteHref\(\)/);
+assert.match(main, /let quoteHref = getPageQuoteHref\(\)/);
+console.log('PASS: generated floating and navigation quote route scoped to hospital category only.');

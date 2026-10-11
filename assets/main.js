@@ -483,6 +483,13 @@ document.querySelectorAll('.faq-question').forEach((question) => {
 
   };
 
+  const getPageQuoteHref = () => {
+    const path = location.pathname.replace(/\/index\.html$|\.html$|\/$/, '');
+    return path === '/products/hospital-doors'
+      ? '/contact?product=hospital-doors&source_page=%2Fproducts%2Fhospital-doors#quote-form'
+      : '/contact#quote-form';
+  };
+
   const setupFloatingActions = () => {
     if (document.querySelector('[data-vf-floating-whatsapp]')) return;
     const whatsapp = document.createElement('a');
@@ -496,7 +503,7 @@ document.querySelectorAll('.faq-question').forEach((question) => {
     document.body.appendChild(whatsapp);
     const inquiry = document.createElement('a');
     inquiry.className = 'vf-inquiry-float';
-    inquiry.href = '/contact#quote-form';
+    inquiry.href = getPageQuoteHref();
     inquiry.dataset.vfInquiryFloat = 'true';
     inquiry.dataset.vfSourceText = 'Get Quote';
     inquiry.dataset.vfI18n = 'Get Quote';
@@ -673,7 +680,7 @@ document.querySelectorAll('.faq-question').forEach((question) => {
     }
     if (stylesheet.dataset.vfNavigationReady !== 'ready') return;
     let siteHeader = document.querySelector('.site-header');
-    let quoteHref = '/contact#quote-form';
+    let quoteHref = getPageQuoteHref();
     if ((!siteHeader || !siteHeader.querySelector('.nav')) && document.documentElement.lang.toLowerCase().startsWith('en')) {
       const legacyHeader = siteHeader || document.querySelector('header.vf-header, header.wpc-header, header.pdp-header, header.pvc-header, header.brown-header, header.smart-header, header.hub-header, header.ld-header, body > header:has(.nav-links), body > header.hero-section, body > .nav, body.vf-product-detail > header');
       if (legacyHeader) {
