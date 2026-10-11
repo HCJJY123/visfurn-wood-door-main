@@ -29,6 +29,11 @@
       "permanent": true
     },
     {
+      "source": "/factory",
+      "destination": "/about#factory",
+      "permanent": true
+    },
+    {
       "source": "/applications/hotel-door-package-supplier",
       "destination": "/products/hotel-doors",
       "permanent": true
