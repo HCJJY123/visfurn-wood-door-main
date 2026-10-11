@@ -25,6 +25,14 @@
       doorType: 'Hotel Doors',
       requirements: 'Room marks / quantities: \nOpening sizes / frame scope: \nFinish reference / hardware drawings: '
     },
+    'hospital-doors': {
+      name: 'Hospital Doors Collection',
+      path: '/products/hospital-doors',
+      context: 'Collection selected',
+      projectType: 'Hospital / Healthcare',
+      doorType: 'Hospital Doors',
+      requirements: 'Room schedule / opening dimensions: \nWall thickness, vision panel and hardware requirements: \nFinish reference, quantity and destination: '
+    },
     'modern-laboratory-door': {
       name: 'Double Swing Laboratory Door for Healthcare Projects',
       path: '/products/hospital-doors/modern-laboratory-door',
