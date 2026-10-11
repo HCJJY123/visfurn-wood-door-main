@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://www.visfurn.com/</loc><lastmod>2026-10-04</lastmod><changefreq>monthly</changefreq><priority>1.00</priority></url>
   <url><loc>https://www.visfurn.com/about</loc><lastmod>2026-10-04</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
-  <url><loc>https://www.visfurn.com/blog</loc><lastmod>2026-10-11</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://www.visfurn.com/blog</loc><lastmod>2026-10-12</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
   <url><loc>https://www.visfurn.com/contact</loc><lastmod>2026-10-04</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
   <url><loc>https://www.visfurn.com/faq</loc><lastmod>2026-10-04</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
   <url><loc>https://www.visfurn.com/products</loc><lastmod>2026-10-04</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
@@ -112,7 +112,7 @@
   <url><loc>https://www.visfurn.com/es/puertas-interiores</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
   <url><loc>https://www.visfurn.com/fr/blocs-portes-interieures</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
   <url><loc>https://www.visfurn.com/ru/mezhkomnatnye-dveri</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
-  <url><loc>https://www.visfurn.com/solutions/door-schedule-quotation</loc><lastmod>2026-10-04</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://www.visfurn.com/solutions/door-schedule-quotation</loc><lastmod>2026-10-12</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
   <url><loc>https://www.visfurn.com/resources/door-product-catalog</loc><lastmod>2026-10-04</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
   <url><loc>https://www.visfurn.com/guides/rough-opening-vs-door-leaf-size</loc><lastmod>2026-10-04</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
   <url><loc>https://www.visfurn.com/guides/door-jamb-depth-wall-thickness</loc><lastmod>2026-10-04</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
@@ -143,4 +143,5 @@
   <url><loc>https://www.visfurn.com/markets/kuwait</loc><lastmod>2026-10-09</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
 <url><loc>https://www.visfurn.com/blog/interior-door-delivery-storage-site-readiness-checklist</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://www.visfurn.com/blog/project-door-handover-spares-maintenance-records</loc><lastmod>2026-10-10</lastmod></url>
+  <url><loc>https://www.visfurn.com/blog/door-submittal-package-checklist-project-approval</loc><lastmod>2026-10-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
 </urlset>
