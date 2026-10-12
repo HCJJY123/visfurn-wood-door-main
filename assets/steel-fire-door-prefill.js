@@ -3,6 +3,13 @@
   if (!form) return;
 
   const products = {
+    'modern-prehung-wpc-interior-door': {
+      name: 'Modern Prehung WPC Interior Door for Hotels & Apartments',
+      path: '/products/wpc-doors/modern-prehung-wpc-interior-door',
+      context: 'Product selected',
+      doorType: 'WPC Doors',
+      requirements: 'Door marks / quantities / opening sizes: \nFinished wall thickness / handing: \nPrehung assembly / frame / trim scope: \nFinish reference / hardware / destination: '
+    },
     'steel-fire-door-for-house': {
       name: 'Steel Fire Door for House & Apartment Projects',
       path: '/products/fire-security-doors/steel-fire-door-for-house',
