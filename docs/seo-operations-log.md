@@ -191,3 +191,15 @@ This file records material, evidence-backed changes so later maintenance cycles 
 - Category card plus CollectionPage ItemList, canonical sitemap entry, product-specific contact prefill, and GTM quote/email/WhatsApp click events added. Contact action and backend unchanged.
 - Verification: HTML one H1, all local image/link destinations, JSON parsing, sitemap XML, contact JavaScript syntax and embedded standalone master checked. Browser preview unavailable because control-browser plugin is absent; responsive CSS inspected, actual mobile rendering not yet verified. No real inquiry submitted.
 - Ranking/traffic data unavailable for this request. Primary sources: Google Search Central AI features and Product snippet docs; no additional AI-specific schema requirement or ranking guarantees.
+
+
+## 2026-10-12 — Classic French raised-panel wooden door product
+
+- Explicit user scope: separate wooden door product, Wooden Doors category card, generated imagery and detailed prompts, deployable master with JSON-LD extension placeholder, autonomous production deployment.
+- Baseline 3a468df7f80193b3c77822e66ac5ade87295c5c3. Target remains visfurn-wood-door-site, Mike's projects, www.visfurn.com.
+- Reference https://www.zonledoors.com/classic-french-raised-panel-wooden-door-custom-size-wabi-sabi-home-interior-door.html. Uses wooden/engineered options; reference dimensions, certificates, capacity, sound/water performance and timing not treated as Visfurn facts.
+- New URL /products/wooden-doors/classic-french-raised-panel-wooden-interior-door. Title clarifies French-style opaque single swing door rather than glazed paired French doors. Style, panel elevation, paint, frame and project supply scope are reviewed without an unverified solid-timber/core claim.
+- Three built-in generated illustrations: main, panel/handle, bedroom. Warm ivory, simplified ornaments, aged-brass handle and changed setting/composition; no competitor mark. Labelled as design illustrations. Prompts in docs/french-raised-panel-image-prompts.md.
+- Native category card and ItemList, Product/Breadcrumb/visible FAQ schema, canonical/OG, sitemap, dedicated contact prefill and quote/email/WhatsApp events. Inactive JSON-LD extension note reserves verified identifiers/offers/evidence; no fabricated price/reviews.
+- Static validation passed: one H1, all local links/assets, JSON-LD parsing, sitemap XML, contact JS syntax and embedded master. Ranking/traffic data not available; no search-volume, ranking, indexing, AI citation or inquiry uplift claim.
+- Browser/production acceptance follows deployment. No real inquiry submission planned.
