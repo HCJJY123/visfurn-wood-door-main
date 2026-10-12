@@ -1,0 +1,141 @@
+{
+  "environment": "Local headless Chromium, external requests blocked to avoid analytics pollution; not physical Safari",
+  "checks": [
+    {
+      "path": "/blog/door-vision-panel-glazing-specification-hospital-school",
+      "width": 375,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "canonical": "https://www.visfurn.com/blog/door-vision-panel-glazing-specification-hospital-school",
+      "brokenImages": []
+    },
+    {
+      "path": "/products/hospital-doors",
+      "width": 375,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "canonical": "https://www.visfurn.com/products/hospital-doors",
+      "brokenImages": []
+    },
+    {
+      "path": "/products/school-doors",
+      "width": 375,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "canonical": "https://www.visfurn.com/products/school-doors",
+      "brokenImages": []
+    },
+    {
+      "path": "/blog",
+      "width": 375,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "canonical": "https://www.visfurn.com/blog",
+      "brokenImages": []
+    },
+    {
+      "path": "/contact",
+      "width": 375,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "canonical": "https://www.visfurn.com/contact",
+      "brokenImages": []
+    },
+    {
+      "path": "/blog/door-vision-panel-glazing-specification-hospital-school",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "canonical": "https://www.visfurn.com/blog/door-vision-panel-glazing-specification-hospital-school",
+      "brokenImages": []
+    },
+    {
+      "path": "/products/hospital-doors",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "canonical": "https://www.visfurn.com/products/hospital-doors",
+      "brokenImages": []
+    },
+    {
+      "path": "/products/school-doors",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "canonical": "https://www.visfurn.com/products/school-doors",
+      "brokenImages": []
+    },
+    {
+      "path": "/blog",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "canonical": "https://www.visfurn.com/blog",
+      "brokenImages": []
+    },
+    {
+      "path": "/contact",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "canonical": "https://www.visfurn.com/contact",
+      "brokenImages": []
+    },
+    {
+      "path": "/blog/door-vision-panel-glazing-specification-hospital-school",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "canonical": "https://www.visfurn.com/blog/door-vision-panel-glazing-specification-hospital-school",
+      "brokenImages": []
+    },
+    {
+      "path": "/products/hospital-doors",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "canonical": "https://www.visfurn.com/products/hospital-doors",
+      "brokenImages": []
+    },
+    {
+      "path": "/products/school-doors",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "canonical": "https://www.visfurn.com/products/school-doors",
+      "brokenImages": []
+    },
+    {
+      "path": "/blog",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "canonical": "https://www.visfurn.com/blog",
+      "brokenImages": []
+    },
+    {
+      "path": "/contact",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "canonical": "https://www.visfurn.com/contact",
+      "brokenImages": []
+    }
+  ],
+  "pageErrors": []
+}
