@@ -203,3 +203,13 @@ This file records material, evidence-backed changes so later maintenance cycles 
 - Native category card and ItemList, Product/Breadcrumb/visible FAQ schema, canonical/OG, sitemap, dedicated contact prefill and quote/email/WhatsApp events. Inactive JSON-LD extension note reserves verified identifiers/offers/evidence; no fabricated price/reviews.
 - Static validation passed: one H1, all local links/assets, JSON-LD parsing, sitemap XML, contact JS syntax and embedded master. Ranking/traffic data not available; no search-volume, ranking, indexing, AI citation or inquiry uplift claim.
 - Browser/production acceptance follows deployment. No real inquiry submission planned.
+
+
+## 2026-10-12 — New product attribution and collection discovery closeout
+
+- User asked to continue after the two new products. Baseline 6cab0c91473a643fb3ac87ef61b7d35766454694.
+- Found source gap: standalone product pages use GTM click events but do not run the existing site first-landing/product-page attribution collector. Added lightweight product-source-context.js using the contact form's existing storage keys and first-touch fields. Explicit source_page/product_page parameters also retain product identity when storage is blocked.
+- Found WPC CollectionPage ItemList did not match its four visible cards: the grooved product was missing and two unrelated routes remained. Rebuilt both collection ItemLists from their actual visible cards (4 WPC, 3 Wooden).
+- Source script is scoped to these two products; existing global navigation/form backend remains untouched. Initial landing and campaign are preserved, current product source is updated separately.
+- GSC reread: https://www.visfurn.com/ remains siteUnverifiedUser/readable=false. No Google data or submission request attempted. IndexNow key configured and key file verified; submit the two products and two category URLs after production deploy. IndexNow acceptance is not proof of indexing.
+- Responsive widths inspected in native CSS: one-column below 700px, 36px total gutters, capped product gallery and wrapping actions. Browser has no supported mobile viewport API; no physical/mobile-render claim.
