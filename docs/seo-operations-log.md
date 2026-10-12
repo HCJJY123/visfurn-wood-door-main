@@ -213,3 +213,13 @@ This file records material, evidence-backed changes so later maintenance cycles 
 - Source script is scoped to these two products; existing global navigation/form backend remains untouched. Initial landing and campaign are preserved, current product source is updated separately.
 - GSC reread: https://www.visfurn.com/ remains siteUnverifiedUser/readable=false. No Google data or submission request attempted. IndexNow key configured and key file verified; submit the two products and two category URLs after production deploy. IndexNow acceptance is not proof of indexing.
 - Responsive widths inspected in native CSS: one-column below 700px, 36px total gutters, capped product gallery and wrapping actions. Browser has no supported mobile viewport API; no physical/mobile-render claim.
+
+
+## 2026-10-12 — Unified collection product-card presentation
+
+- User supplied three screenshots and explicitly requested all category product listings match today's new-product card presentation. Baseline cf548b0731e16de50f3b7f8671ef85f38392f3bb.
+- Nine categories: entrance, exterior, fire/security, hospital, hotel, interior, school, wooden and WPC. 22 cards: 20 linked products and 2 genuine coming-soon placeholders.
+- Shared assets/category-product-cards.css scoped to vf-unified-category and vf-category-products. 4:5 media boxes with contain/full-image rendering, consistent spacing/typography, left aligned copy, aligned quote guidance and product-details links. Desktop 3 columns, medium 2 and small 1; no text clamp.
+- Normalized grid card markup while preserving card IDs, actual product routes, image source paths and alt text, and substantive descriptions. Retained unavailable placeholders with a non-clickable coming-soon state. No product image generation, new product specification, or performance/price claim.
+- CollectionPage ItemLists updated where present to match linked product cards; coming-soon items excluded. Other page sections and global navigation left intact.
+- Static validation passed for all 9 pages: original/new count, route, image/alt, ID comparisons; local destinations/assets, JSON parsing, CSS brace structure and diff check. Browser acceptance follows production deployment.
