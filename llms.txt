@@ -1,6 +1,6 @@
 # VisFurn
 
-VISFURN is the project-door brand operated by Tianjin Visfurn Import and Export Trading Co., Ltd., established in 2005. Based in China, the company supports commercial and institutional wooden door procurement with specification-led quotation review. Buyers can send a door schedule, drawings, quantities, opening information, wall thickness, finish direction, hardware preparation and destination.
+VISFURN is the project-door brand operated by Tianjin Visfurn Furniture Co., Ltd., established in 2005. Based in China, the company supports commercial and institutional wooden door procurement with specification-led quotation review. Buyers can send a door schedule, drawings, quantities, opening information, wall thickness, finish direction, hardware preparation and destination.
 
 ## Product lines
 - WPC doors — moisture-aware interior door systems for bathrooms, utility rooms and humid project areas.
