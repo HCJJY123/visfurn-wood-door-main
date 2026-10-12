@@ -3,6 +3,13 @@
   if (!form) return;
 
   const products = {
+    'classic-french-raised-panel-wooden-interior-door': {
+      name: 'Classic French Raised-Panel Wooden Interior Door',
+      path: '/products/wooden-doors/classic-french-raised-panel-wooden-interior-door',
+      context: 'Product selected',
+      doorType: 'Interior Wooden Doors',
+      requirements: 'Door marks / quantities / opening sizes: \nPanel elevation / paint reference: \nLeaf construction / frame / wall thickness: \nHardware / handing / destination: '
+    },
     'modern-prehung-wpc-interior-door': {
       name: 'Modern Prehung WPC Interior Door for Hotels & Apartments',
       path: '/products/wpc-doors/modern-prehung-wpc-interior-door',
