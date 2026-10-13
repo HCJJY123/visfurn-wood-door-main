@@ -52,7 +52,7 @@ const prior = run('?product=hotel-doors', { project: 'Other', requirements: 'Buy
 assert.equal(prior.fields.project_type.value, 'Other');
 assert.equal(prior.fields.requirements.value, 'Buyer-entered detail');
 const contact = fs.readFileSync('contact.html', 'utf8');
-assert.match(contact, /steel-fire-door-prefill\.js\?v=20261011-hotel-category-v5/);
+assert.match(contact, /steel-fire-door-prefill\.js\?v=[^"\s]+/);
 console.log('PASS: hotel CTAs, category selections, source, context, history restoration, buyer edits, unknown/default routes and existing product mappings. No network or form submission.');
 
 const main = fs.readFileSync('assets/main.js', 'utf8');
@@ -60,11 +60,36 @@ const helper = main.match(/const getPageQuoteHref = \(\) => \{[\s\S]*?\n  \};/)[
 for (const path of ['/products/hotel-doors', '/products/hotel-doors/', '/products/hotel-doors.html', '/products/hotel-doors/index.html']) {
   assert.equal(vm.runInNewContext(helper + '\ngetPageQuoteHref()', { location: { pathname: path } }), links[0]);
 }
-for (const path of ['/contact', '/products/school-doors', '/products/hospital-doors/modern-laboratory-door']) {
+for (const path of ['/contact', '/products/not-a-collection', '/products/hospital-doors/modern-laboratory-door']) {
   assert.equal(vm.runInNewContext(helper + '\ngetPageQuoteHref()', { location: { pathname: path } }), '/contact#quote-form');
 }
 assert.match(main, /inquiry\.href = getPageQuoteHref\(\)/);
 assert.match(main, /let quoteHref = getPageQuoteHref\(\)/);
 console.log('PASS: generated floating and navigation quote route scoped to supported categories; unrelated routes retain defaults.');
+
+for (const [slug, door, project] of [
+  ['entrance-doors', 'Entrance Doors', ''],
+  ['exterior-doors', 'Exterior Doors', ''],
+  ['fire-security-doors', 'Steel Security Doors', ''],
+  ['interior-doors', 'Interior Wooden Doors', ''],
+  ['school-doors', 'School Doors', 'School'],
+  ['wooden-doors', 'Interior Wooden Doors', ''],
+  ['wpc-doors', 'WPC Doors', '']
+]) {
+  for (const suffix of ['', '/', '.html', '/index.html']) {
+    const href = vm.runInNewContext(helper + '\ngetPageQuoteHref()', { location: { pathname: '/products/' + slug + suffix } });
+    const url = new URL(href, 'https://www.visfurn.com');
+    const result = run(url.search);
+    assert.equal(url.hash, '#quote-form');
+    assert.equal(result.fields.door_type.value, door);
+    assert.equal(result.fields.project_type.value, project);
+    assert.equal(result.fields.source_page.value, '/products/' + slug);
+    assert.equal(result.fields.product_url.value, 'https://www.visfurn.com/products/' + slug);
+    assert.equal(result.context.hidden, false);
+    assert.match(result.fields.requirements.value, /destination/);
+    assert.ok(contact.includes('<option>' + door + '</option>'));
+  }
+}
+console.log('PASS: seven additional collections preserve category, source, valid selections and editable purchasing prompts.');
 
 for (const match of script.matchAll(/projectType: '([^']+)'/g)) assert.ok(contact.includes('<option>' + match[1] + '</option>'), 'Project type must exist in real contact select: ' + match[1]);

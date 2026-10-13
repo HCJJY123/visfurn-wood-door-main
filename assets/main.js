@@ -486,8 +486,15 @@ document.querySelectorAll('.faq-question').forEach((question) => {
   const getPageQuoteHref = () => {
     const path = location.pathname.replace(/\/index\.html$|\.html$|\/$/, '');
     const category = {
+      '/products/entrance-doors': 'entrance-doors',
+      '/products/exterior-doors': 'exterior-doors',
+      '/products/fire-security-doors': 'fire-security-doors',
       '/products/hospital-doors': 'hospital-doors',
-      '/products/hotel-doors': 'hotel-doors'
+      '/products/hotel-doors': 'hotel-doors',
+      '/products/interior-doors': 'interior-doors',
+      '/products/school-doors': 'school-doors',
+      '/products/wooden-doors': 'wooden-doors',
+      '/products/wpc-doors': 'wpc-doors'
     }[path];
     return category
       ? `/contact?product=${category}&source_page=${encodeURIComponent(path)}#quote-form`
