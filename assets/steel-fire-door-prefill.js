@@ -3,6 +3,56 @@
   if (!form) return;
 
   const products = {
+    'entrance-doors': {
+      name: 'Entrance Doors Collection',
+      path: '/products/entrance-doors',
+      context: 'Collection selected',
+      doorType: 'Entrance Doors',
+      requirements: 'Door marks / quantities / opening sizes: \nExposure / frame / threshold requirements: \nFinish reference / hardware / destination: '
+    },
+    'exterior-doors': {
+      name: 'Exterior Doors Collection',
+      path: '/products/exterior-doors',
+      context: 'Collection selected',
+      doorType: 'Exterior Doors',
+      requirements: 'Door marks / quantities / opening sizes: \nWeather exposure / frame / seal requirements: \nFinish reference / hardware / destination: '
+    },
+    'fire-security-doors': {
+      name: 'Fire & Security Doors Collection',
+      path: '/products/fire-security-doors',
+      context: 'Collection selected',
+      doorType: 'Steel Security Doors',
+      requirements: 'Door marks / quantities / opening sizes: \nRequired performance / standard / documentation: \nDoor leaf, frame and hardware scope / destination: '
+    },
+    'interior-doors': {
+      name: 'Interior Doors Collection',
+      path: '/products/interior-doors',
+      context: 'Collection selected',
+      doorType: 'Interior Wooden Doors',
+      requirements: 'Door marks / applications / quantities: \nOpening sizes / wall thickness / frame scope: \nFinish reference / hardware / destination: '
+    },
+    'school-doors': {
+      name: 'School Doors Collection',
+      path: '/products/school-doors',
+      context: 'Collection selected',
+      projectType: 'School',
+      doorType: 'School Doors',
+      requirements: 'Room schedule / quantities / opening sizes: \nFinished wall thickness / frame scope: \nVision panel / hardware / finish reference / destination: '
+    },
+    'wooden-doors': {
+      name: 'Wooden Doors Collection',
+      path: '/products/wooden-doors',
+      context: 'Collection selected',
+      doorType: 'Interior Wooden Doors',
+      requirements: 'Door marks / applications / quantities: \nLeaf construction / opening sizes / frame scope: \nFinish reference / hardware / destination: '
+    },
+    'wpc-doors': {
+      name: 'WPC Doors Collection',
+      path: '/products/wpc-doors',
+      context: 'Collection selected',
+      doorType: 'WPC Doors',
+      requirements: 'Door marks / applications / quantities: \nOpening sizes / wall thickness / frame scope: \nMoisture exposure / finish reference / hardware / destination: '
+    },
     'classic-french-raised-panel-wooden-interior-door': {
       name: 'Classic French Raised-Panel Wooden Interior Door',
       path: '/products/wooden-doors/classic-french-raised-panel-wooden-interior-door',

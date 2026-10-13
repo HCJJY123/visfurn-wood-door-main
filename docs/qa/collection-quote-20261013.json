@@ -1,0 +1,654 @@
+{
+  "date": "2026-10-13",
+  "baseline": "3c3c6f4ca483d620a2d606e59cb8196768d99c51",
+  "browser": "local headless Chromium; external requests blocked",
+  "checks": [
+    {
+      "path": "/products/entrance-doors",
+      "width": 375,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/products/entrance-doors",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/products/exterior-doors",
+      "width": 375,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/products/exterior-doors",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/products/fire-security-doors",
+      "width": 375,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/products/fire-security-doors",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/products/hospital-doors",
+      "width": 375,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/products/hospital-doors",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/products/hotel-doors",
+      "width": 375,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/products/hotel-doors",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/products/interior-doors",
+      "width": 375,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/products/interior-doors",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/products/school-doors",
+      "width": 375,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/products/school-doors",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/products/wooden-doors",
+      "width": 375,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/products/wooden-doors",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/products/wpc-doors",
+      "width": 375,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/products/wpc-doors",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/",
+      "width": 375,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/contact",
+      "width": 375,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/contact",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/blog/hotel-door-schedule-fire-rated-guestroom-quote-guide",
+      "width": 375,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/blog/hotel-door-schedule-fire-rated-guestroom-quote-guide",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/blog/sourcing-fire-rated-hotel-guestroom-doors-vision-2030-riyadh",
+      "width": 375,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/blog/sourcing-fire-rated-hotel-guestroom-doors-vision-2030-riyadh",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/products/entrance-doors",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/products/entrance-doors",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/products/exterior-doors",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/products/exterior-doors",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/products/fire-security-doors",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/products/fire-security-doors",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/products/hospital-doors",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/products/hospital-doors",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/products/hotel-doors",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/products/hotel-doors",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/products/interior-doors",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/products/interior-doors",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/products/school-doors",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/products/school-doors",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/products/wooden-doors",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/products/wooden-doors",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/products/wpc-doors",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/products/wpc-doors",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/contact",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/contact",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/blog/hotel-door-schedule-fire-rated-guestroom-quote-guide",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/blog/hotel-door-schedule-fire-rated-guestroom-quote-guide",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/blog/sourcing-fire-rated-hotel-guestroom-doors-vision-2030-riyadh",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/blog/sourcing-fire-rated-hotel-guestroom-doors-vision-2030-riyadh",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/products/entrance-doors",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/products/entrance-doors",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/products/exterior-doors",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/products/exterior-doors",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/products/fire-security-doors",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/products/fire-security-doors",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/products/hospital-doors",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/products/hospital-doors",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/products/hotel-doors",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/products/hotel-doors",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/products/interior-doors",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/products/interior-doors",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/products/school-doors",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/products/school-doors",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/products/wooden-doors",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/products/wooden-doors",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/products/wpc-doors",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/products/wpc-doors",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/contact",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/contact",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/blog/hotel-door-schedule-fire-rated-guestroom-quote-guide",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/blog/hotel-door-schedule-fire-rated-guestroom-quote-guide",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/blog/sourcing-fire-rated-hotel-guestroom-doors-vision-2030-riyadh",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/blog/sourcing-fire-rated-hotel-guestroom-doors-vision-2030-riyadh",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/products/school-doors",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/products/school-doors",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    }
+  ],
+  "flows": [
+    {
+      "slug": "entrance-doors",
+      "width": 375,
+      "doorType": "Entrance Doors",
+      "projectType": "",
+      "sourcePage": "/products/entrance-doors",
+      "editable": true,
+      "noSubmit": true
+    },
+    {
+      "slug": "exterior-doors",
+      "width": 375,
+      "doorType": "Exterior Doors",
+      "projectType": "",
+      "sourcePage": "/products/exterior-doors",
+      "editable": true,
+      "noSubmit": true
+    },
+    {
+      "slug": "fire-security-doors",
+      "width": 375,
+      "doorType": "Steel Security Doors",
+      "projectType": "",
+      "sourcePage": "/products/fire-security-doors",
+      "editable": true,
+      "noSubmit": true
+    },
+    {
+      "slug": "hospital-doors",
+      "width": 375,
+      "doorType": "Hospital Doors",
+      "projectType": "Hospital / Healthcare",
+      "sourcePage": "/products/hospital-doors",
+      "editable": true,
+      "noSubmit": true
+    },
+    {
+      "slug": "hotel-doors",
+      "width": 375,
+      "doorType": "Hotel Doors",
+      "projectType": "Hotel / Hospitality",
+      "sourcePage": "/products/hotel-doors",
+      "editable": true,
+      "noSubmit": true
+    },
+    {
+      "slug": "interior-doors",
+      "width": 375,
+      "doorType": "Interior Wooden Doors",
+      "projectType": "",
+      "sourcePage": "/products/interior-doors",
+      "editable": true,
+      "noSubmit": true
+    },
+    {
+      "slug": "school-doors",
+      "width": 375,
+      "doorType": "School Doors",
+      "projectType": "School",
+      "sourcePage": "/products/school-doors",
+      "editable": true,
+      "noSubmit": true
+    },
+    {
+      "slug": "wooden-doors",
+      "width": 375,
+      "doorType": "Interior Wooden Doors",
+      "projectType": "",
+      "sourcePage": "/products/wooden-doors",
+      "editable": true,
+      "noSubmit": true
+    },
+    {
+      "slug": "wpc-doors",
+      "width": 375,
+      "doorType": "WPC Doors",
+      "projectType": "",
+      "sourcePage": "/products/wpc-doors",
+      "editable": true,
+      "noSubmit": true
+    },
+    {
+      "slug": "entrance-doors",
+      "width": 390,
+      "doorType": "Entrance Doors",
+      "projectType": "",
+      "sourcePage": "/products/entrance-doors",
+      "editable": true,
+      "noSubmit": true
+    },
+    {
+      "slug": "exterior-doors",
+      "width": 390,
+      "doorType": "Exterior Doors",
+      "projectType": "",
+      "sourcePage": "/products/exterior-doors",
+      "editable": true,
+      "noSubmit": true
+    },
+    {
+      "slug": "fire-security-doors",
+      "width": 390,
+      "doorType": "Steel Security Doors",
+      "projectType": "",
+      "sourcePage": "/products/fire-security-doors",
+      "editable": true,
+      "noSubmit": true
+    },
+    {
+      "slug": "hospital-doors",
+      "width": 390,
+      "doorType": "Hospital Doors",
+      "projectType": "Hospital / Healthcare",
+      "sourcePage": "/products/hospital-doors",
+      "editable": true,
+      "noSubmit": true
+    },
+    {
+      "slug": "hotel-doors",
+      "width": 390,
+      "doorType": "Hotel Doors",
+      "projectType": "Hotel / Hospitality",
+      "sourcePage": "/products/hotel-doors",
+      "editable": true,
+      "noSubmit": true
+    },
+    {
+      "slug": "interior-doors",
+      "width": 390,
+      "doorType": "Interior Wooden Doors",
+      "projectType": "",
+      "sourcePage": "/products/interior-doors",
+      "editable": true,
+      "noSubmit": true
+    },
+    {
+      "slug": "school-doors",
+      "width": 390,
+      "doorType": "School Doors",
+      "projectType": "School",
+      "sourcePage": "/products/school-doors",
+      "editable": true,
+      "noSubmit": true
+    },
+    {
+      "slug": "wooden-doors",
+      "width": 390,
+      "doorType": "Interior Wooden Doors",
+      "projectType": "",
+      "sourcePage": "/products/wooden-doors",
+      "editable": true,
+      "noSubmit": true
+    },
+    {
+      "slug": "wpc-doors",
+      "width": 390,
+      "doorType": "WPC Doors",
+      "projectType": "",
+      "sourcePage": "/products/wpc-doors",
+      "editable": true,
+      "noSubmit": true
+    },
+    {
+      "slug": "entrance-doors",
+      "width": 1440,
+      "doorType": "Entrance Doors",
+      "projectType": "",
+      "sourcePage": "/products/entrance-doors",
+      "editable": true,
+      "noSubmit": true
+    },
+    {
+      "slug": "exterior-doors",
+      "width": 1440,
+      "doorType": "Exterior Doors",
+      "projectType": "",
+      "sourcePage": "/products/exterior-doors",
+      "editable": true,
+      "noSubmit": true
+    },
+    {
+      "slug": "fire-security-doors",
+      "width": 1440,
+      "doorType": "Steel Security Doors",
+      "projectType": "",
+      "sourcePage": "/products/fire-security-doors",
+      "editable": true,
+      "noSubmit": true
+    },
+    {
+      "slug": "hospital-doors",
+      "width": 1440,
+      "doorType": "Hospital Doors",
+      "projectType": "Hospital / Healthcare",
+      "sourcePage": "/products/hospital-doors",
+      "editable": true,
+      "noSubmit": true
+    },
+    {
+      "slug": "hotel-doors",
+      "width": 1440,
+      "doorType": "Hotel Doors",
+      "projectType": "Hotel / Hospitality",
+      "sourcePage": "/products/hotel-doors",
+      "editable": true,
+      "noSubmit": true
+    },
+    {
+      "slug": "interior-doors",
+      "width": 1440,
+      "doorType": "Interior Wooden Doors",
+      "projectType": "",
+      "sourcePage": "/products/interior-doors",
+      "editable": true,
+      "noSubmit": true
+    },
+    {
+      "slug": "school-doors",
+      "width": 1440,
+      "doorType": "School Doors",
+      "projectType": "School",
+      "sourcePage": "/products/school-doors",
+      "editable": true,
+      "noSubmit": true
+    },
+    {
+      "slug": "wooden-doors",
+      "width": 1440,
+      "doorType": "Interior Wooden Doors",
+      "projectType": "",
+      "sourcePage": "/products/wooden-doors",
+      "editable": true,
+      "noSubmit": true
+    },
+    {
+      "slug": "wpc-doors",
+      "width": 1440,
+      "doorType": "WPC Doors",
+      "projectType": "",
+      "sourcePage": "/products/wpc-doors",
+      "editable": true,
+      "noSubmit": true
+    }
+  ],
+  "noFormSubmission": true,
+  "menuEscape": true
+}
