@@ -1,0 +1,213 @@
+{
+  "date": "2026-10-14",
+  "baseline": "45b1a61d79298fc5aa29830bb168a9ba6e78ec2f",
+  "browser": "local headless Chromium; external requests blocked",
+  "checks": [
+    {
+      "path": "/blog/door-undercut-finished-floor-clearance-guide",
+      "width": 375,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/blog/door-undercut-finished-floor-clearance-guide",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/products/interior-doors",
+      "width": 375,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/products/interior-doors",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/products/wpc-doors",
+      "width": 375,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/products/wpc-doors",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/blog",
+      "width": 375,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/blog",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/contact",
+      "width": 375,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/contact",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/blog/door-undercut-finished-floor-clearance-guide",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/blog/door-undercut-finished-floor-clearance-guide",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/products/interior-doors",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/products/interior-doors",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/products/wpc-doors",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/products/wpc-doors",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/blog",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/blog",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/contact",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/contact",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/blog/door-undercut-finished-floor-clearance-guide",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/blog/door-undercut-finished-floor-clearance-guide",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/products/interior-doors",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/products/interior-doors",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/products/wpc-doors",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/products/wpc-doors",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/blog",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/blog",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    },
+    {
+      "path": "/contact",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "canonical": "https://www.visfurn.com/contact",
+      "overflow": false,
+      "brokenAboveFoldImages": [],
+      "pageErrors": []
+    }
+  ],
+  "faqExpand": true,
+  "csvDownload": true,
+  "bidirectionalLinks": true,
+  "blogFilter": true,
+  "rfqAnchor": true,
+  "noFormSubmission": true,
+  "finalCategoryLinkChecks": [
+    {
+      "slug": "interior-doors",
+      "width": 375,
+      "overflow": false,
+      "border": "2px",
+      "fontWeight": "800",
+      "clicked": true
+    },
+    {
+      "slug": "wpc-doors",
+      "width": 375,
+      "overflow": false,
+      "border": "2px",
+      "fontWeight": "800",
+      "clicked": true
+    },
+    {
+      "slug": "interior-doors",
+      "width": 390,
+      "overflow": false,
+      "border": "2px",
+      "fontWeight": "800",
+      "clicked": true
+    },
+    {
+      "slug": "wpc-doors",
+      "width": 390,
+      "overflow": false,
+      "border": "2px",
+      "fontWeight": "800",
+      "clicked": true
+    },
+    {
+      "slug": "interior-doors",
+      "width": 1440,
+      "overflow": false,
+      "border": "2px",
+      "fontWeight": "800",
+      "clicked": true
+    },
+    {
+      "slug": "wpc-doors",
+      "width": 1440,
+      "overflow": false,
+      "border": "2px",
+      "fontWeight": "800",
+      "clicked": true
+    }
+  ]
+}
