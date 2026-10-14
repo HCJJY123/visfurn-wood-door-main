@@ -1,0 +1,168 @@
+{
+  "date": "2026-10-15",
+  "scope": "Local Chromium; external requests blocked; no Formspree POST; no physical Safari test",
+  "staticAudit": {
+    "sitemapURLs": 149,
+    "blogHTMLFiles": 64,
+    "sourceErrors": [],
+    "missingInternalTargets": [],
+    "newGuideInboundLinks": 3,
+    "faqSchemaMatchesVisibleCopy": true,
+    "htmlHrefOnlyNoIncomingURLs": [
+      "https://www.visfurn.com/ar/wpc-doors",
+      "https://www.visfurn.com/mn",
+      "https://www.visfurn.com/es/puertas-interiores",
+      "https://www.visfurn.com/fr/blocs-portes-interieures",
+      "https://www.visfurn.com/ru/mezhkomnatnye-dveri"
+    ],
+    "graphLimitation": "HTML href graph only; excludes hreflang and shared JS navigation; no confirmed orphan/crawl exclusion finding"
+  },
+  "checks": 15,
+  "results": [
+    {
+      "width": 375,
+      "path": "/blog/wood-veneer-door-grain-matching-book-slip-projects",
+      "status": 200,
+      "h1": 1,
+      "scroll": 375,
+      "canonical": "https://www.visfurn.com/blog/wood-veneer-door-grain-matching-book-slip-projects",
+      "broken": []
+    },
+    {
+      "width": 375,
+      "path": "/products/wooden-doors",
+      "status": 200,
+      "h1": 1,
+      "scroll": 375,
+      "canonical": "https://www.visfurn.com/products/wooden-doors",
+      "broken": []
+    },
+    {
+      "width": 375,
+      "path": "/blog/custom-ral-pantone-door-color-finish-specification",
+      "status": 200,
+      "h1": 1,
+      "scroll": 375,
+      "canonical": "https://www.visfurn.com/blog/custom-ral-pantone-door-color-finish-specification",
+      "broken": []
+    },
+    {
+      "width": 375,
+      "path": "/blog",
+      "status": 200,
+      "h1": 1,
+      "scroll": 375,
+      "canonical": "https://www.visfurn.com/blog",
+      "broken": []
+    },
+    {
+      "width": 375,
+      "path": "/contact",
+      "status": 200,
+      "h1": 1,
+      "scroll": 375,
+      "canonical": "https://www.visfurn.com/contact",
+      "broken": []
+    },
+    {
+      "width": 390,
+      "path": "/blog/wood-veneer-door-grain-matching-book-slip-projects",
+      "status": 200,
+      "h1": 1,
+      "scroll": 390,
+      "canonical": "https://www.visfurn.com/blog/wood-veneer-door-grain-matching-book-slip-projects",
+      "broken": []
+    },
+    {
+      "width": 390,
+      "path": "/products/wooden-doors",
+      "status": 200,
+      "h1": 1,
+      "scroll": 390,
+      "canonical": "https://www.visfurn.com/products/wooden-doors",
+      "broken": []
+    },
+    {
+      "width": 390,
+      "path": "/blog/custom-ral-pantone-door-color-finish-specification",
+      "status": 200,
+      "h1": 1,
+      "scroll": 390,
+      "canonical": "https://www.visfurn.com/blog/custom-ral-pantone-door-color-finish-specification",
+      "broken": []
+    },
+    {
+      "width": 390,
+      "path": "/blog",
+      "status": 200,
+      "h1": 1,
+      "scroll": 390,
+      "canonical": "https://www.visfurn.com/blog",
+      "broken": []
+    },
+    {
+      "width": 390,
+      "path": "/contact",
+      "status": 200,
+      "h1": 1,
+      "scroll": 390,
+      "canonical": "https://www.visfurn.com/contact",
+      "broken": []
+    },
+    {
+      "width": 1440,
+      "path": "/blog/wood-veneer-door-grain-matching-book-slip-projects",
+      "status": 200,
+      "h1": 1,
+      "scroll": 1440,
+      "canonical": "https://www.visfurn.com/blog/wood-veneer-door-grain-matching-book-slip-projects",
+      "broken": []
+    },
+    {
+      "width": 1440,
+      "path": "/products/wooden-doors",
+      "status": 200,
+      "h1": 1,
+      "scroll": 1440,
+      "canonical": "https://www.visfurn.com/products/wooden-doors",
+      "broken": []
+    },
+    {
+      "width": 1440,
+      "path": "/blog/custom-ral-pantone-door-color-finish-specification",
+      "status": 200,
+      "h1": 1,
+      "scroll": 1440,
+      "canonical": "https://www.visfurn.com/blog/custom-ral-pantone-door-color-finish-specification",
+      "broken": []
+    },
+    {
+      "width": 1440,
+      "path": "/blog",
+      "status": 200,
+      "h1": 1,
+      "scroll": 1440,
+      "canonical": "https://www.visfurn.com/blog",
+      "broken": []
+    },
+    {
+      "width": 1440,
+      "path": "/contact",
+      "status": 200,
+      "h1": 1,
+      "scroll": 1440,
+      "canonical": "https://www.visfurn.com/contact",
+      "broken": []
+    }
+  ],
+  "pageErrors": [],
+  "interactions": [
+    "5 FAQs/schema exact match",
+    "FAQ expansion",
+    "wooden category guide click at all three widths",
+    "RFQ CTA at all three widths",
+    "Blog Specifications filter at all three widths"
+  ],
+  "images": "No new imagery; existing product photos retained",
+  "visualReview": "390px article/stacked table and 1440px FAQ reviewed; wooden category layout reviewed"
+}
