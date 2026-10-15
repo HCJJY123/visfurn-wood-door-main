@@ -1,0 +1,176 @@
+{
+  "date": "2026-10-16",
+  "scope": "Local Chromium; third-party requests blocked; no inquiry POST or physical Safari",
+  "checks": 15,
+  "results": [
+    {
+      "width": 375,
+      "path": "/blog/selecting-durable-apartment-entrance-doors",
+      "status": 200,
+      "h1": 1,
+      "scroll": 375,
+      "canonical": "https://www.visfurn.com/blog/selecting-durable-apartment-entrance-doors",
+      "broken": []
+    },
+    {
+      "width": 375,
+      "path": "/products/exterior-doors",
+      "status": 200,
+      "h1": 1,
+      "scroll": 375,
+      "canonical": "https://www.visfurn.com/products/exterior-doors",
+      "broken": []
+    },
+    {
+      "width": 375,
+      "path": "/products/exterior-doors/charcoal-panel-entrance-door",
+      "status": 200,
+      "h1": 1,
+      "scroll": 375,
+      "canonical": "https://www.visfurn.com/products/exterior-doors/charcoal-panel-entrance-door",
+      "broken": []
+    },
+    {
+      "width": 375,
+      "path": "/blog",
+      "status": 200,
+      "h1": 1,
+      "scroll": 375,
+      "canonical": "https://www.visfurn.com/blog",
+      "broken": []
+    },
+    {
+      "width": 375,
+      "path": "/contact",
+      "status": 200,
+      "h1": 1,
+      "scroll": 375,
+      "canonical": "https://www.visfurn.com/contact",
+      "broken": []
+    },
+    {
+      "width": 390,
+      "path": "/blog/selecting-durable-apartment-entrance-doors",
+      "status": 200,
+      "h1": 1,
+      "scroll": 390,
+      "canonical": "https://www.visfurn.com/blog/selecting-durable-apartment-entrance-doors",
+      "broken": []
+    },
+    {
+      "width": 390,
+      "path": "/products/exterior-doors",
+      "status": 200,
+      "h1": 1,
+      "scroll": 390,
+      "canonical": "https://www.visfurn.com/products/exterior-doors",
+      "broken": []
+    },
+    {
+      "width": 390,
+      "path": "/products/exterior-doors/charcoal-panel-entrance-door",
+      "status": 200,
+      "h1": 1,
+      "scroll": 390,
+      "canonical": "https://www.visfurn.com/products/exterior-doors/charcoal-panel-entrance-door",
+      "broken": []
+    },
+    {
+      "width": 390,
+      "path": "/blog",
+      "status": 200,
+      "h1": 1,
+      "scroll": 390,
+      "canonical": "https://www.visfurn.com/blog",
+      "broken": []
+    },
+    {
+      "width": 390,
+      "path": "/contact",
+      "status": 200,
+      "h1": 1,
+      "scroll": 390,
+      "canonical": "https://www.visfurn.com/contact",
+      "broken": []
+    },
+    {
+      "width": 1440,
+      "path": "/blog/selecting-durable-apartment-entrance-doors",
+      "status": 200,
+      "h1": 1,
+      "scroll": 1440,
+      "canonical": "https://www.visfurn.com/blog/selecting-durable-apartment-entrance-doors",
+      "broken": []
+    },
+    {
+      "width": 1440,
+      "path": "/products/exterior-doors",
+      "status": 200,
+      "h1": 1,
+      "scroll": 1440,
+      "canonical": "https://www.visfurn.com/products/exterior-doors",
+      "broken": []
+    },
+    {
+      "width": 1440,
+      "path": "/products/exterior-doors/charcoal-panel-entrance-door",
+      "status": 200,
+      "h1": 1,
+      "scroll": 1440,
+      "canonical": "https://www.visfurn.com/products/exterior-doors/charcoal-panel-entrance-door",
+      "broken": []
+    },
+    {
+      "width": 1440,
+      "path": "/blog",
+      "status": 200,
+      "h1": 1,
+      "scroll": 1440,
+      "canonical": "https://www.visfurn.com/blog",
+      "broken": []
+    },
+    {
+      "width": 1440,
+      "path": "/contact",
+      "status": 200,
+      "h1": 1,
+      "scroll": 1440,
+      "canonical": "https://www.visfurn.com/contact",
+      "broken": []
+    }
+  ],
+  "productChecks": [
+    {
+      "width": 375,
+      "galleryClickKeyboard": true,
+      "productRFQContext": true
+    },
+    {
+      "width": 390,
+      "galleryClickKeyboard": true,
+      "productRFQContext": true
+    },
+    {
+      "width": 1440,
+      "galleryClickKeyboard": true,
+      "productRFQContext": true
+    }
+  ],
+  "pageErrors": [],
+  "staticAudit": {
+    "sitemapURLs": 150,
+    "blogHTMLFiles": 64,
+    "sourceErrors": [],
+    "missingInternalTargets": [],
+    "guideIncomingHrefLinks": 4,
+    "faqVisibleCopyMatches": true,
+    "productImagesSchemaRFQPreserved": true,
+    "scope": "Source checks; not a full public HTTP/index acceptance test"
+  },
+  "interactions": [
+    "FAQ expands",
+    "article Contact CTA reaches visible RFQ at three widths",
+    "category and charcoal product links reach guide at three widths",
+    "Specifications filter includes guide at three widths"
+  ]
+}
