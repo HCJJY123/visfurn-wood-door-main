@@ -3,6 +3,14 @@
   if (!form) return;
 
   const products = {
+    'charcoal-panel-entrance-door': {
+      name: 'Charcoal Panel Entrance Door with Geometric Detailing',
+      path: '/products/exterior-doors/charcoal-panel-entrance-door',
+      context: 'Product selected',
+      doorType: 'Exterior Doors',
+      requirements: 'Preferred elevation / quantities by door mark: \nOpening sizes / wall thickness / handing: \nExposure / required performance standards: \nLeaf, frame, threshold and hardware scope: \nFinish / destination / requested delivery window: '
+    },
+
     'entrance-doors': {
       name: 'Entrance Doors Collection',
       path: '/products/entrance-doors',
