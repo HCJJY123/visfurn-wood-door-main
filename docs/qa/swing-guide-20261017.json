@@ -1,0 +1,160 @@
+{
+  "date": "2026-10-17",
+  "scope": "Local Chromium; third-party requests blocked; no inquiry POST or physical Safari",
+  "checks": 15,
+  "results": [
+    {
+      "width": 375,
+      "path": "/blog/swing-door-design-quality-control",
+      "status": 200,
+      "h1": 1,
+      "scroll": 375,
+      "canonical": "https://www.visfurn.com/blog/swing-door-design-quality-control",
+      "broken": []
+    },
+    {
+      "width": 375,
+      "path": "/products/hospital-doors",
+      "status": 200,
+      "h1": 1,
+      "scroll": 375,
+      "canonical": "https://www.visfurn.com/products/hospital-doors",
+      "broken": []
+    },
+    {
+      "width": 375,
+      "path": "/products/interior-doors",
+      "status": 200,
+      "h1": 1,
+      "scroll": 375,
+      "canonical": "https://www.visfurn.com/products/interior-doors",
+      "broken": []
+    },
+    {
+      "width": 375,
+      "path": "/blog",
+      "status": 200,
+      "h1": 1,
+      "scroll": 375,
+      "canonical": "https://www.visfurn.com/blog",
+      "broken": []
+    },
+    {
+      "width": 375,
+      "path": "/contact",
+      "status": 200,
+      "h1": 1,
+      "scroll": 375,
+      "canonical": "https://www.visfurn.com/contact",
+      "broken": []
+    },
+    {
+      "width": 390,
+      "path": "/blog/swing-door-design-quality-control",
+      "status": 200,
+      "h1": 1,
+      "scroll": 390,
+      "canonical": "https://www.visfurn.com/blog/swing-door-design-quality-control",
+      "broken": []
+    },
+    {
+      "width": 390,
+      "path": "/products/hospital-doors",
+      "status": 200,
+      "h1": 1,
+      "scroll": 390,
+      "canonical": "https://www.visfurn.com/products/hospital-doors",
+      "broken": []
+    },
+    {
+      "width": 390,
+      "path": "/products/interior-doors",
+      "status": 200,
+      "h1": 1,
+      "scroll": 390,
+      "canonical": "https://www.visfurn.com/products/interior-doors",
+      "broken": []
+    },
+    {
+      "width": 390,
+      "path": "/blog",
+      "status": 200,
+      "h1": 1,
+      "scroll": 390,
+      "canonical": "https://www.visfurn.com/blog",
+      "broken": []
+    },
+    {
+      "width": 390,
+      "path": "/contact",
+      "status": 200,
+      "h1": 1,
+      "scroll": 390,
+      "canonical": "https://www.visfurn.com/contact",
+      "broken": []
+    },
+    {
+      "width": 1440,
+      "path": "/blog/swing-door-design-quality-control",
+      "status": 200,
+      "h1": 1,
+      "scroll": 1440,
+      "canonical": "https://www.visfurn.com/blog/swing-door-design-quality-control",
+      "broken": []
+    },
+    {
+      "width": 1440,
+      "path": "/products/hospital-doors",
+      "status": 200,
+      "h1": 1,
+      "scroll": 1440,
+      "canonical": "https://www.visfurn.com/products/hospital-doors",
+      "broken": []
+    },
+    {
+      "width": 1440,
+      "path": "/products/interior-doors",
+      "status": 200,
+      "h1": 1,
+      "scroll": 1440,
+      "canonical": "https://www.visfurn.com/products/interior-doors",
+      "broken": []
+    },
+    {
+      "width": 1440,
+      "path": "/blog",
+      "status": 200,
+      "h1": 1,
+      "scroll": 1440,
+      "canonical": "https://www.visfurn.com/blog",
+      "broken": []
+    },
+    {
+      "width": 1440,
+      "path": "/contact",
+      "status": 200,
+      "h1": 1,
+      "scroll": 1440,
+      "canonical": "https://www.visfurn.com/contact",
+      "broken": []
+    }
+  ],
+  "pageErrors": [],
+  "staticAudit": {
+    "sitemapURLs": 151,
+    "blogHTMLFiles": 64,
+    "sourceErrors": [],
+    "missingInternalTargets": [],
+    "guideIncomingHrefLinks": 3,
+    "faqCopyMatches": true,
+    "categoryImagesSchemaRFQPreserved": true,
+    "scope": "Source audit; not full public HTTP or Google index verification"
+  },
+  "interactions": [
+    "FAQ expands",
+    "article CTA reaches visible RFQ at three widths",
+    "both category links reach guide at three widths",
+    "Specifications filter includes guide at three widths",
+    "existing illustrative image keeps16:9ratio at three widths"
+  ]
+}
