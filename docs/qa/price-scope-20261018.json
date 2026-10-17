@@ -1,0 +1,223 @@
+{
+  "date": "2026-10-18",
+  "baseline_commit": "0fe3e20f53ebb62af6c81b4b8d65cd85d29faa1c",
+  "baseline_public": [
+    {
+      "file": "index.html",
+      "url": "https://www.visfurn.com/",
+      "status": 200,
+      "matches_main": true,
+      "sha256": "6076955e019b4d6e23ebfcab07ad4c0eb02fc55df2824f4385162dcdc3007212"
+    },
+    {
+      "file": "contact.html",
+      "url": "https://www.visfurn.com/contact",
+      "status": 200,
+      "matches_main": true,
+      "sha256": "f6d835346ca4df461fc9c776d3f8c7f431ac5ad186e8049e93fc2c76b60b3529"
+    },
+    {
+      "file": "products/wpc-doors.html",
+      "url": "https://www.visfurn.com/products/wpc-doors",
+      "status": 200,
+      "matches_main": true,
+      "sha256": "de567d7b887b25a5b704f0b9dd06bad44ea7cbd6e8486ad68ef358f7f565f8b6"
+    },
+    {
+      "file": "products/wpc-doors/taupe-woodgrain-wpc-interior-door.html",
+      "url": "https://www.visfurn.com/products/wpc-doors/taupe-woodgrain-wpc-interior-door",
+      "status": 200,
+      "matches_main": true,
+      "sha256": "43308e436c6b93b7b875105b422b56f4d266a6f737ceb73f1bfde74e68705fad"
+    },
+    {
+      "file": "products/wpc-doors/light-woodgrain-wpc-interior-door.html",
+      "url": "https://www.visfurn.com/products/wpc-doors/light-woodgrain-wpc-interior-door",
+      "status": 200,
+      "matches_main": true,
+      "sha256": "3d95cb2324a986a40bed8d866599d4521456dedc366efdce938725a09a70f4b5"
+    },
+    {
+      "file": "assets/main.js",
+      "url": "https://www.visfurn.com/assets/main.js",
+      "status": 200,
+      "matches_main": true,
+      "sha256": "4ed06ef457d762e60a92a40cb3232d5ea44521c646193fa72c18895b73350e16"
+    },
+    {
+      "file": "robots.txt",
+      "url": "https://www.visfurn.com/robots.txt",
+      "status": 200,
+      "matches_main": true,
+      "sha256": "8262432ac8d835da88eb519832c694bd5fc5d19f9236c38d4c628245ba54df89"
+    },
+    {
+      "file": "sitemap.xml",
+      "url": "https://www.visfurn.com/sitemap.xml",
+      "status": 200,
+      "matches_main": true,
+      "sha256": "3888f71822720236555ddf69a7143d27337ff90f35e8f1b5f5f7cdbb3cea798d"
+    }
+  ],
+  "static": {
+    "sitemap_unique_urls": 154,
+    "source_audit": "H1, canonical, robots, JSON-LD and local internal targets pass",
+    "incoming": [
+      "https://www.visfurn.com/blog",
+      "https://www.visfurn.com/blog/how-many-doors-fit-in-a-container",
+      "https://www.visfurn.com/products/wpc-doors"
+    ],
+    "contact_fields_preserved": 36,
+    "required_preserved": 6,
+    "category_images_and_schema_preserved": true,
+    "shared_js_unchanged": true,
+    "faq_matches": 5
+  },
+  "rendered": [
+    {
+      "route": "/blog/wpc-door-price-per-set-frame-hardware-scope",
+      "width": 375,
+      "h1": 1,
+      "over": false,
+      "bad": [],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "route": "/products/wpc-doors",
+      "width": 375,
+      "h1": 1,
+      "over": false,
+      "bad": [],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "route": "/blog/how-many-doors-fit-in-a-container",
+      "width": 375,
+      "h1": 1,
+      "over": false,
+      "bad": [],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "route": "/contact",
+      "width": 375,
+      "h1": 1,
+      "over": false,
+      "bad": [],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "route": "/blog",
+      "width": 375,
+      "h1": 1,
+      "over": false,
+      "bad": [],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "route": "/blog/wpc-door-price-per-set-frame-hardware-scope",
+      "width": 390,
+      "h1": 1,
+      "over": false,
+      "bad": [],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "route": "/products/wpc-doors",
+      "width": 390,
+      "h1": 1,
+      "over": false,
+      "bad": [],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "route": "/blog/how-many-doors-fit-in-a-container",
+      "width": 390,
+      "h1": 1,
+      "over": false,
+      "bad": [],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "route": "/contact",
+      "width": 390,
+      "h1": 1,
+      "over": false,
+      "bad": [],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "route": "/blog",
+      "width": 390,
+      "h1": 1,
+      "over": false,
+      "bad": [],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "route": "/blog/wpc-door-price-per-set-frame-hardware-scope",
+      "width": 1440,
+      "h1": 1,
+      "over": false,
+      "bad": [],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "route": "/products/wpc-doors",
+      "width": 1440,
+      "h1": 1,
+      "over": false,
+      "bad": [],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "route": "/blog/how-many-doors-fit-in-a-container",
+      "width": 1440,
+      "h1": 1,
+      "over": false,
+      "bad": [],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "route": "/contact",
+      "width": 1440,
+      "h1": 1,
+      "over": false,
+      "bad": [],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "route": "/blog",
+      "width": 1440,
+      "h1": 1,
+      "over": false,
+      "bad": [],
+      "status": 200,
+      "errors": []
+    },
+    {
+      "mocked_submission": "one intercepted success; redirect, single success event and no email in dataLayer",
+      "real_form_posts": 0
+    }
+  ],
+  "limitations": [
+    "No real Formspree submission or sales receipt test",
+    "No physical iPhone Safari test",
+    "GSC Wizard payment_required; current cloud session signed out; historical GSC data dated17October only",
+    "Production receipt is maintained in the release PR"
+  ]
+}
