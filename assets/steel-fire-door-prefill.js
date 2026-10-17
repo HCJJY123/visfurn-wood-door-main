@@ -3,6 +3,14 @@
   if (!form) return;
 
   const products = {
+    'taupe-woodgrain-wpc-interior-door': {
+      name: "Taupe Woodgrain WPC Door for Modern Residential and Hotel Interiors",
+      path: '/products/wpc-doors/taupe-woodgrain-wpc-interior-door',
+      context: 'Product selected',
+      doorType: 'WPC Doors',
+      requirements: 'Taupe woodgrain WPC door set including frame; FOB Tianjin, China.\nQuantity / door marks: \nLeaf or opening sizes / wall thickness / handing: \nFinish sample / frame profile / trim: \nHardware inclusion and specification to confirm: \nDestination / requested timing: '
+    },
+
     'charcoal-panel-entrance-door': {
       name: 'Charcoal Panel Entrance Door with Geometric Detailing',
       path: '/products/exterior-doors/charcoal-panel-entrance-door',
@@ -170,3 +178,4 @@
     requirements.value = `Product: ${product.name}\nProduct URL: ${values.product_url}\n\n${product.requirements}`;
   }
 })();
+
