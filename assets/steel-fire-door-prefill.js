@@ -8,7 +8,7 @@
       path: '/products/wpc-doors/light-woodgrain-wpc-interior-door',
       context: 'Product selected',
       doorType: 'WPC Doors',
-      requirements: 'Light woodgrain WPC door; reference US$40–78, FOB Tianjin Port, China.\nQuantity / door marks: \nLeaf or opening sizes / wall thickness / handing: \nFinish sample / inner-border detail: \nPrice unit / frame / trim / hardware scope to confirm: \nDestination / requested timing: '
+      requirements: 'Light woodgrain WPC door; reference US$40–78 per set including door leaf and frame, FOB Tianjin Port, China.\nQuantity / door marks: \nLeaf or opening sizes / wall thickness / handing: \nFinish sample / inner-border detail: \nFrame profile / trim / hardware scope to confirm: \nDestination / requested timing: '
     },
     'taupe-woodgrain-wpc-interior-door': {
       name: "Taupe Woodgrain WPC Door for Modern Residential and Hotel Interiors",
