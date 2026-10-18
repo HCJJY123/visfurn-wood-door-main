@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-19",
+  "site": "https://www.visfurn.com/",
+  "baselineMain": "0a2f1a54e50e7924825391ffcc4ee69aefa8a517",
+  "baselineProduction": "dpl_6vJUzeWHDYt4VLTKekCkHXnKHHRg",
+  "baselinePublicByteMatches": ["/contact", "/products/hotel-doors", "/blog/hotel-door-package-checklist-guestroom-bathroom-fire-hardware", "/blog", "/robots.txt", "/sitemap.xml"],
+  "changedCanonicalPaths": ["/products/hotel-doors", "/blog/hotel-door-package-checklist-guestroom-bathroom-fire-hardware"],
+  "sourceChecks": {"sitemapUniqueUrls": 154, "allHtmlH1CanonicalRobotsJsonLdAndInternalTargetChecks": "pass", "hotelGuideIncomingHtmlLinks": 7, "hotelCollectionIncomingHtmlLinks": 110},
+  "localBrowserChecks": {"routes": ["/blog/hotel-door-package-checklist-guestroom-bathroom-fire-hardware", "/products/hotel-doors", "/blog", "/contact"], "widthsPx": [375, 390, 1440], "combinations": 12, "http200": true, "singleH1": true, "noHorizontalOverflow": true, "noBrokenAboveFoldImages": true, "noPageScriptErrors": true, "categoryProductJump": "pass", "categoryGuideLink": "pass", "guideToHotelContactPrefill": "pass; Hotel Doors and product_slug hotel-doors", "mobileVisualReview": "390px guide and collection screenshots checked; page-specific header spacing corrected"},
+  "buildAndRegressionChecks": ["npm run build (existing static no-op)", "node --check assets/main.js", "hospital quote context", "hotel quote context", "school coordination", "git diff --check"],
+  "realFormSubmission": "not performed; sales receipt chain remains unverified",
+  "gscCurrentAccess": "GSC Wizard payment_required; last actual VISFURN verified-owner web report was read 2026-10-17, through 2026-10-14",
+  "statusAtCommit": "已本地验证；production/IndexNow receipt belongs in release PR",
+  "reviewDate": "2026-10-26"
+}
