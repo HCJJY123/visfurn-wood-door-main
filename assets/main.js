@@ -591,6 +591,9 @@ document.querySelectorAll('.faq-question').forEach((question) => {
   let restoreFocus;
 
   const getZoomImages = () => Array.from(document.querySelectorAll(zoomSelector)).filter((image) => {
+    // Banner images are navigation/decoration, never lightbox entries.
+    // The adjacent-header form covers older editorial hero markup.
+    if (image.closest('.editorial-media--hero, .editorial-detail-header + .editorial-media, [data-home-hero-carousel], .category-hero')) return false;
     if (image.closest('.product-visual, .product-card, .card-media, .featured-door-media, .category-hero, .vf-thumb, .wpc-thumb, .pdp-thumb-btn')) return false;
     return image.currentSrc || image.src;
   });
