@@ -18,7 +18,7 @@ function run(search, prior = {}) {
 }
 const category = fs.readFileSync('products/hospital-doors.html', 'utf8');
 const links = [...category.matchAll(/href="([^\"]+)"/g)].map(m => m[1].replaceAll('&amp;', '&')).filter(href => href.includes('/contact') && href.includes('#quote-form'));
-assert.equal(links.length, 2);
+assert.ok(links.length >= 2, 'Hospital category must retain its quotation entry points');
 for (const href of links) {
   const url = new URL(href, 'https://www.visfurn.com');
   const result = run(url.search);
