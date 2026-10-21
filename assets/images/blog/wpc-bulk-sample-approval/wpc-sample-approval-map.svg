@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+<title id="title">WPC door sample approval map</title><desc id="desc">A conceptual procurement flow from approved leaf and frame samples through hardware preparation and packing reference to a signed production record.</desc>
+<rect width="1200" height="680" fill="#f2f3ef"/><rect x="55" y="55" width="1090" height="570" rx="28" fill="#fff" stroke="#d5ddd8" stroke-width="3"/>
+<text x="100" y="125" fill="#17382c" font-family="Arial,sans-serif" font-size="37" font-weight="700">Approve the whole WPC door set</text>
+<text x="100" y="164" fill="#52665b" font-family="Arial,sans-serif" font-size="22">A buyer record for one repeatable opening type</text>
+<g font-family="Arial,sans-serif" font-size="23" fill="#17382c">
+<rect x="95" y="222" width="305" height="132" rx="16" fill="#e8f0ea"/><text x="120" y="269" font-weight="700">Leaf and edge</text><text x="120" y="306" font-size="19">construction • finish</text>
+<rect x="448" y="222" width="305" height="132" rx="16" fill="#e8f0ea"/><text x="473" y="269" font-weight="700">Frame and trim</text><text x="473" y="306" font-size="19">profile • wall depth</text>
+<rect x="801" y="222" width="305" height="132" rx="16" fill="#e8f0ea"/><text x="826" y="269" font-weight="700">Hardware prep</text><text x="826" y="306" font-size="19">template • handing</text>
+<rect x="95" y="391" width="485" height="132" rx="16" fill="#f7eee8"/><text x="120" y="438" font-weight="700">Packing reference</text><text x="120" y="475" font-size="19">door mark • package scope • protection</text>
+<rect x="619" y="391" width="487" height="132" rx="16" fill="#f7eee8"/><text x="644" y="438" font-weight="700">Written release</text><text x="644" y="475" font-size="19">sample ID • drawing revision • changes</text>
+</g><path d="M400 288h47m306 0h47M580 457h38" stroke="#a95735" stroke-width="4"/>
+<text x="100" y="582" fill="#52665b" font-family="Arial,sans-serif" font-size="18">Planning illustration. Verify every item against the actual proposed VISFURN configuration.</text>
+</svg>
