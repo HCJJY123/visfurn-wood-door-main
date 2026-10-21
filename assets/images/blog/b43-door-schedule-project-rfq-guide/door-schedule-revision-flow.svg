@@ -1,24 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" role="img" aria-labelledby="title desc">
-  <title id="title">Door schedule revision control before production</title>
-  <desc id="desc">Four stages: issue an RFQ revision, resolve changed openings, approve a release schedule, then identify the same revision on the purchase order and packing list.</desc>
-  <rect width="900" height="450" rx="24" fill="#f3f3ee"/>
-  <g font-family="Arial, sans-serif" fill="#243d34">
-    <text x="54" y="60" font-size="31" font-weight="700">Keep one revision across the order</text>
-    <text x="54" y="93" font-size="19">Illustrative process for project door procurement</text>
-  </g>
-  <g font-family="Arial, sans-serif" font-size="20" fill="#243d34">
-    <rect x="50" y="132" width="370" height="112" rx="16" fill="#fff" stroke="#b8c8bd" stroke-width="2"/>
-    <text x="74" y="171" font-weight="700">1. Issue RFQ revision</text>
-    <text x="74" y="204">Door marks, date and scope</text>
-    <rect x="480" y="132" width="370" height="112" rx="16" fill="#fff" stroke="#b8c8bd" stroke-width="2"/>
-    <text x="504" y="171" font-weight="700">2. Resolve changed openings</text>
-    <text x="504" y="204">Sizes, handing, frame, hardware</text>
-    <rect x="50" y="278" width="370" height="112" rx="16" fill="#fff" stroke="#b8c8bd" stroke-width="2"/>
-    <text x="74" y="317" font-weight="700">3. Approve release version</text>
-    <text x="74" y="350">Record unresolved exceptions</text>
-    <rect x="480" y="278" width="370" height="112" rx="16" fill="#fff" stroke="#b8c8bd" stroke-width="2"/>
-    <text x="504" y="317" font-weight="700">4. Repeat revision ID</text>
-    <text x="504" y="350">Order, labels and packing list</text>
-  </g>
-  <path d="M420 188h60M665 244v34M420 334h60" fill="none" stroke="#a76b43" stroke-width="5"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" role="img" aria-labelledby="title desc">
+<title id="title">Door schedule revision control before production</title>
+<desc id="desc">Four stages: issue an RFQ revision, resolve changed openings, approve a release schedule, then identify the same revision on the purchase order and packing list.</desc>
+<rect width="600" height="800" rx="24" fill="#f3f3ee"/>
+<g font-family="Arial, sans-serif" fill="#243d34"><text x="35" y="65" font-size="29" font-weight="700">Keep one revision</text><text x="35" y="99" font-size="29" font-weight="700">across the order</text><text x="35" y="130" font-size="19">Illustrative project procurement process</text></g>
+<g font-family="Arial, sans-serif" font-size="22" fill="#243d34">
+<rect x="35" y="167" width="530" height="120" rx="16" fill="#fff" stroke="#b8c8bd" stroke-width="2"/><text x="61" y="211" font-weight="700">1. Issue RFQ revision</text><text x="61" y="249">Door marks, date and scope</text>
+<rect x="35" y="323" width="530" height="120" rx="16" fill="#fff" stroke="#b8c8bd" stroke-width="2"/><text x="61" y="367" font-weight="700">2. Resolve changed openings</text><text x="61" y="405">Sizes, handing, frame, hardware</text>
+<rect x="35" y="479" width="530" height="120" rx="16" fill="#fff" stroke="#b8c8bd" stroke-width="2"/><text x="61" y="523" font-weight="700">3. Approve release version</text><text x="61" y="561">Record unresolved exceptions</text>
+<rect x="35" y="635" width="530" height="120" rx="16" fill="#fff" stroke="#b8c8bd" stroke-width="2"/><text x="61" y="679" font-weight="700">4. Repeat revision ID</text><text x="61" y="717">Order, labels and packing list</text>
+</g><g fill="#a76b43"><path d="m290 291 10 18 10-18z"/><path d="m290 447 10 18 10-18z"/><path d="m290 603 10 18 10-18z"/></g>
 </svg>
