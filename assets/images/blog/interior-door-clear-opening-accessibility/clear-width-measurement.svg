@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+<title id="title">Clear opening is different from door leaf width</title><desc id="desc">Conceptual plan view of an inward swinging interior door opened ninety degrees, with clear passage shown between the open leaf face and the opposite stop.</desc>
+<rect width="1200" height="680" fill="#f2f3ef"/><rect x="55" y="55" width="1090" height="570" rx="28" fill="#fff" stroke="#d5ddd8" stroke-width="3"/>
+<text x="100" y="125" fill="#17382c" font-family="Arial,sans-serif" font-size="36" font-weight="700">Leaf width ≠ clear passage</text>
+<text x="100" y="166" fill="#52665b" font-family="Arial,sans-serif" font-size="22">Conceptual plan view; dimensions must come from the approved project drawing.</text>
+<path d="M200 245h245m275 0h280M200 520h245m275 0h280" stroke="#17382c" stroke-width="30" fill="none"/>
+<path d="M445 255v265m275-265v265" stroke="#79887d" stroke-width="20" fill="none"/>
+<path d="M457 265h18v260h-18z" fill="#b78861" stroke="#745137" stroke-width="3"/>
+<path d="M479 268h228" stroke="#b78861" stroke-width="28"/><circle cx="470" cy="268" r="13" fill="#a95735"/>
+<path d="M498 372h196" stroke="#a95735" stroke-width="4" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+<defs><marker id="arrow" viewBox="0 0 12 12" refX="6" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M1 1l10 5-10 5" fill="#a95735"/></marker></defs>
+<text x="508" y="353" fill="#a95735" font-family="Arial,sans-serif" font-size="24" font-weight="700">Clear passage</text>
+<text x="745" y="335" fill="#17382c" font-family="Arial,sans-serif" font-size="21">Opposite stop</text>
+<text x="150" y="370" fill="#17382c" font-family="Arial,sans-serif" font-size="21">Open leaf face</text>
+<text x="100" y="582" fill="#52665b" font-family="Arial,sans-serif" font-size="18">Not to scale. Verify swing, stops, hardware projection and local accessibility rules.</text>
+</svg>
