@@ -262,6 +262,7 @@ if (quoteForm) {
     const attributionValue = (name) => quoteForm.querySelector(`[name="${name}"]`)?.value || '';
     const submissionContext = {
       page: window.location.pathname,
+      inquiry_path: quoteForm.querySelector('.rfq-more-details')?.open ? 'engineering_details' : 'initial_inquiry',
       submission_attempt_id: attemptId,
       landing_page: attributionValue('landing_page'),
       first_product_page: attributionValue('first_product_page'),
