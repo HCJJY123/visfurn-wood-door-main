@@ -35,6 +35,10 @@ body.category-page .category-hero::after { background: linear-gradient(90deg, rg
 .vf-interior-hero__secondary { color: #fff; }
 .vf-interior-hero__disclosure { margin: 0; color: #fff; font-size: 12px; line-height: 1.45; opacity: .9; }
 
+@media (max-width: 960px) {
+  /* The site menu already contains the collection links; put product options next. */
+  body.category-page .category-layout > .sidebar { display: none; }
+}
 @media (max-width: 760px) {
   .vf-buyer-hero { grid-template-columns: 1fr; }
   .vf-buyer-hero__copy { padding: 30px 24px 18px; }
