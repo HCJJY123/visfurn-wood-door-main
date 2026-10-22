@@ -1,0 +1,50 @@
+/* Procurement-first category presentation. Existing product images stay intact on the two updated collections. */
+.vf-buyer-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(280px, .95fr);
+  overflow: hidden;
+  border: 1px solid #dce1d8;
+  border-radius: 14px;
+  background: #f5f3ed;
+  color: #263a30;
+}
+.vf-buyer-hero__copy { align-self: center; padding: clamp(28px, 4vw, 64px); }
+.vf-buyer-hero__copy h1 { max-width: 14ch; margin: 12px 0 20px; font: 500 clamp(34px, 4vw, 60px)/1.08 var(--display, Georgia, serif); }
+.vf-buyer-hero__copy > p:not(.eyebrow) { max-width: 55ch; line-height: 1.65; }
+.vf-buyer-hero__actions, .vf-interior-hero__actions { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 20px; margin: 26px 0 16px; }
+.vf-buyer-hero__actions .button, .vf-interior-hero__actions .button { text-align: center; }
+.vf-buyer-hero__link, .vf-interior-hero__secondary { font-weight: 700; text-decoration: underline; text-underline-offset: 4px; }
+.vf-buyer-hero__note { margin-bottom: 0; font-size: 14px; color: #5b6c61; }
+.vf-buyer-hero__visual { display: flex; flex-direction: column; justify-content: center; min-width: 0; margin: 0; padding: 30px 30px 16px; background: #e7e9e2; }
+.vf-buyer-hero__visual img { display: block; width: 100%; max-height: 420px; object-fit: contain; }
+.vf-buyer-hero__visual figcaption { margin-top: 12px; color: #53665b; font-size: 12px; line-height: 1.4; text-align: center; }
+.vf-collection-intro { padding: 0 0 24px; }
+.vf-collection-intro h2 { margin: 8px 0 10px; }
+.vf-collection-intro p:last-child { max-width: 70ch; color: #5d6b60; }
+#wpc-product-options, #interior-product-options { scroll-margin-top: 130px; }
+
+/* Catalog photos are displayed whole, at a consistent scale and on one neutral ground. */
+body.category-page.vf-unified-category .vf-category-card .card-media { aspect-ratio: 1 / 1 !important; background: #f4f4f0 !important; }
+body.category-page.vf-unified-category .vf-category-card .card-media img { object-fit: contain !important; }
+body.category-page.vf-unified-category .vf-category-card .card-body { gap: 10px; }
+
+body.category-page .category-hero { min-height: 420px; margin-bottom: 18px; }
+body.category-page .category-hero-content { max-width: 730px; padding: 50px 48px; }
+body.category-page .category-hero::after { background: linear-gradient(90deg, rgba(26,39,32,.88) 0%, rgba(26,39,32,.68) 45%, rgba(26,39,32,.08) 100%); }
+.vf-interior-hero__intro { max-width: 50ch; margin: 16px 0 0; font-size: 16px; line-height: 1.55; }
+.vf-interior-hero__secondary { color: #fff; }
+.vf-interior-hero__disclosure { margin: 0; font-size: 12px; line-height: 1.45; opacity: .9; }
+
+@media (max-width: 760px) {
+  .vf-buyer-hero { grid-template-columns: 1fr; }
+  .vf-buyer-hero__copy { padding: 30px 24px 18px; }
+  .vf-buyer-hero__copy h1 { font-size: clamp(32px, 9vw, 44px); }
+  .vf-buyer-hero__visual { padding: 14px 24px 20px; }
+  .vf-buyer-hero__visual img { max-height: 310px; }
+  body.category-page .category-hero { min-height: 0; }
+  body.category-page .category-hero-content { padding: 34px 24px 30px; }
+  body.category-page .category-hero::after { background: linear-gradient(90deg, rgba(26,39,32,.91), rgba(26,39,32,.53)); }
+  body.category-page .category-hero-image { object-position: 63% center; }
+  .vf-interior-hero__intro { font-size: 15px; }
+  .vf-buyer-hero__actions .button, .vf-interior-hero__actions .button { width: 100%; }
+}
