@@ -31,9 +31,9 @@ body.category-page.vf-unified-category .vf-category-card .card-body { gap: 10px;
 body.category-page .category-hero { min-height: 420px; margin-bottom: 18px; }
 body.category-page .category-hero-content { max-width: 730px; padding: 50px 48px; }
 body.category-page .category-hero::after { background: linear-gradient(90deg, rgba(26,39,32,.88) 0%, rgba(26,39,32,.68) 45%, rgba(26,39,32,.08) 100%); }
-.vf-interior-hero__intro { max-width: 50ch; margin: 16px 0 0; font-size: 16px; line-height: 1.55; }
+.vf-interior-hero__intro { max-width: 50ch; margin: 16px 0 0; color: #fff; font-size: 16px; line-height: 1.55; }
 .vf-interior-hero__secondary { color: #fff; }
-.vf-interior-hero__disclosure { margin: 0; font-size: 12px; line-height: 1.45; opacity: .9; }
+.vf-interior-hero__disclosure { margin: 0; color: #fff; font-size: 12px; line-height: 1.45; opacity: .9; }
 
 @media (max-width: 760px) {
   .vf-buyer-hero { grid-template-columns: 1fr; }
