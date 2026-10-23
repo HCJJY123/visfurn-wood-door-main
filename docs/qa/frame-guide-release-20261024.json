@@ -1,0 +1,103 @@
+{
+  "checkedAtBeijing": "2026-10-24T05:16:08.312962+08:00",
+  "releaseSha": "c9a52e18d81d74bf3ef4c8be1fe40dae2644458e",
+  "deployment": "dpl_FDYQ66nCrWbS1EQHajTyEjugkWTe",
+  "keyHttp": 200,
+  "keyMatches": true,
+  "results": [
+    {
+      "url": "https://www.visfurn.com/blog/door-frame-jamb-width-architrave-specification-bulk-orders",
+      "http": 200,
+      "sha256": "5f3afa51ccafd439e3bda108b93a9c3141f0b0c922ae147b67f88499d1c73b96",
+      "matchesReleasedFile": true,
+      "xRobotsTag": null,
+      "canonical": [
+        "https://www.visfurn.com/blog/door-frame-jamb-width-architrave-specification-bulk-orders"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+      ]
+    },
+    {
+      "url": "https://www.visfurn.com/products/interior-doors",
+      "http": 200,
+      "sha256": "2e45148092857e84d2a05bdaac3c8a8d66f8e402c2e9c5ae4773394221c374d0",
+      "matchesReleasedFile": true,
+      "xRobotsTag": null,
+      "canonical": [
+        "https://www.visfurn.com/products/interior-doors"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ]
+    },
+    {
+      "url": "https://www.visfurn.com/products/wpc-doors",
+      "http": 200,
+      "sha256": "ba23049a6c169acb7f267a444e80244bb9603e77901f0e486fa1fff7fa0a3c66",
+      "matchesReleasedFile": true,
+      "xRobotsTag": null,
+      "canonical": [
+        "https://www.visfurn.com/products/wpc-doors"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ]
+    },
+    {
+      "url": "https://www.visfurn.com/sitemap.xml",
+      "http": 200,
+      "sha256": "eebf8dc7f78c6244f93f06430994405476adbd1ec93736bf9977bc652e4b3d53",
+      "matchesReleasedFile": true,
+      "xRobotsTag": null
+    },
+    {
+      "url": "https://www.visfurn.com/robots.txt",
+      "http": 200,
+      "sha256": "8262432ac8d835da88eb519832c694bd5fc5d19f9236c38d4c628245ba54df89",
+      "matchesReleasedFile": true,
+      "xRobotsTag": null
+    },
+    {
+      "url": "https://www.visfurn.com/contact",
+      "http": 200,
+      "sha256": "b30b9cbbb6710eead6bac6c7dfcaabea8e4a1c38dc72dbb3d56dfbc2829faad8",
+      "matchesReleasedFile": true,
+      "xRobotsTag": null,
+      "canonical": [
+        "https://www.visfurn.com/contact"
+      ],
+      "robots": [
+        "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+      ]
+    },
+    {
+      "url": "https://www.visfurn.com/assets/main.js",
+      "http": 200,
+      "sha256": "2cad1280cb2e3d2333b0f201926397d617b94cbf2444ac8e721d4d1c4ce76800",
+      "matchesReleasedFile": true,
+      "xRobotsTag": null
+    },
+    {
+      "url": "https://www.visfurn.com/assets/images/blog/b19-door-frame-jamb-width-architrave-specification-bulk-orders/door-frame-jamb-architrave-specification-hero-1600.webp",
+      "http": 200,
+      "sha256": "15851bbabade8233863fae00feb79e8999b6aa010c6359b6b79a66e171df68a5",
+      "matchesReleasedFile": true,
+      "xRobotsTag": null
+    },
+    {
+      "url": "https://www.visfurn.com/assets/images/blog/b19-door-frame-jamb-width-architrave-specification-bulk-orders/door-jamb-width-wall-thickness-detail-1200.webp",
+      "http": 200,
+      "sha256": "7d57f44cee863e7a670e70bd12a15cbb7f70ab2c3c6b88dc01496b990f3872e9",
+      "matchesReleasedFile": true,
+      "xRobotsTag": null
+    },
+    {
+      "url": "https://www.visfurn.com/assets/images/blog/b19-door-frame-jamb-width-architrave-specification-bulk-orders/door-frames-architraves-bulk-order-packing-1200.webp",
+      "http": 200,
+      "sha256": "d7379935994287d65f1ad79b3612edac0bf13af3aa9ec092edab59c1873e4dcb",
+      "matchesReleasedFile": true,
+      "xRobotsTag": null
+    }
+  ]
+}
