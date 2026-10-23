@@ -4086,3 +4086,11 @@ body:not(.home-page) .site-footer .footer-cta::before {
   .footer-cta .button.light { transition: none !important; }
   .solution-grid article:hover { transform: none !important; }
 }
+
+/* Homepage accessibility: retain the palette with legible small-text contrast. */
+.home-page .eyebrow { color: #805535; }
+.home-page .template-hero .eyebrow { color: #e1b77c; }
+.home-page .process-band .eyebrow, .home-page .footer-cta .eyebrow { color: #eef2eb; }
+.home-page .home-category-grid .category-specs dt,
+.home-page .home-category-grid .category-meta { color: #505d46; }
+.home-page .advantage-grid article > span { color: #805535; }
