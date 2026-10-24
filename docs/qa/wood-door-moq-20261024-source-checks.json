@@ -1,0 +1,218 @@
+{
+  "status": "PASS",
+  "pages": 30,
+  "locale_sources": 5,
+  "results": [
+    {
+      "file": "ar/wpc-doors.html",
+      "json_ld_blocks": 1,
+      "faq_count": 6,
+      "preexisting_faq_mismatches": 4,
+      "new_faq_mismatches": 0
+    },
+    {
+      "file": "blog/first-door-container-from-china-process.html",
+      "json_ld_blocks": 3,
+      "faq_count": 5,
+      "preexisting_faq_mismatches": 0,
+      "new_faq_mismatches": 0
+    },
+    {
+      "file": "contact.html",
+      "json_ld_blocks": 3,
+      "faq_count": 6,
+      "preexisting_faq_mismatches": 0,
+      "new_faq_mismatches": 0
+    },
+    {
+      "file": "es/puertas-interiores.html",
+      "json_ld_blocks": 1,
+      "faq_count": 6,
+      "preexisting_faq_mismatches": 0,
+      "new_faq_mismatches": 0
+    },
+    {
+      "file": "es/puertas-para-proyectos.html",
+      "json_ld_blocks": 3,
+      "faq_count": 7,
+      "preexisting_faq_mismatches": 0,
+      "new_faq_mismatches": 0
+    },
+    {
+      "file": "faq.html",
+      "json_ld_blocks": 3,
+      "faq_count": 40,
+      "preexisting_faq_mismatches": 0,
+      "new_faq_mismatches": 0
+    },
+    {
+      "file": "fr/blocs-portes-interieures.html",
+      "json_ld_blocks": 1,
+      "faq_count": 6,
+      "preexisting_faq_mismatches": 0,
+      "new_faq_mismatches": 0
+    },
+    {
+      "file": "mn/index.html",
+      "json_ld_blocks": 1,
+      "faq_count": 7,
+      "preexisting_faq_mismatches": 0,
+      "new_faq_mismatches": 0
+    },
+    {
+      "file": "products.html",
+      "json_ld_blocks": 3,
+      "faq_count": 62,
+      "preexisting_faq_mismatches": 0,
+      "new_faq_mismatches": 0
+    },
+    {
+      "file": "products/exterior-doors/modern-european-apartment-door.html",
+      "json_ld_blocks": 4,
+      "faq_count": 4,
+      "preexisting_faq_mismatches": 0,
+      "new_faq_mismatches": 0
+    },
+    {
+      "file": "products/hotel-doors.html",
+      "json_ld_blocks": 4,
+      "faq_count": 9,
+      "preexisting_faq_mismatches": 0,
+      "new_faq_mismatches": 0
+    },
+    {
+      "file": "products/hotel-doors/french-style-glazed-suite-door.html",
+      "json_ld_blocks": 4,
+      "faq_count": 6,
+      "preexisting_faq_mismatches": 6,
+      "new_faq_mismatches": 0
+    },
+    {
+      "file": "products/hotel-doors/hotel-guestroom-door.html",
+      "json_ld_blocks": 4,
+      "faq_count": 4,
+      "preexisting_faq_mismatches": 0,
+      "new_faq_mismatches": 0
+    },
+    {
+      "file": "products/interior-doors.html",
+      "json_ld_blocks": 5,
+      "faq_count": 5,
+      "preexisting_faq_mismatches": 0,
+      "new_faq_mismatches": 0
+    },
+    {
+      "file": "products/interior-doors/modern-pvc-wooden-door.html",
+      "json_ld_blocks": 4,
+      "faq_count": 6,
+      "preexisting_faq_mismatches": 0,
+      "new_faq_mismatches": 0
+    },
+    {
+      "file": "products/interior-doors/white-moulded-solid-wood.html",
+      "json_ld_blocks": 4,
+      "faq_count": 5,
+      "preexisting_faq_mismatches": 0,
+      "new_faq_mismatches": 0
+    },
+    {
+      "file": "products/wooden-doors.html",
+      "json_ld_blocks": 5,
+      "faq_count": 5,
+      "preexisting_faq_mismatches": 0,
+      "new_faq_mismatches": 0
+    },
+    {
+      "file": "products/wooden-doors/classic-french-raised-panel-wooden-interior-door.html",
+      "json_ld_blocks": 3,
+      "faq_count": 6,
+      "preexisting_faq_mismatches": 0,
+      "new_faq_mismatches": 0
+    },
+    {
+      "file": "products/wooden-doors/paint-free-brown-wooden-interior-door.html",
+      "json_ld_blocks": 4,
+      "faq_count": 5,
+      "preexisting_faq_mismatches": 5,
+      "new_faq_mismatches": 0
+    },
+    {
+      "file": "products/wooden-doors/soundproof-composite-entry-door.html",
+      "json_ld_blocks": 4,
+      "faq_count": 6,
+      "preexisting_faq_mismatches": 0,
+      "new_faq_mismatches": 0
+    },
+    {
+      "file": "products/wpc-doors.html",
+      "json_ld_blocks": 4,
+      "faq_count": 4,
+      "preexisting_faq_mismatches": 0,
+      "new_faq_mismatches": 0
+    },
+    {
+      "file": "products/wpc-doors/light-woodgrain-wpc-interior-door.html",
+      "json_ld_blocks": 3,
+      "faq_count": 6,
+      "preexisting_faq_mismatches": 0,
+      "new_faq_mismatches": 0
+    },
+    {
+      "file": "products/wpc-doors/modern-grooved-wpc-interior-door.html",
+      "json_ld_blocks": 3,
+      "faq_count": 3,
+      "preexisting_faq_mismatches": 0,
+      "new_faq_mismatches": 0
+    },
+    {
+      "file": "products/wpc-doors/modern-prehung-wpc-interior-door.html",
+      "json_ld_blocks": 3,
+      "faq_count": 6,
+      "preexisting_faq_mismatches": 0,
+      "new_faq_mismatches": 0
+    },
+    {
+      "file": "products/wpc-doors/moulded-panel-wpc-interior-door.html",
+      "json_ld_blocks": 4,
+      "faq_count": 3,
+      "preexisting_faq_mismatches": 0,
+      "new_faq_mismatches": 0
+    },
+    {
+      "file": "products/wpc-doors/taupe-woodgrain-wpc-interior-door.html",
+      "json_ld_blocks": 3,
+      "faq_count": 6,
+      "preexisting_faq_mismatches": 0,
+      "new_faq_mismatches": 0
+    },
+    {
+      "file": "products/wpc-doors/waterproof-wpc-interior-door.html",
+      "json_ld_blocks": 3,
+      "faq_count": 6,
+      "preexisting_faq_mismatches": 0,
+      "new_faq_mismatches": 0
+    },
+    {
+      "file": "ru/mezhkomnatnye-dveri.html",
+      "json_ld_blocks": 1,
+      "faq_count": 6,
+      "preexisting_faq_mismatches": 0,
+      "new_faq_mismatches": 0
+    },
+    {
+      "file": "solutions/door-schedule-quotation.html",
+      "json_ld_blocks": 3,
+      "faq_count": 3,
+      "preexisting_faq_mismatches": 0,
+      "new_faq_mismatches": 0
+    },
+    {
+      "file": "us/prehung-interior-door-sets.html",
+      "json_ld_blocks": 1,
+      "faq_count": 6,
+      "preexisting_faq_mismatches": 0,
+      "new_faq_mismatches": 0
+    }
+  ],
+  "remote_checked": false
+}

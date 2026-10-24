@@ -57,7 +57,7 @@
   ],
   "moq": {
     "label": "Commande minimum",
-    "value": "10 blocs"
+    "value": "50 blocs-portes par commande ; minimum 10 par modèle"
   },
   "leadTime": {
     "label": "Délai de fabrication",
@@ -183,8 +183,8 @@
       "a": "La configuración y el alcance final se confirman con su lista de puertas, medidas, acabado, herrajes y destino."
     },
     {
-      "q": "¿Cuál es el pedido mínimo?",
-      "a": "La configuración y el alcance final se confirman con su lista de puertas, medidas, acabado, herrajes y destino."
+      "q": "Quelle est la quantité minimale ?",
+      "a": "La commande minimale est de 50 blocs-portes au total, avec au moins 10 blocs-portes par modèle."
     },
     {
       "q": "¿Pueden fabricar medidas especiales?",

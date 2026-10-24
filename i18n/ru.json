@@ -44,7 +44,7 @@
   "slug": "mezhkomnatnye-dveri",
   "meta": {
     "title": "Межкомнатные двери оптом с завода в Китае | VISFURN",
-    "description": "Полные комплекты дверей: полотно, коробка, петли, замок. Размеры под заказ. Минимальный заказ 10 комплектов. EXW или доставка до Эрэн-Хото."
+    "description": "Полные комплекты дверей: полотно, коробка, петли, замок. Размеры под заказ. Минимум 50 комплектов на заказ и 10 каждой модели. EXW или доставка до Эрэн-Хото."
   },
   "h1": "Межкомнатные двери — прямые поставки с завода",
   "subtitle": "Полный комплект: полотно + коробка + петли + замок. Размеры под заказ.",
@@ -57,7 +57,7 @@
   ],
   "moq": {
     "label": "Минимальный заказ",
-    "value": "10 комплектов"
+    "value": "50 комплектов на заказ; минимум 10 комплектов каждой модели"
   },
   "leadTime": {
     "label": "Срок изготовления",
@@ -187,8 +187,8 @@
       "a": "La configuración y el alcance final se confirman con su lista de puertas, medidas, acabado, herrajes y destino."
     },
     {
-      "q": "¿Cuál es el pedido mínimo?",
-      "a": "La configuración y el alcance final se confirman con su lista de puertas, medidas, acabado, herrajes y destino."
+      "q": "Какой минимальный заказ?",
+      "a": "Минимальный заказ составляет 50 комплектов в целом, при этом каждой модели должно быть не менее 10 комплектов."
     },
     {
       "q": "¿Pueden fabricar medidas especiales?",

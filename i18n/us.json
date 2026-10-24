@@ -40,7 +40,7 @@
   ],
   "meta": {
     "title": "Prehung Interior Door Sets Wholesale | Factory Direct | VISFURN",
-    "description": "Prehung interior door sets with slab, jamb, hinges and lockset. Custom sizes in inches, 30×80 to 36×96. MOQ 10 sets. Slab-only available."
+    "description": "Prehung interior door sets with slab, jamb, hinges and lockset. Custom sizes in inches, 30×80 to 36×96. MOQ: 50 sets per order, minimum 10 sets per model. Slab-only available."
   },
   "h1": "Prehung Interior Door Sets — Factory Direct from China",
   "subtitle": "Slab, jamb, hinges and lockset shipped as one complete unit. Custom sizes in inches.",
@@ -53,7 +53,7 @@
   ],
   "moq": {
     "label": "Minimum Order",
-    "value": "10 sets"
+    "value": "50 sets per order; minimum 10 sets per model"
   },
   "leadTime": {
     "label": "Production Lead Time",
@@ -185,7 +185,7 @@
     },
     {
       "q": "What is the minimum order?",
-      "a": "The minimum order is 10 sets."
+      "a": "The minimum order is 50 sets in total, with at least 10 sets per model."
     },
     {
       "q": "Can you match my finished wall thickness?",

@@ -44,7 +44,7 @@
   "slug": "puertas-interiores",
   "meta": {
     "title": "Puertas Interiores de Madera y WPC | Fabricante en China | VISFURN",
-    "description": "Bloques de puerta completos con marco, bisagras y cerradura. Medidas a pedido desde 210×80×16. Pedido mínimo 10 juegos."
+    "description": "Bloques de puerta completos con marco, bisagras y cerradura. Medidas a pedido desde 210×80×16. Pedido mínimo de 50 juegos por pedido y 10 juegos por modelo."
   },
   "h1": "Puertas Interiores de Madera y WPC — Fabricante Directo",
   "subtitle": "Bloque completo: hoja + marco + bisagras + cerradura. Medidas a pedido.",
@@ -57,7 +57,7 @@
   ],
   "moq": {
     "label": "Pedido mínimo",
-    "value": "10 juegos"
+    "value": "50 juegos por pedido; mínimo 10 juegos por modelo"
   },
   "leadTime": {
     "label": "Tiempo de producción",
@@ -188,7 +188,7 @@
     },
     {
       "q": "¿Cuál es el pedido mínimo?",
-      "a": "La configuración y el alcance final se confirman con su lista de puertas, medidas, acabado, herrajes y destino."
+      "a": "El pedido mínimo es de 50 juegos en total, con al menos 10 juegos por modelo."
     },
     {
       "q": "¿Pueden fabricar medidas especiales?",
