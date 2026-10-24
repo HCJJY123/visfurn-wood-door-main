@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="/assets/styles-v3-pdp-fix.css?v=20260815-about-video-contained-v2">
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "CollectionPage", "@id": "https://www.visfurn.com/products/interior-doors#collection", "name": "VISFURN Interior Doors Collection", "url": "https://www.visfurn.com/products/interior-doors", "description": "Interior door solutions for apartments, villas, hotels and commercial projects with leaf, frame, finish and hardware specification review.", "mainEntity": {"@type": "ItemList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "White Moulded Interior Door", "url": "https://www.visfurn.com/products/interior-doors/white-moulded-solid-wood"}, {"@type": "ListItem", "position": 2, "name": "Modern PVC Wooden Door", "url": "https://www.visfurn.com/products/interior-doors/modern-pvc-wooden-door"}]}}</script>
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.visfurn.com/"}, {"@type": "ListItem", "position": 2, "name": "Products", "item": "https://www.visfurn.com/products"}, {"@type": "ListItem", "position": 3, "name": "Interior Doors", "item": "https://www.visfurn.com/products/interior-doors"}]}</script>
-  
+
   <style>
     .category-hero { position: relative; min-height: 480px; border-radius: 4px; overflow: hidden; background: #d9d5cc; margin-bottom: 40px; }
     .category-hero-content { position: relative; z-index: 2; max-width: 680px; padding: 80px 60px; color: #fff; }
@@ -59,7 +59,15 @@
       .category-hero-content { padding: 40px 20px; }
       .category-faq-grid, .related-link-grid, .buyer-intent { grid-template-columns: 1fr; }
     }
-  </style>
+
+    @media (max-width: 620px) {
+      .category-hero { min-height: 0; background: #263a31; }
+      .category-hero picture { display: block; aspect-ratio: 4 / 5; }
+      .category-hero-image { position: static; display: block; width: 100%; height: auto; }
+      .category-hero::after { display: none; }
+      .category-hero-content { padding: 24px; }
+    }
+</style>
   <link rel="stylesheet" href="/assets/global-ui.css?v=20260816-floating-actions-aligned-v3">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "CollectionPage", "name": "interior-doors", "description": "VISFURN interior doors for apartments, hotels and B2B projects. Review door leaf, frame, finish, hardware prep, MOQ, packing and quote details before bulk orders.", "url": "https://www.visfurn.com/products/interior-doors", "isPartOf": {"@type": "WebSite", "name": "VISFURN", "url": "https://www.visfurn.com/"}}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Which interior doors are suitable for apartment and hotel projects?", "acceptedAnswer": {"@type": "Answer", "text": "White moulded doors, engineered wooden doors, acoustic entry doors and WPC doors can be reviewed according to room type, traffic level, acoustic needs and moisture exposure."}}, {"@type": "Question", "name": "What should buyers prepare before requesting a quote?", "acceptedAnswer": {"@type": "Answer", "text": "Prepare the opening schedule, leaf size, wall thickness, frame profile, finish reference, hardware drawings, quantity and destination."}}, {"@type": "Question", "name": "Can interior doors be customized?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Size, finish, frame, architrave and hardware preparation can be reviewed before production according to project drawings and approved samples."}}, {"@type": "Question", "name": "Should buyers send rough opening or finished door leaf size?", "acceptedAnswer": {"@type": "Answer", "text": "For bulk projects, send both if available. Rough opening helps confirm frame allowance, while leaf size, wall thickness and jamb depth help VISFURN quote the correct prehung or full door set."}}, {"@type": "Question", "name": "How can a door schedule reduce quotation errors?", "acceptedAnswer": {"@type": "Answer", "text": "A room-by-room door schedule connects opening ID, quantity, handing, finish, frame, architrave and hardware prep, reducing missing parts during container loading and site installation."}}]}</script>
 
@@ -144,10 +152,12 @@
     <!-- Category Hero (Upgraded) -->
     <section class="category-hero">
       <picture>
-        <source srcset="/assets/images/products/interior-doors/responsive/visfurn-interior-doors-category-hero-640.avif 640w, /assets/images/products/interior-doors/responsive/visfurn-interior-doors-category-hero-960.avif 960w, /assets/images/products/interior-doors/responsive/visfurn-interior-doors-category-hero-1200.avif 1200w, /assets/images/products/interior-doors/responsive/visfurn-interior-doors-category-hero-1440.avif 1440w" type="image/avif" sizes="100vw">
-        <source srcset="/assets/images/products/interior-doors/responsive/visfurn-interior-doors-category-hero-640.webp 640w, /assets/images/products/interior-doors/responsive/visfurn-interior-doors-category-hero-960.webp 960w, /assets/images/products/interior-doors/responsive/visfurn-interior-doors-category-hero-1200.webp 1200w, /assets/images/products/interior-doors/responsive/visfurn-interior-doors-category-hero-1440.webp 1440w" type="image/webp" sizes="100vw">
-        <img class="category-hero-image" src="/assets/images/products/interior-doors/responsive/visfurn-interior-doors-category-hero-1440.webp" alt="Interior doors in a modern architectural corridor" width="1920" height="1080" loading="eager" fetchpriority="high" decoding="async">
-      </picture>
+<source media="(max-width: 620px)" srcset="/assets/images/visual-refresh/2026-10-21/interior-collection-application-mobile-640.avif 640w" sizes="100vw" type="image/avif">
+<source media="(max-width: 620px)" srcset="/assets/images/visual-refresh/2026-10-21/interior-collection-application-mobile-640.webp 640w" sizes="100vw" type="image/webp">
+<source srcset="/assets/images/visual-refresh/2026-10-21/interior-collection-application-640.avif 640w, /assets/images/visual-refresh/2026-10-21/interior-collection-application-960.avif 960w, /assets/images/visual-refresh/2026-10-21/interior-collection-application-1440.avif 1440w" sizes="100vw" type="image/avif">
+<source srcset="/assets/images/visual-refresh/2026-10-21/interior-collection-application-640.webp 640w, /assets/images/visual-refresh/2026-10-21/interior-collection-application-960.webp 960w, /assets/images/visual-refresh/2026-10-21/interior-collection-application-1440.webp 1440w" sizes="100vw" type="image/webp">
+<img data-visual-refresh="interior-collection-application" src="/assets/images/visual-refresh/2026-10-21/interior-collection-application-1440.webp" srcset="/assets/images/visual-refresh/2026-10-21/interior-collection-application-640.webp 640w, /assets/images/visual-refresh/2026-10-21/interior-collection-application-960.webp 960w, /assets/images/visual-refresh/2026-10-21/interior-collection-application-1440.webp 1440w" sizes="100vw" alt="Light wood interior door beside a quiet living room, illustrative application concept." width="1440" height="810" loading="eager" fetchpriority="high" decoding="async" class="category-hero-image">
+</picture>
       <div class="category-hero-content">
         <p class="eyebrow" style="color: #e1b77c;">Project interior doors</p>
         <h1 style="color: #fff; margin: 0; font-family: var(--display); font-size: clamp(32px, 5vw, 64px); font-weight: 500;">Interior Doors for Project Schedules</h1><p class="wood-door-order-minimum">For wooden, WPC and PVC doors, the minimum order is 50 sets in total, with at least 10 sets per model.</p>
@@ -156,6 +166,8 @@
         <p class="vf-interior-hero__disclosure">Illustrative design visual; product configuration is confirmed from the selected model and schedule.</p>
       </div>
     </section>
+
+    <p class="visual-concept-caption" style="margin: -24px 0 32px; font-size: 12px; color: #645b50;">Illustrative application concept; not a completed project photograph.</p>
 
     <!-- Buyer Answer (Neutralized) -->
     <section class="buyer-answer">
