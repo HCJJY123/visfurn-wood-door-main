@@ -1,0 +1,71 @@
+{
+  "releaseSha": "842f6fcbb0da1ed0fc0d4511fecf635f286c8bdd",
+  "verifiedAtBeijing": "2026-10-25T05:09:55.699057+08:00",
+  "keyHttp": 200,
+  "keyMatches": true,
+  "results": [
+    {
+      "url": "https://www.visfurn.com/blog/pre-shipment-video-inspection-door-orders",
+      "http": 200,
+      "sha256": "963c3726f45a07ea9d97ddc7a7d3ae5aef497d5cf9f780167dc61e636fd22521",
+      "matches": true,
+      "canonical": [
+        "https://www.visfurn.com/blog/pre-shipment-video-inspection-door-orders"
+      ]
+    },
+    {
+      "url": "https://www.visfurn.com/products/interior-doors",
+      "http": 200,
+      "sha256": "28a7535e77c51db1d3534049ac4738034e2961b4abcfe16a13a03cc93d986f07",
+      "matches": true,
+      "canonical": [
+        "https://www.visfurn.com/products/interior-doors"
+      ]
+    },
+    {
+      "url": "https://www.visfurn.com/sitemap.xml",
+      "http": 200,
+      "sha256": "90841fee62c4fbb652b2ed094ff998eef5dc82044b293d054617eee04df978ef",
+      "matches": true
+    },
+    {
+      "url": "https://www.visfurn.com/robots.txt",
+      "http": 200,
+      "sha256": "8262432ac8d835da88eb519832c694bd5fc5d19f9236c38d4c628245ba54df89",
+      "matches": true
+    },
+    {
+      "url": "https://www.visfurn.com/contact",
+      "http": 200,
+      "sha256": "1d94934c99be7c04d2313c6733e08d882a9adb349444f12935dbdfdcb7d42828",
+      "matches": true,
+      "canonical": [
+        "https://www.visfurn.com/contact"
+      ]
+    },
+    {
+      "url": "https://www.visfurn.com/assets/main.js",
+      "http": 200,
+      "sha256": "2cad1280cb2e3d2333b0f201926397d617b94cbf2444ac8e721d4d1c4ce76800",
+      "matches": true
+    },
+    {
+      "url": "https://www.visfurn.com/assets/images/blog/b38-pre-shipment-video-inspection-door-orders/pre-shipment-video-inspection-door-orders-hero-1600.webp",
+      "http": 200,
+      "sha256": "1901b83cb481ddca14a9927289b5c5b31897bd82bfb5f2330adecb39e15e6066",
+      "matches": true
+    },
+    {
+      "url": "https://www.visfurn.com/assets/images/blog/b38-pre-shipment-video-inspection-door-orders/pre-shipment-video-inspection-door-orders-hardware-function-check-1200.webp",
+      "http": 200,
+      "sha256": "00516023eaeba8814882d265c23787c3772051a423bd5a7234c12e96ad31c1e4",
+      "matches": true
+    },
+    {
+      "url": "https://www.visfurn.com/assets/images/blog/b38-pre-shipment-video-inspection-door-orders/pre-shipment-video-inspection-door-orders-packed-pallets-before-seal-1200.webp",
+      "http": 200,
+      "sha256": "c5470427d910cb346a32133396daad7dd8fe288b30d6b7e6b680417e8c80975d",
+      "matches": true
+    }
+  ]
+}
