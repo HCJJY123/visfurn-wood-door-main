@@ -3,6 +3,13 @@
   if (!form) return;
 
   const products = {
+    'flush-woodgrain-wpc-bedroom-door': {
+      name: 'Warm Brown Woodgrain WPC Bedroom Door for Apartment Projects',
+      path: '/products/wpc-doors/flush-woodgrain-wpc-bedroom-door',
+      context: 'Product selected',
+      doorType: 'WPC Doors',
+      requirements: 'Warm brown plain flush WPC bedroom door; FOB price: Request a project quotation; port: tianjingang.\nQuantity / door marks: \nLeaf or opening sizes / finished wall thickness / handing: \nFinish sample / matching frame and trim scope: \nHardware inclusion and specification to confirm: \nDestination / requested timing: '
+    },
     'light-woodgrain-wpc-interior-door': {
       name: "Light Woodgrain WPC Door | Interior Doors for Modern Homes and Hotel Projects",
       path: '/products/wpc-doors/light-woodgrain-wpc-interior-door',
