@@ -1,0 +1,71 @@
+{
+  "releaseSha": "6d4d382d898a94dbf8302f36b9aa5bdcd43d5b01",
+  "verifiedAtBeijing": "2026-10-26T05:08:22.038121+08:00",
+  "keyHttp": 200,
+  "keyMatches": true,
+  "results": [
+    {
+      "url": "https://www.visfurn.com/blog/custom-wooden-door-lead-time-from-china",
+      "http": 200,
+      "sha256": "dcfe10cec9e1419d5fd41698fd9e0395dc10a8a0d313a0f72c0dc781a5da6804",
+      "matches": true,
+      "canonical": [
+        "https://www.visfurn.com/blog/custom-wooden-door-lead-time-from-china"
+      ]
+    },
+    {
+      "url": "https://www.visfurn.com/products/wooden-doors",
+      "http": 200,
+      "sha256": "c46fab87f56152d0f98dfa3765decd815326517442ce5910470f45f732639587",
+      "matches": true,
+      "canonical": [
+        "https://www.visfurn.com/products/wooden-doors"
+      ]
+    },
+    {
+      "url": "https://www.visfurn.com/sitemap.xml",
+      "http": 200,
+      "sha256": "73cd2882647588e6c66ed4dea1f62a212401bc4596afe2b0644b2ca447eac86b",
+      "matches": true
+    },
+    {
+      "url": "https://www.visfurn.com/robots.txt",
+      "http": 200,
+      "sha256": "8262432ac8d835da88eb519832c694bd5fc5d19f9236c38d4c628245ba54df89",
+      "matches": true
+    },
+    {
+      "url": "https://www.visfurn.com/contact",
+      "http": 200,
+      "sha256": "1d94934c99be7c04d2313c6733e08d882a9adb349444f12935dbdfdcb7d42828",
+      "matches": true,
+      "canonical": [
+        "https://www.visfurn.com/contact"
+      ]
+    },
+    {
+      "url": "https://www.visfurn.com/assets/main.js",
+      "http": 200,
+      "sha256": "2cad1280cb2e3d2333b0f201926397d617b94cbf2444ac8e721d4d1c4ce76800",
+      "matches": true
+    },
+    {
+      "url": "https://www.visfurn.com/assets/images/blog/b15-custom-wooden-door-lead-time-from-china/custom-door-production-planning-hero-1600.webp",
+      "http": 200,
+      "sha256": "38af73472741d101cedd661ca3a1dea1687f5be7c95f3db590f349773ae2e08d",
+      "matches": true
+    },
+    {
+      "url": "https://www.visfurn.com/assets/images/blog/b15-custom-wooden-door-lead-time-from-china/door-sample-qc-inspection-1200.webp",
+      "http": 200,
+      "sha256": "2e2108792efe9248759732417a604d733ced7b7164dccf89c1c34d6bfab906b2",
+      "matches": true
+    },
+    {
+      "url": "https://www.visfurn.com/assets/images/blog/b15-custom-wooden-door-lead-time-from-china/bulk-order-final-dock-packing-1200.webp",
+      "http": 200,
+      "sha256": "e537e798d5c165f5f4077dbe82790878f11cb1a8d9b2b64bbc42f369f9ca8ccd",
+      "matches": true
+    }
+  ]
+}
