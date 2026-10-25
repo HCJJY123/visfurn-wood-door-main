@@ -1,0 +1,134 @@
+{
+  "date": "2026-10-26",
+  "base": "http://127.0.0.1:8766",
+  "scope": "Two pages at1440/390/375 plus contextual Contact/FAQ; non-GET and third-party blocked; no submission",
+  "errors": [],
+  "results": [
+    {
+      "route": "/blog/custom-wooden-door-lead-time-from-china",
+      "http": 200,
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1": 1,
+      "images": [
+        {
+          "naturalWidth": 1600,
+          "naturalHeight": 900,
+          "width": 976,
+          "height": 549
+        },
+        {
+          "naturalWidth": 1200,
+          "naturalHeight": 675,
+          "width": 976,
+          "height": 549
+        },
+        {
+          "naturalWidth": 1200,
+          "naturalHeight": 675,
+          "width": 976,
+          "height": 549
+        }
+      ]
+    },
+    {
+      "route": "/products/wooden-doors",
+      "http": 200,
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1": 1,
+      "images": []
+    },
+    {
+      "route": "Wooden -> guide -> Contact and FAQ",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "doorType": "Interior Wooden Doors",
+      "source": "/blog/custom-wooden-door-lead-time-from-china"
+    },
+    {
+      "route": "/blog/custom-wooden-door-lead-time-from-china",
+      "http": 200,
+      "width": 390,
+      "scrollWidth": 390,
+      "h1": 1,
+      "images": [
+        {
+          "naturalWidth": 1600,
+          "naturalHeight": 900,
+          "width": 350,
+          "height": 197
+        },
+        {
+          "naturalWidth": 1200,
+          "naturalHeight": 675,
+          "width": 350,
+          "height": 197
+        },
+        {
+          "naturalWidth": 1200,
+          "naturalHeight": 675,
+          "width": 350,
+          "height": 197
+        }
+      ]
+    },
+    {
+      "route": "/products/wooden-doors",
+      "http": 200,
+      "width": 390,
+      "scrollWidth": 390,
+      "h1": 1,
+      "images": []
+    },
+    {
+      "route": "Wooden -> guide -> Contact and FAQ",
+      "width": 390,
+      "scrollWidth": 390,
+      "doorType": "Interior Wooden Doors",
+      "source": "/blog/custom-wooden-door-lead-time-from-china"
+    },
+    {
+      "route": "/blog/custom-wooden-door-lead-time-from-china",
+      "http": 200,
+      "width": 375,
+      "scrollWidth": 375,
+      "h1": 1,
+      "images": [
+        {
+          "naturalWidth": 1600,
+          "naturalHeight": 900,
+          "width": 335,
+          "height": 188
+        },
+        {
+          "naturalWidth": 1200,
+          "naturalHeight": 675,
+          "width": 335,
+          "height": 188
+        },
+        {
+          "naturalWidth": 1200,
+          "naturalHeight": 675,
+          "width": 335,
+          "height": 188
+        }
+      ]
+    },
+    {
+      "route": "/products/wooden-doors",
+      "http": 200,
+      "width": 375,
+      "scrollWidth": 375,
+      "h1": 1,
+      "images": []
+    },
+    {
+      "route": "Wooden -> guide -> Contact and FAQ",
+      "width": 375,
+      "scrollWidth": 375,
+      "doorType": "Interior Wooden Doors",
+      "source": "/blog/custom-wooden-door-lead-time-from-china"
+    }
+  ]
+}
