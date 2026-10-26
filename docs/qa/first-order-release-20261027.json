@@ -1,0 +1,81 @@
+{
+  "releaseSha": "71975758b6be3c4d0df54f96b9bfb95f1f939a3f",
+  "deploymentId": "dpl_EgSYQd9D4zdK9nAYGG8cduudgcHw",
+  "verifiedAtBeijing": "2026-10-27T05:14:42.868570+08:00",
+  "keyHttp": 200,
+  "keyMatches": true,
+  "results": [
+    {
+      "url": "https://www.visfurn.com/",
+      "http": 200,
+      "sha256": "6076955e019b4d6e23ebfcab07ad4c0eb02fc55df2824f4385162dcdc3007212",
+      "matches": true,
+      "canonical": [
+        "https://www.visfurn.com/"
+      ]
+    },
+    {
+      "url": "https://www.visfurn.com/blog/first-door-container-from-china-process",
+      "http": 200,
+      "sha256": "6ac3d131a956d7b1198a2e28b7c31173acb1da0cc66d0297524d9550200edb51",
+      "matches": true,
+      "canonical": [
+        "https://www.visfurn.com/blog/first-door-container-from-china-process"
+      ]
+    },
+    {
+      "url": "https://www.visfurn.com/products/wpc-doors",
+      "http": 200,
+      "sha256": "cfcc1867829e39067cd689c5b70351ea2ba6ee97f016403aca567087b5741e79",
+      "matches": true,
+      "canonical": [
+        "https://www.visfurn.com/products/wpc-doors"
+      ]
+    },
+    {
+      "url": "https://www.visfurn.com/contact",
+      "http": 200,
+      "sha256": "1d94934c99be7c04d2313c6733e08d882a9adb349444f12935dbdfdcb7d42828",
+      "matches": true,
+      "canonical": [
+        "https://www.visfurn.com/contact"
+      ]
+    },
+    {
+      "url": "https://www.visfurn.com/robots.txt",
+      "http": 200,
+      "sha256": "8262432ac8d835da88eb519832c694bd5fc5d19f9236c38d4c628245ba54df89",
+      "matches": true
+    },
+    {
+      "url": "https://www.visfurn.com/sitemap.xml",
+      "http": 200,
+      "sha256": "1ff976e95953278ade895dd432d00208982e05b42d9643d6b32f3a7a8505fd42",
+      "matches": true
+    },
+    {
+      "url": "https://www.visfurn.com/assets/main.js",
+      "http": 200,
+      "sha256": "2cad1280cb2e3d2333b0f201926397d617b94cbf2444ac8e721d4d1c4ce76800",
+      "matches": true
+    },
+    {
+      "url": "https://www.visfurn.com/assets/images/blog/b9-first-door-container-from-china-process/first-door-container-from-china-hero-1600.webp",
+      "http": 200,
+      "sha256": "2e51249d2128d8bb76ba6f21c485585c599b6e96d26266e0b07ef68df522bddb",
+      "matches": true
+    },
+    {
+      "url": "https://www.visfurn.com/assets/images/blog/b9-first-door-container-from-china-process/door-sample-approval-meeting-1200.webp",
+      "http": 200,
+      "sha256": "6a23cd580aa70f710ec5a52ec40a8a6e3b6b2046a892a95f741985767cd8b811",
+      "matches": true
+    },
+    {
+      "url": "https://www.visfurn.com/assets/images/blog/b9-first-door-container-from-china-process/door-container-loading-supervision-1200.webp",
+      "http": 200,
+      "sha256": "3ea741938b9a2d51fa73d913c2558344fceb9d5c02621894272ce89babf025fc",
+      "matches": true
+    }
+  ]
+}
