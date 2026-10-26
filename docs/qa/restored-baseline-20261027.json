@@ -1,0 +1,60 @@
+{
+  "checked_at_utc": "2026-10-26T21:12:09.693868+00:00",
+  "baseline_sha": "25dfecbe46c4f0935c3fce9fdb7e9ff0b98dffa7",
+  "results": [
+    {
+      "url": "https://www.visfurn.com/",
+      "http": 200,
+      "sha256": "6076955e019b4d6e23ebfcab07ad4c0eb02fc55df2824f4385162dcdc3007212",
+      "matches_main": true
+    },
+    {
+      "url": "https://www.visfurn.com/about",
+      "http": 200,
+      "sha256": "fd8f05700947edec47b2e9c304f4bd8072566b8c06b21823fd36401a8157e9f3",
+      "matches_main": true
+    },
+    {
+      "url": "https://www.visfurn.com/contact",
+      "http": 200,
+      "sha256": "1d94934c99be7c04d2313c6733e08d882a9adb349444f12935dbdfdcb7d42828",
+      "matches_main": true
+    },
+    {
+      "url": "https://www.visfurn.com/faq",
+      "http": 200,
+      "sha256": "62113b6c605bf9bac86119a52aa9f574dae7a79f73b07b0741a6152f55955e4b",
+      "matches_main": true
+    },
+    {
+      "url": "https://www.visfurn.com/products/wpc-doors",
+      "http": 200,
+      "sha256": "4ae7457982fa707a5de1c15909b54d2b6c4cf94d526a78a7d249f2dd58116d8e",
+      "matches_main": true
+    },
+    {
+      "url": "https://www.visfurn.com/products/wooden-doors",
+      "http": 200,
+      "sha256": "c46fab87f56152d0f98dfa3765decd815326517442ce5910470f45f732639587",
+      "matches_main": true
+    },
+    {
+      "url": "https://www.visfurn.com/blog/first-door-container-from-china-process",
+      "http": 200,
+      "sha256": "1a9705f0b2ed36ae2bc211959d81cbfc954cfcf9ccfc9cf5777995b910a4fd63",
+      "matches_main": true
+    },
+    {
+      "url": "https://www.visfurn.com/robots.txt",
+      "http": 200,
+      "sha256": "8262432ac8d835da88eb519832c694bd5fc5d19f9236c38d4c628245ba54df89",
+      "matches_main": true
+    },
+    {
+      "url": "https://www.visfurn.com/sitemap.xml",
+      "http": 200,
+      "sha256": "73cd2882647588e6c66ed4dea1f62a212401bc4596afe2b0644b2ca447eac86b",
+      "matches_main": true
+    }
+  ]
+}
