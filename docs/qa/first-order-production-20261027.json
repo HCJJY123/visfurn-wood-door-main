@@ -1,0 +1,134 @@
+{
+  "date": "2026-10-27",
+  "base": "https://www.visfurn.com",
+  "scope": "Two pages at1440/390/375 plus contextual Contact/FAQ; non-GET and third-party blocked; no submission",
+  "errors": [],
+  "results": [
+    {
+      "route": "/blog/first-door-container-from-china-process",
+      "http": 200,
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1": 1,
+      "images": [
+        {
+          "naturalWidth": 1536,
+          "naturalHeight": 1024,
+          "width": 976,
+          "height": 651
+        },
+        {
+          "naturalWidth": 1536,
+          "naturalHeight": 1024,
+          "width": 976,
+          "height": 651
+        },
+        {
+          "naturalWidth": 1536,
+          "naturalHeight": 1024,
+          "width": 976,
+          "height": 651
+        }
+      ]
+    },
+    {
+      "route": "/products/wpc-doors",
+      "http": 200,
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1": 1,
+      "images": []
+    },
+    {
+      "route": "WPC -> guide -> Contact and FAQ",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "doorType": "WPC Doors",
+      "source": "/blog/first-door-container-from-china-process"
+    },
+    {
+      "route": "/blog/first-door-container-from-china-process",
+      "http": 200,
+      "width": 390,
+      "scrollWidth": 390,
+      "h1": 1,
+      "images": [
+        {
+          "naturalWidth": 1536,
+          "naturalHeight": 1024,
+          "width": 350,
+          "height": 233
+        },
+        {
+          "naturalWidth": 1536,
+          "naturalHeight": 1024,
+          "width": 350,
+          "height": 233
+        },
+        {
+          "naturalWidth": 1536,
+          "naturalHeight": 1024,
+          "width": 350,
+          "height": 233
+        }
+      ]
+    },
+    {
+      "route": "/products/wpc-doors",
+      "http": 200,
+      "width": 390,
+      "scrollWidth": 390,
+      "h1": 1,
+      "images": []
+    },
+    {
+      "route": "WPC -> guide -> Contact and FAQ",
+      "width": 390,
+      "scrollWidth": 390,
+      "doorType": "WPC Doors",
+      "source": "/blog/first-door-container-from-china-process"
+    },
+    {
+      "route": "/blog/first-door-container-from-china-process",
+      "http": 200,
+      "width": 375,
+      "scrollWidth": 375,
+      "h1": 1,
+      "images": [
+        {
+          "naturalWidth": 1536,
+          "naturalHeight": 1024,
+          "width": 335,
+          "height": 223
+        },
+        {
+          "naturalWidth": 1536,
+          "naturalHeight": 1024,
+          "width": 335,
+          "height": 223
+        },
+        {
+          "naturalWidth": 1536,
+          "naturalHeight": 1024,
+          "width": 335,
+          "height": 223
+        }
+      ]
+    },
+    {
+      "route": "/products/wpc-doors",
+      "http": 200,
+      "width": 375,
+      "scrollWidth": 375,
+      "h1": 1,
+      "images": []
+    },
+    {
+      "route": "WPC -> guide -> Contact and FAQ",
+      "width": 375,
+      "scrollWidth": 375,
+      "doorType": "WPC Doors",
+      "source": "/blog/first-door-container-from-china-process"
+    }
+  ]
+}
