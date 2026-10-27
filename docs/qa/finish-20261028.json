@@ -1,0 +1,134 @@
+{
+  "date": "2026-10-28",
+  "base": "http://127.0.0.1:8768",
+  "results": [
+    {
+      "route": "/blog/custom-ral-pantone-door-color-finish-specification",
+      "http": 200,
+      "width": 1440,
+      "scroll": 1440,
+      "h1": 1,
+      "images": [
+        {
+          "nw": 1600,
+          "nh": 1008,
+          "w": 976,
+          "h": 615
+        },
+        {
+          "nw": 1200,
+          "nh": 800,
+          "w": 976,
+          "h": 651
+        },
+        {
+          "nw": 1200,
+          "nh": 800,
+          "w": 976,
+          "h": 651
+        }
+      ]
+    },
+    {
+      "route": "/products/interior-doors",
+      "http": 200,
+      "width": 1440,
+      "scroll": 1440,
+      "h1": 1,
+      "images": []
+    },
+    {
+      "flow": "Interior→finish→Contact/FAQ",
+      "type": "Interior Wooden Doors",
+      "source": "/blog/custom-ral-pantone-door-color-finish-specification",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "route": "/blog/custom-ral-pantone-door-color-finish-specification",
+      "http": 200,
+      "width": 390,
+      "scroll": 390,
+      "h1": 1,
+      "images": [
+        {
+          "nw": 1600,
+          "nh": 1008,
+          "w": 350,
+          "h": 221
+        },
+        {
+          "nw": 1200,
+          "nh": 800,
+          "w": 350,
+          "h": 233
+        },
+        {
+          "nw": 1200,
+          "nh": 800,
+          "w": 350,
+          "h": 233
+        }
+      ]
+    },
+    {
+      "route": "/products/interior-doors",
+      "http": 200,
+      "width": 390,
+      "scroll": 390,
+      "h1": 1,
+      "images": []
+    },
+    {
+      "flow": "Interior→finish→Contact/FAQ",
+      "type": "Interior Wooden Doors",
+      "source": "/blog/custom-ral-pantone-door-color-finish-specification",
+      "width": 390,
+      "scroll": 390
+    },
+    {
+      "route": "/blog/custom-ral-pantone-door-color-finish-specification",
+      "http": 200,
+      "width": 375,
+      "scroll": 375,
+      "h1": 1,
+      "images": [
+        {
+          "nw": 1600,
+          "nh": 1008,
+          "w": 335,
+          "h": 211
+        },
+        {
+          "nw": 1200,
+          "nh": 800,
+          "w": 335,
+          "h": 223
+        },
+        {
+          "nw": 1200,
+          "nh": 800,
+          "w": 335,
+          "h": 223
+        }
+      ]
+    },
+    {
+      "route": "/products/interior-doors",
+      "http": 200,
+      "width": 375,
+      "scroll": 375,
+      "h1": 1,
+      "images": []
+    },
+    {
+      "flow": "Interior→finish→Contact/FAQ",
+      "type": "Interior Wooden Doors",
+      "source": "/blog/custom-ral-pantone-door-color-finish-specification",
+      "width": 375,
+      "scroll": 375
+    }
+  ],
+  "errors": [],
+  "scope": "Two affected pages at1440/390/375 plus three category→guide→Contact/FAQ flows; non-GET/third-party blocked; no form POST"
+}
