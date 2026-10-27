@@ -1,0 +1,66 @@
+{
+  "releaseSha": "f6d1b6ca968b4f2b79559489466289b68244f68a",
+  "deployment": "dpl_4ExzTQ5XTNwW4WMX5Xrhky2PR9AK",
+  "timeBeijing": "2026-10-28T05:10:25.432593+08:00",
+  "keyHttp": 200,
+  "keyMatches": true,
+  "results": [
+    {
+      "url": "https://www.visfurn.com/blog/custom-ral-pantone-door-color-finish-specification",
+      "http": 200,
+      "sha256": "afd66a8edeb4cc5dffb354725e9c0eff58fdbf1230f023355ccdbd368694a314",
+      "matches": true,
+      "canonical": "https://www.visfurn.com/blog/custom-ral-pantone-door-color-finish-specification"
+    },
+    {
+      "url": "https://www.visfurn.com/products/interior-doors",
+      "http": 200,
+      "sha256": "0ca727233c5774344e2db01cdd81890e7a86bac5f79b49ea4ee5281f16410e52",
+      "matches": true,
+      "canonical": "https://www.visfurn.com/products/interior-doors"
+    },
+    {
+      "url": "https://www.visfurn.com/contact",
+      "http": 200,
+      "sha256": "1d94934c99be7c04d2313c6733e08d882a9adb349444f12935dbdfdcb7d42828",
+      "matches": true,
+      "canonical": "https://www.visfurn.com/contact"
+    },
+    {
+      "url": "https://www.visfurn.com/robots.txt",
+      "http": 200,
+      "sha256": "8262432ac8d835da88eb519832c694bd5fc5d19f9236c38d4c628245ba54df89",
+      "matches": true
+    },
+    {
+      "url": "https://www.visfurn.com/sitemap.xml",
+      "http": 200,
+      "sha256": "22065a55d77312c36473d5f6748df95484c4525a15502d3c3b608b108a4a2b20",
+      "matches": true
+    },
+    {
+      "url": "https://www.visfurn.com/assets/main.js",
+      "http": 200,
+      "sha256": "2cad1280cb2e3d2333b0f201926397d617b94cbf2444ac8e721d4d1c4ce76800",
+      "matches": true
+    },
+    {
+      "url": "https://www.visfurn.com/assets/images/blog/b30-custom-ral-pantone-door-color-finish-specification/custom-ral-pantone-door-color-finish-specification-hero-1600.webp",
+      "http": 200,
+      "sha256": "6e46f4b187c0a753d20887d4defdf40d9695ea721c667fb4fe2f95247f7c345c",
+      "matches": true
+    },
+    {
+      "url": "https://www.visfurn.com/assets/images/blog/b30-custom-ral-pantone-door-color-finish-specification/custom-ral-pantone-door-color-finish-specification-color-sample-panels-1200.webp",
+      "http": 200,
+      "sha256": "46acb8fa0bb8c4bd2cb1f96070b26a8aa7817685e6857c4e90b77dec6c229cb9",
+      "matches": true
+    },
+    {
+      "url": "https://www.visfurn.com/assets/images/blog/b30-custom-ral-pantone-door-color-finish-specification/custom-ral-pantone-door-color-finish-specification-finished-charcoal-door-room-1200.webp",
+      "http": 200,
+      "sha256": "0cee60082243878560019f21492630921ef67dd6f82353cecdccecda2739d952",
+      "matches": true
+    }
+  ]
+}
