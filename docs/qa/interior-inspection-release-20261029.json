@@ -1,0 +1,41 @@
+{
+  "dateBeijing": "2026-10-29",
+  "contentPR": "https://github.com/HCJJY123/visfurn-wood-door-main/pull/163",
+  "contentMergeSha": "89f12c44fc0078be7d43bb0e622f1de902135c45",
+  "productionDeployment": "dpl_HHWYnrD4PdPRfESHSJAzqZPaocrg",
+  "productionState": "READY",
+  "publicChecks": [
+    {
+      "url": "https://www.visfurn.com/blog/interior-doors-sticking-rubbing-project-inspection",
+      "http": 200,
+      "exactBytes": true,
+      "sha256": "f5ffd4d782d3585b59f29d248e1b8de34ef5ac283aacd60ce27376820a6c4541"
+    },
+    {
+      "url": "https://www.visfurn.com/products/interior-doors",
+      "http": 200,
+      "exactBytes": true,
+      "sha256": "92e86bff4cf8ee730f8f47df16aeaea03b168717ebf349acb1e0f16b49d69e71"
+    }
+  ],
+  "sitemapHttp": 200,
+  "robotsHttp": 200,
+  "contactHttp": 200,
+  "contactRoute": {
+    "product": "Interior Wooden Doors",
+    "sourcePage": "/blog/interior-doors-sticking-rubbing-project-inspection",
+    "realFormPost": false
+  },
+  "indexNow": {
+    "urls": [
+      "https://www.visfurn.com/blog/interior-doors-sticking-rubbing-project-inspection",
+      "https://www.visfurn.com/products/interior-doors"
+    ],
+    "keyFileVerified": true,
+    "http": 200,
+    "meaning": "accepted notification only; not indexing"
+  },
+  "gsc": "siteUnverifiedUser via planner; Wizard payment_required; no Google sitemap or URL Inspection submission",
+  "visualQA": "Desktop public browser content and CTA checked; 375/390px visual browser test unavailable because preview SSO and local Chromium installation unavailable; retained as a limitation",
+  "images": "Four existing illustration assets reused; no binary change"
+}
