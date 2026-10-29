@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-30",
+  "timezone": "Asia/Shanghai",
+  "site": "https://www.visfurn.com",
+  "content_commit": "7cb760f88a66ea15e38549fc3c8795d77b652d46",
+  "content_pr": "https://github.com/HCJJY123/visfurn-wood-door-main/pull/166",
+  "production_deployment_id": "dpl_5wKzdq4nFA7agPqgiTeWeUPoD5X2",
+  "production_state": "READY",
+  "changed_urls": [
+    {
+      "url": "https://www.visfurn.com/blog/commercial-interior-door-closer-coordination",
+      "http_status": 200,
+      "sha256": "4ca1dc9b2cca6f66ef97ad95d00e481ddd724e8f6279209eba033deeaf87f2f5"
+    },
+    {
+      "url": "https://www.visfurn.com/products/interior-doors",
+      "http_status": 200,
+      "sha256": "a603021a23f33038d40a85d428fd71d38c3e026940414c5bf967db222b5d250e"
+    }
+  ],
+  "sitemap": {
+    "url": "https://www.visfurn.com/sitemap.xml",
+    "http_status": 200,
+    "sha256": "8c0bb5f6afa8628899587dfc225b3a090abf291695bf56f722f215e965484157"
+  },
+  "indexnow": {
+    "endpoint": "https://api.indexnow.org/IndexNow",
+    "key_file_http_status": 200,
+    "submitted_urls": [
+      "https://www.visfurn.com/blog/commercial-interior-door-closer-coordination",
+      "https://www.visfurn.com/products/interior-doors"
+    ],
+    "http_status": 200,
+    "accepted_not_indexed": true
+  },
+  "google_search_console": {
+    "property": "https://www.visfurn.com/",
+    "status": "siteUnverifiedUser",
+    "readable": false,
+    "sitemap_resubmitted": false,
+    "url_inspection_performed": false
+  },
+  "validation": {
+    "static_build": true,
+    "js_syntax": true,
+    "canonical": true,
+    "meta_robots": true,
+    "one_h1": true,
+    "internal_links": true,
+    "cta_context": true,
+    "image_http_200_count": 4,
+    "form_post_sent": false,
+    "mobile_visual_375_390": "blocked: local Chromium unavailable and preview SSO"
+  },
+  "follow_up": [
+    "Confirm corporate legal name against official documents",
+    "Obtain current closer, door and frame technical drawings for product-specific claims",
+    "Verify 375/390px visuals and Formspree receipt chain without a real customer submission",
+    "Review GSC and valid B2B inquiries when access is restored"
+  ]
+}
