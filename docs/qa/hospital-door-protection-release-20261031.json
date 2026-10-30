@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-31",
+  "checked_at_beijing": "2026-10-31 05:04",
+  "site": "https://www.visfurn.com",
+  "content_pr": "https://github.com/HCJJY123/visfurn-wood-door-main/pull/168",
+  "content_commit": "704e6c7bef2d72aeffcead8a169e4ca0d367fe00",
+  "production_deployment_id": "dpl_GBLTAKg49hsVVoiH8WtAG6LqNPy6",
+  "production_state": "READY",
+  "public_byte_matches": [
+    {
+      "url": "https://www.visfurn.com/blog/hospital-door-protection-plates-edge-guards-rfq",
+      "http": 200,
+      "sha256": "0f34fefeaf90218b344c6e160f28f3d83f911fc5de6789da6d11e6562f1a58f0"
+    },
+    {
+      "url": "https://www.visfurn.com/products/hospital-doors",
+      "http": 200,
+      "sha256": "d46e4b344ec8098e7ba3b3dc02f3c8de6afa9bfbfd5658f8cfcd18d4d36b32f2"
+    },
+    {
+      "url": "https://www.visfurn.com/blog",
+      "http": 200,
+      "sha256": "f36e85300b01ef44e877b2e84af99eed51d3d873ec041b6f37f21394a20bca37"
+    },
+    {
+      "url": "https://www.visfurn.com/blog/commercial-interior-door-closer-coordination",
+      "http": 200,
+      "sha256": "3bc763a7da542b3e4c0c21dc0bb566e607001543796e60602b821c73354c05d8"
+    },
+    {
+      "url": "https://www.visfurn.com/sitemap.xml",
+      "http": 200,
+      "sha256": "0e10f1021aae6054f222e2082c63198a9f7620becafc70b888b63328cdf0d4eb"
+    }
+  ],
+  "other_http_200": [
+    "robots.txt",
+    "contact",
+    "assets/images/products/hospital-doors/visfurn-hospital-door-main-front-view-960.webp",
+    "12c921fdcc12f239d35d468dfab3b12c.txt"
+  ],
+  "indexnow": {
+    "urls": [
+      "https://www.visfurn.com/blog/hospital-door-protection-plates-edge-guards-rfq"
+    ],
+    "http": 200,
+    "response_bytes": 0,
+    "key_file_verified": true,
+    "accepted_not_indexed": true
+  },
+  "gsc": {
+    "property": "https://www.visfurn.com/",
+    "permission": "siteUnverifiedUser",
+    "readable": false,
+    "sitemap_submitted": false,
+    "url_inspection": false
+  },
+  "validation": {
+    "static_build": true,
+    "js_syntax": true,
+    "sitemap_xml": true,
+    "jsonld": true,
+    "canonical": true,
+    "index_meta": true,
+    "unique_h1": true,
+    "internal_links": true,
+    "desktop_visual": true,
+    "mobile_390_375": "unverified: no viewport control in available browser",
+    "form_submitted": false
+  },
+  "unresolved": [
+    "Legal entity name conflict",
+    "Model-specific protection and cleaning documentation",
+    "Formspree receipt chain",
+    "28-day GSC, GA4, Clarity and qualified lead data"
+  ]
+}
