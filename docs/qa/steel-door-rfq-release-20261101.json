@@ -1,0 +1,29 @@
+{
+  "date_beijing": "2026-11-01 05:13 CST",
+  "site": "https://www.visfurn.com",
+  "content_pr": 174,
+  "layout_pr": 175,
+  "main_sha": "c6c335a8ff45f340f4ba77919929b82fdd860734",
+  "vercel_deployment": "dpl_DQDQ9r5vXXYPyKKroWA1sBRwtuWd",
+  "vercel_state": "READY",
+  "verified_http_200": [
+    "https://www.visfurn.com/blog/steel-security-vs-fire-rated-entrance-door-rfq",
+    "https://www.visfurn.com/blog",
+    "https://www.visfurn.com/products/fire-security-doors/architectural-steel-security-entrance-door",
+    "https://www.visfurn.com/sitemap.xml",
+    "https://www.visfurn.com/robots.txt",
+    "https://www.visfurn.com/contact"
+  ],
+  "article_sha256": "400217797cb1f0a44e626d46f573802b87c1aa24d22849326da825930d9d929b",
+  "indexnow": {
+    "submitted_urls": [
+      "https://www.visfurn.com/blog/steel-security-vs-fire-rated-entrance-door-rfq"
+    ],
+    "http_status": 200,
+    "key_http_status": 200,
+    "meaning": "accepted, not proof of crawl or indexation"
+  },
+  "gsc": "siteUnverifiedUser; no sitemap submission or URL Inspection",
+  "mobile_visual_qa": "unverified at 375/390 px",
+  "form_submission": "not sent"
+}
