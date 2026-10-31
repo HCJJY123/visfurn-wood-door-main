@@ -1,0 +1,45 @@
+name: Steel Entry Acceptance
+on:
+  pull_request:
+    paths:
+      - 'products/fire-security-doors/**'
+      - 'products/fire-security-doors.html'
+      - 'assets/images/products/fire-security-doors/architectural-steel-entry/**'
+      - 'scripts/check-steel-entry*'
+      - 'scripts/serve-steel-entry-test.py'
+      - '.github/workflows/steel-entry-acceptance.yml'
+concurrency:
+  group: steel-entry-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+permissions:
+  contents: read
+jobs:
+  local-static-acceptance:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Static product and image-label checks
+        run: |
+          python3 scripts/check-steel-entry.py
+          npm run build
+      - name: Install browser test dependency
+        run: |
+          npm install --no-save --package-lock=false playwright@1.47.2
+          npx playwright install --with-deps chromium
+      - name: Desktop and mobile product acceptance (no submissions)
+        run: |
+          mkdir -p out
+          python3 scripts/serve-steel-entry-test.py > out/server.log 2>&1 &
+          SERVER_PID=$!
+          trap 'kill $SERVER_PID' EXIT
+          for i in $(seq 1 20); do curl -fsS http://127.0.0.1:8766/ > /dev/null && break; sleep 1; done
+          node scripts/check-steel-entry-browser.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: steel-entry-acceptance
+          path: out
