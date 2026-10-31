@@ -8,12 +8,15 @@ on:
       - 'scripts/check-steel-entry*'
       - 'scripts/serve-steel-entry-test.py'
       - '.github/workflows/steel-entry-acceptance.yml'
+concurrency:
+  group: steel-entry-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
 permissions:
   contents: read
 jobs:
   local-static-acceptance:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
