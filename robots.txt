@@ -1,37 +1,45 @@
 User-agent: *
 Allow: /
+Disallow: /api/
+Disallow: /admin/
 
-User-agent: GPTBot
-Allow: /
-
-User-agent: ChatGPT-User
-Allow: /
-
-User-agent: OAI-SearchBot
-Allow: /
-
+# Search and user-requested retrieval are distinct from model training.
 User-agent: Googlebot
 Allow: /
+Disallow: /api/
+Disallow: /admin/
 
 User-agent: Bingbot
 Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+User-agent: GPTBot
+Disallow: /
 
 User-agent: Google-Extended
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
+Disallow: /
 
 User-agent: ClaudeBot
-Allow: /
+Disallow: /
 
 User-agent: anthropic-ai
-Allow: /
+Disallow: /
 
 User-agent: CCBot
-Allow: /
+Disallow: /
 
 User-agent: Applebot-Extended
-Allow: /
+Disallow: /
 
 Sitemap: https://www.visfurn.com/sitemap.xml
