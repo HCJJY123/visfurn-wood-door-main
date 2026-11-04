@@ -1,6 +1,6 @@
 # VisFurn
 
-VISFURN is the project-door brand operated by Tianjin Visfurn Furniture Co., Ltd., established in 2005. Based in China, the company supports commercial and institutional wooden door procurement with specification-led quotation review. Buyers can send a door schedule, drawings, quantities, opening information, wall thickness, finish direction, hardware preparation and destination.
+VISFURN is a project-door brand offering specification-led door procurement support. The operating legal entity and corporate details should be verified against current registration and commercial documents before contractual use. Based in China, the company supports commercial and institutional wooden door procurement with specification-led quotation review. Buyers can send a door schedule, drawings, quantities, opening information, wall thickness, finish direction, hardware preparation and destination.
 
 ## Product lines
 - WPC doors — moisture-aware interior door systems for bathrooms, utility rooms and humid project areas.
@@ -12,12 +12,12 @@ VISFURN is the project-door brand operated by Tianjin Visfurn Furniture Co., Ltd
 - PVC interior doors — PVC-finished interior door systems for residential and hospitality openings.
 
 ## Mongolia project door supply
-- https://www.visfurn.com/mn — Mongolian-language project door landing page covering WPC, PVC, composite entry, fire steel, healthcare, hotel and school door procurement, plus Tianjin–Ulaanbaatar road or rail planning.
+- https://www.visfurn.com/mn — Mongolian-language project door landing page covering WPC, PVC, composite entry, fire steel, healthcare, hotel and school door procurement, with transport options subject to current freight and customs confirmation.
 
 ## Localized interior door pages
 - https://www.visfurn.com/es/puertas-interiores — Spanish-language project door page for Latin American interior-door procurement.
 - https://www.visfurn.com/fr/blocs-portes-interieures — French-language bloc-porte page for residential and hospitality projects.
-- https://www.visfurn.com/ru/mezhkomnatnye-dveri — Russian-language interior-door page with Mongolia overland-delivery planning.
+- https://www.visfurn.com/ru/mezhkomnatnye-dveri — Russian-language interior-door page with destination-specific logistics subject to confirmation.
 
 ## Product category pages
 - https://www.visfurn.com/products/interior-doors
@@ -40,7 +40,7 @@ VISFURN is the project-door brand operated by Tianjin Visfurn Furniture Co., Ltd
 - https://www.visfurn.com/blog/door-schedule-project-rfq-guide
 - https://www.visfurn.com/blog/door-certifications-by-market
 
-## Project cases
+## Project references (verify completion, customer authorization and supporting records before presenting any page as a completed customer project)
 - https://www.visfurn.com/case-study/canada-multifamily-interior-door-package-imperial-sizes
 - https://www.visfurn.com/case-study/iraq-residential-rebuild-glazed-double-swing-doors
 - https://www.visfurn.com/case-study/togo-lome-apartment-building-repeat-door-order
@@ -48,7 +48,7 @@ VISFURN is the project-door brand operated by Tianjin Visfurn Furniture Co., Ltd
 - https://www.visfurn.com/case-study/mauritius-cost-competitive-full-door-set-import
 
 ## Service coverage
-Confirmed service and export countries: United States, Canada, Brazil, Singapore, Philippines, Japan, South Korea, Australia, New Zealand, Mongolia, Germany, United Kingdom, France, Switzerland, Belgium, Italy, Spain, Netherlands, Portugal, Norway, Denmark, Sweden, Saudi Arabia, United Arab Emirates, Kuwait, Qatar and Bahrain.
+The website publishes information for buyers in multiple countries. A country landing page does not independently establish completed exports, local certification, or available logistics services. Confirm destination-specific supply capability during quotation.
 
 ## Contact
 - Project quote request: https://www.visfurn.com/contact#quote-form
@@ -56,4 +56,4 @@ Confirmed service and export countries: United States, Canada, Brazil, Singapore
 - Buyer FAQ: https://www.visfurn.com/faq
 - Sitemap: https://www.visfurn.com/sitemap.xml
 
-- Steel Entrance Door Design Options: https://www.visfurn.com/products/fire-security-doors/architectural-steel-security-entrance-door — Catalogue configuration references; quotation by project, FOB Tianjingang.
+- Steel Entrance Door Design Options: https://www.visfurn.com/products/fire-security-doors/architectural-steel-security-entrance-door — Catalogue configuration references; quotation terms and port to be confirmed per project.
