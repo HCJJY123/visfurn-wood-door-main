@@ -14,6 +14,16 @@
   ],
   "redirects": [
     {
+      "source": "/blog/door-certifications-by-market",
+      "destination": "/resources/standards-documentation",
+      "permanent": true
+    },
+    {
+      "source": "/products/hospital-doors/index.html",
+      "destination": "/products/hospital-doors",
+      "permanent": true
+    },
+    {
       "source": "/es",
       "destination": "/es/puertas-para-proyectos",
       "permanent": true

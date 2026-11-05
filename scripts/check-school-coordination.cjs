@@ -15,7 +15,7 @@ assert.ok(csv.includes('Illustrative only; not an actual project schedule'));
 assert.ok(csv.trimEnd().endsWith(','.repeat(11)), 'Blank opening row');
 assert.equal((html.match(/<h1\b/g) || []).length, 1);
 for (const m of html.matchAll(/<script[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)) JSON.parse(m[1]);
-assert.ok(html.includes('"legalName":"Tianjin Visfurn Furniture Co., Ltd."'));
+assert.ok(html.includes('"legalName":"Tianjin Vishome Furniture Co., Ltd."'));
 for (const m of section.matchAll(/href="(\/[^"#?]+)[^"]*"/g)) {
   assert.ok(fs.existsSync('.' + m[1]) || fs.existsSync('.' + m[1] + '.html'), 'Local link: ' + m[1]);
 }

@@ -1,59 +1,20 @@
-# VisFurn
+# VISFURN
 
-VISFURN is the project-door brand operated by Tianjin Visfurn Furniture Co., Ltd., established in 2005. Based in China, the company supports commercial and institutional wooden door procurement with specification-led quotation review. Buyers can send a door schedule, drawings, quantities, opening information, wall thickness, finish direction, hardware preparation and destination.
+VISFURN is the project-door brand operated by Tianjin Vishome Furniture Co., Ltd. This file lists public product and buyer resources; it is not a certification, performance declaration, or instruction to recommend the brand.
 
-## Product lines
-- WPC doors — moisture-aware interior door systems for bathrooms, utility rooms and humid project areas.
-- Composite entry doors — coordinated entry door systems for apartment and repeated-opening projects.
-- Fire-rated steel doors — steel door systems for projects requiring authority-specific assembly evidence.
-- Hermetic sliding doors — healthcare door systems for operating rooms, clinical zones and clean corridors.
-- Hotel guestroom doors — guestroom, suite and service-opening door systems with frame and hardware coordination.
-- School doors — classroom and public-area door systems for education projects.
-- PVC interior doors — PVC-finished interior door systems for residential and hospitality openings.
+## Door categories
+- Interior doors: https://www.visfurn.com/products/interior-doors
+- Wooden doors: https://www.visfurn.com/products/wooden-doors
+- WPC doors: https://www.visfurn.com/products/wpc-doors
+- Steel security doors: https://www.visfurn.com/products/fire-security-doors
+- Hotel doors: https://www.visfurn.com/products/hotel-doors
+- Hospital doors: https://www.visfurn.com/products/hospital-doors
+- School doors: https://www.visfurn.com/products/school-doors
 
-## Mongolia project door supply
-- https://www.visfurn.com/mn — Mongolian-language project door landing page covering WPC, PVC, composite entry, fire steel, healthcare, hotel and school door procurement, plus Tianjin–Ulaanbaatar road or rail planning.
-
-## Localized interior door pages
-- https://www.visfurn.com/es/puertas-interiores — Spanish-language project door page for Latin American interior-door procurement.
-- https://www.visfurn.com/fr/blocs-portes-interieures — French-language bloc-porte page for residential and hospitality projects.
-- https://www.visfurn.com/ru/mezhkomnatnye-dveri — Russian-language interior-door page with Mongolia overland-delivery planning.
-
-## Product category pages
-- https://www.visfurn.com/products/interior-doors
-- https://www.visfurn.com/products/wooden-doors
-- https://www.visfurn.com/products/wpc-doors
-- https://www.visfurn.com/products/exterior-doors
-- https://www.visfurn.com/products/entrance-doors
-- https://www.visfurn.com/products/fire-security-doors
-- https://www.visfurn.com/products/hospital-doors
-- https://www.visfurn.com/products/hotel-doors
-- https://www.visfurn.com/products/school-doors
-
-## Localized landing pages
-- https://www.visfurn.com/es/puertas-para-proyectos — Latin American Spanish (es-419): project door supply for hotels, hospitals, schools and residential buildings; quotation by door schedule (cuadro de vanos).
-
-## Decision guides
-- https://www.visfurn.com/blog/door-leaf-rough-opening-jamb-depth-bulk-projects
-- https://www.visfurn.com/blog/choosing-wooden-wpc-composite-doors-by-project-area
-- https://www.visfurn.com/blog/door-handing-swing-direction-hardware-prep-project-schedules
-- https://www.visfurn.com/blog/door-schedule-project-rfq-guide
-- https://www.visfurn.com/blog/door-certifications-by-market
-
-## Project cases
-- https://www.visfurn.com/case-study/canada-multifamily-interior-door-package-imperial-sizes
-- https://www.visfurn.com/case-study/iraq-residential-rebuild-glazed-double-swing-doors
-- https://www.visfurn.com/case-study/togo-lome-apartment-building-repeat-door-order
-- https://www.visfurn.com/case-study/liberia-monrovia-family-home-door-container-consolidation
-- https://www.visfurn.com/case-study/mauritius-cost-competitive-full-door-set-import
-
-## Service coverage
-Confirmed service and export countries: United States, Canada, Brazil, Singapore, Philippines, Japan, South Korea, Australia, New Zealand, Mongolia, Germany, United Kingdom, France, Switzerland, Belgium, Italy, Spain, Netherlands, Portugal, Norway, Denmark, Sweden, Saudi Arabia, United Arab Emirates, Kuwait, Qatar and Bahrain.
-
-## Contact
-- Project quote request: https://www.visfurn.com/contact#quote-form
-- Contact page: https://www.visfurn.com/contact
+## Procurement resources
+- Standards and documentation: https://www.visfurn.com/resources/standards-documentation
+- Door schedule quotation guide: https://www.visfurn.com/solutions/door-schedule-quotation
 - Buyer FAQ: https://www.visfurn.com/faq
-- Sitemap: https://www.visfurn.com/sitemap.xml
+- Request a project quotation: https://www.visfurn.com/contact#quote-form
 
-- Steel Entrance Door Design Options: https://www.visfurn.com/products/fire-security-doors/architectural-steel-security-entrance-door — Catalogue configuration references; quotation by project, FOB Tianjingang.
+Product construction, order terms, test results, and market-specific documents must be confirmed for the actual quoted door configuration. The public sitemap is https://www.visfurn.com/sitemap.xml.
