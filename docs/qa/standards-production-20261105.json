@@ -1,0 +1,257 @@
+[
+  {
+    "path": "/",
+    "http": "200",
+    "bytes_match": true,
+    "sha256": "7a37cfc772ae82b89f244a8ad220ab6097f6b6d89646e3a71a7fa670e82b5c7a",
+    "canonical": [
+      "https://www.visfurn.com/"
+    ],
+    "h1": 1,
+    "noindex": false
+  },
+  {
+    "path": "/about",
+    "http": "200",
+    "bytes_match": true,
+    "sha256": "d8ec6a83a0357427c33e024cab4a473de1d11fefb25cd56d21b80fe980263fbe",
+    "canonical": [
+      "https://www.visfurn.com/about"
+    ],
+    "h1": 1,
+    "noindex": false
+  },
+  {
+    "path": "/contact",
+    "http": "200",
+    "bytes_match": true,
+    "sha256": "a1418987fc641d74f243eaa9511fabbf1ac36476d89893b37aaed8e91a705c13",
+    "canonical": [
+      "https://www.visfurn.com/contact"
+    ],
+    "h1": 1,
+    "noindex": false
+  },
+  {
+    "path": "/projects",
+    "http": "200",
+    "bytes_match": true,
+    "sha256": "9eb88b12fadf8cb73972196ebfc60b673bd54e4c666df9b86d071399c05b9c92",
+    "canonical": [
+      "https://www.visfurn.com/projects"
+    ],
+    "h1": 1,
+    "noindex": false
+  },
+  {
+    "path": "/faq",
+    "http": "200",
+    "bytes_match": true,
+    "sha256": "9ec44c06cff4853f7062472d036e9901a2751fc09cb7e34e19bbeb7180517778",
+    "canonical": [
+      "https://www.visfurn.com/faq"
+    ],
+    "h1": 1,
+    "noindex": false
+  },
+  {
+    "path": "/robots.txt",
+    "http": "200",
+    "bytes_match": true,
+    "sha256": "0ee813b2e518b2c852bdc4c28eccdded8d5b8be93eca0581052ab70e79dcab85"
+  },
+  {
+    "path": "/sitemap.xml",
+    "http": "200",
+    "bytes_match": true,
+    "sha256": "7af5f913d8fbb6aeb8a3d634d194f22f7a1dff3e7638846246ed5bf56dfd9124"
+  },
+  {
+    "path": "/llms.txt",
+    "http": "200",
+    "bytes_match": true,
+    "sha256": "21316372ad85d2a585c0114e594e48978245ad6fa5bdc87d65f1f011da3e25f7"
+  },
+  {
+    "path": "/resources/standards-documentation",
+    "http": "200",
+    "bytes_match": true,
+    "sha256": "c7676f3e5e78ac94b3e14ddd857a909693cc33406f25dbdd909e4c7506fba5ff",
+    "canonical": [
+      "https://www.visfurn.com/resources/standards-documentation"
+    ],
+    "h1": 1,
+    "noindex": false
+  },
+  {
+    "path": "/products/interior-doors",
+    "http": "200",
+    "bytes_match": true,
+    "sha256": "30f21a30933cf8de55c643a101a4155d43932a90732e84c65ea1d4928467b305",
+    "canonical": [
+      "https://www.visfurn.com/products/interior-doors"
+    ],
+    "h1": 1,
+    "noindex": false
+  },
+  {
+    "path": "/products/wpc-doors",
+    "http": "200",
+    "bytes_match": true,
+    "sha256": "fd8c3be0b4d012263046c89d2f7a0a106b5fc6d61333bee513fa8c9cba6894fd",
+    "canonical": [
+      "https://www.visfurn.com/products/wpc-doors"
+    ],
+    "h1": 1,
+    "noindex": false
+  },
+  {
+    "path": "/products/wooden-doors",
+    "http": "200",
+    "bytes_match": true,
+    "sha256": "21c41457098f8249ddc79646f362e264c67a140e236692e9d3de1e44781e2867",
+    "canonical": [
+      "https://www.visfurn.com/products/wooden-doors"
+    ],
+    "h1": 1,
+    "noindex": false
+  },
+  {
+    "path": "/products/fire-security-doors",
+    "http": "200",
+    "bytes_match": true,
+    "sha256": "0ef6bf06aa62782035ae2b5b70e3a8d330d4a378d8bbd1e0089f37848c7046b9",
+    "canonical": [
+      "https://www.visfurn.com/products/fire-security-doors"
+    ],
+    "h1": 1,
+    "noindex": false
+  },
+  {
+    "path": "/products/hotel-doors",
+    "http": "200",
+    "bytes_match": true,
+    "sha256": "6df7c35e9eb4038ab562a2c26d7d3e1f939807cc8f1780ee4f6df236371c4dcb",
+    "canonical": [
+      "https://www.visfurn.com/products/hotel-doors"
+    ],
+    "h1": 1,
+    "noindex": false
+  },
+  {
+    "path": "/products/hospital-doors",
+    "http": "200",
+    "bytes_match": true,
+    "sha256": "8dfc2409fc24ffcc144aeef70776378ae760eece69a03f6dcdba83bc08e1a48b",
+    "canonical": [
+      "https://www.visfurn.com/products/hospital-doors"
+    ],
+    "h1": 1,
+    "noindex": false
+  },
+  {
+    "path": "/products/school-doors",
+    "http": "200",
+    "bytes_match": true,
+    "sha256": "384b35e90786600096615a5fb41d0b7913b157d38f72c531ce489699438b118b",
+    "canonical": [
+      "https://www.visfurn.com/products/school-doors"
+    ],
+    "h1": 1,
+    "noindex": false
+  },
+  {
+    "path": "/products/exterior-doors",
+    "http": "200",
+    "bytes_match": true,
+    "sha256": "946bbb00ea9e47bd4daa49b4d2367a3f4e6a2ecd25b5cfddcae3ba97f37ddea7",
+    "canonical": [
+      "https://www.visfurn.com/products/exterior-doors"
+    ],
+    "h1": 1,
+    "noindex": false
+  },
+  {
+    "path": "/products/entrance-doors",
+    "http": "200",
+    "bytes_match": true,
+    "sha256": "d23805be16260da570f631b8e7aa47be5d5b653a573f6ec0b3aee661122ae66a",
+    "canonical": [
+      "https://www.visfurn.com/products/entrance-doors"
+    ],
+    "h1": 1,
+    "noindex": false
+  },
+  {
+    "path": "/markets/france",
+    "http": "200",
+    "bytes_match": true,
+    "sha256": "c7be1edab632dae77eaa83be088191a6bf7259dcc4fb324e9104f54425b944ba",
+    "canonical": [
+      "https://www.visfurn.com/markets/france"
+    ],
+    "h1": 1,
+    "noindex": false
+  },
+  {
+    "path": "/markets/ireland",
+    "http": "200",
+    "bytes_match": true,
+    "sha256": "84bc6f8a0a37cabbf35fea6dbd6a6010b593f81f75ec35527e8b8194ea5e1ad9",
+    "canonical": [
+      "https://www.visfurn.com/markets/ireland"
+    ],
+    "h1": 1,
+    "noindex": false
+  },
+  {
+    "path": "/markets/norway",
+    "http": "200",
+    "bytes_match": true,
+    "sha256": "ba1105973a0c37463f862b0ba3282e79522dd7d61357e1acdcb1e415415bd597",
+    "canonical": [
+      "https://www.visfurn.com/markets/norway"
+    ],
+    "h1": 1,
+    "noindex": false
+  },
+  {
+    "path": "/markets/denmark",
+    "http": "200",
+    "bytes_match": true,
+    "sha256": "d1284844b5f60fc8b01a26af76108eb0407e6a1d7f428c84cbaa4e46cd861400",
+    "canonical": [
+      "https://www.visfurn.com/markets/denmark"
+    ],
+    "h1": 1,
+    "noindex": false
+  },
+  {
+    "path": "/markets/new-zealand",
+    "http": "200",
+    "bytes_match": true,
+    "sha256": "c78ec3f1b45d7d4b50e30d8836ecd959f9b474201869647f8fa734f3cadf2b30",
+    "canonical": [
+      "https://www.visfurn.com/markets/new-zealand"
+    ],
+    "h1": 1,
+    "noindex": false
+  },
+  {
+    "path": "/assets/main.js",
+    "http": "200",
+    "bytes_match": true,
+    "sha256": "2cad1280cb2e3d2333b0f201926397d617b94cbf2444ac8e721d4d1c4ce76800"
+  },
+  {
+    "path": "/products/wooden-doors/soundproof-composite-entry-door",
+    "http": "200",
+    "bytes_match": true,
+    "sha256": "17ba56d7b08c665356d832a8140279fefcbd8e6b4919d3e94e256367afe6d7d7",
+    "canonical": [
+      "https://www.visfurn.com/products/wooden-doors/soundproof-composite-entry-door"
+    ],
+    "h1": 1,
+    "noindex": false
+  }
+]
