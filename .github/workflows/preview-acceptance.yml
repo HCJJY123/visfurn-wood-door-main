@@ -3,7 +3,7 @@ on:
   deployment_status:
 jobs:
   accept:
-    if: github.event.deployment_status.state == 'success' && contains(github.event.deployment_status.environment_url, 'vercel.app')
+    if: github.event.deployment_status.state == 'success' && startsWith(github.event.deployment_status.environment_url, 'https://visfurn-wood-door-site-') && endsWith(github.event.deployment_status.environment_url, '-mike123-s-projects.vercel.app')
     runs-on: ubuntu-latest
     env:
       BASE: ${{ github.event.deployment_status.environment_url }}
@@ -57,7 +57,7 @@ jobs:
           }
           check_page /products/hospital-doors '<h1>Hospital Doors Collection</h1>'
           check_page /products/hospital-doors/modern-laboratory-door '<h1 id="lab-title">Double Swing Laboratory Door for Healthcare Projects</h1>'
-          grep -Fq '$105.00 - $175.00' out/_products_hospital-doors_modern-laboratory-door.html
+          grep -Fq '<strong>Quote by specification</strong>' out/_products_hospital-doors_modern-laboratory-door.html
           check_page /products/hospital-doors/automatic-hermetic-sliding-door '<h1 class="vf-h1">Automatic Sliding Door for Clinical Openings</h1>'
           grep -Fq 'href="/products/hospital-doors/automatic-hermetic-sliding-door"' out/_products_hospital-doors.html
           grep -Fq 'href="/products/hospital-doors/modern-laboratory-door"' out/_products_hospital-doors.html
@@ -68,35 +68,37 @@ jobs:
             echo "$asset status=$code" | tee -a out/status.txt
             test "$code" = 200
           done
-      - name: Screenshots (desktop + mobile)
-        run: |
-          npx -y $PW install --with-deps chromium
-          Q=""; [ -n "$BYPASS" ] && Q="?x-vercel-protection-bypass=$BYPASS"
-          for p in $PAGES; do
-            n=$(echo "$p" | tr '/' '_')
-            npx -y $PW screenshot --browser chromium --full-page --wait-for-timeout=2000 --viewport-size=1440,900 "$BASE$p$Q" "out/desktop$n.png"
-            npx -y $PW screenshot --browser chromium --full-page --wait-for-timeout=2000 --device="Pixel 5" "$BASE$p$Q" "out/mobile$n.png"
-          done
-      - name: gclid attribution check (no submit)
+      - name: Screenshots and attribution (authenticated headers)
         run: |
           cd "$RUNNER_TEMP" && npm init -y >/dev/null && npm i --silent $PW
-          npx playwright install chromium
-          cat > gclid.js <<'EOF2'
-          const { chromium } = require('playwright');
+          npx playwright install --with-deps chromium
+          cat > acceptance.js <<'EOF2'
+          const { chromium, devices } = require('playwright');
+          const path = require('path');
           (async () => {
             const b = await chromium.launch();
-            const pg = await b.newPage();
-            const qs = 'gclid=TESTGCLID123' + (process.env.BYPASS ? '&x-vercel-protection-bypass=' + process.env.BYPASS : '');
-            await pg.goto(process.env.BASE + '/contact?' + qs, { waitUntil: 'networkidle' });
-            await pg.waitForTimeout(2000);
-            const r = await pg.$$eval('input', els => els.filter(e => /gclid/i.test(e.name + ' ' + e.id)).map(e => (e.name || e.id) + '=' + e.value));
-            console.log('GCLID_FIELDS ' + (r.length ? r.join(' ') : 'NONE'));
+            const headers = process.env.BYPASS ? { 'x-vercel-protection-bypass': process.env.BYPASS } : {};
+            for (const [name, options] of [['desktop', { viewport: { width: 1440, height: 900 } }], ['mobile', devices['Pixel 5']]]) {
+              const context = await b.newContext({ ...options, extraHTTPHeaders: headers });
+              const page = await context.newPage();
+              for (const p of process.env.PAGES.split(/\s+/)) {
+                await page.goto(process.env.BASE + p, { waitUntil: 'networkidle' });
+                await page.screenshot({ path: path.join(process.env.GITHUB_WORKSPACE, 'out', name + p.replaceAll('/', '_') + '.png'), fullPage: true });
+              }
+              await context.close();
+            }
+            const context = await b.newContext({ extraHTTPHeaders: headers });
+            const page = await context.newPage();
+            await page.goto(process.env.BASE + '/contact?gclid=TESTGCLID123', { waitUntil: 'networkidle' });
+            const values = await page.$$eval('input', els => els.filter(e => /gclid/i.test(e.name + ' ' + e.id)).map(e => e.value));
+            console.log('GCLID_FIELDS ' + (values.length ? values.join(' ') : 'NONE'));
             await b.close();
-          })();
+          })().catch(error => { console.error(error.message); process.exit(1); });
           EOF2
-          node gclid.js | tee -a "$GITHUB_WORKSPACE/out/status.txt"
+          node acceptance.js
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: preview-acceptance
           path: out
+
