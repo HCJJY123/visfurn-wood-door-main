@@ -1,0 +1,345 @@
+{
+  "method": "Same source bytes in locally served static preview, browser iframe viewports; clean-route preview redirect drops query, so existing prefill was checked through contact.html with query intact.",
+  "viewports": [
+    {
+      "cardRects": [
+        {
+          "width": 271.96875,
+          "y": 1545.5
+        },
+        {
+          "width": 271.96875,
+          "y": 1770.671875
+        },
+        {
+          "width": 271.96875,
+          "y": 2018.9375
+        }
+      ],
+      "clientWidth": 360,
+      "ctaCount": 2,
+      "h1": "WPC Doors & Frames for Bulk Interior Projects",
+      "missingLoadedImages": [],
+      "overflow": [],
+      "scrollWidth": 360,
+      "selectorCards": 3,
+      "sidebarHeight": 0,
+      "requestedWidth": 375,
+      "page": "wpc"
+    },
+    {
+      "cardRects": [
+        {
+          "width": 286.96875,
+          "y": 1496.359375
+        },
+        {
+          "width": 286.96875,
+          "y": 1697.78125
+        },
+        {
+          "width": 286.96875,
+          "y": 1922.296875
+        }
+      ],
+      "clientWidth": 375,
+      "ctaCount": 2,
+      "h1": "WPC Doors & Frames for Bulk Interior Projects",
+      "missingLoadedImages": [],
+      "overflow": [],
+      "scrollWidth": 375,
+      "selectorCards": 3,
+      "sidebarHeight": 0,
+      "requestedWidth": 390,
+      "page": "wpc"
+    },
+    {
+      "cardRects": [
+        {
+          "width": 420.53125,
+          "y": 1218.875
+        },
+        {
+          "width": 420.546875,
+          "y": 1218.875
+        },
+        {
+          "width": 420.53125,
+          "y": 1218.875
+        }
+      ],
+      "clientWidth": 1425,
+      "ctaCount": 2,
+      "h1": "WPC Doors & Frames for Bulk Interior Projects",
+      "missingLoadedImages": [],
+      "overflow": [],
+      "scrollWidth": 1425,
+      "selectorCards": 3,
+      "sidebarHeight": 783.453125,
+      "requestedWidth": 1440,
+      "page": "wpc"
+    },
+    {
+      "cardRects": [
+        {
+          "width": 271.96875,
+          "y": 1123.6875
+        },
+        {
+          "width": 271.96875,
+          "y": 1348.203125
+        },
+        {
+          "width": 271.96875,
+          "y": 1572.71875
+        }
+      ],
+      "clientWidth": 360,
+      "ctaCount": 2,
+      "h1": "Wholesale Interior Doors for Projects",
+      "missingLoadedImages": [],
+      "overflow": [],
+      "scrollWidth": 360,
+      "selectorCards": 3,
+      "sidebarHeight": 0,
+      "requestedWidth": 375,
+      "page": "interior"
+    },
+    {
+      "cardRects": [
+        {
+          "width": 286.96875,
+          "y": 1049.921875
+        },
+        {
+          "width": 286.96875,
+          "y": 1251.34375
+        },
+        {
+          "width": 286.96875,
+          "y": 1475.859375
+        }
+      ],
+      "clientWidth": 375,
+      "ctaCount": 2,
+      "h1": "Wholesale Interior Doors for Projects",
+      "missingLoadedImages": [],
+      "overflow": [],
+      "scrollWidth": 375,
+      "selectorCards": 3,
+      "sidebarHeight": 0,
+      "requestedWidth": 390,
+      "page": "interior"
+    },
+    {
+      "cardRects": [
+        {
+          "width": 420.53125,
+          "y": 1215.78125
+        },
+        {
+          "width": 420.546875,
+          "y": 1215.78125
+        },
+        {
+          "width": 420.53125,
+          "y": 1215.78125
+        }
+      ],
+      "clientWidth": 1425,
+      "ctaCount": 2,
+      "h1": "Wholesale Interior Doors for Projects",
+      "missingLoadedImages": [],
+      "overflow": [],
+      "scrollWidth": 1425,
+      "selectorCards": 3,
+      "sidebarHeight": 2943.796875,
+      "requestedWidth": 1440,
+      "page": "interior"
+    },
+    {
+      "cardRects": [
+        {
+          "width": 271.96875,
+          "y": 1242.890625
+        },
+        {
+          "width": 271.96875,
+          "y": 1444.3125
+        },
+        {
+          "width": 271.96875,
+          "y": 1645.734375
+        }
+      ],
+      "clientWidth": 360,
+      "ctaCount": 3,
+      "h1": "Wooden Interior Doors & Frames for Bulk Projects",
+      "missingLoadedImages": [],
+      "overflow": [],
+      "scrollWidth": 360,
+      "selectorCards": 3,
+      "sidebarHeight": 758.40625,
+      "requestedWidth": 375,
+      "page": "wooden"
+    },
+    {
+      "cardRects": [
+        {
+          "width": 286.96875,
+          "y": 1242.890625
+        },
+        {
+          "width": 286.96875,
+          "y": 1444.3125
+        },
+        {
+          "width": 286.96875,
+          "y": 1645.734375
+        }
+      ],
+      "clientWidth": 375,
+      "ctaCount": 3,
+      "h1": "Wooden Interior Doors & Frames for Bulk Projects",
+      "missingLoadedImages": [],
+      "overflow": [],
+      "scrollWidth": 375,
+      "selectorCards": 3,
+      "sidebarHeight": 758.40625,
+      "requestedWidth": 390,
+      "page": "wooden"
+    },
+    {
+      "cardRects": [
+        {
+          "width": 420.53125,
+          "y": 1247
+        },
+        {
+          "width": 420.546875,
+          "y": 1247
+        },
+        {
+          "width": 420.53125,
+          "y": 1247
+        }
+      ],
+      "clientWidth": 1425,
+      "ctaCount": 3,
+      "h1": "Wooden Interior Doors & Frames for Bulk Projects",
+      "missingLoadedImages": [],
+      "overflow": [],
+      "scrollWidth": 1425,
+      "selectorCards": 3,
+      "sidebarHeight": 769,
+      "requestedWidth": 1440,
+      "page": "wooden"
+    },
+    {
+      "cardRects": [
+        {
+          "width": 271.96875,
+          "y": 1134.1875
+        },
+        {
+          "width": 271.96875,
+          "y": 1382.453125
+        },
+        {
+          "width": 271.96875,
+          "y": 1630.71875
+        }
+      ],
+      "clientWidth": 360,
+      "ctaCount": 3,
+      "h1": "Hospital Doors for Healthcare Projects",
+      "missingLoadedImages": [],
+      "overflow": [],
+      "scrollWidth": 360,
+      "selectorCards": 3,
+      "sidebarHeight": 758.40625,
+      "requestedWidth": 375,
+      "page": "hospital"
+    },
+    {
+      "cardRects": [
+        {
+          "width": 286.96875,
+          "y": 1096.953125
+        },
+        {
+          "width": 286.96875,
+          "y": 1298.375
+        },
+        {
+          "width": 286.96875,
+          "y": 1522.890625
+        }
+      ],
+      "clientWidth": 375,
+      "ctaCount": 3,
+      "h1": "Hospital Doors for Healthcare Projects",
+      "missingLoadedImages": [],
+      "overflow": [],
+      "scrollWidth": 375,
+      "selectorCards": 3,
+      "sidebarHeight": 758.40625,
+      "requestedWidth": 390,
+      "page": "hospital"
+    },
+    {
+      "cardRects": [
+        {
+          "width": 420.53125,
+          "y": 1134.140625
+        },
+        {
+          "width": 420.546875,
+          "y": 1134.140625
+        },
+        {
+          "width": 420.53125,
+          "y": 1134.140625
+        }
+      ],
+      "clientWidth": 1425,
+      "ctaCount": 3,
+      "h1": "Hospital Doors for Healthcare Projects",
+      "missingLoadedImages": [],
+      "overflow": [],
+      "scrollWidth": 1425,
+      "selectorCards": 3,
+      "sidebarHeight": 769,
+      "requestedWidth": 1440,
+      "page": "hospital"
+    }
+  ],
+  "formPathChecks": [
+    {
+      "category": "interior",
+      "clientWidth": 375,
+      "context": "Collection selected: Interior Doors Collection. Add the opening schedule, finish reference and hardware requirements below.",
+      "doorType": "Interior Wooden Doors",
+      "projectType": "",
+      "scrollWidth": 375
+    },
+    {
+      "category": "wooden",
+      "clientWidth": 375,
+      "context": "Collection selected: Wooden Doors Collection. Add the opening schedule, finish reference and hardware requirements below.",
+      "doorType": "Interior Wooden Doors",
+      "projectType": "",
+      "scrollWidth": 375
+    },
+    {
+      "category": "hospital",
+      "clientWidth": 375,
+      "context": "Collection selected: Hospital Doors Collection. Add the opening schedule, finish reference and hardware requirements below.",
+      "doorType": "Hospital Doors",
+      "projectType": "Hospital / Healthcare",
+      "scrollWidth": 375
+    }
+  ],
+  "menu": "WPC 390px open and close verified",
+  "realFormSubmitted": false
+}
