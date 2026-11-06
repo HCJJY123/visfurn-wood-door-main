@@ -1,0 +1,41 @@
+{
+  "pages": [
+    {
+      "page": "products/wpc-doors.html",
+      "h1": "WPC Doors & Frames for Bulk Interior Projects",
+      "collectionSchemaCount": 1,
+      "jsonLdCount": 4,
+      "internalLinks": "PASS",
+      "imagesAndScriptsUnchanged": true,
+      "FAQMatchesVisibleText": true
+    },
+    {
+      "page": "products/interior-doors.html",
+      "h1": "Wholesale Interior Doors for Projects",
+      "collectionSchemaCount": 1,
+      "jsonLdCount": 4,
+      "internalLinks": "PASS",
+      "imagesAndScriptsUnchanged": true,
+      "FAQMatchesVisibleText": true
+    },
+    {
+      "page": "products/wooden-doors.html",
+      "h1": "Wooden Interior Doors & Frames for Bulk Projects",
+      "collectionSchemaCount": 1,
+      "jsonLdCount": 4,
+      "internalLinks": "PASS",
+      "imagesAndScriptsUnchanged": true,
+      "FAQMatchesVisibleText": true
+    },
+    {
+      "page": "products/hospital-doors.html",
+      "h1": "Hospital Doors for Healthcare Projects",
+      "collectionSchemaCount": 1,
+      "jsonLdCount": 4,
+      "internalLinks": "PASS",
+      "imagesAndScriptsUnchanged": true,
+      "FAQMatchesVisibleText": true
+    }
+  ],
+  "sitemapUniqueUrls": 148
+}
