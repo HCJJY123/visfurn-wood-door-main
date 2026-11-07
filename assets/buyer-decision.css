@@ -63,3 +63,17 @@
 .vf-scope-launch p { max-width: 82ch; }
 @media (max-width: 760px) { .vf-scope-grid { grid-template-columns: 1fr; } .vf-scope-card { padding: 18px; } .vf-scope { padding: 22px 18px; } }
 @media (prefers-reduced-motion: reduce) { .vf-scope { scroll-behavior: auto; } }
+
+/* Commercial package hub: make selection and quote actions visible before long guidance. */
+.vf-supply-page .editorial-detail { max-width: 1180px; padding-top: clamp(32px, 4vw, 56px); padding-bottom: 72px; }
+.vf-supply-page .editorial-detail-header { max-width: none; text-align: left; }
+.vf-supply-page .editorial-detail-header h1 { max-width: 920px; font-size: clamp(34px, 4.6vw, 56px); line-height: 1.08; letter-spacing: -.025em; }
+.vf-supply-page .editorial-dek { margin: 18px 0 0; max-width: 82ch; font-size: 17px; line-height: 1.7; }
+.vf-supply-page .editorial-meta { justify-content: flex-start; margin-top: 16px; }
+.vf-supply-page .editorial-body { max-width: none; margin-top: 28px; }
+.vf-supply-page .editorial-answer { max-width: none; margin-top: 0; padding: 24px 0; }
+.vf-supply-page .editorial-answer h2 { font-size: 26px; line-height: 1.25; }
+.vf-supply-page .editorial-answer p:last-child { max-width: 86ch; font-family: inherit; font-size: 17px; line-height: 1.75; letter-spacing: normal; }
+.vf-supply-page .editorial-section h2 { font-size: clamp(27px, 3vw, 36px); line-height: 1.2; }
+.vf-supply-page .editorial-section { margin-top: 38px; }
+.vf-supply-page .vf-scope-card p { font-size: 15px; line-height: 1.7; }

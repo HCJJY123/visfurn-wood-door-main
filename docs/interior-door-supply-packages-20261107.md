@@ -16,7 +16,7 @@ The standard wooden/WPC/PVC batch minimum remains 50 sets total and 10 sets per 
 
 ## Validation before publication
 
-- `python scripts/check-supply-packages.py`: passed; three new page entities, 20 contextual RFQ links, valid form fields, unique sitemap entries and blog discovery.
+- `python scripts/check-supply-packages.py`: passed; three new page entities, 21 contextual RFQ links, valid form fields, unique sitemap entries and blog discovery.
 - `node scripts/check-door-supply-context.cjs`: passed; actual collection-prefill script and supply-prefill script run in production order against the real contact option values. Tests cover collection attribution, purpose/scope/finish, preserved choices and unknown-parameter rejection.
 - `node scripts/check-inquiry-submit-mock.cjs`: passed; invalid-form guard, duplicate-click guard, HTTP error, retry, success timing/deduplication and product attribution. Requests are mocked; no real inquiry is sent.
 - Added/changed local link audit: 228 URL/asset/anchor references checked against the pinned remote tree plus this release; no missing targets.
@@ -33,3 +33,5 @@ If the new content or inquiry context causes a regression, revert the isolated r
 ## Next evidence to collect
 
 Review qualified RFQs by purpose, supply scope, finish and country after sufficient observations. Measure whether buyers supply enough configuration for a quotation; page counts or button clicks alone do not establish better order conversion. Additional product variants require model-specific construction, finish, dimension, packing and documentation evidence before publication.
+
+Production review found the inherited article header too large for a commercial hub. The follow-up compacts this page only, places selection/quotation actions in its header, and moves the scope illustration after package comparison.
