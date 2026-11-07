@@ -35,3 +35,31 @@
   .vf-door-selector { padding: 22px 18px; }
   .vf-door-selector__card { padding: 20px; }
 }
+
+/* Supply scope and professional sample paths, November 2026. */
+.vf-scope { margin: 28px 0; padding: clamp(20px, 3vw, 32px); border: 1px solid #ddd2c4; border-radius: 8px; background: #fffdf8; color: #30271f; }
+.vf-scope h2 { margin: 0 0 14px; font-size: clamp(24px, 3vw, 34px); line-height: 1.2; }
+.vf-scope p, .vf-scope li { line-height: 1.7; }
+.vf-scope-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin: 20px 0; }
+.vf-scope-card { padding: 20px; min-width: 0; border: 1px solid #ddd2c4; border-radius: 6px; background: #fff; }
+.vf-scope-card h3 { font-size: 19px; margin: 0 0 12px; line-height: 1.3; }
+.vf-scope-card p { font-size: 15px; margin: 0 0 14px; }
+.vf-scope-card a { display: inline-block; padding: 8px 0; min-height: 44px; font-weight: 700; text-underline-offset: 4px; }
+.vf-scope-note { padding: 18px 20px; border-left: 3px solid #835232; background: #f6f0e7; }
+.vf-scope-table { max-width: 100%; overflow-x: auto; margin: 22px 0; border: 1px solid #ddd2c4; border-radius: 6px; }
+.vf-scope-table table { width: 100%; min-width: 590px; border-collapse: collapse; font-size: 15px; line-height: 1.6; }
+.vf-scope-table th, .vf-scope-table td { padding: 16px; border-bottom: 1px solid #ddd2c4; text-align: left; vertical-align: top; }
+.vf-scope-table th { background: #f1e8dc; color: #30271f; }
+.vf-scope-table tr:last-child td { border-bottom: 0; }
+.vf-scope-table caption { text-align: left; padding: 14px 16px; font-weight: 700; background: #fffdf8; }
+.vf-scope-figure { margin: 26px 0; }
+.vf-scope-figure img { display: block; width: 100%; height: auto; border: 1px solid #ddd2c4; border-radius: 8px; }
+.vf-scope-figure figcaption { margin-top: 10px; color: #655c52; font-size: 14px; line-height: 1.6; }
+.vf-scope-toc { display: flex; flex-wrap: wrap; gap: 6px 22px; margin: 20px 0; }
+.vf-scope-toc a { display: inline-flex; min-height: 44px; align-items: center; text-underline-offset: 4px; }
+.vf-scope a:focus-visible, .vf-scope-toc a:focus-visible, .vf-scope-table:focus-visible { outline: 3px solid #a7652d; outline-offset: 4px; }
+.vf-scope [id], .editorial-section[id] { scroll-margin-top: 120px; }
+.vf-scope-launch { max-width: 1240px; margin: 28px auto; width: calc(100% - 40px); box-sizing: border-box; }
+.vf-scope-launch p { max-width: 82ch; }
+@media (max-width: 760px) { .vf-scope-grid { grid-template-columns: 1fr; } .vf-scope-card { padding: 18px; } .vf-scope { padding: 22px 18px; } }
+@media (prefers-reduced-motion: reduce) { .vf-scope { scroll-behavior: auto; } }
