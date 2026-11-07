@@ -7,12 +7,22 @@ jobs:
     runs-on: ubuntu-latest
     env:
       BASE: ${{ github.event.deployment_status.environment_url }}
-      BYPASS: ${{ secrets.VERCEL_AUTOMATION_BYPASS_SECRET }}
+      BYPASS: ${{ secrets.VISFURN_PREVIEW_BYPASS_SECRET_V2 }}
       PAGES: "/es/puertas-para-proyectos /solutions/door-schedule-quotation /contact / /products/interior-doors/white-moulded-solid-wood /products/hospital-doors /products/hospital-doors/modern-laboratory-door /products/hospital-doors/automatic-hermetic-sliding-door"
       FILES: "/sitemap.xml /llms.txt /assets/main.js /robots.txt /2ad5155b9f4d0513e7f5dd67940e8a13.txt /downloads/door-schedule-template.csv /assets/content/asset-path-rules.json"
       PRIVATE: "/.github/workflows/preview-acceptance.yml /scripts/check-es-latam-landing.py /.vercelignore /download-log.txt /.gitignore /.DS_Store /images/.DS_Store /source/.vercel/output/config.json /source/.vercel/output/static/robots.txt"
       PW: "playwright@1.47.2"
     steps:
+      - name: Validate credential destination
+        run: |
+          python - <<'PY_CHECK'
+          import os, re
+          from urllib.parse import urlsplit
+          u = urlsplit(os.environ['BASE'])
+          assert u.scheme == 'https' and not u.username and not u.password
+          assert u.port in (None, 443) and u.path in ('', '/') and not u.query and not u.fragment
+          assert re.fullmatch(r'visfurn-wood-door-site-[a-z0-9-]+-mike123-s-projects\.vercel\.app', u.hostname or '')
+          PY_CHECK
       - name: HTTP status check
         run: |
           mkdir -p out
@@ -50,7 +60,7 @@ jobs:
           check_page() {
             local path="$1" marker="$2" output="out/$(echo "$1" | tr '/' '_').html"
             local code
-            code=$(curl -sS -L --connect-timeout 15 --max-time 30 "${H[@]}" -o "$output" -w '%{http_code}' "$BASE$path")
+            code=$(curl -sS --connect-timeout 15 --max-time 30 "${H[@]}" -o "$output" -w '%{http_code}' "$BASE$path")
             echo "$path status=$code" | tee -a out/status.txt
             test "$code" = 200
             grep -Fq "$marker" "$output"
@@ -64,7 +74,7 @@ jobs:
           grep -Fq 'rel="canonical" href="https://www.visfurn.com/products/hospital-doors/automatic-hermetic-sliding-door"' out/_products_hospital-doors_automatic-hermetic-sliding-door.html
           grep -Fq 'href="/contact#quote-form"' out/_products_hospital-doors_automatic-hermetic-sliding-door.html
           for asset in /assets/images/products/hospital-doors/responsive/automatic-hermetic-sliding-door-front-1200.webp /assets/styles-v3-pdp-fix.css; do
-            code=$(curl -sS -L --connect-timeout 15 --max-time 30 "${H[@]}" -o /dev/null -w '%{http_code}' "$BASE$asset")
+            code=$(curl -sS --connect-timeout 15 --max-time 30 "${H[@]}" -o /dev/null -w '%{http_code}' "$BASE$asset")
             echo "$asset status=$code" | tee -a out/status.txt
             test "$code" = 200
           done
@@ -77,9 +87,25 @@ jobs:
           const path = require('path');
           (async () => {
             const b = await chromium.launch();
-            const headers = process.env.BYPASS ? { 'x-vercel-protection-bypass': process.env.BYPASS } : {};
+            const expected = new URL(process.env.BASE);
+            if (expected.protocol !== 'https:' || expected.username || expected.password || expected.port || !/^visfurn-wood-door-site-[a-z0-9-]+-mike123-s-projects\.vercel\.app$/.test(expected.hostname) || !['', '/'].includes(expected.pathname) || expected.search || expected.hash) throw new Error('Invalid preview origin');
+            const guard = async (route) => {
+              const request = route.request();
+              if (new URL(request.url()).origin !== expected.origin) return route.abort('blockedbyclient');
+              const headers = { ...request.headers() };
+              for (const key of Object.keys(headers)) if (key.toLowerCase() === 'x-vercel-protection-bypass') delete headers[key];
+              if (process.env.BYPASS) headers['x-vercel-protection-bypass'] = process.env.BYPASS;
+              const response = await route.fetch({ headers, maxRedirects: 0 });
+              if (response.status() >= 300 && response.status() < 400) return route.abort('blockedbyclient');
+              return route.fulfill({ response });
+            };
+            const safeContext = async (options = {}) => {
+              const context = await b.newContext({ ...options, serviceWorkers: 'block' });
+              await context.route('**/*', guard);
+              return context;
+            };
             for (const [name, options] of [['desktop', { viewport: { width: 1440, height: 900 } }], ['mobile', devices['Pixel 5']]]) {
-              const context = await b.newContext({ ...options, extraHTTPHeaders: headers });
+              const context = await safeContext(options);
               const page = await context.newPage();
               for (const p of process.env.PAGES.split(/\s+/)) {
                 await page.goto(process.env.BASE + p, { waitUntil: 'networkidle' });
@@ -87,13 +113,13 @@ jobs:
               }
               await context.close();
             }
-            const context = await b.newContext({ extraHTTPHeaders: headers });
+            const context = await safeContext();
             const page = await context.newPage();
             await page.goto(process.env.BASE + '/contact?gclid=TESTGCLID123', { waitUntil: 'networkidle' });
             const values = await page.$$eval('input', els => els.filter(e => /gclid/i.test(e.name + ' ' + e.id)).map(e => e.value));
             console.log('GCLID_FIELDS ' + (values.length ? values.join(' ') : 'NONE'));
             await b.close();
-          })().catch(error => { console.error(error.message); process.exit(1); });
+          })().catch(error => { console.error('Preview acceptance failed'); process.exit(1); });
           EOF2
           node acceptance.js
       - uses: actions/upload-artifact@v4
