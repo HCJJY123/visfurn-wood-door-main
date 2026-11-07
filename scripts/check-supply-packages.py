@@ -81,7 +81,7 @@ for name in TOUCHED:
         for k,options in valid.items():
             if k in q:assert len(q[k])==1 and q[k][0] in options,(name,href)
         assert q.get('product',[''])[0] in ['interior-doors','wooden-doors','wpc-doors'],(name,href)
-        assert q.get('source_page',[''])[0]=='/'+name[:-5],(name,href)
+        assert q.get('source_page',[''])[0]==('/' if name=='index.html' else '/'+name[:-5]),(name,href)
         assert u.fragment=='quote-form'
         contexts.append(href)
 

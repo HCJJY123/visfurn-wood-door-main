@@ -37,3 +37,15 @@ f=run('?product=interior-doors&supply_scope=__proto__&inquiry_purpose=%3Cscript%
 assert.equal(f.supply_scope.value,'');assert.equal(f.inquiry_purpose.value,'');assert.equal(f.finish_state.value,'');
 f=run('');assert.equal(f.inquiry_purpose.value,'');assert.equal(f.supply_scope.value,'');
 console.log('PASS: collection attribution, real form options, selected scope/finish/purpose, restored user choices and unknown-parameter rejection');
+
+for (const [slug, category] of [['white-moulded-solid-wood','interior-doors'],['modern-pvc-wooden-door','interior-doors'],['waterproof-wpc-interior-door','wpc-doors'],['flush-woodgrain-wpc-bedroom-door','wpc-doors']]) {
+  const source = `/products/${category}/${slug}`;
+  const values = run(`?product=${slug}&source_page=${encodeURIComponent(source)}&supply_scope=leaf-frame-trim&inquiry_purpose=sample-review`);
+  assert.equal(values.product_slug.value, slug);
+  assert.equal(values.product_url.value, `https://www.visfurn.com${source}`);
+  assert.equal(values.source_page.value, source);
+  assert.equal(values.supply_scope.value, 'Leaf, frame and trim');
+  assert.equal(values.inquiry_purpose.value, 'Professional sample review');
+  assert.ok(values.requirements.value.includes(values.product_name.value));
+}
+console.log('PASS: all four core models retain model, product URL, source, package scope and sample purpose');

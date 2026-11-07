@@ -3,6 +3,10 @@
   if (!form) return;
 
   const products = {
+    "white-moulded-solid-wood": {"name": "White Moulded Interior Door", "path": "/products/interior-doors/white-moulded-solid-wood", "context": "Product selected", "doorType": "Interior Wooden Doors", "requirements": "White moulded interior door; primed or factory-finished requirement: \nSelected core / leaf dimensions / handing: \nFrame profile / finished wall thickness / trim faces: \nHardware supply versus preparation / quantities / destination: "},
+    "modern-pvc-wooden-door": {"name": "Modern PVC Wooden Door", "path": "/products/interior-doors/modern-pvc-wooden-door", "context": "Product selected", "doorType": "Interior Wooden Doors", "requirements": "PVC-faced wood-based interior door; film color / grain reference: \nLeaf construction / dimensions / quantities: \nFrame material / wall thickness / trim: \nRoom exposure / hardware supply and preparation / destination: "},
+    "waterproof-wpc-interior-door": {"name": "WPC Interior Door for Humid-Area Review", "path": "/products/wpc-doors/waterproof-wpc-interior-door", "context": "Product selected", "doorType": "WPC Doors", "requirements": "WPC humid-area interior door: \nRoom type / humidity, splash and cleaning conditions: \nActual offered leaf section / frame / threshold / finish: \nOpening schedule / wall thickness / hardware / quantities / destination: "},
+
     'flush-woodgrain-wpc-bedroom-door': {
       name: 'Warm Brown Woodgrain WPC Bedroom Door for Apartment Projects',
       path: '/products/wpc-doors/flush-woodgrain-wpc-bedroom-door',
