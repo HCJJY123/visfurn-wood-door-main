@@ -22,7 +22,7 @@
 .vf-door-selector a:focus-visible, .vf-door-actions a:focus-visible { outline: 3px solid #b97637; outline-offset: 4px; }
 .category-hero-content .vf-door-actions a { color: #fff; border-color: #fffdf8; }
 .category-hero-content .vf-door-actions a + a { color: #49301f; }
-[id$="-product-options"], [id$="-buyer-answer"], #documentation-review-title { scroll-margin-top: 115px; }
+[id$="-product-options"], [id$="-buyer-answer"], [id$="-buyer-questions"], #documentation-review-title { scroll-margin-top: 115px; }
 @media (max-width: 980px) {
   .vf-door-selector__grid { grid-template-columns: 1fr; }
   .category-layout { display: flex; flex-direction: column; gap: 28px; }

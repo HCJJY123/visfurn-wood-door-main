@@ -1,0 +1,38 @@
+{
+  "results": [
+    {
+      "page": "visfurn/products/wpc-doors.html",
+      "questions": 5,
+      "schemaParity": true,
+      "imagesUnchanged": true,
+      "canonical": true,
+      "idsUnique": true
+    },
+    {
+      "page": "visfurn/products/interior-doors.html",
+      "questions": 6,
+      "schemaParity": true,
+      "imagesUnchanged": true,
+      "canonical": true,
+      "idsUnique": true
+    },
+    {
+      "page": "visfurn/products/wooden-doors.html",
+      "questions": 6,
+      "schemaParity": true,
+      "imagesUnchanged": true,
+      "canonical": true,
+      "idsUnique": true
+    },
+    {
+      "page": "visfurn/products/hospital-doors.html",
+      "questions": 7,
+      "schemaParity": true,
+      "imagesUnchanged": true,
+      "canonical": true,
+      "idsUnique": true
+    }
+  ],
+  "uniqueSitemapUrls": 151,
+  "formScriptsUnchanged": true
+}
