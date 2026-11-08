@@ -1,0 +1,218 @@
+[
+  {
+    "slug": "wpc",
+    "viewport": 375,
+    "buyerLink": "#wpc-buyer-questions",
+    "h1": "WPC Doors & Frames for Bulk Interior Projects",
+    "questions": [
+      "Where are WPC doors most suitable?",
+      "Is every WPC door a solid WPC door?",
+      "Does a WPC door quotation include the frame and hardware?",
+      "What should I send when requesting a bulk WPC door quote?",
+      "What should a bathroom door sample review include?"
+    ],
+    "scroll": 360,
+    "width": 360
+  },
+  {
+    "slug": "wpc",
+    "viewport": 390,
+    "buyerLink": "#wpc-buyer-questions",
+    "h1": "WPC Doors & Frames for Bulk Interior Projects",
+    "questions": [
+      "Where are WPC doors most suitable?",
+      "Is every WPC door a solid WPC door?",
+      "Does a WPC door quotation include the frame and hardware?",
+      "What should I send when requesting a bulk WPC door quote?",
+      "What should a bathroom door sample review include?"
+    ],
+    "scroll": 375,
+    "width": 375
+  },
+  {
+    "slug": "wpc",
+    "viewport": 1440,
+    "buyerLink": "#wpc-buyer-questions",
+    "h1": "WPC Doors & Frames for Bulk Interior Projects",
+    "questions": [
+      "Where are WPC doors most suitable?",
+      "Is every WPC door a solid WPC door?",
+      "Does a WPC door quotation include the frame and hardware?",
+      "What should I send when requesting a bulk WPC door quote?",
+      "What should a bathroom door sample review include?"
+    ],
+    "scroll": 1425,
+    "width": 1425
+  },
+  {
+    "slug": "interior",
+    "viewport": 375,
+    "buyerLink": "#interior-buyer-questions",
+    "h1": "Wholesale Interior Doors for Projects",
+    "questions": [
+      "How should I choose interior doors for an apartment or hotel project?",
+      "Does a moulded panel design identify the door core?",
+      "Is a white primed door ready for installation as a finished door?",
+      "What should a wholesale interior door RFQ include?",
+      "Should buyers send rough opening or finished door leaf size?",
+      "What should distributors approve before repeating an interior door order?"
+    ],
+    "scroll": 360,
+    "width": 360
+  },
+  {
+    "slug": "interior",
+    "viewport": 390,
+    "buyerLink": "#interior-buyer-questions",
+    "h1": "Wholesale Interior Doors for Projects",
+    "questions": [
+      "How should I choose interior doors for an apartment or hotel project?",
+      "Does a moulded panel design identify the door core?",
+      "Is a white primed door ready for installation as a finished door?",
+      "What should a wholesale interior door RFQ include?",
+      "Should buyers send rough opening or finished door leaf size?",
+      "What should distributors approve before repeating an interior door order?"
+    ],
+    "scroll": 375,
+    "width": 375
+  },
+  {
+    "slug": "interior",
+    "viewport": 1440,
+    "buyerLink": "#interior-buyer-questions",
+    "h1": "Wholesale Interior Doors for Projects",
+    "questions": [
+      "How should I choose interior doors for an apartment or hotel project?",
+      "Does a moulded panel design identify the door core?",
+      "Is a white primed door ready for installation as a finished door?",
+      "What should a wholesale interior door RFQ include?",
+      "Should buyers send rough opening or finished door leaf size?",
+      "What should distributors approve before repeating an interior door order?"
+    ],
+    "scroll": 1425,
+    "width": 1425
+  },
+  {
+    "slug": "wooden",
+    "viewport": 375,
+    "buyerLink": "#wooden-buyer-questions",
+    "h1": "Wooden Interior Doors & Frames for Bulk Projects",
+    "questions": [
+      "Is a solid-core wooden door the same as a solid wood door?",
+      "Can a commercial wood door be used with a metal frame?",
+      "Can VISFURN review wooden door leaf, frame and trim packages?",
+      "Which finishes should I compare for wooden interior doors?",
+      "What information is needed to quote wooden doors for a project?",
+      "How can buyers compare wooden door supplier quotes?"
+    ],
+    "scroll": 360,
+    "width": 360
+  },
+  {
+    "slug": "wooden",
+    "viewport": 390,
+    "buyerLink": "#wooden-buyer-questions",
+    "h1": "Wooden Interior Doors & Frames for Bulk Projects",
+    "questions": [
+      "Is a solid-core wooden door the same as a solid wood door?",
+      "Can a commercial wood door be used with a metal frame?",
+      "Can VISFURN review wooden door leaf, frame and trim packages?",
+      "Which finishes should I compare for wooden interior doors?",
+      "What information is needed to quote wooden doors for a project?",
+      "How can buyers compare wooden door supplier quotes?"
+    ],
+    "scroll": 375,
+    "width": 375
+  },
+  {
+    "slug": "wooden",
+    "viewport": 1440,
+    "buyerLink": "#wooden-buyer-questions",
+    "h1": "Wooden Interior Doors & Frames for Bulk Projects",
+    "questions": [
+      "Is a solid-core wooden door the same as a solid wood door?",
+      "Can a commercial wood door be used with a metal frame?",
+      "Can VISFURN review wooden door leaf, frame and trim packages?",
+      "Which finishes should I compare for wooden interior doors?",
+      "What information is needed to quote wooden doors for a project?",
+      "How can buyers compare wooden door supplier quotes?"
+    ],
+    "scroll": 1425,
+    "width": 1425
+  },
+  {
+    "slug": "hospital",
+    "viewport": 375,
+    "buyerLink": "#hospital-buyer-questions",
+    "h1": "Hospital Doors for Healthcare Projects",
+    "questions": [
+      "How should I compare hospital door suppliers?",
+      "Can a hospital door be assumed suitable for ICU or isolation use?",
+      "When should a hospital project compare sliding and swing doors?",
+      "What should a hospital door RFQ include?",
+      "Does a door-leaf report cover every frame, vision panel and hardware option?",
+      "How should hospital doors be separated by room type?",
+      "When is a lead-lined door required?",
+      "What makes a hospital door easier to maintain?",
+      "What should be included in a hospital RFQ?"
+    ],
+    "scroll": 360,
+    "width": 360,
+    "final": {
+      "faqBlocks": 1,
+      "questions": 7,
+      "scroll": 360,
+      "width": 360
+    }
+  },
+  {
+    "slug": "hospital",
+    "viewport": 390,
+    "buyerLink": "#hospital-buyer-questions",
+    "h1": "Hospital Doors for Healthcare Projects",
+    "questions": [
+      "How should I compare hospital door suppliers?",
+      "Can a hospital door be assumed suitable for ICU or isolation use?",
+      "When should a hospital project compare sliding and swing doors?",
+      "What should a hospital door RFQ include?",
+      "Does a door-leaf report cover every frame, vision panel and hardware option?",
+      "How should hospital doors be separated by room type?",
+      "When is a lead-lined door required?",
+      "What makes a hospital door easier to maintain?",
+      "What should be included in a hospital RFQ?"
+    ],
+    "scroll": 375,
+    "width": 375,
+    "final": {
+      "faqBlocks": 1,
+      "questions": 7,
+      "scroll": 375,
+      "width": 375
+    }
+  },
+  {
+    "slug": "hospital",
+    "viewport": 1440,
+    "buyerLink": "#hospital-buyer-questions",
+    "h1": "Hospital Doors for Healthcare Projects",
+    "questions": [
+      "How should I compare hospital door suppliers?",
+      "Can a hospital door be assumed suitable for ICU or isolation use?",
+      "When should a hospital project compare sliding and swing doors?",
+      "What should a hospital door RFQ include?",
+      "Does a door-leaf report cover every frame, vision panel and hardware option?",
+      "How should hospital doors be separated by room type?",
+      "When is a lead-lined door required?",
+      "What makes a hospital door easier to maintain?",
+      "What should be included in a hospital RFQ?"
+    ],
+    "scroll": 1425,
+    "width": 1425,
+    "final": {
+      "faqBlocks": 1,
+      "questions": 7,
+      "scroll": 1425,
+      "width": 1425
+    }
+  }
+]
