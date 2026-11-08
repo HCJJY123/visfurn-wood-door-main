@@ -1,0 +1,26 @@
+/* About-page sales cooperation and on-site project enquiry. */
+.about-page .vf-partner-hero-link { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; color: #fffdf7; font-size: 14px; font-weight: 600; text-underline-offset: 5px; }
+.about-page .vf-partner { display: grid; grid-template-columns: 1.05fr 1fr; gap: clamp(28px, 5vw, 76px); max-width: 1240px; width: calc(100% - 64px); margin: clamp(44px, 6vw, 80px) auto; padding: clamp(26px, 4vw, 56px); box-sizing: border-box; border: 1px solid #dedfd4; border-radius: 8px; background: #fffdf8; color: #293d33; scroll-margin-top: 120px; }
+.about-page .vf-partner > div { min-width: 0; }
+.about-page .vf-partner h2 { margin: 10px 0 22px; font-size: clamp(32px, 3.3vw, 46px); line-height: 1.1; letter-spacing: -.02em; }
+.about-page .vf-partner p { line-height: 1.75; }
+.about-page .vf-partner .vf-partner-lead { font-size: 18px; }
+.about-page .vf-partner-identity { display: flex; flex-direction: column; gap: 9px; margin: 26px 0 18px; padding: 20px 22px; background: #f3f0e8; border-left: 3px solid #ac8050; overflow-wrap: anywhere; }
+.about-page .vf-partner-label { color: #6b705f; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; }
+.about-page .vf-partner-company { font-size: 17px; font-weight: 700; line-height: 1.5; }
+.about-page .vf-partner-domain { color: #5d655d; font-size: 13px; }
+.about-page .vf-partner .vf-partner-note { color: #697066; font-size: 13px; line-height: 1.65; }
+.about-page .vf-partner-next { padding: 28px; border-radius: 6px; background: #eef2eb; }
+.about-page .vf-partner h3 { margin: 10px 0 24px; font-size: 26px; line-height: 1.2; }
+.about-page .vf-partner-steps { list-style: none; margin: 0; padding: 0; }
+.about-page .vf-partner-steps li { display: grid; grid-template-columns: 26px minmax(0, 1fr); gap: 14px; margin: 0 0 24px; }
+.about-page .vf-partner-steps li > span { padding-top: 3px; color: #927047; font-size: 12px; font-weight: 700; }
+.about-page .vf-partner h4 { margin: 0 0 7px; font-size: 17px; line-height: 1.4; }
+.about-page .vf-partner-steps p { margin: 0 0 6px; color: #5b655c; font-size: 14px; }
+.about-page .vf-partner-products { display: flex; flex-wrap: wrap; gap: 0 16px; }
+.about-page .vf-partner-products a, .about-page .vf-partner-resource { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; color: #304d3b; font-size: 13px; font-weight: 700; text-decoration: underline; text-underline-offset: 4px; }
+.about-page .vf-partner-quote { display: flex; justify-content: center; align-items: center; gap: 12px; min-height: 48px; padding: 13px 18px; box-sizing: border-box; border-radius: 3px; background: #2b4636; color: #fff; font-size: 14px; font-weight: 700; line-height: 1.5; text-align: center; text-decoration: none; }
+.about-page .vf-partner .vf-partner-contact-note { margin: 12px 0 0; color: #616a5f; font-size: 12px; line-height: 1.6; }
+.about-page .vf-partner a:focus-visible, .about-page .vf-partner-hero-link:focus-visible { outline: 3px solid #ac8050; outline-offset: 4px; }
+@media(max-width: 900px) { .about-page .vf-partner { grid-template-columns: 1fr; width: calc(100% - 36px); padding: 26px 22px; gap: 24px; } }
+@media(max-width: 480px) { .about-page .vf-partner-next { padding: 22px 18px; } .about-page .vf-partner-steps li { gap: 10px; grid-template-columns: 20px minmax(0,1fr); } .about-page .vf-partner .vf-partner-lead { font-size: 16px; } .about-page .vf-partner-identity { padding: 18px; } }
