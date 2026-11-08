@@ -1,0 +1,47 @@
+[
+  {
+    "viewport": 375,
+    "h1": 1,
+    "links": [
+      "/products/wpc-doors",
+      "/products/interior-doors",
+      "/products/wooden-doors",
+      "/products/hospital-doors",
+      "/solutions/interior-door-supply-packages",
+      "/contact?source_page=%2Fabout#quote-form"
+    ],
+    "scrollWidth": 360,
+    "sectionWidth": 324,
+    "width": 360
+  },
+  {
+    "viewport": 390,
+    "h1": 1,
+    "links": [
+      "/products/wpc-doors",
+      "/products/interior-doors",
+      "/products/wooden-doors",
+      "/products/hospital-doors",
+      "/solutions/interior-door-supply-packages",
+      "/contact?source_page=%2Fabout#quote-form"
+    ],
+    "scrollWidth": 375,
+    "sectionWidth": 339,
+    "width": 375
+  },
+  {
+    "viewport": 1440,
+    "h1": 1,
+    "links": [
+      "/products/wpc-doors",
+      "/products/interior-doors",
+      "/products/wooden-doors",
+      "/products/hospital-doors",
+      "/solutions/interior-door-supply-packages",
+      "/contact?source_page=%2Fabout#quote-form"
+    ],
+    "scrollWidth": 1425,
+    "sectionWidth": 1240,
+    "width": 1425
+  }
+]
