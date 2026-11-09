@@ -52,3 +52,5 @@ This release's technical/crawl review: 2026-11-16; indexation/query review: 11/2
 PR203 production rendered correctly, but its three guide CTA parameters used display labels rather than the contact form's existing product slug allowlist. A focused follow-up changes only these link values: Hotel+Doors → hotel-doors; Interior+Doors → interior-doors; Hospital+Doors → hospital-doors. Both CTAs per guide retain the encoded case-study source_page and #quote-form anchor. Generic Projects CTAs now use the supported inquiry_purpose=specification-review parameter without selecting a door category on the buyer's behalf.
 
 No contact form, mail endpoint, tracking controller or global navigation code is changed. The existing check-door-supply-context script passes. Production click-through verification is required after this follow-up deploys; no real inquiry is sent.
+
+Final layout follow-up: remove the remaining duplicate legacy yellow archive notice above the hospital guide. The new visible planning note, image captions and matching FAQ disclosure remain; no completed-project or performance claim is introduced. The three guide headers now share the same layout.
