@@ -1,0 +1,34 @@
+{
+  "pages": [
+    {
+      "path": "projects.html",
+      "h1": "Door packages for project procurement",
+      "main_images": 23
+    },
+    {
+      "path": "products.html",
+      "h1": "Quote-ready door categories.",
+      "main_images": 8
+    },
+    {
+      "path": "case-study/mexico-boutique-hotel-moisture-resistant-bathroom-doors.html",
+      "h1": "Hotel guestroom &amp; bathroom door packages",
+      "main_images": 3
+    },
+    {
+      "path": "case-study/philippines-apartment-interior-wpc-door-package-humid-project.html",
+      "h1": "Apartment interior &amp; WPC door packages",
+      "main_images": 3
+    },
+    {
+      "path": "case-study/hospital-door-package-specification-planning.html",
+      "h1": "Hospital door package planning",
+      "main_images": 2
+    }
+  ],
+  "link_errors": [],
+  "sitemap_urls": 154,
+  "header_footer_unchanged": true,
+  "main_js_unchanged": true,
+  "new_image_total_bytes": 127942
+}
