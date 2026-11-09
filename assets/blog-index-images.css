@@ -1,0 +1,61 @@
+/* Blog index only: preserve the entire source image and its natural proportions. */
+.editorial-index-page .editorial-card-media {
+  display: block;
+  aspect-ratio: 4 / 3;
+  background: #f5f6f2;
+}
+
+.editorial-index-page .editorial-card-media picture {
+  position: absolute;
+  inset: 12px;
+  width: auto;
+  height: auto;
+  min-width: 0;
+  min-height: 0;
+}
+
+.editorial-index-page .editorial-card-media img {
+  position: absolute;
+  inset: 12px;
+  width: calc(100% - 24px);
+  height: calc(100% - 24px);
+  object-fit: contain;
+  object-position: center;
+  transform: none;
+  transition: none;
+}
+
+.editorial-index-page .editorial-card-media picture img {
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.editorial-index-page .editorial-card:hover .editorial-card-media img,
+.editorial-index-page .editorial-card:focus-within .editorial-card-media img {
+  transform: none;
+}
+
+/* Standalone featured rows use the same page gutters as the main article list. */
+.editorial-index-page > .editorial-index-content {
+  max-width: var(--measure);
+  margin-inline: auto;
+  padding: 28px var(--gutter);
+}
+
+@media (max-width: 620px) {
+  .editorial-index-page .editorial-card-media picture {
+    inset: 8px;
+  }
+
+  .editorial-index-page .editorial-card-media > img {
+    inset: 8px;
+    width: calc(100% - 16px);
+    height: calc(100% - 16px);
+  }
+
+  .editorial-index-page > .editorial-index-content > .editorial-index-toolbar {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+}
