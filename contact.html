@@ -20,127 +20,39 @@
   <meta property="og:title" content="Contact Visfurn | Request a Wood Door Quotation">
   <meta property="og:description" content="Contact Visfurn with door type, dimensions, quantity, frame, hardware, color and destination port for a B2B wood door quotation.">
   <meta property="og:url" content="https://www.visfurn.com/contact">
-  <meta property="og:image" content="https://www.visfurn.com/assets/images/home/featured/visfurn-interior-wooden-door-room-640.webp">
+  <meta property="og:image" content="https://www.visfurn.com/assets/images/contact/contact-modern-door-collection-1859.webp">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Contact Visfurn | Request a Wood Door Quotation">
   <meta name="twitter:description" content="Contact Visfurn with door type, dimensions, quantity, frame, hardware, color and destination port for a B2B wood door quotation.">
-  <meta name="twitter:image" content="https://www.visfurn.com/assets/images/home/featured/visfurn-interior-wooden-door-room-640.webp">
+  <meta name="twitter:image" content="https://www.visfurn.com/assets/images/contact/contact-modern-door-collection-1859.webp">
   <link rel="icon" href="/assets/brand/favicon-door-v2-64.png" type="image/png">
   <link rel="stylesheet" href="/assets/styles-v3-pdp-fix.css?v=20260926-custom-classroom-prefill">
   <style>
-    .contact-hero {
-      position: relative;
-      min-height: clamp(500px, 56vw, 700px);
-      overflow: hidden;
-      background: #29372f;
-    }
-
-    .contact-hero-carousel {
-      position: absolute;
-      inset: 0;
-      overflow: hidden;
-      touch-action: pan-y;
-    }
-
-    .contact-hero-carousel__slides {
-      position: absolute;
-      inset: 0;
-      z-index: 0;
-    }
-
-    .contact-hero-slide {
-      position: absolute;
-      inset: 0;
-      display: block;
-      margin: 0;
-      opacity: 0;
-      pointer-events: none;
-      transition: opacity .75s ease;
-    }
-
-    .contact-hero-slide.is-active {
-      opacity: 1;
-      pointer-events: auto;
-    }
-
-    .contact-hero-slide img {
-      display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-
-    .contact-hero-slide:nth-child(1) img { object-position: 56% center; }
-    .contact-hero-slide:nth-child(2) img { object-position: center center; }
-    .contact-hero-slide:nth-child(3) img { object-position: center 58%; }
-
-    .contact-hero-carousel::after {
-      position: absolute;
-      inset: 0;
-      z-index: 1;
-      background: transparent;
-      content: "";
-      pointer-events: none;
-    }
-
-    .contact-hero-overlay {
-      z-index: 1;
-      background: linear-gradient(90deg, rgba(30, 45, 36, .53) 0%, rgba(37, 54, 43, .41) 38%, rgba(37, 54, 43, .11) 74%, rgba(37, 54, 43, .05) 100%);
-      pointer-events: none;
-    }
-
-    .contact-hero-content {
-      position: relative;
-      z-index: 2;
-    }
-
-    .contact-hero-dots {
-      position: absolute;
-      right: 0;
-      bottom: 24px;
-      left: 0;
-      z-index: 3;
-      display: flex;
-      justify-content: center;
-      gap: 10px;
-    }
-
-    .contact-hero-dot {
-      width: 10px;
-      height: 10px;
-      padding: 0;
-      border: 0;
-      border-radius: 999px;
-      background: rgba(255, 255, 255, .45);
-      cursor: pointer;
-      transition: width .25s ease, background .25s ease;
-    }
-
-    .contact-hero-dot.is-active {
-      width: 30px;
-      background: #fff;
-    }
-
+    /* Contact-only: copy never overlays or crops the supplied product groups. */
+    .contact-hero { min-height: 0; overflow: hidden; background: #edf0eb; padding: 0 0 20px; }
+    .contact-hero-content { width: min(1320px, calc(100% - (var(--gutter) * 2))); min-height: 0; padding: 42px 0 30px; color: #293d32; }
+    .contact-hero-content .eyebrow { color: #896039; }
+    .contact-hero-content h1 { max-width: 980px; color: #293d32; font-size: clamp(34px, 4.2vw, 56px); }
+    .contact-hero-content > p:not(.eyebrow) { max-width: 840px; margin-top: 18px; color: #52665b; }
+    .contact-hero-carousel { position: relative; width: min(1440px, calc(100% - (var(--gutter) * 2))); margin: 0 auto; overflow: hidden; touch-action: pan-y; }
+    .contact-hero-carousel__slides { position: relative; aspect-ratio: 2 / 1; background: #f7f8f5; }
+    .contact-hero-slide { position: absolute; inset: 0; margin: 0; padding: 12px; opacity: 0; pointer-events: none; transition: opacity .6s ease; }
+    .contact-hero-slide.is-active { opacity: 1; pointer-events: auto; }
+    .contact-hero-slide img { display: block; width: 100%; height: 100%; object-fit: contain; object-position: center; }
+    .contact-hero-dots { display: flex; justify-content: center; gap: 8px; padding-top: 4px; }
+    .contact-hero-dot { display: grid; place-items: center; width: 44px; height: 44px; padding: 0; border: 0; border-radius: 4px; background: transparent; cursor: pointer; }
+    .contact-hero-dot::after { content: ""; width: 9px; height: 9px; border-radius: 999px; background: #8a968c; transition: width .25s ease, background .25s ease; }
+    .contact-hero-dot.is-active::after { width: 28px; background: #293d32; }
+    .contact-hero-dot:focus-visible { outline: 2px solid #896039; outline-offset: -2px; }
     @media (max-width: 620px) {
-      .contact-hero {
-        min-height: 560px;
-      }
-
-      .contact-hero-slide:nth-child(1) img { object-position: 54% center; }
-      .contact-hero-slide:nth-child(3) img { object-position: 56% center; }
-
-      .contact-hero-carousel::after {
-        background: transparent;
-      }
-
-      .contact-hero-overlay {
-        background: linear-gradient(90deg, rgba(30, 45, 36, .54) 0%, rgba(37, 54, 43, .41) 70%, rgba(37, 54, 43, .17) 100%);
-      }
-
-      .contact-hero-dots {
-        bottom: 16px;
-      }
+      .contact-hero { min-height: 0; padding-bottom: 8px; }
+      .contact-hero-content { padding: 30px 0 24px; }
+      .contact-hero-content > p:not(.eyebrow) { font-size: 16px; }
+      .contact-hero-carousel { width: calc(100% - 24px); }
+      .contact-hero-carousel__slides { aspect-ratio: 8 / 5; }
+      .contact-hero-slide { padding: 6px; }
     }
+    @media (prefers-reduced-motion: reduce) { .contact-hero-slide { transition: none; } }
   </style>
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@context":"https://schema.org","@type":"Organization","@id":"https://www.visfurn.com/#organization","name":"VisFurn","legalName":"Tianjin Vishome Furniture Co., Ltd.","brand":{"@type":"Brand","name":"VISFURN"},"url":"https://www.visfurn.com/","logo":"https://www.visfurn.com/assets/brand/visfurn-logo-door-v2-720.webp","description":"Tianjin Vishome Furniture Co., Ltd. operates the VISFURN brand for B2B wooden, WPC, security and project door supply to international buyers.","knowsAbout":["Wooden doors","Interior doors","WPC doors","Steel security doors","Hotel doors","Hospital doors","School doors"]},{"@type":"BreadcrumbList","@id":"https://www.visfurn.com/contact#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.visfurn.com/"},{"@type":"ListItem","position":2,"name":"Contact Visfurn","item":"https://www.visfurn.com/contact"}]},{"@type":"ContactPage","@id":"https://www.visfurn.com/contact#contact","name":"Contact Visfurn for Wood Door Quotation","url":"https://www.visfurn.com/contact","about":{"@id":"https://www.visfurn.com/#organization"}}]}</script>
   
@@ -207,30 +119,30 @@
   </header>
   <main>
     <section class="contact-hero" aria-labelledby="contact-hero-title">
-      <div class="contact-hero-carousel" data-contact-hero-carousel>
-        <div class="contact-hero-carousel__slides">
-          <figure class="contact-hero-slide is-active" data-contact-hero-slide>
-            <img src="/assets/images/home/featured/visfurn-interior-wooden-door-room-640.webp" alt="Interior door visual reference for project selection" width="1544" height="1113" loading="eager" fetchpriority="high" decoding="async">
-          </figure>
-          <figure class="contact-hero-slide" data-contact-hero-slide>
-            <img src="/assets/images/home/featured/visfurn-modern-wooden-door-set-640.webp" alt="Wooden door finish options for project review" width="1706" height="1279" loading="lazy" decoding="async">
-          </figure>
-          <figure class="contact-hero-slide" data-contact-hero-slide>
-            <img src="/assets/images/home/featured/visfurn-steel-security-door-set-640.webp" alt="Steel security door visual reference" width="1024" height="1024" loading="lazy" decoding="async">
-          </figure>
-        </div>
-        <div class="contact-hero-dots" role="tablist" aria-label="Contact page banners">
-          <button class="contact-hero-dot is-active" data-contact-hero-dot type="button" aria-label="Show banner 1" aria-selected="true"></button>
-          <button class="contact-hero-dot" data-contact-hero-dot type="button" aria-label="Show banner 2" aria-selected="false"></button>
-          <button class="contact-hero-dot" data-contact-hero-dot type="button" aria-label="Show banner 3" aria-selected="false"></button>
-        </div>
-      </div>
-      <div class="contact-hero-overlay" aria-hidden="true"></div>
       <div class="contact-hero-content">
         <p class="eyebrow">Contact VISFURN</p>
         <h1 id="contact-hero-title">Find the right door. Start with what you know.</h1>
         <p>Ask about a product, price or sample with a short inquiry. If your project is ready, add the door schedule and technical details for a fuller quotation review.</p>
       </div>
+      <div class="contact-hero-carousel" data-contact-hero-carousel>
+        <div class="contact-hero-carousel__slides">
+          <figure class="contact-hero-slide is-active" data-contact-hero-slide>
+            <img src="/assets/images/contact/contact-modern-door-collection-1859.webp" srcset="/assets/images/contact/contact-modern-door-collection-768.webp 768w, /assets/images/contact/contact-modern-door-collection-1859.webp 1859w" sizes="(max-width: 620px) calc(100vw - 36px), (max-width: 1500px) calc(100vw - 80px), 1416px" alt="Three full-height contemporary wood-grain door designs in taupe and gray" width="1859" height="846" loading="eager" fetchpriority="high" decoding="async">
+          </figure>
+          <figure class="contact-hero-slide" data-contact-hero-slide>
+            <img src="/assets/images/contact/contact-white-door-collection-1698.webp" srcset="/assets/images/contact/contact-white-door-collection-768.webp 768w, /assets/images/contact/contact-white-door-collection-1698.webp 1698w" sizes="(max-width: 620px) calc(100vw - 36px), (max-width: 1500px) calc(100vw - 80px), 1416px" alt="Four complete white interior door designs with frames and black handles" width="1698" height="926" loading="lazy" decoding="async">
+          </figure>
+          <figure class="contact-hero-slide" data-contact-hero-slide>
+            <img src="/assets/images/contact/contact-wood-door-collection-1612.webp" srcset="/assets/images/contact/contact-wood-door-collection-768.webp 768w, /assets/images/contact/contact-wood-door-collection-1612.webp 1612w" sizes="(max-width: 620px) calc(100vw - 36px), (max-width: 1500px) calc(100vw - 80px), 1416px" alt="Fourteen complete wooden door designs in wood-grain, red and ivory finishes" width="1612" height="976" loading="lazy" decoding="async">
+          </figure>
+        </div>
+        <div class="contact-hero-dots" role="group" aria-label="Contact page banners">
+          <button class="contact-hero-dot is-active" data-contact-hero-dot type="button" aria-label="Show banner 1" aria-pressed="true"></button>
+          <button class="contact-hero-dot" data-contact-hero-dot type="button" aria-label="Show banner 2" aria-pressed="false"></button>
+          <button class="contact-hero-dot" data-contact-hero-dot type="button" aria-label="Show banner 3" aria-pressed="false"></button>
+        </div>
+      </div>
+
     </section>
 
     <section class="contact-workspace" aria-label="Contact and quotation workspace">
@@ -340,6 +252,7 @@
       let activeIndex = Math.max(0, slides.findIndex((slide) => slide.classList.contains('is-active')));
       let autoplayTimer = null;
       let hovering = false;
+      let focused = false;
       let touchStartX = 0;
       let touchStartY = 0;
       let suppressClick = false;
@@ -355,8 +268,8 @@
         dots.forEach((dot, index) => {
           const isActive = index === activeIndex;
           dot.classList.toggle('is-active', isActive);
-          dot.setAttribute('aria-selected', String(isActive));
-          dot.tabIndex = isActive ? 0 : -1;
+          dot.setAttribute('aria-pressed', String(isActive));
+          dot.tabIndex = 0;
         });
       };
 
@@ -370,8 +283,8 @@
       const start = () => {
         if (reduceMotion || autoplayTimer) return;
         autoplayTimer = window.setInterval(() => {
-          if (!hovering) setActive(activeIndex + 1);
-        }, 3000);
+          if (!hovering && !focused) setActive(activeIndex + 1);
+        }, 6000);
       };
 
       dots.forEach((dot, index) => {
@@ -415,8 +328,8 @@
 
       carousel.addEventListener('mouseenter', () => { hovering = true; });
       carousel.addEventListener('mouseleave', () => { hovering = false; });
-      carousel.addEventListener('focusin', () => { hovering = true; });
-      carousel.addEventListener('focusout', () => { hovering = false; });
+      carousel.addEventListener('focusin', () => { focused = true; });
+      carousel.addEventListener('focusout', (event) => { focused = carousel.contains(event.relatedTarget); });
 
       setActive(activeIndex);
       start();
