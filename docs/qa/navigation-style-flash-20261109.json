@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-09",
+  "base": "026ce0e2a84be6c951e75950a4088968739d483d",
+  "scope": "Shared navigation stylesheet readiness and hidden panel state",
+  "browser": "Chromium cloud browser",
+  "cases": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "max_header_height": 101,
+      "visible_panels_during_loading": 0,
+      "horizontal_overflow": false,
+      "extra_stylesheet_requests": 0
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "max_header_height": 79,
+      "visible_panels_during_loading": 0,
+      "horizontal_overflow": false,
+      "extra_stylesheet_requests": 0
+    },
+    {
+      "id": "cached_css_4s_upgrade_delay",
+      "width": 1440,
+      "max_header_height": 101,
+      "visible_panels_during_loading": 0,
+      "horizontal_overflow": false,
+      "upgrade_succeeded": true,
+      "original_stylesheet_href_preserved": true
+    },
+    {
+      "id": "upgrade_failed",
+      "width": 1440,
+      "max_header_height": 101,
+      "visible_panels_during_loading": 0,
+      "horizontal_overflow": false,
+      "original_navigation_retained": true
+    }
+  ],
+  "interactions": {
+    "desktop_products_dropdown": true,
+    "mobile_menu_open": true,
+    "mobile_products_dropdown": true,
+    "mobile_footer_visible_when_open": true,
+    "mobile_menu_close": true
+  },
+  "checks": [
+    "node --check assets/main.js",
+    "git diff --check",
+    "npm run build (static no-op)"
+  ],
+  "production_verified": false
+}
