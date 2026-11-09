@@ -673,27 +673,27 @@ document.querySelectorAll('.faq-question').forEach((question) => {
   });
 
   const setupSiteNavigation = () => {
-    let stylesheet = document.querySelector('link[href*="/assets/global-ui.css"]');
-    if (!stylesheet) {
-      stylesheet = document.createElement('link');
-      stylesheet.rel = 'stylesheet';
-      document.head.append(stylesheet);
-    }
-    if (!stylesheet.dataset.vfNavigationReady) {
-      stylesheet.dataset.vfNavigationReady = 'pending';
-      const navigationStylesheet = new URL('/assets/global-ui.css?v=20261010-language-disclosure-v3', location.href).href;
-      if (stylesheet.href === navigationStylesheet && stylesheet.sheet) {
-        stylesheet.dataset.vfNavigationReady = 'ready';
-      } else {
+    if (document.querySelector('.site-header[data-vf-navigation-initialized]')) return;
+    // Keep the currently applied stylesheet in place. Changing its href removes
+    // its CSS while the replacement loads, exposing the entire navigation.
+    const navigationReady = getComputedStyle(document.documentElement)
+      .getPropertyValue('--vf-navigation-ready').trim() === '1';
+    if (!navigationReady) {
+      let stylesheet = document.querySelector('link[data-vf-navigation-styles]');
+      if (!stylesheet) {
+        stylesheet = document.createElement('link');
+        stylesheet.rel = 'stylesheet';
+        stylesheet.href = '/assets/global-ui.css?v=20261109-navigation-paint-v1';
+        stylesheet.dataset.vfNavigationStyles = 'pending';
         stylesheet.addEventListener('load', () => {
-          stylesheet.dataset.vfNavigationReady = 'ready';
+          stylesheet.dataset.vfNavigationStyles = 'loaded';
           setupSiteNavigation();
         }, { once: true });
-        if (stylesheet.href !== navigationStylesheet) stylesheet.href = navigationStylesheet;
-        return;
+        document.head.append(stylesheet);
       }
+      // A slow or failed upgrade leaves the original navigation usable.
+      return;
     }
-    if (stylesheet.dataset.vfNavigationReady !== 'ready') return;
     let siteHeader = document.querySelector('.site-header');
     let quoteHref = getPageQuoteHref();
     if ((!siteHeader || !siteHeader.querySelector('.nav')) && document.documentElement.lang.toLowerCase().startsWith('en')) {
@@ -823,17 +823,19 @@ document.querySelectorAll('.faq-question').forEach((question) => {
       const panel = document.createElement('div');
       panel.id = `vf-nav-panel-${index}`;
       panel.className = 'vf-menu-panel';
+      panel.hidden = true;
       if (entry.label === 'Products') panel.classList.add('vf-products-panel');
       if (index > 3) panel.classList.add('vf-menu-panel-right');
       panel.setAttribute('aria-label', `${entry.label} links`);
       entry.items.forEach(([label, href]) => panel.append(link(label, href, 'vf-menu-link')));
       item.append(row, panel);
       siteNav.append(item);
-      items.push({ item, button });
+      items.push({ item, button, panel });
     });
 
     const footer = document.createElement('div');
     footer.className = 'vf-nav-footer';
+    footer.hidden = true;
     footer.append(link('Request a Quote', quoteHref, 'vf-nav-footer-quote'),
       link('WhatsApp', whatsapp, 'vf-nav-footer-link'), link('Email', email, 'vf-nav-footer-link'));
     siteNav.append(footer);
@@ -855,22 +857,25 @@ document.querySelectorAll('.faq-question').forEach((question) => {
     let openedByClick = null;
     const closePanels = () => {
       openedByClick = null;
-      items.forEach(({ item, button }) => {
+      items.forEach(({ item, button, panel }) => {
         item.classList.remove('is-open');
+        panel.hidden = true;
         button.setAttribute('aria-expanded', 'false');
         button.setAttribute('aria-label', `Expand ${item.querySelector('.vf-nav-link').textContent} menu`);
       });
     };
     const closeNav = () => {
       siteNav.classList.remove('open');
+      footer.hidden = true;
       document.body.classList.remove('nav-open');
       menuToggle.setAttribute('aria-expanded', 'false');
       menuToggle.setAttribute('aria-label', 'Open navigation');
       menuToggle.textContent = 'Menu';
       closePanels();
     };
-    const openPanel = (target) => items.forEach(({ item, button }) => {
+    const openPanel = (target) => items.forEach(({ item, button, panel }) => {
       const open = item === target;
+      panel.hidden = !open;
       item.classList.toggle('is-open', open);
       button.setAttribute('aria-expanded', String(open));
       button.setAttribute('aria-label', `${open ? 'Collapse' : 'Expand'} ${item.querySelector('.vf-nav-link').textContent} menu`);
@@ -890,6 +895,7 @@ document.querySelectorAll('.faq-question').forEach((question) => {
     menuToggle.addEventListener('click', () => {
       if (siteNav.classList.contains('open')) return closeNav();
       siteNav.classList.add('open');
+      footer.hidden = false;
       document.body.classList.add('nav-open');
       siteHeader.style.setProperty('--vf-nav-top', `${siteHeader.getBoundingClientRect().bottom}px`);
       menuToggle.setAttribute('aria-expanded', 'true');
@@ -912,6 +918,7 @@ document.querySelectorAll('.faq-question').forEach((question) => {
     });
     createLanguageSwitcher();
     setupHeaderActions();
+    siteHeader.dataset.vfNavigationInitialized = 'true';
   };
 
   const setupProductAttribution = () => {

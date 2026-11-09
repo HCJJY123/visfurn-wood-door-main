@@ -1,4 +1,5 @@
 :root {
+  --vf-navigation-ready: 1;
   --vf-ui-ink: #25372f;
   --vf-ui-paper: #fffdf8;
   --vf-ui-line: rgba(37, 55, 47, .18);
@@ -219,6 +220,8 @@ main.page-width {
 }
 
 /* Shared VISFURN navigation; legacy page markup remains as a no-script fallback. */
+.vf-site-nav .vf-menu-panel[hidden],
+.vf-site-nav .vf-nav-footer[hidden] { display: none !important; }
 .vf-replaced-header { display: none !important; }
 .vf-site-nav.site-header { position: sticky; top: 0; z-index: 1100; grid-template-columns: auto minmax(0, 1fr) auto auto; gap: clamp(10px, 1.25vw, 22px); padding-inline: clamp(18px, 2.5vw, 42px); overflow: visible; backdrop-filter: none; }
 .vf-site-nav .brand-logo { width: clamp(116px, 11vw, 154px); height: auto; object-fit: contain; }
