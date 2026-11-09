@@ -1,0 +1,318 @@
+[
+  {
+    "id": "before",
+    "cards": [
+      {
+        "columns": "490.5px 599.5px",
+        "fit": "contain",
+        "id": "interior-doors",
+        "imgHeight": 248,
+        "imgWidth": 215.4,
+        "loaded": true,
+        "padding": "10px"
+      },
+      {
+        "columns": "490.5px 599.5px",
+        "fit": "contain",
+        "id": "exterior-doors",
+        "imgHeight": 248,
+        "imgWidth": 215.4,
+        "loaded": true,
+        "padding": "10px"
+      },
+      {
+        "columns": "490.5px 599.5px",
+        "fit": "contain",
+        "id": "wooden-doors",
+        "imgHeight": 248,
+        "imgWidth": 215.4,
+        "loaded": true,
+        "padding": "10px"
+      },
+      {
+        "columns": "490.5px 599.5px",
+        "fit": "contain",
+        "id": "wpc-doors",
+        "imgHeight": 248,
+        "imgWidth": 215.4,
+        "loaded": true,
+        "padding": "10px"
+      },
+      {
+        "columns": "490.5px 599.5px",
+        "fit": "contain",
+        "id": "fire-security-doors",
+        "imgHeight": 248,
+        "imgWidth": 215.4,
+        "loaded": true,
+        "padding": "10px"
+      },
+      {
+        "columns": "490.5px 599.5px",
+        "fit": "contain",
+        "id": "hospital-doors",
+        "imgHeight": 248,
+        "imgWidth": 215.4,
+        "loaded": true,
+        "padding": "10px"
+      },
+      {
+        "columns": "490.5px 599.5px",
+        "fit": "contain",
+        "id": "hotel-doors",
+        "imgHeight": 248,
+        "imgWidth": 215.4,
+        "loaded": true,
+        "padding": "10px"
+      },
+      {
+        "columns": "490.5px 599.5px",
+        "fit": "contain",
+        "id": "school-doors",
+        "imgHeight": 248,
+        "imgWidth": 215.4,
+        "loaded": true,
+        "padding": "10px"
+      }
+    ],
+    "scroll": 1425,
+    "width": 1425
+  },
+  {
+    "id": "desktop",
+    "cards": [
+      {
+        "columns": "652.25px 543.562px",
+        "fit": "contain",
+        "id": "interior-doors",
+        "imgHeight": 366.6,
+        "imgWidth": 652.3,
+        "loaded": true,
+        "padding": "0px"
+      },
+      {
+        "columns": "652.25px 543.562px",
+        "fit": "contain",
+        "id": "exterior-doors",
+        "imgHeight": 366.6,
+        "imgWidth": 652.3,
+        "loaded": true,
+        "padding": "0px"
+      },
+      {
+        "columns": "652.25px 543.562px",
+        "fit": "contain",
+        "id": "wooden-doors",
+        "imgHeight": 366.6,
+        "imgWidth": 652.3,
+        "loaded": true,
+        "padding": "0px"
+      },
+      {
+        "columns": "652.25px 543.562px",
+        "fit": "contain",
+        "id": "wpc-doors",
+        "imgHeight": 366.6,
+        "imgWidth": 652.3,
+        "loaded": true,
+        "padding": "0px"
+      },
+      {
+        "columns": "652.25px 543.562px",
+        "fit": "contain",
+        "id": "fire-security-doors",
+        "imgHeight": 366.6,
+        "imgWidth": 652.3,
+        "loaded": true,
+        "padding": "0px"
+      },
+      {
+        "columns": "652.25px 543.562px",
+        "fit": "contain",
+        "id": "hospital-doors",
+        "imgHeight": 366.6,
+        "imgWidth": 652.3,
+        "loaded": true,
+        "padding": "0px"
+      },
+      {
+        "columns": "652.25px 543.562px",
+        "fit": "contain",
+        "id": "hotel-doors",
+        "imgHeight": 366.6,
+        "imgWidth": 652.3,
+        "loaded": true,
+        "padding": "0px"
+      },
+      {
+        "columns": "652.25px 543.562px",
+        "fit": "contain",
+        "id": "school-doors",
+        "imgHeight": 366.6,
+        "imgWidth": 652.3,
+        "loaded": true,
+        "padding": "0px"
+      }
+    ],
+    "scroll": 1425,
+    "width": 1425
+  },
+  {
+    "id": "mobile390",
+    "cards": [
+      {
+        "columns": "309px",
+        "fit": "contain",
+        "id": "interior-doors",
+        "imgHeight": 173.7,
+        "imgWidth": 309,
+        "loaded": true,
+        "padding": "0px"
+      },
+      {
+        "columns": "309px",
+        "fit": "contain",
+        "id": "exterior-doors",
+        "imgHeight": 173.7,
+        "imgWidth": 309,
+        "loaded": true,
+        "padding": "0px"
+      },
+      {
+        "columns": "309px",
+        "fit": "contain",
+        "id": "wooden-doors",
+        "imgHeight": 173.7,
+        "imgWidth": 309,
+        "loaded": true,
+        "padding": "0px"
+      },
+      {
+        "columns": "309px",
+        "fit": "contain",
+        "id": "wpc-doors",
+        "imgHeight": 173.7,
+        "imgWidth": 309,
+        "loaded": true,
+        "padding": "0px"
+      },
+      {
+        "columns": "309px",
+        "fit": "contain",
+        "id": "fire-security-doors",
+        "imgHeight": 173.7,
+        "imgWidth": 309,
+        "loaded": true,
+        "padding": "0px"
+      },
+      {
+        "columns": "309px",
+        "fit": "contain",
+        "id": "hospital-doors",
+        "imgHeight": 173.7,
+        "imgWidth": 309,
+        "loaded": true,
+        "padding": "0px"
+      },
+      {
+        "columns": "309px",
+        "fit": "contain",
+        "id": "hotel-doors",
+        "imgHeight": 173.7,
+        "imgWidth": 309,
+        "loaded": true,
+        "padding": "0px"
+      },
+      {
+        "columns": "309px",
+        "fit": "contain",
+        "id": "school-doors",
+        "imgHeight": 173.7,
+        "imgWidth": 309,
+        "loaded": true,
+        "padding": "0px"
+      }
+    ],
+    "scroll": 375,
+    "width": 375
+  },
+  {
+    "id": "mobile375",
+    "cards": [
+      {
+        "columns": "294px",
+        "fit": "contain",
+        "id": "interior-doors",
+        "imgHeight": 165.2,
+        "imgWidth": 294,
+        "loaded": true,
+        "padding": "0px"
+      },
+      {
+        "columns": "294px",
+        "fit": "contain",
+        "id": "exterior-doors",
+        "imgHeight": 165.2,
+        "imgWidth": 294,
+        "loaded": true,
+        "padding": "0px"
+      },
+      {
+        "columns": "294px",
+        "fit": "contain",
+        "id": "wooden-doors",
+        "imgHeight": 165.2,
+        "imgWidth": 294,
+        "loaded": true,
+        "padding": "0px"
+      },
+      {
+        "columns": "294px",
+        "fit": "contain",
+        "id": "wpc-doors",
+        "imgHeight": 165.2,
+        "imgWidth": 294,
+        "loaded": true,
+        "padding": "0px"
+      },
+      {
+        "columns": "294px",
+        "fit": "contain",
+        "id": "fire-security-doors",
+        "imgHeight": 165.2,
+        "imgWidth": 294,
+        "loaded": true,
+        "padding": "0px"
+      },
+      {
+        "columns": "294px",
+        "fit": "contain",
+        "id": "hospital-doors",
+        "imgHeight": 165.2,
+        "imgWidth": 294,
+        "loaded": true,
+        "padding": "0px"
+      },
+      {
+        "columns": "294px",
+        "fit": "contain",
+        "id": "hotel-doors",
+        "imgHeight": 165.2,
+        "imgWidth": 294,
+        "loaded": true,
+        "padding": "0px"
+      },
+      {
+        "columns": "294px",
+        "fit": "contain",
+        "id": "school-doors",
+        "imgHeight": 165.2,
+        "imgWidth": 294,
+        "loaded": true,
+        "padding": "0px"
+      }
+    ],
+    "scroll": 360,
+    "width": 360
+  }
+]
