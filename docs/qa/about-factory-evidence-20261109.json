@@ -1,0 +1,351 @@
+{
+  "date": "2026-11-09",
+  "site": "VISFURN",
+  "page": "https://www.visfurn.com/about",
+  "base_sha": "505f0643e3fd255afbfc832fa6068926cc98abfc",
+  "production_before": "dpl_2F7HzK4td85gLHFia5zHeBs5c5kz",
+  "photos": [
+    {
+      "id": "wuji-door-designs-20261109",
+      "source": "IMG_0964.jpg",
+      "source_sha256": "fa671f7bfa43345fa65d3e39dfcad4821a8b4d9a369c2863e28f24b51541631c",
+      "source_dimensions": [
+        2048,
+        1536
+      ],
+      "alt": "Door leaf designs arranged upright at the Wuji factory",
+      "caption": "Door designs and surface options shown at the Wuji factory.",
+      "renditions": [
+        {
+          "path": "assets/images/about/wuji/visfurn-wuji-door-designs-768.webp",
+          "width": 768,
+          "height": 576,
+          "bytes": 60976,
+          "sha256": "dfd98c7c900e1164247cc59d1a27f3e7536e78e25a905094693f0ed5b7acb405",
+          "quality": 82
+        },
+        {
+          "path": "assets/images/about/wuji/visfurn-wuji-door-designs-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 170612,
+          "sha256": "db738c59bc16fd5ec0c5bcb98aaf8b65e0d6711936497b956de8ad6fbc43e649",
+          "quality": 82
+        }
+      ],
+      "editing": "EXIF orientation, downsize and WebP encoding only; no AI retouching, no added details or erased labels",
+      "mobile_crop": "none; complete original photo at natural aspect ratio",
+      "page": "https://www.visfurn.com/about",
+      "module": "company-profile hero",
+      "source_authority": "User supplied and identified as factory, stock preparation and product photographs on 2026-11-09; capture date not independently established",
+      "prompt": null,
+      "generated": false
+    },
+    {
+      "id": "wuji-factory-floor-20261109",
+      "source": "IMG_0966.jpg",
+      "source_sha256": "eb09e96afee5cc15a08cface88d982bb5e3675476cb806798b51304049e6fc49",
+      "source_dimensions": [
+        2048,
+        1536
+      ],
+      "alt": "Interior of the Wuji door factory with material racks and a working aisle",
+      "caption": "Inside the factory in Wuji, Shijiazhuang, Hebei.",
+      "renditions": [
+        {
+          "path": "assets/images/about/wuji/visfurn-wuji-factory-floor-768.webp",
+          "width": 768,
+          "height": 576,
+          "bytes": 72652,
+          "sha256": "549772cfacf7d3b0f6c77bc974ca06f7231525f84a6314e67052148e508d8847",
+          "quality": 82
+        },
+        {
+          "path": "assets/images/about/wuji/visfurn-wuji-factory-floor-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 155310,
+          "sha256": "6c0249a4b782b4d405342307d87e01b18a4d9547c91a1010ecee476510ac745d",
+          "quality": 76
+        }
+      ],
+      "editing": "EXIF orientation, downsize and WebP encoding only; no AI retouching, no added details or erased labels",
+      "mobile_crop": "none; complete original photo at natural aspect ratio",
+      "page": "https://www.visfurn.com/about",
+      "module": "factory gallery",
+      "source_authority": "User supplied and identified as factory, stock preparation and product photographs on 2026-11-09; capture date not independently established",
+      "prompt": null,
+      "generated": false
+    },
+    {
+      "id": "wuji-material-handling-20261109",
+      "source": "IMG_0974.jpg",
+      "source_sha256": "e7b71e448ad37e80507b0f2b9f088e89450edfda64e676f22feca32dd31ab97d",
+      "source_dimensions": [
+        2048,
+        1536
+      ],
+      "alt": "Forklift moving stacked door panels inside the Wuji facility",
+      "caption": "Panel handling within the facility.",
+      "renditions": [
+        {
+          "path": "assets/images/about/wuji/visfurn-wuji-material-handling-768.webp",
+          "width": 768,
+          "height": 576,
+          "bytes": 72080,
+          "sha256": "7a19b27fee900e2776c01c22b65e9efb09bc69a4e81be7ddcede992810b11fae",
+          "quality": 82
+        },
+        {
+          "path": "assets/images/about/wuji/visfurn-wuji-material-handling-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 177962,
+          "sha256": "fd00042937f1ea74e818743c30621306d2956d77f9678cf4be03a1a4f283da5d",
+          "quality": 76
+        }
+      ],
+      "editing": "EXIF orientation, downsize and WebP encoding only; no AI retouching, no added details or erased labels",
+      "mobile_crop": "none; complete original photo at natural aspect ratio",
+      "page": "https://www.visfurn.com/about",
+      "module": "factory gallery",
+      "source_authority": "User supplied and identified as factory, stock preparation and product photographs on 2026-11-09; capture date not independently established",
+      "prompt": null,
+      "generated": false
+    },
+    {
+      "id": "wuji-panel-storage-20261109",
+      "source": "IMG_0968.jpg",
+      "source_sha256": "c226383358c7afe235f858b355ffd710f99f7a1ee666599ce6118f64f5d59323",
+      "source_dimensions": [
+        2048,
+        1536
+      ],
+      "alt": "Door-facing panels stored in separate stacks on pallets",
+      "caption": "Door-facing panels held in the material storage area.",
+      "renditions": [
+        {
+          "path": "assets/images/about/wuji/visfurn-wuji-panel-storage-768.webp",
+          "width": 768,
+          "height": 576,
+          "bytes": 87100,
+          "sha256": "f00ea7d5641dd3af9c848ffe8555b8fd6548d3d4684f8c6c1092086aef0d6bc9",
+          "quality": 82
+        },
+        {
+          "path": "assets/images/about/wuji/visfurn-wuji-panel-storage-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 183368,
+          "sha256": "051651781b03d57a9b00b47fb79a181eb86af8b37c8a727ff25a43c921375cea",
+          "quality": 64
+        }
+      ],
+      "editing": "EXIF orientation, downsize and WebP encoding only; no AI retouching, no added details or erased labels",
+      "mobile_crop": "none; complete original photo at natural aspect ratio",
+      "page": "https://www.visfurn.com/about",
+      "module": "materials-stock gallery",
+      "source_authority": "User supplied and identified as factory, stock preparation and product photographs on 2026-11-09; capture date not independently established",
+      "prompt": null,
+      "generated": false
+    },
+    {
+      "id": "wuji-leaf-preparation-20261109",
+      "source": "IMG_0972.jpg",
+      "source_sha256": "8cfb5159d9774700d62d6ba2c412707320388414960c477c7232259a1625a856",
+      "source_dimensions": [
+        2048,
+        1536
+      ],
+      "alt": "Stacks of door components with visible layered edges on support racks",
+      "caption": "Door components and semi-finished leaves during preparation.",
+      "renditions": [
+        {
+          "path": "assets/images/about/wuji/visfurn-wuji-leaf-preparation-768.webp",
+          "width": 768,
+          "height": 576,
+          "bytes": 102956,
+          "sha256": "776d8cd9fc7bdab5b0e11b6d3580166fe2293e977a9a896b12b99862ce96ea4d",
+          "quality": 82
+        },
+        {
+          "path": "assets/images/about/wuji/visfurn-wuji-leaf-preparation-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 191836,
+          "sha256": "0c40d1d1c5f615e50d4db9160cc0976beb60279283a18cbfed9f1009508b85f4",
+          "quality": 52
+        }
+      ],
+      "editing": "EXIF orientation, downsize and WebP encoding only; no AI retouching, no added details or erased labels",
+      "mobile_crop": "none; complete original photo at natural aspect ratio",
+      "page": "https://www.visfurn.com/about",
+      "module": "materials-stock gallery",
+      "source_authority": "User supplied and identified as factory, stock preparation and product photographs on 2026-11-09; capture date not independently established",
+      "prompt": null,
+      "generated": false
+    },
+    {
+      "id": "wuji-finished-doors-20261109",
+      "source": "H7d42a19167224925ad8b0e220c3c5339O.jpeg",
+      "source_sha256": "648b78b04dbdf40a9b9d38bab97c6b253b6b08dd130764801f631d02916633e2",
+      "source_dimensions": [
+        2048,
+        2048
+      ],
+      "alt": "White door leaves with hardware preparation and protective separators",
+      "caption": "White door leaves showing surface finish and hardware preparation.",
+      "renditions": [
+        {
+          "path": "assets/images/about/wuji/visfurn-wuji-finished-doors-768.webp",
+          "width": 768,
+          "height": 768,
+          "bytes": 48644,
+          "sha256": "50b232424179ab4ce97abfe971e01c2cc5fd4499c30648c4fdf2d8147b3429a8",
+          "quality": 82
+        },
+        {
+          "path": "assets/images/about/wuji/visfurn-wuji-finished-doors-1440.webp",
+          "width": 1440,
+          "height": 1440,
+          "bytes": 128554,
+          "sha256": "c9eb2c381b17556e6c76c92c2aeee978b42092b52aca1c8e13c7a21e4b336e01",
+          "quality": 82
+        }
+      ],
+      "editing": "EXIF orientation, downsize and WebP encoding only; no AI retouching, no added details or erased labels",
+      "mobile_crop": "none; complete original photo at natural aspect ratio",
+      "page": "https://www.visfurn.com/about",
+      "module": "door-range gallery",
+      "source_authority": "User supplied and identified as factory, stock preparation and product photographs on 2026-11-09; capture date not independently established",
+      "prompt": null,
+      "generated": false
+    },
+    {
+      "id": "wuji-packed-doors-20261109",
+      "source": "Hb79f2c2b19d04e7ab43eab533bcc93eef.jpeg",
+      "source_sha256": "e219c59631f53ccea31d54defbcfa6825b677f2f2726409d22540df8e740834f",
+      "source_dimensions": [
+        1440,
+        1080
+      ],
+      "alt": "White door leaves strapped on pallets with wrapping and edge protection",
+      "caption": "Pallet packing with wrapping, straps and edge protection.",
+      "renditions": [
+        {
+          "path": "assets/images/about/wuji/visfurn-wuji-packed-doors-768.webp",
+          "width": 768,
+          "height": 576,
+          "bytes": 68020,
+          "sha256": "efb4c3745a8d87af5ca780cd158ed50699956c970df72db33f4c8b52e34509ba",
+          "quality": 82
+        },
+        {
+          "path": "assets/images/about/wuji/visfurn-wuji-packed-doors-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 160988,
+          "sha256": "dc680a715c5f18b939de85d3977bdf14cfb724e2b7c9bbb2a4c86733f707d9f8",
+          "quality": 76
+        }
+      ],
+      "editing": "EXIF orientation, downsize and WebP encoding only; no AI retouching, no added details or erased labels",
+      "mobile_crop": "none; complete original photo at natural aspect ratio",
+      "page": "https://www.visfurn.com/about",
+      "module": "manufacturing-process packing",
+      "source_authority": "User supplied and identified as factory, stock preparation and product photographs on 2026-11-09; capture date not independently established",
+      "prompt": null,
+      "generated": false
+    },
+    {
+      "id": "wuji-batch-staging-20261109",
+      "source": "H5e0b2cab550f42ec815ae09b03474af6C.jpeg",
+      "source_sha256": "fc900f283c148b656a09395cc9f5d5830b6c08de14ba13403ac60e80963f4aaf",
+      "source_dimensions": [
+        800,
+        800
+      ],
+      "alt": "White door leaves stacked in batches inside a workshop",
+      "caption": "White door leaves arranged in batches before the next handling stage.",
+      "renditions": [
+        {
+          "path": "assets/images/about/wuji/visfurn-wuji-batch-staging-768.webp",
+          "width": 768,
+          "height": 768,
+          "bytes": 95838,
+          "sha256": "dd923290cfd8925e397f5cac9038cac505778cbdc57de4fa7e687f1b76303a96",
+          "quality": 82
+        },
+        {
+          "path": "assets/images/about/wuji/visfurn-wuji-batch-staging-800.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 104784,
+          "sha256": "fbbff16a8fa3ad8dbf540d3a62bd40a580d819d7af2013830d4e11dda0245cf3",
+          "quality": 82
+        }
+      ],
+      "editing": "EXIF orientation, downsize and WebP encoding only; no AI retouching, no added details or erased labels",
+      "mobile_crop": "none; complete original photo at natural aspect ratio",
+      "page": "https://www.visfurn.com/about",
+      "module": "door-range gallery",
+      "source_authority": "User supplied and identified as factory, stock preparation and product photographs on 2026-11-09; capture date not independently established",
+      "prompt": null,
+      "generated": false
+    }
+  ],
+  "unused_sources": {
+    "IMG_0965.jpg": "Additional portrait rack view; selected broader material and factory views instead",
+    "IMG_0967.jpg": "Same panel-storage scene as selected IMG_0968, avoid repeated views",
+    "IMG_0969.jpg": "Close-up of panel stacks/labels repeats material coverage",
+    "IMG_0970.jpg": "Portrait leaf-stack close-up repeats selected IMG_0972",
+    "IMG_0971.jpg": "Portrait leaf-stack close-up repeats selected IMG_0972",
+    "IMG_0975.jpg": "Additional facing-panel stack repeats selected storage section"
+  },
+  "claims_pending": [
+    {
+      "claim": "15 years of industry excellence",
+      "status": "PENDING",
+      "needed": "Define whether company, brand or team experience, the start year and supporting company/history evidence; do not infer a founding year."
+    },
+    {
+      "claim": "one million square meters modern production base",
+      "status": "PENDING",
+      "needed": "Confirm literal 1,000,000 m², land/building/production-area definition and site-specific evidence. Photos do not establish area."
+    },
+    {
+      "claim": "Holding NAF, F4 and FSC certifications",
+      "status": "PENDING",
+      "needed": "Actual documents, precise certification scheme/grade terminology, holder and legal entity, certificate/report numbers, issuer, validity and product/material scope. Do not use certificate logos or extend one material report to all doors."
+    },
+    {
+      "claim": "Using E1/E0 materials",
+      "status": "PENDING",
+      "needed": "Material types, actual standard/test method/version, emission limits/results, report numbers and the proposed door configuration. Do not treat grade names as universal certification."
+    }
+  ],
+  "checks": {
+    "source": "single H1/self canonical/index robots, JSON-LD parse, unique IDs, internal destinations/sitemap and all anchors, 16 image decode/dimension checks, header/footer/external scripts unchanged, no unsupported number/certificate assertions",
+    "mock": "existing inquiry-submit mock and door-supply-context checks passed, all requests mocked",
+    "browser": [
+      {
+        "iframe_width": 1440,
+        "client_width": 1425,
+        "scroll_width": 1425
+      },
+      {
+        "iframe_width": 390,
+        "client_width": 375,
+        "scroll_width": 375
+      },
+      {
+        "iframe_width": 375,
+        "client_width": 360,
+        "scroll_width": 360
+      }
+    ],
+    "interactions": "factory anchor visible at ~224px desktop and ~202px mobile; mobile menu opens/closes with keyboard; partner company/store domain wraps; retained product video expands; Contact CTA reaches existing Formspree, mobile form top194px. Static preview initially lacked /contact route; added local-only contact/index.html mapping and rechecked successfully.",
+    "not_tested": "No real inquiry, email delivery, certificate verification or ranking/AI/lead improvement claim"
+  },
+  "release": "candidate until formal deployment/domain/bytes/CTA verified and recorded in PR/daily entry"
+}
