@@ -32,7 +32,7 @@ function renderFaqSchema(config, pageUrl) {
     '@type': 'Organization',
     '@id': `${siteUrl}/#organization`,
     name: 'VisFurn',
-    legalName: 'Tianjin Vishome Furniture Co., Ltd.',
+    legalName: 'Tianjin Visfurn Furniture Co., Ltd.',
     foundingDate: '2005',
     url: `${siteUrl}/`,
     logo: `${siteUrl}/assets/brand/visfurn-logo-door-v2-720.webp`,
