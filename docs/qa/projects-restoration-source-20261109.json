@@ -1,0 +1,264 @@
+{
+  "date": "2026-11-09",
+  "base": "2621f9e9b04a463d0f43e0877a31247767da2b06",
+  "pages": [
+    "/projects",
+    "/products",
+    "/case-study/mexico-boutique-hotel-moisture-resistant-bathroom-doors",
+    "/case-study/philippines-apartment-interior-wpc-door-package-humid-project",
+    "/case-study/hospital-door-package-specification-planning"
+  ],
+  "cards": [
+    {
+      "href": "/case-study/commercial-project-door-package",
+      "title": "Commercial door package & bulk packing",
+      "category": "logistics",
+      "desc": "Separate door leaves, frames and hardware, then plan labels, packed dimensions and shipment groups.",
+      "src": "/assets/images/projects-library/planning-01-720.webp",
+      "width": 720,
+      "height": 410
+    },
+    {
+      "href": "/case-study/multifamily-interior-door-package-staged-delivery",
+      "title": "Multifamily doors & staged delivery",
+      "category": "residential",
+      "desc": "Coordinate repeated room types, finish samples, opening IDs and floor-by-floor delivery groups.",
+      "src": "/assets/images/projects-library/planning-02-720.webp",
+      "width": 720,
+      "height": 480
+    },
+    {
+      "href": "/case-study/iraq-residential-rebuild-glazed-double-swing-doors",
+      "title": "Glazed double-door opening review",
+      "category": "residential",
+      "desc": "Compare paired leaves, glazing, frame depth, handing and hardware interfaces for residential openings.",
+      "src": "/assets/images/projects-library/planning-03-720.webp",
+      "width": 720,
+      "height": 454
+    },
+    {
+      "href": "/case-study/togo-lome-apartment-building-repeat-door-order",
+      "title": "Apartment repeat-order coordination",
+      "category": "residential",
+      "desc": "Keep approved finishes, model references and packing labels consistent across later order phases.",
+      "src": "/assets/images/case-study/c17-togo-lome-apartment-building-repeat-door-order/c17-togo-lome-apartment-building-repeat-door-order-hero-640.webp",
+      "width": 640,
+      "height": 365
+    },
+    {
+      "href": "/case-study/liberia-monrovia-family-home-door-container-consolidation",
+      "title": "Family-home container consolidation",
+      "category": "logistics",
+      "desc": "Bring entry and interior doors into one schedule, with frames and hardware assigned to each opening.",
+      "src": "/assets/images/case-study/c18-liberia-monrovia-family-home-door-container-consolidation/c18-liberia-monrovia-family-home-door-container-consolidation-hero-640.webp",
+      "width": 640,
+      "height": 365
+    },
+    {
+      "href": "/case-study/mauritius-cost-competitive-full-door-set-import",
+      "title": "Complete WPC door-set planning",
+      "category": "residential",
+      "desc": "Review the WPC leaf, adjustable frame, trim and hardware as one specified supply package.",
+      "src": "/assets/images/case-study/c19-mauritius-cost-competitive-full-door-set-import/c19-mauritius-cost-competitive-full-door-set-import-hero-640.webp",
+      "width": 640,
+      "height": 365
+    },
+    {
+      "href": "/case-study/canada-multifamily-interior-door-package-imperial-sizes",
+      "title": "Imperial-size apartment door schedules",
+      "category": "residential",
+      "desc": "Keep nominal sizes, actual leaf dimensions, rough openings and jamb depth in separate fields.",
+      "src": "/assets/images/case-study/canada-multifamily-interior-door-package-imperial-sizes/canada-multifamily-interior-door-package-imperial-sizes-hero-640.webp",
+      "width": 640,
+      "height": 365
+    },
+    {
+      "href": "/case-study/hospital-door-package-specification-planning",
+      "title": "Hospital door package planning",
+      "category": "healthcare",
+      "desc": "Separate patient rooms, support areas and controlled openings before comparing assemblies and documents.",
+      "src": "/assets/images/products/hospital-doors/buyer-intelligence/hospital-door-specification-zones-hero-1600.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "href": "/case-study/philippines-apartment-interior-wpc-door-package-humid-project",
+      "title": "Apartment interior & WPC bathroom doors",
+      "category": "residential",
+      "desc": "Choose dry-room interior doors and WPC bathroom options by exposure, frame depth and installation scope.",
+      "src": "/assets/images/case-study/c13-philippines-apartment-interior-wpc-door-package/philippines-apartment-door-package-hero-1600.webp",
+      "width": 1600,
+      "height": 912
+    },
+    {
+      "href": "/case-study/mexico-boutique-hotel-moisture-resistant-bathroom-doors",
+      "title": "Hotel guestroom & bathroom door packages",
+      "category": "hospitality",
+      "desc": "Coordinate guestroom entrances, bathroom doors, finish approval and electronic-lock preparation.",
+      "src": "/assets/images/case-study/c11-mexico-boutique-hotel-moisture-resistant-bathroom-doors/mexico-boutique-hotel-door-package-hero-1600.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "href": "/case-study/us-multifamily-interior-doors-container",
+      "title": "Mixed-size multifamily door packages",
+      "category": "residential",
+      "desc": "Group imperial sizes and handing by door mark; estimate shipment volume from final packed dimensions.",
+      "src": "/assets/images/cases/c1-us-multifamily-interior-doors/us-multifamily-interior-doors-hero-640.webp",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "href": "/case-study/india-500-doors-20ft-container",
+      "title": "Flat-pack door loading review",
+      "category": "logistics",
+      "desc": "Compare packed leaf, frame and trim dimensions before choosing a container or consolidation plan.",
+      "src": "/assets/images/cases/c2-india-500-doors-20ft-container/india-500-doors-20ft-container-hero-640.webp",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "href": "/case-study/maldives-resort-door-package",
+      "title": "Resort guestroom & bathroom selection",
+      "category": "hospitality",
+      "desc": "Review humidity exposure, finish, seals and hardware separately for guestroom and bathroom openings.",
+      "src": "/assets/images/cases/c3-maldives-resort-door-package/maldives-resort-door-package-hero-640.webp",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "href": "/case-study/philippines-condominium-interior-doors",
+      "title": "Condominium interior door coordination",
+      "category": "residential",
+      "desc": "Use room schedules to align repeated interior doors, frames, finish samples and site labels.",
+      "src": "/assets/images/cases/c4-philippines-condominium-interior-doors/philippines-condominium-interior-doors-hero-640.webp",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "href": "/case-study/saudi-arabia-villa-cast-aluminium-entry-doors",
+      "title": "Villa entrance door specification",
+      "category": "residential",
+      "desc": "Confirm entrance dimensions, exposure, frame fixing, lock configuration and destination requirements.",
+      "src": "/assets/images/cases/c5-saudi-arabia-villa-cast-aluminium-entry-doors/saudi-villa-cast-aluminium-entry-door-hero-640.webp",
+      "width": 640,
+      "height": 427
+    },
+    {
+      "href": "/case-study/italy-private-label-white-primed-flush-doors",
+      "title": "Private-label white primed doors",
+      "category": "distribution",
+      "desc": "Specify surface condition, branding, packaging labels and the finish work assigned to the importer.",
+      "src": "/assets/images/cases/c6-italy-private-label-white-primed-flush-doors/italy-private-label-flush-doors-hero-640.webp",
+      "width": 640,
+      "height": 427
+    },
+    {
+      "href": "/case-study/new-zealand-student-housing-wpc-bathroom-doors",
+      "title": "Student-housing WPC bathroom doors",
+      "category": "residential",
+      "desc": "Review repeated bathroom openings, cleaning exposure, frames and replacement hardware by room type.",
+      "src": "/assets/images/cases/c7-new-zealand-student-housing-wpc-bathroom-doors/new-zealand-student-housing-wpc-bathroom-doors-hero-1200.webp",
+      "width": 1200,
+      "height": 750
+    },
+    {
+      "href": "/case-study/berlin-office-acoustic-timber-doors",
+      "title": "Office timber door & hardware review",
+      "category": "commercial",
+      "desc": "Coordinate leaf construction, frames, seals and hardware; check any requested acoustic documentation.",
+      "src": "/assets/images/cases/c8-berlin-office-acoustic-timber-doors/berlin-office-acoustic-timber-door-fitout-hero-1200.webp",
+      "width": 1200,
+      "height": 750
+    },
+    {
+      "href": "/case-study/ghana-accra-wpc-steel-security-doors",
+      "title": "WPC interior & steel entrance schedules",
+      "category": "residential",
+      "desc": "Separate room doors from security entrances, with distinct frame, hardware and packing requirements.",
+      "src": "/assets/images/case-study/c9-ghana-accra-wpc-steel-security-doors/ghana-accra-wpc-steel-security-doors-hero-1600.webp",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "href": "/case-study/australia-queensland-acoustic-interior-doors",
+      "title": "Builder interior door-set review",
+      "category": "commercial",
+      "desc": "Compare leaf sizes, jamb depth, handing and required project documents before finalizing the schedule.",
+      "src": "/assets/images/case-study/c10-australia-queensland-acoustic-interior-doors/australia-queensland-acoustic-interior-doors-hero-1600.webp",
+      "width": 1536,
+      "height": 1024
+    }
+  ],
+  "guides": [
+    {
+      "path": "/case-study/mexico-boutique-hotel-moisture-resistant-bathroom-doors",
+      "primary_keyword": "hotel door package",
+      "h1": "Hotel guestroom & bathroom door packages",
+      "related": [
+        [
+          "/products/hotel-doors",
+          "Compare hotel door options"
+        ],
+        [
+          "/products/wpc-doors",
+          "Review WPC bathroom-door selection"
+        ],
+        [
+          "/blog/door-sample-approval-checklist-before-mass-production",
+          "Use the sample approval checklist"
+        ],
+        [
+          "/blog/compare-door-supplier-quotes-bulk-projects",
+          "Compare complete door-set quotations"
+        ]
+      ]
+    },
+    {
+      "path": "/case-study/philippines-apartment-interior-wpc-door-package-humid-project",
+      "primary_keyword": "apartment door package",
+      "h1": "Apartment interior & WPC door packages",
+      "related": [
+        [
+          "/products/interior-doors",
+          "Compare interior door sets"
+        ],
+        [
+          "/products/wpc-doors",
+          "Review WPC door construction"
+        ],
+        [
+          "/blog/how-to-send-door-sizes",
+          "Prepare door-size information"
+        ],
+        [
+          "/blog/door-packaging-labels-installation-room-schedule",
+          "Plan room labels and packing"
+        ]
+      ]
+    },
+    {
+      "path": "/case-study/hospital-door-package-specification-planning",
+      "primary_keyword": "hospital door planning",
+      "h1": "Hospital door package planning",
+      "related": [
+        [
+          "/products/hospital-doors",
+          "Compare hospital door configurations"
+        ],
+        [
+          "/resources/standards-documentation",
+          "Review standards and assembly documents"
+        ],
+        [
+          "/blog/door-hardware-preparation-checklist-bulk-orders",
+          "Prepare hardware interfaces"
+        ],
+        [
+          "/blog/compare-door-supplier-quotes-bulk-projects",
+          "Compare quotation inclusions"
+        ]
+      ]
+    }
+  ]
+}
