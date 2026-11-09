@@ -45,3 +45,10 @@ Production result must be recorded in the PR receipt after merge, formal-domain 
 
 ## Long-term continuation
 This release's technical/crawl review: 2026-11-16; indexation/query review: 11/23; complete 28-day outcome review: 12/07, through existing tasks/board, without creating reminders. Prior 11/08 category dates 11/15, 11/22 and 12/06 remain. Measure Projects→guide→product/RFQ progression, relevant queries and actual qualified inquiries/quotation progression. No current lead baseline or forecast is invented.
+
+
+## Final production RFQ follow-up
+
+PR203 production rendered correctly, but its three guide CTA parameters used display labels rather than the contact form's existing product slug allowlist. A focused follow-up changes only these link values: Hotel+Doors → hotel-doors; Interior+Doors → interior-doors; Hospital+Doors → hospital-doors. Both CTAs per guide retain the encoded case-study source_page and #quote-form anchor. Generic Projects CTAs now use the supported inquiry_purpose=specification-review parameter without selecting a door category on the buyer's behalf.
+
+No contact form, mail endpoint, tracking controller or global navigation code is changed. The existing check-door-supply-context script passes. Production click-through verification is required after this follow-up deploys; no real inquiry is sent.
