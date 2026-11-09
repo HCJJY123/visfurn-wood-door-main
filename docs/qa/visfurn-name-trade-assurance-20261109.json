@@ -1,0 +1,8 @@
+{
+  "renamed_files": 226,
+  "html": 222,
+  "jsonld_blocks_parsed": 500,
+  "remaining_public_vishome": 0,
+  "name_only_changes_exact_except_about": true,
+  "baseline_test_limit": "check-school-buyer-path.cjs expects inline legalName in galvanized school product; base product has none. No production schema change introduced to satisfy that unrelated baseline assertion."
+}

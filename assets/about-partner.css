@@ -24,3 +24,12 @@
 .about-page .vf-partner a:focus-visible, .about-page .vf-partner-hero-link:focus-visible { outline: 3px solid #ac8050; outline-offset: 4px; }
 @media(max-width: 900px) { .about-page .vf-partner { grid-template-columns: 1fr; width: calc(100% - 36px); padding: 26px 22px; gap: 24px; } }
 @media(max-width: 480px) { .about-page .vf-partner-next { padding: 22px 18px; } .about-page .vf-partner-steps li { gap: 10px; grid-template-columns: 20px minmax(0,1fr); } .about-page .vf-partner .vf-partner-lead { font-size: 16px; } .about-page .vf-partner-identity { padding: 18px; } }
+
+/* Order-route option within the existing sales cooperation section. */
+.about-page .vf-partner-assurance { margin: 22px 0; padding: 22px; border: 1px solid #cdd9cc; border-left: 3px solid #ac8050; border-radius: 6px; background: #f0f4ed; }
+.about-page .vf-partner-assurance .vf-partner-label { margin: 0 0 10px; color: #765633; }
+.about-page .vf-partner-assurance h3 { margin: 0 0 12px; font-size: 23px; line-height: 1.3; }
+.about-page .vf-partner-assurance p { margin: 0 0 12px; font-size: 15px; line-height: 1.65; }
+.about-page .vf-partner-assurance .vf-assurance-terms { color: #5b655c; font-size: 13px; }
+.about-page .vf-partner-assurance .vf-partner-resource { margin-top: 2px; flex-wrap: wrap; }
+@media (max-width: 480px) { .about-page .vf-partner-assurance { padding: 18px; } .about-page .vf-partner-assurance h3 { font-size: 21px; } }

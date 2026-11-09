@@ -22,7 +22,7 @@ for (const [html, path] of [[product, productPath], [category, '/products/school
   for (const match of html.matchAll(/<script\b[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)) {
     JSON.parse(match[1]);
   }
-  assert.ok(html.includes('"legalName":"Tianjin Vishome Furniture Co., Ltd."'));
+  assert.ok(html.includes('"legalName":"Tianjin Visfurn Furniture Co., Ltd."'));
 }
 
 // Exercise the existing collection prefill with the new product-source RFQ link.
