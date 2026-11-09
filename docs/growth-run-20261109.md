@@ -74,3 +74,33 @@ SEO Title / 唯一H1保持 How to Compare Door Supplier Quotes for Bulk Projects
 生产保持4c6f55a09ea2a4bdc09c6fad11239e67a4cbfa53 / READY dpl_HuV5BEr3GVuhvTT4DAco7DQrq24c。候选不合并、不称上线；恢复QA后依据当前范围/准确SHA按既有发布契约处理。出现新提交需重读main；revert隔离PR，不回退覆盖其他新改动。PR195当前仍open且mergeable:false，与最新三核心页重叠，不能盲合并。
 11/08三页7/14/28天观察日期仍11/15、11/22、12/06；11/09尚未到期，无效果结论。PR197合作块同样仍待观察阿里来源→产品/RFQ→真实有效询盘。历史PR189按其实际上线日保留自己的观察窗口。
 下一步：恢复已授权浏览器的Semrush/GSC指定账号；完成本候选构建/真实桌面移动/CTA验收；11/15及随后到期执行检查再决定是否改核心页。之后按阶段8–30天优先真实查询与证据，31–60天补实拍和配置文件，61–90天完整28天及销售推进复盘。没有新建或触发定时任务。
+
+## 11/09 下午承接 PR198 — 本轮增量（早前阻塞保留为历史）
+用户要求完成上述任务，沿用范围内验证与发布授权。当前 main 已更新为8b0a7fe3e8f43f2d9a5a5a3a382f8c18932a8c80（PR200）；合入当前main后保留PR199博客图与PR200 Contact三Banner，生产差异仍仅指南、该URL的sitemap日期和本台账。旧PR195不合并。Mike项目当前元数据再次核对id prj_gwcK8vPfKHEf3KIFfvG5YJlFvh7L/accountId team_qvgr1dWcQ4t5QLcvJFUpWZQi，域名www.visfurn.com；显式teamId读取404与默认连接实际读取成功分别记录，不改团队/权限。
+
+### SEMrush 新查询已取得
+访问2026-11-09，北京时间下午；固定.d入口本会话先返回401。用户登录 https://taobao-seo.com/#/dashboard 后，从平台自己的“打开 Semrush”按钮得到实际正常入口 https://zh-d-semrush-d-com-s-sem.taobao-seo.com/home/ 。使用正常授权跳转，未绕过登录或购买。
+本轮聚焦Trudoor一个相关木门页面，复用既有十同行库，不重跑全库。国家US，desktop，USD，报告日期2026-11-08；Top Pages无独立设备选择，关联Organic报告为desktop。域名概览US自然流量42,937、关键词22,641仅整站背景，含金属门/五金/品牌，不当作木门机会。概览关键主题出现鞋码/女装，排除该异常模块。
+实际报告：
+- Domain Overview: https://zh-d-semrush-d-com-s-sem.taobao-seo.com/analytics/overview/?db=us&q=trudoor.com&searchType=domain&currency=usd
+- Top Pages: https://zh-d-semrush-d-com-s-sem.taobao-seo.com/analytics/toppages/?db=us&q=trudoor.com&searchType=domain&fid=14167537
+- URL Organic Positions: https://zh-d-semrush-d-com-s-sem.taobao-seo.com/analytics/organic/positions/?db=us&q=https%3A%2F%2Fwww.trudoor.com%2Fcollections%2Fcommercial-wood-doors&searchType=url
+商业木门URL https://www.trudoor.com/collections/commercial-wood-doors ：估算流量817、占整站1.90%、511词、33全平台LLM prompts；Top Pages变化-57（该模块口径），不用跨模块变化率作因果结论。关键词表默认全部排名，区分自然数值位置与无数字SERP行；仅采用有数字排名的相关行：
+|词|意图|位置|月量|KD|该行估算流量|占本页流量|
+|---|---|---:|---:|---:|---:|---:|
+|commercial interior doors|C|2|720|15|95|11.62%|
+|wood doors and frames|T|1|90|13|22|2.69%|
+|solid core wood doors commercial|C|1|90|7|22|2.69%|
+|prehung commercial interior doors|C|2|50|15|4|0.48%|
+CPC未获取，主词compare door supplier quotes月量未获取；不称真实高转化。已打开同行实际落地页，核实按饰面/门芯组织、加工、尺寸基准和Configure/Get Price入口；只借鉴采购组织，不复制价格、美国原产地、尺寸扣减、等级或正文。
+AI报告从Top Pages该URL的33提示链接进入，US/所有AI平台/2026-11-08，过滤source_url contains该完整商业木门URL：
+https://zh-d-semrush-d-com-s-sem.taobao-seo.com/ai-seo/overview/?q=trudoor.com&preset=brandedSources&db=us&filter=eyJkaW1lbnNpb24iOnsic291cmNlX3VybCI6eyJjb250YWlucyI6Imh0dHBzOi8vd3d3LnRydWRvb3IuY29tL2NvbGxlY3Rpb25zL2NvbW1lcmNpYWwtd29vZC1kb29ycyJ9fX0&fid=14167537
+实际展开33提示首批5条，其中英文问题“Where can I buy high-quality industrial interior doors online?”打开完整回答：US/Gemini，答复更新2026-10-16，8品牌/4来源，Trudoor被提及且引用上述商业木门URL；回答按工业风钢门与重型商业门分支组织，含solid-core wood及报价配置。该问题覆盖钢玻璃/金属，只有商业木门采购分支相关，不能全盘采纳。另wood door price、commercial wood doors near me和solid wood commercial doors实际平台AI Overview；葡语Onde posso comprar portas de madeira de qualidade com bom preço?为Gemini/US。不是ChatGPT引用证据。33全平台提示不可写成33 ChatGPT推荐。US整站ChatGPT122提及/479引用页面仅整站背景，不作为该页或VISFURN数据。
+本轮研究验证既有机会排序：报价范围/材料/尺寸/五金归一化优先，抓取与canonical次之（GSC待读），真实资料第三，医院提示第四（未新查），无证据国家页不做。未新增薄页或制造资质。
+
+### QA及最小修正
+静态build为项目原有no-op已运行通过。现有check-inquiry-submit-mock及check-door-supply-context全部通过，均mock，无外发。单H1/自canonical、两份JSON-LD、6FAQ对应、无历史禁名、脚本/图片标签保留、151唯一sitemap检查通过。
+Cloud本地Chromium下载损坏，未把安装失败当视觉验收；改用现有sites-preview与云Chrome实看。预览导出当前源码，仅测试包装页不入生产。375/390/1440px iframe viewport分别client/scroll360/360、375/375、1425/1425，无页面横溢出；表格在375px可读、图加载、FAQ第二项展开aria-expanded=true。此为CSS视口，非实机。预览服务器不执行Vercel cleanUrls，Contact仅在测试副本映射到contact.html，不改生产路由。
+发现仅source_page的旧CTA不能触发现有产品上下文脚本；本指南CTA最小改为product=interior-doors、inquiry_purpose=specification-review、supply_scope=help-me-choose，保留source_page和#quote-form。不改共享脚本或追踪范围。实际浏览器预填Interior Wooden Doors、Specification review、Help me compare the scope；既有来源字段被填入（浏览器输出遮盖值，完整准确值依源代码与mock验证，不伪称UI读到明文）。稳定后form顶194px可见，action仍Formspree /f/xoeadjwv。未提交询盘或检查收件。
+GSC Wizard本次重新读取仍payment_required/subscription_required；SMEPost重新列属性仍InflatCustom工作区/3天/禁比较，VISFURN siteUnverifiedUser，不代表EduardozsdfEngle@gmail.com指定账号。未取得最近两个完整28天、Google canonical或最后抓取；不把不可读当零，也不购买。GA4/Clarity/有效询盘本轮无数据。
+发布后仅本指南canonical去重通知IndexNow；Google sitemap受连接限制待提交。11/08三页观察11/15、11/22、12/06不变；本指南若11/09上线，其7/14/28观察为11/16、11/23、12/07，在现有任务处理。无新提醒。回退只revert PR198，保留PR199/200。
