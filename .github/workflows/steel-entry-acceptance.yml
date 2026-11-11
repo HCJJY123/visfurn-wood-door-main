@@ -29,7 +29,12 @@ jobs:
       - name: Install browser test dependency
         run: |
           npm install --no-save --package-lock=false playwright@1.47.2
-          npx playwright install --with-deps chromium
+          browser_path=$(command -v google-chrome || command -v google-chrome-stable || command -v chromium || true)
+          if [ -n "$browser_path" ]; then
+            printf 'CHROMIUM_PATH=%s\n' "$browser_path" >> "$GITHUB_ENV"
+          else
+            npx playwright install chromium
+          fi
       - name: Desktop and mobile product acceptance (no submissions)
         run: |
           mkdir -p out
