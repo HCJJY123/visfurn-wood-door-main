@@ -1,5 +1,5 @@
 const siteUrl = 'https://www.visfurn.com';
-const whatsappUrl = 'https://wa.me/8618830278977';
+const whatsappUrl = require('../assets/whatsapp-inquiry-20261112.js').getUrl({ source: 'localized_whatsapp', pageTitle: 'VISFURN website', pageUrl: 'https://www.visfurn.com/' });
 
 function escapeHtml(value) {
   return String(value)
@@ -143,6 +143,7 @@ function renderLandingPage(config) {
   <footer class="ld-footer"><div class="ld-wrap">© 2026 VISFURN · <a href="${escapeHtml(copy.footerCategoryHref)}">${escapeHtml(copy.footerCategoryLabel)}</a> · <a href="/contact#quote-form">${escapeHtml(config.cta.quote)}</a></div></footer>
   <a class="ld-float" href="${whatsappUrl}" target="_blank" rel="noopener noreferrer" data-lead-cta="whatsapp" data-cta-placement="floating" aria-label="${escapeHtml(config.cta.whatsapp)}">WA</a>
   <script>(function(){function track(event,parameters){window.dataLayer=window.dataLayer||[];window.dataLayer.push(Object.assign({event:event},parameters));}document.querySelectorAll('[data-lead-cta]').forEach(function(cta){cta.addEventListener('click',function(){var type=cta.dataset.leadCta;var eventName={whatsapp:'whatsapp_click',quote:'quote_cta_click',sample:'sample_cta_click'}[type];track(eventName,{page_language:'${escapeHtml(config.lang)}',page_type:'localized_prehung_door_landing',cta_type:type,cta_placement:cta.dataset.ctaPlacement||'inline'});});});var tabs=[].slice.call(document.querySelectorAll('.ld-tab'));var sections=[].slice.call(document.querySelectorAll('.ld-section[id],.ld-hero[id]'));if('IntersectionObserver'in window){var observer=new IntersectionObserver(function(entries){entries.forEach(function(entry){if(entry.isIntersecting){tabs.forEach(function(tab){tab.classList.toggle('is-active',tab.getAttribute('href')==='#'+entry.target.id);});}});},{rootMargin:'-145px 0px -55% 0px',threshold:0});sections.forEach(function(section){observer.observe(section);});var video=document.querySelector('[data-video-placeholder]');if(video)new IntersectionObserver(function(entries,videoObserver){entries.forEach(function(entry){if(entry.isIntersecting){entry.target.classList.add('is-in-view');videoObserver.unobserve(entry.target);}});},{rootMargin:'180px 0px'}).observe(video);}}());</script>
+<script defer src="/assets/whatsapp-inquiry-20261112.js"></script>
 </body>
 </html>`;
 }
