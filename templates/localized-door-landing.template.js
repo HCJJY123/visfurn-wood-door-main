@@ -1,5 +1,5 @@
 const siteUrl = 'https://www.visfurn.com';
-const whatsappUrl = 'https://wa.me/8615222885400';
+const whatsappUrl = 'https://wa.me/8618830278977';
 
 function escapeHtml(value) {
   return String(value)
