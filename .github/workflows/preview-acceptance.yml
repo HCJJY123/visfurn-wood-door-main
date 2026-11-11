@@ -71,12 +71,14 @@ jobs:
       - name: Screenshots and attribution (authenticated headers)
         run: |
           cd "$RUNNER_TEMP" && npm init -y >/dev/null && npm i --silent $PW
-          npx playwright install --with-deps chromium
+          CHROMIUM_PATH=$(command -v google-chrome || command -v google-chrome-stable || command -v chromium || true)
+          export CHROMIUM_PATH
+          if [ -z "$CHROMIUM_PATH" ]; then npx playwright install chromium; fi
           cat > acceptance.js <<'EOF2'
           const { chromium, devices } = require('playwright');
           const path = require('path');
           (async () => {
-            const b = await chromium.launch();
+            const b = await chromium.launch(process.env.CHROMIUM_PATH ? { executablePath: process.env.CHROMIUM_PATH } : {});
             const headers = process.env.BYPASS ? { 'x-vercel-protection-bypass': process.env.BYPASS } : {};
             for (const [name, options] of [['desktop', { viewport: { width: 1440, height: 900 } }], ['mobile', devices['Pixel 5']]]) {
               const context = await b.newContext({ ...options, extraHTTPHeaders: headers });
