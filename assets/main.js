@@ -461,7 +461,7 @@ document.querySelectorAll('.faq-question').forEach((question) => {
     actions.className = 'vf-header-actions';
     const whatsapp = document.createElement('a');
     whatsapp.className = 'vf-header-whatsapp';
-    whatsapp.href = 'https://wa.me/8618830278977?text=Hello%20Visfurn%2C%20I%20would%20like%20to%20discuss%20a%20door%20project.';
+    whatsapp.href = 'https://wa.me/8618830278977?text=Hello%20VISFURN%2C%20I%20would%20like%20a%20quote%20for%20a%20door%20project.%0A%0ADoor%20type%20%2F%20application%3A%20%0AQuantity%20(sets)%3A%20%0ADoor%20leaf%20%2F%20opening%20size%3A%20%0AFinished%20wall%20thickness%3A%20%0ALeaf%20only%20%2F%20complete%20door%20set%3A%20%0AFrame%20%2F%20hardware%20requirements%3A%20%0AFinish%20%2F%20color%3A%20%0ADestination%20country%20%2F%20port%3A%20%0ARequired%20delivery%20date%3A%20%0ADrawings%20%2F%20door%20schedule%20available%3A%20%0A%0APlease%20share%20a%20quotation%20with%20the%20supply%20scope%2C%20sample%20options%20and%20production%20lead%20time.%20Thank%20you.%0A%0A---%20Attribution%20---%0ASource%3A%20website_whatsapp%0APage%3A%20VISFURN%20website%0AIntent%3A%20request_door_quote%0AURL%3A%20https%3A%2F%2Fwww.visfurn.com%2F';
     whatsapp.target = '_blank';
     whatsapp.rel = 'nofollow noopener';
     whatsapp.setAttribute('aria-label', 'WhatsApp');
@@ -507,7 +507,7 @@ document.querySelectorAll('.faq-question').forEach((question) => {
     const whatsapp = document.createElement('a');
     whatsapp.dataset.vfFloatingWhatsapp = 'true';
     whatsapp.className = 'vf-whatsapp-float';
-    whatsapp.href = 'https://wa.me/8618830278977?text=Hello%20Visfurn%2C%20I%20would%20like%20to%20discuss%20a%20door%20project.';
+    whatsapp.href = 'https://wa.me/8618830278977?text=Hello%20VISFURN%2C%20I%20would%20like%20a%20quote%20for%20a%20door%20project.%0A%0ADoor%20type%20%2F%20application%3A%20%0AQuantity%20(sets)%3A%20%0ADoor%20leaf%20%2F%20opening%20size%3A%20%0AFinished%20wall%20thickness%3A%20%0ALeaf%20only%20%2F%20complete%20door%20set%3A%20%0AFrame%20%2F%20hardware%20requirements%3A%20%0AFinish%20%2F%20color%3A%20%0ADestination%20country%20%2F%20port%3A%20%0ARequired%20delivery%20date%3A%20%0ADrawings%20%2F%20door%20schedule%20available%3A%20%0A%0APlease%20share%20a%20quotation%20with%20the%20supply%20scope%2C%20sample%20options%20and%20production%20lead%20time.%20Thank%20you.%0A%0A---%20Attribution%20---%0ASource%3A%20website_whatsapp%0APage%3A%20VISFURN%20website%0AIntent%3A%20request_door_quote%0AURL%3A%20https%3A%2F%2Fwww.visfurn.com%2F';
     whatsapp.target = '_blank';
     whatsapp.rel = 'nofollow noopener';
     whatsapp.setAttribute('aria-label', 'WhatsApp');
@@ -732,7 +732,7 @@ document.querySelectorAll('.faq-question').forEach((question) => {
     const siteNav = siteHeader?.querySelector('.nav');
     if (!siteNav || !document.documentElement.lang.toLowerCase().startsWith('en')) return;
 
-    const whatsapp = 'https://wa.me/8618830278977?text=Hello%20Visfurn%2C%20I%20would%20like%20to%20discuss%20a%20door%20project.';
+    const whatsapp = 'https://wa.me/8618830278977?text=Hello%20VISFURN%2C%20I%20would%20like%20a%20quote%20for%20a%20door%20project.%0A%0ADoor%20type%20%2F%20application%3A%20%0AQuantity%20(sets)%3A%20%0ADoor%20leaf%20%2F%20opening%20size%3A%20%0AFinished%20wall%20thickness%3A%20%0ALeaf%20only%20%2F%20complete%20door%20set%3A%20%0AFrame%20%2F%20hardware%20requirements%3A%20%0AFinish%20%2F%20color%3A%20%0ADestination%20country%20%2F%20port%3A%20%0ARequired%20delivery%20date%3A%20%0ADrawings%20%2F%20door%20schedule%20available%3A%20%0A%0APlease%20share%20a%20quotation%20with%20the%20supply%20scope%2C%20sample%20options%20and%20production%20lead%20time.%20Thank%20you.%0A%0A---%20Attribution%20---%0ASource%3A%20website_whatsapp%0APage%3A%20VISFURN%20website%0AIntent%3A%20request_door_quote%0AURL%3A%20https%3A%2F%2Fwww.visfurn.com%2F';
     const email = 'mailto:rose@visfurn.com?subject=VISFURN%20Door%20Project%20Inquiry';
     const menuData = [
       { label: 'Home', href: '/' },
@@ -1033,8 +1033,19 @@ setupFloatingActions();
   const contact = grid ? [...grid.children].filter((child) => child.tagName === 'DIV').at(-1) : footer;
   if (!contact) return;
   contact.insertAdjacentHTML('beforeend', `<div class="vf-footer-whatsapp" data-whatsapp-contact="rose" style="margin-top:20px;max-width:230px">
-<a href="https://wa.me/8618830278977" target="_blank" rel="noopener noreferrer" data-track="whatsapp_click" data-cta-placement="footer_number" aria-label="Chat with Rose on WhatsApp" style="display:flex;align-items:center;gap:8px;margin:0;font-size:14px;font-weight:700;color:inherit;text-decoration:none"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="#168A42" stroke-width="1.8" aria-hidden="true" style="flex-shrink:0"><path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5 9.4 9.4 0 0 1-4-.9L3 21l1.9-5.5A9.4 9.4 0 0 1 4 11.5 8.5 8.5 0 0 1 12.5 3 8.5 8.5 0 0 1 21 11.5Z"/></svg><span>WhatsApp<br/><span dir="ltr" style="white-space:nowrap">+86 188 3027 8977</span></span></a>
-<a href="https://wa.me/8618830278977" target="_blank" rel="noopener noreferrer" data-track="whatsapp_click" data-cta-placement="footer_whatsapp_qr" aria-label="Scan or click to chat with Rose on WhatsApp" style="display:block;box-sizing:border-box;width:144px;height:144px;margin:12px 0 0;border:1px solid #dce5df;border-radius:12px;background:#fff;padding:4px;overflow:hidden"><img src="/assets/images/whatsapp-rose-qr-20261112.svg" alt="WhatsApp contact QR code for Rose" width="296" height="296" loading="lazy" decoding="async" style="display:block;width:100%;height:100%;object-fit:contain"/></a>
+<a href="https://wa.me/8618830278977?text=Hello%20VISFURN%2C%20I%20would%20like%20a%20quote%20for%20a%20door%20project.%0A%0ADoor%20type%20%2F%20application%3A%20%0AQuantity%20(sets)%3A%20%0ADoor%20leaf%20%2F%20opening%20size%3A%20%0AFinished%20wall%20thickness%3A%20%0ALeaf%20only%20%2F%20complete%20door%20set%3A%20%0AFrame%20%2F%20hardware%20requirements%3A%20%0AFinish%20%2F%20color%3A%20%0ADestination%20country%20%2F%20port%3A%20%0ARequired%20delivery%20date%3A%20%0ADrawings%20%2F%20door%20schedule%20available%3A%20%0A%0APlease%20share%20a%20quotation%20with%20the%20supply%20scope%2C%20sample%20options%20and%20production%20lead%20time.%20Thank%20you.%0A%0A---%20Attribution%20---%0ASource%3A%20website_whatsapp%0APage%3A%20VISFURN%20website%0AIntent%3A%20request_door_quote%0AURL%3A%20https%3A%2F%2Fwww.visfurn.com%2F" target="_blank" rel="noopener noreferrer" data-track="whatsapp_click" data-cta-placement="footer_number" aria-label="Chat with Rose on WhatsApp" style="display:flex;align-items:center;gap:8px;margin:0;font-size:14px;font-weight:700;color:inherit;text-decoration:none"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="#168A42" stroke-width="1.8" aria-hidden="true" style="flex-shrink:0"><path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5 9.4 9.4 0 0 1-4-.9L3 21l1.9-5.5A9.4 9.4 0 0 1 4 11.5 8.5 8.5 0 0 1 12.5 3 8.5 8.5 0 0 1 21 11.5Z"/></svg><span>WhatsApp<br/><span dir="ltr" style="white-space:nowrap">+86 188 3027 8977</span></span></a>
+<a href="https://wa.me/8618830278977?text=Hello%20VISFURN%2C%20I%20would%20like%20a%20quote%20for%20a%20door%20project.%0A%0ADoor%20type%20%2F%20application%3A%20%0AQuantity%20(sets)%3A%20%0ADoor%20leaf%20%2F%20opening%20size%3A%20%0AFinished%20wall%20thickness%3A%20%0ALeaf%20only%20%2F%20complete%20door%20set%3A%20%0AFrame%20%2F%20hardware%20requirements%3A%20%0AFinish%20%2F%20color%3A%20%0ADestination%20country%20%2F%20port%3A%20%0ARequired%20delivery%20date%3A%20%0ADrawings%20%2F%20door%20schedule%20available%3A%20%0A%0APlease%20share%20a%20quotation%20with%20the%20supply%20scope%2C%20sample%20options%20and%20production%20lead%20time.%20Thank%20you.%0A%0A---%20Attribution%20---%0ASource%3A%20website_whatsapp%0APage%3A%20VISFURN%20website%0AIntent%3A%20request_door_quote%0AURL%3A%20https%3A%2F%2Fwww.visfurn.com%2F" target="_blank" rel="noopener noreferrer" data-track="whatsapp_click" data-cta-placement="footer_whatsapp_qr" aria-label="Scan or click to chat with Rose on WhatsApp" style="display:block;box-sizing:border-box;width:144px;height:144px;margin:12px 0 0;border:1px solid #dce5df;border-radius:12px;background:#fff;padding:4px;overflow:hidden"><img src="/assets/images/whatsapp-quote-qr-20261112.svg" alt="WhatsApp contact QR code for Rose" width="296" height="296" loading="lazy" decoding="async" style="display:block;width:100%;height:100%;object-fit:contain"/></a>
 <p style="margin:12px 0 0;max-width:180px;font-size:10px;font-weight:700;line-height:1.6;letter-spacing:.06em;text-transform:uppercase;color:inherit;opacity:.85">Scan or click to chat with Rose</p>
 </div>`);
+})();
+
+
+// Prepare full RFQ drafts and current-page attribution for every WhatsApp entry.
+(() => {
+  if (document.querySelector('script[data-vf-whatsapp-prefill]')) return;
+  const script = document.createElement('script');
+  script.src = '/assets/whatsapp-inquiry-20261112.js';
+  script.dataset.vfWhatsappPrefill = 'true';
+  script.async = false;
+  document.head.appendChild(script);
 })();
