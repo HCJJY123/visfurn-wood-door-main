@@ -461,7 +461,7 @@ document.querySelectorAll('.faq-question').forEach((question) => {
     actions.className = 'vf-header-actions';
     const whatsapp = document.createElement('a');
     whatsapp.className = 'vf-header-whatsapp';
-    whatsapp.href = 'https://wa.me/8615222885400?text=Hello%20Visfurn%2C%20I%20would%20like%20to%20discuss%20a%20door%20project.';
+    whatsapp.href = 'https://wa.me/8618830278977?text=Hello%20Visfurn%2C%20I%20would%20like%20to%20discuss%20a%20door%20project.';
     whatsapp.target = '_blank';
     whatsapp.rel = 'nofollow noopener';
     whatsapp.setAttribute('aria-label', 'WhatsApp');
@@ -507,7 +507,7 @@ document.querySelectorAll('.faq-question').forEach((question) => {
     const whatsapp = document.createElement('a');
     whatsapp.dataset.vfFloatingWhatsapp = 'true';
     whatsapp.className = 'vf-whatsapp-float';
-    whatsapp.href = 'https://wa.me/8615222885400?text=Hello%20Visfurn%2C%20I%20would%20like%20to%20discuss%20a%20door%20project.';
+    whatsapp.href = 'https://wa.me/8618830278977?text=Hello%20Visfurn%2C%20I%20would%20like%20to%20discuss%20a%20door%20project.';
     whatsapp.target = '_blank';
     whatsapp.rel = 'nofollow noopener';
     whatsapp.setAttribute('aria-label', 'WhatsApp');
@@ -732,7 +732,7 @@ document.querySelectorAll('.faq-question').forEach((question) => {
     const siteNav = siteHeader?.querySelector('.nav');
     if (!siteNav || !document.documentElement.lang.toLowerCase().startsWith('en')) return;
 
-    const whatsapp = 'https://wa.me/8615222885400?text=Hello%20Visfurn%2C%20I%20would%20like%20to%20discuss%20a%20door%20project.';
+    const whatsapp = 'https://wa.me/8618830278977?text=Hello%20Visfurn%2C%20I%20would%20like%20to%20discuss%20a%20door%20project.';
     const email = 'mailto:rose@visfurn.com?subject=VISFURN%20Door%20Project%20Inquiry';
     const menuData = [
       { label: 'Home', href: '/' },
@@ -1022,4 +1022,19 @@ setupFloatingActions();
       file_size_bucket: file.size < 1_000_000 ? 'under_1mb' : file.size < 5_000_000 ? '1mb_to_5mb' : 'over_5mb'
     });
   });
+})();
+
+
+// Shared WhatsApp contact card for every existing site footer.
+(() => {
+  const footer = document.querySelector('footer');
+  if (!footer || footer.querySelector('[data-whatsapp-contact="rose"]')) return;
+  const grid = footer.querySelector('.footer-grid');
+  const contact = grid ? [...grid.children].filter((child) => child.tagName === 'DIV').at(-1) : footer;
+  if (!contact) return;
+  contact.insertAdjacentHTML('beforeend', `<div class="vf-footer-whatsapp" data-whatsapp-contact="rose" style="margin-top:20px;max-width:230px">
+<a href="https://wa.me/8618830278977" target="_blank" rel="noopener noreferrer" data-track="whatsapp_click" data-cta-placement="footer_number" aria-label="Chat with Rose on WhatsApp" style="display:flex;align-items:center;gap:8px;margin:0;font-size:14px;font-weight:700;color:inherit;text-decoration:none"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="#168A42" stroke-width="1.8" aria-hidden="true" style="flex-shrink:0"><path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5 9.4 9.4 0 0 1-4-.9L3 21l1.9-5.5A9.4 9.4 0 0 1 4 11.5 8.5 8.5 0 0 1 12.5 3 8.5 8.5 0 0 1 21 11.5Z"/></svg><span>WhatsApp<br/><span dir="ltr" style="white-space:nowrap">+86 188 3027 8977</span></span></a>
+<a href="https://wa.me/qr/XRN7YC4EDIGKD1" target="_blank" rel="noopener noreferrer" data-track="whatsapp_click" data-cta-placement="footer_whatsapp_qr" aria-label="Scan or click to chat with Rose on WhatsApp" style="display:block;box-sizing:border-box;width:144px;height:144px;margin:12px 0 0;border:1px solid #dce5df;border-radius:12px;background:#fff;padding:4px;overflow:hidden"><img src="/assets/images/whatsapp-rose-qr-20261112.svg" alt="WhatsApp contact QR code for Rose" width="296" height="296" loading="lazy" decoding="async" style="display:block;width:100%;height:100%;object-fit:contain"/></a>
+<p style="margin:12px 0 0;max-width:180px;font-size:10px;font-weight:700;line-height:1.6;letter-spacing:.06em;text-transform:uppercase;color:inherit;opacity:.85">Scan or click to chat with Rose</p>
+</div>`);
 })();
