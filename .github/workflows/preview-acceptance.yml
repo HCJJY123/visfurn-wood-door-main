@@ -3,7 +3,7 @@ on:
   deployment_status:
 jobs:
   accept:
-    if: github.event.deployment_status.state == 'success' && startsWith(github.event.deployment_status.environment_url, 'https://visfurn-wood-door-site-') && endsWith(github.event.deployment_status.environment_url, '-danny-4173s-projects.vercel.app')
+    if: github.event.deployment_status.state == 'success' && startsWith(github.event.deployment_status.environment_url, 'https://visfurn-wood-door-site-') && endsWith(github.event.deployment_status.environment_url, '-mike123-s-projects.vercel.app')
     runs-on: ubuntu-latest
     env:
       BASE: ${{ github.event.deployment_status.environment_url }}
@@ -71,14 +71,12 @@ jobs:
       - name: Screenshots and attribution (authenticated headers)
         run: |
           cd "$RUNNER_TEMP" && npm init -y >/dev/null && npm i --silent $PW
-          CHROMIUM_PATH=$(command -v google-chrome || command -v google-chrome-stable || command -v chromium || true)
-          export CHROMIUM_PATH
-          if [ -z "$CHROMIUM_PATH" ]; then npx playwright install chromium; fi
+          npx playwright install --with-deps chromium
           cat > acceptance.js <<'EOF2'
           const { chromium, devices } = require('playwright');
           const path = require('path');
           (async () => {
-            const b = await chromium.launch(process.env.CHROMIUM_PATH ? { executablePath: process.env.CHROMIUM_PATH } : {});
+            const b = await chromium.launch();
             const headers = process.env.BYPASS ? { 'x-vercel-protection-bypass': process.env.BYPASS } : {};
             for (const [name, options] of [['desktop', { viewport: { width: 1440, height: 900 } }], ['mobile', devices['Pixel 5']]]) {
               const context = await b.newContext({ ...options, extraHTTPHeaders: headers });
