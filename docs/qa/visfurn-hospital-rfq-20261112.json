@@ -1,0 +1,45 @@
+{
+  "site": "VISFURN",
+  "date": "2026-11-12",
+  "timezone": "Asia/Shanghai",
+  "baseSha": "3a105c3a84cb327bdeaaed8449412b8e5ac7d108",
+  "targets": [
+    "/blog/hospital-door-rfq-checklist-hygiene-hardware-vision-panels",
+    "/products/hospital-doors"
+  ],
+  "semrush": {
+    "currentRun": "blocked_activation_code_login",
+    "gatewayOpened": "https://gwt.tuanai.me/",
+    "redirectedLogin": "https://taobao-seo.com/#/",
+    "recentEvidenceDate": "2026-11-11",
+    "proxy": "https://zh-d-semrush-d-com-s-sem.taobao-seo.com/home/",
+    "database": "US",
+    "device": "desktop_where_displayed",
+    "reportDates": ["2026-11-09", "2026-11-10"],
+    "aiDetail": "unavailable_after_report_error"
+  },
+  "checks": {
+    "staticBuild": "pass",
+    "mainJsSyntax": "pass",
+    "mockedInquirySubmit": "pass_no_external_post",
+    "doorSupplyContext": "pass",
+    "coreModelContext": "pass",
+    "h1CanonicalIndexability": "pass",
+    "jsonLdParse": "pass",
+    "faqVisibleSchemaParity": "pass_5_questions",
+    "localLinks": "pass",
+    "mediaAndExecutableScriptsUnchanged": "pass",
+    "sitemap": "pass_154_unique_urls",
+    "articleWords": 1579,
+    "forbiddenHistoricalNames": "pass",
+    "diffWhitespace": "pass",
+    "legacyHospitalQuoteTest": "pre_existing_failure_generic_header_footer_links_included",
+    "targetedHospitalQuoteLinks": "pass_6_links"
+  },
+  "imageDecision": "reuse_existing_assets_no_new_image",
+  "gsc": "blocked_siteUnverifiedUser_and_invalid_argument",
+  "formSubmission": "not_sent",
+  "production": "pending_release",
+  "indexNow": "pending_verified_production",
+  "googleSubmission": "blocked"
+}
