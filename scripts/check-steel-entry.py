@@ -34,7 +34,7 @@ for t,a in tags:
  u=a.get('href') if t=='a' else a.get('src') if t in ['script','img'] else None
  if not u:continue
  parts=urllib.parse.urlsplit(unescape(u));p=parts.path
- if p.startswith('/'):
+ if not parts.scheme and not parts.netloc and p.startswith('/'):
   assert (R/p[1:]).exists() or (R/(p[1:]+'.html')).exists(),u
  elif u.startswith('#'):
   assert any(b.get('id')==parts.fragment for _,b in tags),u

@@ -3,7 +3,7 @@ on:
   deployment_status:
 jobs:
   accept:
-    if: github.event.deployment_status.state == 'success' && startsWith(github.event.deployment_status.environment_url, 'https://visfurn-wood-door-site-') && endsWith(github.event.deployment_status.environment_url, '-mike123-s-projects.vercel.app')
+    if: github.event.deployment_status.state == 'success' && startsWith(github.event.deployment_status.environment_url, 'https://visfurn-wood-door-site-') && endsWith(github.event.deployment_status.environment_url, '-danny-4173s-projects.vercel.app')
     runs-on: ubuntu-latest
     env:
       BASE: ${{ github.event.deployment_status.environment_url }}
