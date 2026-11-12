@@ -2,6 +2,9 @@
   "name": "visfurn-static",
   "version": "1.0.0",
   "scripts": {
-    "build": "echo 'Skipping build... site is already static.'"
+    "build": "node performance/build-media.cjs --static"
+  },
+  "devDependencies": {
+    "sharp": "0.34.5"
   }
 }

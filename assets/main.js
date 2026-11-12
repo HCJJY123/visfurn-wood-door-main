@@ -596,7 +596,7 @@ document.querySelectorAll('.faq-question').forEach((question) => {
     // The adjacent-header form covers older editorial hero markup.
     if (image.closest('.editorial-media--hero, .editorial-detail-header + .editorial-media, [data-home-hero-carousel], .category-hero')) return false;
     if (image.closest('.product-visual, .product-card, .card-media, .featured-door-media, .category-hero, .vf-thumb, .wpc-thumb, .pdp-thumb-btn')) return false;
-    return image.currentSrc || image.src;
+    return image.dataset.fullSrc || image.currentSrc || image.src;
   });
 
   const createLightbox = () => {
@@ -625,7 +625,7 @@ document.querySelectorAll('.faq-question').forEach((question) => {
     const image = zoomImages[activeZoomIndex];
     const box = createLightbox();
     const preview = box.querySelector('.vf-lightbox-image');
-    preview.src = image.currentSrc || image.src;
+    preview.src = image.dataset.fullSrc || image.currentSrc || image.src;
     preview.alt = image.alt || '';
     box.querySelector('.vf-lightbox-caption').textContent = image.alt || '';
     box.querySelector('.vf-lightbox-nav--prev').hidden = zoomImages.length < 2;
