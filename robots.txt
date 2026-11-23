@@ -28,7 +28,9 @@ User-agent: GPTBot
 Disallow: /
 
 User-agent: Google-Extended
-Disallow: /
+Allow: /
+Disallow: /api/
+Disallow: /admin/
 
 User-agent: ClaudeBot
 Disallow: /
