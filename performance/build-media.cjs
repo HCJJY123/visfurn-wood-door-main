@@ -2,6 +2,7 @@ const fs = require('node:fs/promises');
 const path = require('node:path');
 const crypto = require('node:crypto');
 const sharp = require('sharp');
+const Beasties = require('beasties');
 const { WIDTHS, mediaKey } = require('./media-policy.cjs');
 const { optimizeHtml } = require('./static-html.cjs');
 const RASTER = /\.(?:avif|webp|png|jpe?g)$/i;
@@ -78,7 +79,24 @@ async function buildMedia({ root = process.cwd(), mode = 'next', minBytes = 2400
     const imageInfo = Object.fromEntries(images.map((image) => [image.src, image]));
     for (const file of files) {
       const target = path.join(outputRoot, path.relative(root, file)); await fs.mkdir(path.dirname(target), { recursive: true });
-      if (/\.html$/i.test(file)) { await fs.writeFile(target, optimizeHtml(await fs.readFile(file, 'utf8'), index, imageInfo).html); htmlPages++; }
+      if (/\.html$/i.test(file)) {
+        let { html } = optimizeHtml(await fs.readFile(file, 'utf8'), index, imageInfo);
+        if (file === path.join(root, 'index.html')) {
+          const inliner = new Beasties({ path: root, preload: 'media', noscriptFallback: true, fonts: false, reduceInlineStyles: false, pruneSource: false, logLevel: 'warn' });
+          // Beasties resolves local stylesheet filenames without query strings.
+          const versionedStyles = new Map();
+          html = html.replace(/href="(\/assets\/[^"?]+\.css)(\?[^"]+)"/g, (_, file, query) => {
+            versionedStyles.set(file, file + query);
+            return `href="${file}"`;
+          });
+          html = await inliner.process(html);
+          for (const [file, versioned] of versionedStyles) {
+            html = html.replaceAll(`href="${file}"`, `href="${versioned}"`);
+          }
+        }
+        await fs.writeFile(target, html);
+        htmlPages++;
+      }
       else await fs.copyFile(file, target);
     }
   } else await fs.writeFile(path.join(root, 'performance', 'generated-image-index.json'), `${JSON.stringify(index)}\n`);
