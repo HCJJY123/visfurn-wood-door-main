@@ -82,6 +82,14 @@ async function buildMedia({ root = process.cwd(), mode = 'next', minBytes = 2400
       if (/\.html$/i.test(file)) {
         let { html } = optimizeHtml(await fs.readFile(file, 'utf8'), index, imageInfo);
         if (file === path.join(root, 'index.html')) {
+          // Deliver the small showroom cover with the document on narrow screens.
+          const cover = await fs.readFile(path.join(root, 'assets/images/hero/visfurn-home-hero-showroom-640.avif'));
+          const firstSource = '<source sizes="100vw" srcset="/assets/images/hero/visfurn-home-hero-showroom-640.avif';
+          if (html.includes(firstSource)) {
+            html = html.replace(firstSource, `<source media="(max-width: 620px)" type="image/avif" srcset="data:image/avif;base64,${cover.toString('base64')}">
+${firstSource}`);
+            html = html.replace(/<link rel="preload" as="image" href="\/assets\/images\/hero\/visfurn-home-hero-showroom-/, '<link rel="preload" as="image" media="(min-width: 621px)" href="/assets/images/hero/visfurn-home-hero-showroom-');
+          }
           const inliner = new Beasties({ path: root, preload: 'media', noscriptFallback: true, fonts: false, reduceInlineStyles: false, pruneSource: false, logLevel: 'warn' });
           // Beasties resolves local stylesheet filenames without query strings.
           const versionedStyles = new Map();

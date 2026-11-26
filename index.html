@@ -48,15 +48,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     .home-hero-dot.is-active::before { left: 5px; right: 5px; background: #fff; }
     .solution-grid article { position: relative; overflow: hidden; color: #fff; border-radius: 8px; background-position: center; background-repeat: no-repeat; background-size: cover; transition: transform .3s ease, box-shadow .3s ease; }
     .solution-grid article::before { position: absolute; inset: 0; z-index: 1; content: ""; background: linear-gradient(180deg, rgba(11, 18, 15, .03) 18%, rgba(11, 18, 15, .18) 52%, rgba(11, 18, 15, .84) 100%); transition: background .3s ease; }
+    .home-page .solution-grid article:nth-child(n) { background-image: none; }
+    .home-page .solution-grid article > .solution-backdrop { position: absolute; inset: 0; z-index: 0; width: 100%; height: 100%; object-fit: cover; pointer-events: none; }
+    .home-page .vf-header-whatsapp span { color: #09663b; }
+    .home-page .vf-whatsapp-float { background-color: #08783e; }
     .solution-grid article:hover { transform: translateY(-4px) scale(1.02); }
     .solution-grid article:hover::before { background: linear-gradient(180deg, rgba(11, 18, 15, .02) 18%, rgba(11, 18, 15, .12) 52%, rgba(11, 18, 15, .72) 100%); }
     .solution-grid article > * { position: relative; z-index: 2; }
-    .solution-grid article:nth-child(1) { background-image: url('/assets/images/home/scenarios/bg-hotel-bright.webp'); }
-    .solution-grid article:nth-child(2) { background-image: url('/assets/images/home/scenarios/bg-residential-bright-v1.webp'); }
-    .solution-grid article:nth-child(3) { background-image: url('/assets/images/home/scenarios/bg-school-bright-v1.webp'); }
-    .solution-grid article:nth-child(4) { background-image: url('/assets/images/home/scenarios/bg-hospital-bright-v1.webp'); }
-    .solution-grid article:nth-child(5) { background-image: url('/assets/images/home/scenarios/bg-commercial-bright.webp'); }
-    .solution-grid article:nth-child(6) { background-image: url('/assets/images/home/scenarios/bg-wholesale-bright-v1.webp'); }
     .vf-market-section { padding: 60px 10ch; background: linear-gradient(135deg, #edf3ee 0%, #e2ece5 100%); }
     @media (max-width: 620px) { .home-hero-dots { bottom: 16px; } .vf-market-section { padding-right: 24px; padding-left: 24px; } }
   </style>
@@ -296,12 +294,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <h2>Door packages for different buyer scenarios.</h2>
 </section>
 <section class="solution-grid">
-<article><span>Hotel Doors</span><h3>Guestroom, corridor and public-area door packages with finish and hardware coordination.</h3></article>
-<article><span>Apartment / Residential</span><h3>Interior door schedules with repeatable room types, frames and finish selections.</h3></article>
-<article><span>School Doors</span><h3>Classroom, dormitory and public-building door requirements organized by schedule.</h3></article>
-<article><span>Hospital / Healthcare</span><h3>Project-oriented door sets with hygiene, access and documentation requirements confirmed early.</h3></article>
-<article><span>Commercial Buildings</span><h3>Entrance, interior and service-door packages coordinated with project drawings.</h3></article>
-<article><span>Distributor / Wholesale</span><h3>Mixed models, repeatable specifications, packing plans and container preparation.</h3></article>
+<article><img class="solution-backdrop" alt="" loading="lazy" decoding="async" sizes="(max-width: 700px) 94vw, 33vw" src="/assets/images/home/scenarios/bg-hotel-bright.webp"/><span>Hotel Doors</span><h3>Guestroom, corridor and public-area door packages with finish and hardware coordination.</h3></article>
+<article><img class="solution-backdrop" alt="" loading="lazy" decoding="async" sizes="(max-width: 700px) 94vw, 33vw" src="/assets/images/home/scenarios/bg-residential-bright-v1.webp"/><span>Apartment / Residential</span><h3>Interior door schedules with repeatable room types, frames and finish selections.</h3></article>
+<article><img class="solution-backdrop" alt="" loading="lazy" decoding="async" sizes="(max-width: 700px) 94vw, 33vw" src="/assets/images/home/scenarios/bg-school-bright-v1.webp"/><span>School Doors</span><h3>Classroom, dormitory and public-building door requirements organized by schedule.</h3></article>
+<article><img class="solution-backdrop" alt="" loading="lazy" decoding="async" sizes="(max-width: 700px) 94vw, 33vw" src="/assets/images/home/scenarios/bg-hospital-bright-v1.webp"/><span>Hospital / Healthcare</span><h3>Project-oriented door sets with hygiene, access and documentation requirements confirmed early.</h3></article>
+<article><img class="solution-backdrop" alt="" loading="lazy" decoding="async" sizes="(max-width: 700px) 94vw, 33vw" src="/assets/images/home/scenarios/bg-commercial-bright.webp"/><span>Commercial Buildings</span><h3>Entrance, interior and service-door packages coordinated with project drawings.</h3></article>
+<article><img class="solution-backdrop" alt="" loading="lazy" decoding="async" sizes="(max-width: 700px) 94vw, 33vw" src="/assets/images/home/scenarios/bg-wholesale-bright-v1.webp"/><span>Distributor / Wholesale</span><h3>Mixed models, repeatable specifications, packing plans and container preparation.</h3></article>
 </section>
 <section class="section-title centered">
 <p class="eyebrow">Buyer Guides</p>
