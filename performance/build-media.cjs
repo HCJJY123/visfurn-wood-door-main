@@ -90,7 +90,9 @@ async function buildMedia({ root = process.cwd(), mode = 'next', minBytes = 2400
 ${firstSource}`);
             html = html.replace(/<link rel="preload" as="image" href="\/assets\/images\/hero\/visfurn-home-hero-showroom-/, '<link rel="preload" as="image" media="(min-width: 621px)" href="/assets/images/hero/visfurn-home-hero-showroom-');
           }
-          const inliner = new Beasties({ path: root, preload: 'media', noscriptFallback: true, fonts: false, reduceInlineStyles: false, pruneSource: false, logLevel: 'warn' });
+          // Navigation and language controls are added after the first paint.
+          // Keep their responsive styles in the original cascade from the start.
+          const inliner = new Beasties({ path: root, inlineThreshold: 180000, preload: 'media', noscriptFallback: true, fonts: false, reduceInlineStyles: false, pruneSource: false, logLevel: 'warn' });
           // Beasties resolves local stylesheet filenames without query strings.
           const versionedStyles = new Map();
           html = html.replace(/href="(\/assets\/[^"?]+\.css)(\?[^"]+)"/g, (_, file, query) => {
