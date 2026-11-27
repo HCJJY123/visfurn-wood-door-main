@@ -55,7 +55,7 @@ jobs:
             test "$code" = 200
             grep -Fq "$marker" "$output"
           }
-          check_page /products/hospital-doors '<h1>Hospital Doors Collection</h1>'
+          check_page /products/hospital-doors '<h1>Hospital Doors for Healthcare Projects</h1>'
           check_page /products/hospital-doors/modern-laboratory-door '<h1 id="lab-title">Double Swing Laboratory Door for Healthcare Projects</h1>'
           grep -Fq '<strong>Quote by specification</strong>' out/_products_hospital-doors_modern-laboratory-door.html
           check_page /products/hospital-doors/automatic-hermetic-sliding-door '<h1 class="vf-h1">Automatic Sliding Door for Clinical Openings</h1>'
